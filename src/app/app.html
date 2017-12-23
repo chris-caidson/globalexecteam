@@ -7,9 +7,20 @@
 
   <ion-content>
     <ion-list>
-      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">
-        {{p.title}}
-      </button>
+      <div *ngFor="let p of pages">
+        <div *ngIf="p.separatorLevel === 1" class="primary-separator">
+          <span>{{p.title}}</span>
+        </div>
+        <div *ngIf="p.separatorLevel === 2" class="secondary-separator">
+          <span>{{p.title}}</span>
+        </div>
+        <div *ngIf="p.separatorLevel === 3" class="tertiary-separator">
+          <span>{{p.title}}</span>
+        </div>
+        <button *ngIf="p.component !== null" menuClose ion-item (click)="openPage(p)" no-lines class="menu-button">
+          <i item-start class="fa fa-{{p.icon}} space-right fixed-width"></i><span>{{p.title}}</span>
+        </button>
+      </div>
     </ion-list>
   </ion-content>
 
