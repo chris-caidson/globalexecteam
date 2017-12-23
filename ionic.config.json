@@ -1,0 +1,8 @@
+{
+  "name": "globalexecteam",
+  "app_id": "0bceb421",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
