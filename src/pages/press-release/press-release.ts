@@ -8,8 +8,4 @@ import { IonicPage, NavController, NavParams } from "ionic-angular";
 })
 export class PressReleasePage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
-
-  ionViewDidLoad() {
-    console.log("ionViewDidLoad PressReleasePage");
-  }
 }

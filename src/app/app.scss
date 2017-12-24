@@ -65,8 +65,12 @@
   border-bottom: 1px solid #DEDEDE !important;
 }
 
-.menu-button i {
+.menu-button i, ion-title i {
   color: #999;
+}
+
+ion-title span{
+  color: 333;
 }
 
 .space-right {

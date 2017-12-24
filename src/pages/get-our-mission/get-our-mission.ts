@@ -8,8 +8,4 @@ import { IonicPage, NavController, NavParams } from "ionic-angular";
 })
 export class GetOurMissionPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
-
-  ionViewDidLoad() {
-    console.log("ionViewDidLoad GetOurMissionPage");
-  }
 }
