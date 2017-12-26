@@ -48,7 +48,7 @@ export class MyApp {
       // GetFree - Company
       { title: "Company", component: null, separatorLevel: 2, icon: null },
       { title: "Corporate Leadership", component: "CorporateLeadershipPage", separatorLevel: 4, icon: "users" },
-      { title: "Scientific Advisory Board", component: "ScientificAdvisoryBoardPage", separatorLevel: 4, icon: "handshake-o" },
+      { title: "Sci. Advisory Board", component: "ScientificAdvisoryBoardPage", separatorLevel: 4, icon: "handshake-o" },
       { title: "Press Release", component: "PressReleasePage", separatorLevel: 4, icon: "file-text" },
       { title: "Awards", component: "AwardsPage", separatorLevel: 4, icon: "trophy" },
 
