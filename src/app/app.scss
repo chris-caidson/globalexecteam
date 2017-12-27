@@ -145,61 +145,42 @@ i.fixed-width {
   width: 25px;
 }
 
-.tertiary {
+footer {
   background-color: #393939;
+  padding-top: 20px;
 }
 
-.white {
-  background-color: white;
+footer img {
+  display: block;
+  width: 85vw;
+  margin: auto;
 }
 
-.pad-top {
-  padding-top: 10px;
+footer div {
+  text-align: center;
+  margin-top: 10px;
 }
 
-.pad-bottom {
-  padding-bottom: 10px;
-}
-
-.pad-left {
-  padding-left: 10px;
-}
-
-.pad-right {
-  padding-right: 10px;
-}
-
-.pad-all {
-  padding: 10px;
-}
-
-.message {
-  display: inline-block;
+footer div span {
   color: white;
   font-style: italic;
-  text-align: center;
-  width: 100%;
 }
 
-.label {
-  display: inline-block;
-  color: #2A67B1;
-  text-align: center;
-  width: 100%;
-  text-shadow: 1px 1px 2px #AAA;
-  font-size: small;
-}
-
-.centered {
+footer div img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  padding-bottom: 30px;
+  max-width: 50vw;
 }
 
-.bordered-video-thumb {
-  border: 3px solid #8cc831;
-  margin-left: 5px;
-  margin-right: 5px;
-  height: 90%;
-  width: 90%;
+@media (min-width: 800px) {
+  footer div span {
+    font-size: large;
+  }
+
+  footer div img {
+    display: block;
+    margin: auto;
+    max-width: 25vw;
+  }
 }
