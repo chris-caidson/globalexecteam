@@ -33,6 +33,8 @@ export class MyApp {
       // GetFree - Movement
       { title: "Movement", component: null, separatorLevel: 2, icon: null },
       { title: "Why Cleanse?", component: "WhyCleansePage", separatorLevel: 4, icon: "question-circle" },
+      { title: "Problem", component: "ProblemPage", separatorLevel: 4, icon: "exclamation-circle" },
+      { title: "Solution", component: "SolutionPage", separatorLevel: 4, icon: "check-circle" },
 
       // GetFree - Opportunity
       { title: "Opportunity", component: null, separatorLevel: 2, icon: null },

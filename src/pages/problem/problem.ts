@@ -3,15 +3,9 @@ import { IonicPage, NavController, NavParams } from "ionic-angular";
 
 @IonicPage()
 @Component({
-  selector: "page-why-cleanse",
-  templateUrl: "why-cleanse.html"
+  selector: "page-problem",
+  templateUrl: "problem.html"
 })
-export class WhyCleansePage {
-  year: number;
-
+export class ProblemPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
-
-  ionViewWillLoad() {
-    this.year = (new Date()).getFullYear()
-  }
 }

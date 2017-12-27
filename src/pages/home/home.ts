@@ -8,6 +8,8 @@ import { NavController, ModalController, IonicPage } from "ionic-angular";
   templateUrl: "home.html"
 })
 export class HomePage {
+  year: number;
+
   constructor(
     public navCtrl: NavController,
     private modalCtrl: ModalController
@@ -52,5 +54,9 @@ export class HomePage {
 
     const myModal = this.modalCtrl.create("VideoModalPage", data);
     myModal.present();
+  }
+
+  ionViewWillLoad() {
+    this.year = new Date().getFullYear();
   }
 }
