@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar color="secondary">
+    <ion-title>
+      <i class="fa fa-film fixed-width space-right"></i>
+      <span>{{videoName}}</span>
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="closeModal()">Close</button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <video autoplay>
+    <source src="{{videoUrl}}">
+    <p>Your device does not support native video.</p>
+  </video>
+</ion-content>
