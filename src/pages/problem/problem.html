@@ -10,5 +10,91 @@
   </ion-navbar>
 </ion-header>
 <ion-content>
+  <main>
+    <!-- Cleanse Image -->
+    <section>
+      <img sizes="(max-width: 1400px) 100vw" src="../../assets/imgs/cleanse-robyn-obrien/cleanse-robyn-obrien-1400.jpg" alt="Cleanse for a Healthier Life"
+        srcset="
+          ../../assets/imgs/cleanse-robyn-obrien/cleanse-robyn-obrien-400.jpg 400w,
+          ../../assets/imgs/cleanse-robyn-obrien/cleanse-robyn-obrien-854.jpg 854w,
+          ../../assets/imgs/cleanse-robyn-obrien/cleanse-robyn-obrien-1189.jpg 1189w,
+          ../../assets/imgs/cleanse-robyn-obrien/cleanse-robyn-obrien-1400.jpg 1400w" />
+    </section>
+    <article>
+      <ion-grid>
+        <!-- Fed Up -->
+        <ion-row>
+          <ion-col col-12 col-lg id="fedUp1">
+            <img src="../../assets/imgs/misc/fed-up.jpg" alt="Fed Up Video" (click)="openVideoModal('fed-up')" />
+          </ion-col>
+          <ion-col col-12 col-lg class="col-right">
+            <h1>FED UP</h1>
+            <p>
+              <span class="title">Fed Up</span> focuses on the OVERUSE OF SUGAR in our food supply by showing how the first dietary guidelines
+              issued by the U.S. government 30 years ago overlooked the role of dietary sugar in increasing risks of obesity,
+              diabetes, and its associated ill-health outcomes, particularly in children.</p>
+          </ion-col>
+          <ion-col col-12 col-lg id="fedUp2">
+            <img src="../../assets/imgs/misc/fed-up.jpg" alt="Fed Up Video" (click)="openVideoModal('fed-up')" />
+          </ion-col>
+        </ion-row>
+
+        <!-- Food Matters -->
+        <ion-row>
+          <ion-col col-12 col-lg id="foodMatters1">
+            <img src="../../assets/imgs/misc/food-matters.jpg" alt="Food Matters Video" (click)="openVideoModal('food-matters')" />
+          </ion-col>
+          <ion-col col-12 col-lg class="col-left">
+            <h1>FOOD MATTERS</h1>
+            <p>
+              <span class="title">Food Matters</span> sheds a spotlight on the trillion dollar worldwide sickness industry and how OVER FARMING
+              and BIG PHARMA has had a detrimental impact on our health. Putting the interest of PRIVATE PROFIT over PUBLIC
+              HEALTH.
+            </p>
+          </ion-col>
+          <ion-col col-12 col-lg id="foodMatters2">
+            <img src="../../assets/imgs/misc/food-matters.jpg" alt="Food Matters Video" (click)="openVideoModal('food-matters')" />
+          </ion-col>
+        </ion-row>
+
+        <!-- The Unhealthy Truth -->
+        <ion-row>
+          <ion-col col-12 col-lg id="unhealthyTruth1">
+            <img src="../../assets/imgs/misc/robyn.jpg" alt="The Unhealthy Truth Video" (click)="openVideoModal('unhealthy-truth')" />
+          </ion-col>
+          <ion-col col-12 col-lg class="col-right">
+            <h1>THE UNHEALTHY TRUTH</h1>
+            <p>
+              <span class="title">The Unhealthy Truth</span> is a call to action that shows how each of us can do our part and keep our own families
+              safe. Author Robyn O’Brien turns to accredited research conducted in Europe that confirms the toxicity of America’s
+              food supply, and investigates the relationship between Big Food and Big Money that has ensured that the United
+              States is one of the only developed countries in the world to allow hidden toxins in our food—toxins that are
+              increasingly being blamed for the alarming recent increases in allergies, A.D.H.D., cancer, and asthma among
+              our children.</p>
+          </ion-col>
+          <ion-col col-12 col-lg id="unhealthyTruth2">
+            <img src="../../assets/imgs/misc/robyn.jpg" alt="The Unhealthy Truth Video" (click)="openVideoModal('unhealthy-truth')" />
+          </ion-col>
+        </ion-row>
+
+        <!-- Why Diets Are Failing Us -->
+        <ion-row>
+          <ion-col col-12 col-lg id="dietsFailing1">
+            <img src="../../assets/imgs/misc/diets-failing.jpg" alt="Why Diets Are Failing Us Video" (click)="openVideoModal('diets-failing')" />
+          </ion-col>
+          <ion-col col-12 col-lg class="col-left">
+            <h1>WHY DIETS ARE FAILING US</h1>
+            <p>Peter Greenlaw is the author of the best-selling book,
+              <span class="title">Why Diets are failing us.</span> He discusses the challenges of Toxicity, Deficiency and GMO’s and their implications
+              on our health. He also highlights the alarming concern of how there are over 100,000 chemicals in commercial
+              use in North America today and less than 560 have ever been tested for human exposure or consumption.</p>
+          </ion-col>
+          <ion-col col-12 col-lg id="dietsFailing2">
+            <img src="../../assets/imgs/misc/diets-failing.jpg" alt="Why Diets Are Failing Us Video" (click)="openVideoModal('diets-failing')" />
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </article>
+  </main>
   <get-footer></get-footer>
 </ion-content>

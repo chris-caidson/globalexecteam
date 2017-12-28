@@ -1,3 +1,86 @@
 page-problem {
+  article {
+    max-width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  main {
+    margin-bottom: 20px;
+  }
+
+  p {
+    text-align: justify;
+    letter-spacing: 0.1em;
+  }
+
+  ion-col img {
+    box-shadow: 0px 0px 30px black;
+  }
+
+  .title {
+    font-style: italic;
+  }
+
+  ion-row {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+  }
+
+  #fedUp1,
+  #foodMatters1,
+  #unhealthyTruth1,
+  #dietsFailing1 {
+    display: none;
+  }
+
+  #fedUp2,
+  #foodMatters2,
+  #unhealthyTruth2,
+  #dietsFailing2 {
+    display: block;
+  }
+
+  @media (min-width: 768px) {
+    article {
+      max-width: 85vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  @media (min-width: 992px) {
+    article {
+      max-width: 75vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    ion-col img {
+      margin-top: 20px;
+    }
+
+    .col-right {
+      margin-left: 20px;
+    }
+
+    .col-left {
+      margin-right: 20px;
+    }
+
+    #fedUp1,
+    #foodMatters2,
+    #unhealthyTruth1,
+    #dietsFailing2 {
+      display: block;
+    }
+
+    #fedUp2,
+    #foodMatters1,
+    #unhealthyTruth2,
+    #dietsFailing1 {
+      display: none;
+    }
+  }
 }
