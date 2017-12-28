@@ -14,4 +14,12 @@ export class WhyCleansePage {
   ionViewWillLoad() {
     this.year = (new Date()).getFullYear()
   }
+
+  loadProblemPage() {
+    this.navCtrl.push('ProblemPage');
+  }
+
+  loadSolutionPage() {
+    this.navCtrl.push('SolutionPage');
+  }
 }
