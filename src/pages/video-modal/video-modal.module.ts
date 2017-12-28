@@ -4,7 +4,7 @@ import { VideoModalPage } from './video-modal';
 
 @NgModule({
   declarations: [
-    VideoModalPage,
+    VideoModalPage
   ],
   imports: [
     IonicPageModule.forChild(VideoModalPage),
