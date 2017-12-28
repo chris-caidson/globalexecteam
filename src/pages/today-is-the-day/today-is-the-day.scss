@@ -1,3 +1,100 @@
 page-today-is-the-day {
+  article {
+    max-width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  p {
+    text-align: justify;
+    letter-spacing: 0.05em;
+    margin: 10px;
+  }
+
+  #jessQuoteSection {
+    max-width: 824px;
+    margin: 20px auto;
+  }
+
+  #todayIsTheDayDiv {
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 150px;
+  }
+
+  #todayIsTheDayDiv img {
+    border: 4px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #333;
+  }
+
+  figure {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  figure img {
+    border: 6px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #333;
+    margin-bottom: 5px;
+    width: 100%;
+    margin: auto;
+  }
+
+  figcaption {
+    text-align: center;
+    font-size: x-large;
+    margin-top: 10px;
+  }
+
+  @media (min-width: 640px) {
+    #todayIsTheDayDiv {
+      top: 50px;
+      left: 50px;
+      width: 225px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    #todayIsTheDayDiv {
+      top: 70px;
+      left: 70px;
+      width: 350px;
+    }
+
+    hr {
+      display: none;
+    }
+
+    article {
+      max-width: 75vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    figure img {
+      width: 100%;
+      margin: auto;
+    }
+
+    #leftCol {
+      margin-right: 15px;
+    }
+
+    #rightCol {
+      margin-left: 15px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    #todayIsTheDayDiv {
+      top: 90px;
+      left: 90px;
+      width: 400px;
+    }
+  }
 }

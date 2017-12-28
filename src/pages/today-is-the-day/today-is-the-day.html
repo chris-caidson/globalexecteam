@@ -10,5 +10,57 @@
   </ion-navbar>
 </ion-header>
 <ion-content>
+  <main>
+    <!-- Leaving Legacies Image -->
+    <section>
+      <img sizes="(max-width: 960px) 100vw" src="../../assets/imgs/leaving-legacies/leaving-legacies-960.jpg" alt="Leaving Legacies"
+        srcset="../../assets/imgs/leaving-legacies/leaving-legacies-400.jpg 400w,
+                ../../assets/imgs/leaving-legacies/leaving-legacies-719.jpg 719w,
+                ../../assets/imgs/leaving-legacies/leaving-legacies-960.jpg 960w" />
+      <!-- Today is the Day -->
+      <div id="todayIsTheDayDiv">
+        <img src="../../assets/imgs/misc/today-is-the-day.jpg" alt="Today is the Day Video" (click)="openVideoModal('today')" />
+      </div>
+    </section>
+    <article>
+      <!-- Jessica's Quote -->
+      <section id="jessQuoteSection">
+        <img src="../../assets/imgs/misc/jess-quote.jpg" alt="Quote by Jessica Johnston" />
+      </section>
+      <ion-grid>
+        <ion-row>
+          <ion-col col-12 col-md id="leftCol">
+            <hr />
+            <figure>
+              <img src="../../assets/imgs/misc/freedom-plan.jpg" alt="Freedom Plan Video" (click)="openVideoModal('freedom')" />
+              <figcaption>Freedom Plan</figcaption>
+            </figure>
+            <p>
+              The FREEDOM we refer to here is one of TIME and CHOICE. The freedom to do whatever you want, with whomever you want, whenever
+              you want, wherever you want. The freedom to live your life today the way most can only dream of. Sound fanciful
+              or desirable? Those who have the ability to live their lives as they choose have one thing in common: financial
+              stability. Remove financial concerns and we remove the constraints that eat up the majority of our time and
+              can keep us in the grind of life instead of embracing the beauty of it. The FREEDOM PLAN is simply a solution
+              for those who want more and are willing to go for it.
+            </p>
+          </ion-col>
+          <ion-col col-12 col-md id="rightCol">
+            <hr />
+            <figure>
+              <img src="../../assets/imgs/misc/our-vision.jpg" alt="Our Vision Video" (click)="openVideoModal('vision')" />
+              <figcaption>The TIME is NOW!</figcaption>
+            </figure>
+            <p>In one's lifetime, if we are lucky, we will be presented with an opportunity that, if accepted, could impact
+              the course of our life as well as the lives of our children. Other factors are usually in play. Will we be
+              open to it and if so, will we take action? These are variables that only we as individuals can decide. However,
+              opportunities that are life-changing tend to be time-sensitive, such as getting involved when a company or
+              product is advancing from obscurity to a household name. This is one of those times. Do your due diligence,
+              check out our GET websites and Executive Summary, and decide if this is the right time in your life to CATCH
+              THE WAVE.</p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </article>
+  </main>
   <get-footer></get-footer>
 </ion-content>
