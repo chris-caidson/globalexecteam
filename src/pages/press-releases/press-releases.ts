@@ -3,9 +3,9 @@ import { IonicPage, NavController, NavParams } from "ionic-angular";
 
 @IonicPage()
 @Component({
-  selector: "page-press-release",
-  templateUrl: "press-release.html"
+  selector: "page-press-releases",
+  templateUrl: "press-releases.html"
 })
-export class PressReleasePage {
+export class PressReleasesPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {}
 }

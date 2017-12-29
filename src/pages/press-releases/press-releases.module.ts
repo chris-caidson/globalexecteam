@@ -1,15 +1,15 @@
 import { ComponentsModule } from './../../components/components.module';
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { PressReleasePage } from './press-release';
+import { PressReleasesPage } from './press-releases';
 
 @NgModule({
   declarations: [
-    PressReleasePage
+    PressReleasesPage
   ],
   imports: [
     ComponentsModule,
-    IonicPageModule.forChild(PressReleasePage),
+    IonicPageModule.forChild(PressReleasesPage),
   ],
 })
-export class PressReleasePageModule {}
+export class PressReleasesPageModule {}

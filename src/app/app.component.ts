@@ -102,7 +102,7 @@ export class MyApp {
         icon: "handshake-o"
       },
       {
-        title: "Press Release",
+        title: "Press Releases",
         component: "PressReleasePage",
         separatorLevel: 4,
         icon: "file-text"
