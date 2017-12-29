@@ -10,5 +10,57 @@
   </ion-navbar>
 </ion-header>
 <ion-content>
+  <main>
+    <!-- Leaving Legacies Image -->
+    <section>
+      <img sizes="(max-width: 1400px) 100vw" src="../../assets/imgs/susan-quote/susan-quote-1400.jpg" alt="Leaving Legacies" srcset="../../assets/imgs/susan-quote/susan-quote-400.jpg 400w,
+      ../../assets/imgs/susan-quote/susan-quote-849.jpg 849w,
+      ../../assets/imgs/susan-quote/susan-quote-1177.jpg 1177w,
+      ../../assets/imgs/susan-quote/susan-quote-1400.jpg 1400w" />
+    </section>
+    <article>
+      <ion-grid>
+        <ion-row>
+          <ion-col col-lg col-12>
+            <div class="imgContainer">
+              <img id="youShareTheyShareRepeat" src="../../assets/imgs/misc/you-share-they-share-repeat.jpg" alt="You Share, They Share, Repeat"
+              />
+            </div>
+            <div class="imgContainer">
+              <img id="videoImg" src="../../assets/imgs/misc/celebration.jpg" (click)="openVideoModal()" alt="Compensation Plan Video" />
+            </div>
+          </ion-col>
+          <ion-col col-lg col-12>
+            <section id="listSection">
+              <ul>
+                <li>
+                  <div class="imgContainer">
+                    <img src="../../assets/imgs/misc/erin-quote.jpg" alt="Best food, best nutrition, best comp plan. What more could you want? - Erin Brauer (Teacher)"
+                    />
+                  </div>
+                </li>
+                <li>
+                  <img class="pdf" src="../../assets/imgs/misc/pdf.png" alt="" />
+                  <a class="pdf-link" href="../../assets/pdf/us-en-global-compensation-plan-1.pdf">Global Compensation Plan</a>
+                </li>
+                <li>
+                  <img class="pdf" src="../../assets/imgs/misc/pdf.png" alt="" />
+                  <a class="pdf-link" href="../../assets/pdf/us-en-compesnation-plan-glossary.pdf">Global Compensation Glossary</a>
+                </li>
+                <li>
+                  <img class="pdf" src="../../assets/imgs/misc/pdf.png" alt="" />
+                  <a class="pdf-link" href="../../assets/pdf/your-path-to-success.pdf">YOUR Path to SUCCESS</a>
+                </li>
+                <li>
+                  <img class="pdf" src="../../assets/imgs/misc/pdf.png" alt="" />
+                  <a class="pdf-link" href="../../assets/pdf/shared-revenue-plan.pdf">Shared Revenue Plan</a>
+                </li>
+              </ul>
+            </section>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </article>
+  </main>
   <get-footer></get-footer>
 </ion-content>
