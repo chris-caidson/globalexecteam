@@ -1,3 +1,47 @@
 page-eat-it-love-it-share-it {
+  article {
+    max-width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
 
+  ul {
+    list-style: none;
+  }
+
+  li {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+  }
+
+  .pdf {
+    display: inline-block;
+    max-width: 50px;
+  }
+
+  .pdf-link {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #0db8e3;
+    margin-left: 10px;
+  }
+
+  #listSection ul li {
+    margin-left: -40px;
+  }
+
+  #videoImg {
+    border: 8px solid #ccc;
+    border-radius: 8px;
+  }
+
+  @media (min-width: 992px) {
+    #listSection {
+      margin-left: 20px;
+    }
+  }
 }
