@@ -1,3 +1,92 @@
 page-getting-it-right {
+  article {
+    max-width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  p {
+    text-align: justify;
+    letter-spacing: 0.05em;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+
+  h3,
+  h4 {
+    text-shadow: 1px 1px 2px #999;
+  }
+
+  h3,
+  h4 {
+    color: #333;
+    font-size: x-large;
+  }
+
+  audio {
+    border: 1px solid #999;
+    box-shadow: 0px 0px 10px #333;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .pdf {
+    display: inline-block;
+    max-width: 50px;
+  }
+
+  .pdf-link {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #0db8e3;
+    margin-left: 10px;
+  }
+
+  #fiveBillion {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  #susanSection {
+    display: block;
+    max-width: 250px;
+    margin: auto;
+  }
+
+  #susanSection img {
+    display: inline-block;
+  }
+
+  #listSection ul li {
+    margin-left: -40px;
+  }
+
+  @media (min-width: 992px) {
+    #listSection {
+      display: block;
+      margin: auto;
+      padding-left: 40px;
+    }
+
+    #listSection ul {
+      display: inline-block;
+      margin: auto;
+    }
+  }
 }
