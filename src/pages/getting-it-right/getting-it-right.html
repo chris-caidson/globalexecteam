@@ -10,14 +10,13 @@
   </ion-navbar>
 </ion-header>
 <ion-content>
-  <main>
-    <!-- Leaving Legacies Image -->
-    <section>
+  <header role="banner">
       <img sizes="(max-width: 1400px) 100vw" src="../../assets/imgs/sue-lee/sue-lee-1400.jpg" alt="Leaving Legacies" srcset="../../assets/imgs/sue-lee/sue-lee-400.jpg 400w,
-            ../../assets/imgs/sue-lee/sue-lee-885.jpg 885w,
-            ../../assets/imgs/sue-lee/sue-lee-1237.jpg 1237w,
-            ../../assets/imgs/sue-lee/sue-lee-1400.jpg 1400w" />
-    </section>
+      ../../assets/imgs/sue-lee/sue-lee-885.jpg 885w,
+      ../../assets/imgs/sue-lee/sue-lee-1237.jpg 1237w,
+      ../../assets/imgs/sue-lee/sue-lee-1400.jpg 1400w" />
+  </header>
+  <main>
     <article>
       <h1>GETTING IT RIGHT</h1>
       <hr />
@@ -47,11 +46,11 @@
                 </li>
                 <li>
                   <img class="pdf" src="../../assets/imgs/misc/pdf.png" alt="" />
-                  <a class="pdf-link" href="../../assets/pdf/five-billion.pdf">$5 Billion - By the Numbers</a>
+                  <a class="pdf-link" (click)="showPdf('five-billion.pdf')">$5 Billion - By the Numbers</a>
                 </li>
                 <li>
                   <img class="pdf" src="../../assets/imgs/misc/pdf.png" alt="" />
-                  <a class="pdf-link" href="../../assets/pdf/exec-summary.pdf">Executive Summary</a>
+                  <a class="pdf-link" (click)="showPdf('exec-summary.pdf')">Executive Summary</a>
                 </li>
               </ul>
             </section>

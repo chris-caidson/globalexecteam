@@ -1,3 +1,66 @@
 get-footer {
+  footer {
+    background-color: $footer-bg-color;
+    padding-top: 20px;
+  }
 
+  footer img {
+    display: block;
+    width: 85vw;
+    margin: auto;
+  }
+
+  footer div {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  footer div span {
+    color: $light-color;
+    font-style: italic;
+  }
+
+  footer div img {
+    display: block;
+    margin: auto;
+    padding-bottom: 30px;
+    max-width: 50vw;
+  }
+
+  .simple-lbl {
+    color: #777;
+    font-size: large;
+  }
+
+  #copyright {
+    display: inline-block;
+    font-weight: normal;
+    font-size: small;
+    font-style: normal;
+    padding-bottom: 30px;
+    color: #777;
+  }
+
+  #getQuote {
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    width: 75vw;
+  }
+
+  @media (min-width: 800px) {
+    footer div span {
+      font-size: large;
+    }
+
+    footer div img {
+      display: block;
+      margin: auto;
+      max-width: 25vw;
+    }
+
+    #getQuote {
+      width: 50vw;
+    }
+  }
 }

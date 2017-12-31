@@ -1,0 +1,85 @@
+// Elements
+
+* {
+  color: $default-text-color;
+  font-family: "Montserrat", sans-serif;
+  font-size: $base-font-size;
+  line-height: 1.35;
+}
+
+article {
+  max-width: 90vw;
+  margin: auto;
+}
+
+footer {
+  margin-top: $default-margin;
+}
+
+h1 {
+  color: $primary-header-color;
+  font-size: $base-font-size + 12;
+  text-shadow: $text-shadow;
+}
+
+h2 {
+  color: $primary-header-color;
+  font-size: $base-font-size + 6;
+  text-shadow: $text-shadow;
+}
+
+h3 {
+  color: $darker-accent-color;
+  font-size: $base-font-size + 3;
+}
+
+h4 {
+  color: $dark-color;
+  font-size: $base-font-size + 2;
+}
+
+h5 {
+  font-size: $base-font-size + 1;
+}
+
+header {
+  margin-bottom: $large-margin;
+}
+
+hr {
+  background-color: $primary-header-color !important;
+  color: $primary-header-color !important;
+  height: 1px !important;
+}
+
+p {
+  color: $default-text-color;
+  text-align: justify;
+}
+
+// Classes
+
+.centered {
+  text-align: center;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.uppercase {
+  font-variant: small-caps;
+  // text-transform: uppercase;
+}
+
+.video-caption {
+  color: $lighter-accent-color;
+  font-size: $base-font-size;
+  text-shadow: $text-shadow;
+}
+
+.video-thumb {
+  border: $default-border-size solid $primary-color;
+  border-radius: $default-border-radius;
+  box-shadow: $video-shadow;
+}

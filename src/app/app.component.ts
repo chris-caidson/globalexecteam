@@ -103,7 +103,7 @@ export class MyApp {
       },
       {
         title: "Press Releases",
-        component: "PressReleasePage",
+        component: "PressReleasesPage",
         separatorLevel: 4,
         icon: "file-text"
       },

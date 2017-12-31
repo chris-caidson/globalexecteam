@@ -1,32 +1,45 @@
 page-home {
-  section {
-    margin-bottom: 20px;
+  #wellnessRevolutionSection {
+    margin-bottom: $default-margin;
+
+    img {
+      display: block;
+      margin: auto;
+    }
   }
 
-  .bordered {
-    border: 5px solid #8cc831;
-    border-radius: 5px;
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
-  footer div span {
-    color: white;
-    font-style: italic;
+  figure {
+    min-width: 25vw;
+    max-width: 45vw;
+
+    figcaption span {
+      color: $lighter-accent-color;
+      display: block;
+      font-size: smaller;
+    }
   }
 
-  .video-section div {
-    text-align: center;
-  }
+  @media (min-width: 800px) {
+    .flex-container {
+      flex-direction: row;
+      justify-content: space-around;
+    }
 
-  .video-section div span {
-    color: #2a67b1;
-    text-shadow: 1px 1px 2px #abb7c5;
-  }
+    figcaption span {
+      display: inline !important;
+    }
 
-  @media (max-width: 1024px) {
-    .video-section {
-      max-width: 200px;
-      margin: 10px auto;
-      font-size: small;
+    #wellnessRevolutionSection {
+      img {
+        max-width: 75vw;
+      }
     }
   }
 }

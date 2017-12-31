@@ -10,23 +10,24 @@
   </ion-navbar>
 </ion-header>
 <ion-content>
-  <main>
-    <!-- Leaving Legacies Image -->
-    <section>
+  <header role="banner">
       <img sizes="(max-width: 1400px) 100vw" src="../../assets/imgs/falchook/falchook-1400.jpg" alt="" srcset="../../assets/imgs/falchook/falchook-400.jpg 400w,
-        ../../assets/imgs/falchook/falchook-846.jpg 846w,
-        ../../assets/imgs/falchook/falchook-1173.jpg 1173w,
-        ../../assets/imgs/falchook/falchook-1400.jpg 1400w" />
-    </section>
+      ../../assets/imgs/falchook/falchook-846.jpg 846w,
+      ../../assets/imgs/falchook/falchook-1173.jpg 1173w,
+      ../../assets/imgs/falchook/falchook-1400.jpg 1400w" />
+  </header>
+  <main>
     <article>
       <h1>CORPORATE LEADERSHIP</h1>
       <hr />
       <ion-grid>
         <ion-row>
-          <ion-col col-12 col-md>
-            <img src="../../assets/imgs/misc/coover-family.jpg" alt="The Coover Family" />
+          <ion-col col-md col-4>
+            <section id="cooverFamilySection">
+              <img id="cooverFamilyImg" src="../../assets/imgs/misc/coover-family.jpg" alt="The Coover Family" />
+            </section>
           </ion-col>
-          <ion-col>
+          <ion-col col-md col-8 id="mainParagraph">
             <h3>Success and Experience at the Helm</h3>
             <p>
               Founder John Anderson and Co-Founders, Jim and Kathy Coover, were all retired when they were inspired to establish Isagenix––a
@@ -42,7 +43,7 @@
         <ion-row>
           <ion-col col-12 col-md>
             <figure>
-              <img src="../../assets/imgs/company/jim-coover.jpg" alt="Jim Coover" />
+              <img src="../../assets/imgs/company/jim-coover.jpg" alt="Jim Coover" (click)="openPersonModal('jim-coover')" />
               <figcaption>
                 <h5>JIM COOVER</h5>
                 <span>Co-Founder and Chief Executive Officer</span>
@@ -51,7 +52,7 @@
           </ion-col>
           <ion-col col-12 col-md>
             <figure>
-              <img src="../../assets/imgs/company/kathy-coover.jpg" alt="Kathy Coover" />
+              <img src="../../assets/imgs/company/kathy-coover.jpg" alt="Kathy Coover" (click)="openPersonModal('kathy-coover')" />
               <figcaption>
                 <h5>KATHY COOVER</h5>
                 <span>Co-Founder and Executive Vice President</span>

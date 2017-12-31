@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      <i class="fa fa-film fixed-width space-right"></i>
+      <span>{{personName}}</span>
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="closeModal()">Close</button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <img [src]="imageSrc" alt="{{personName}}" />
+  <h3>{{personName}}</h3>
+  <h3>{{personTitle}}</h3>
+  <section [innerHTML]="details"></section>
+</ion-content>

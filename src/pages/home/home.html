@@ -10,87 +10,60 @@
   </ion-navbar>
 </ion-header>
 <ion-content>
-  <main>
-    <article>
-      <!-- Isagenix Global Exec Team Image -->
-      <section>
-        <img sizes="(max-width: 1600px) 100vw" src="../../assets/imgs/main-page-bg/main-page-bg-1600.jpg" alt="Isagenix - Solutions to Transform Lives"
-          srcset="
+  <header role="banner">
+    <img src="../../assets/imgs/main-page-bg/main-page-bg-1600.jpg" alt="Isagenix - Solutions to Transform Lives" sizes="(max-width: 1600px) 100vw"
+      srcset="
           ../../assets/imgs/main-page-bg/main-page-bg-600.jpg 600w,
           ../../assets/imgs/main-page-bg/main-page-bg-1033.jpg 1033w,
           ../../assets/imgs/main-page-bg/main-page-bg-1376.jpg 1376w,
           ../../assets/imgs/main-page-bg/main-page-bg-1600.jpg 1600w" />
-      </section>
+  </header>
+  <main role="main">
+  <article>
+    <!-- The Wellness Revolution -->
+    <section id="wellnessRevolutionSection">
+      <img src="../../assets/imgs/wellness-revolution/wellness-revolution-1164.png" (click)="openVideoModal('wellness-revolution')"
+        sizes="(max-width: 1164px) 100vw" alt="The Wellness Revolution" srcset="
+            ../../assets/imgs/wellness-revolution/wellness-revolution-600.png 600w,
+            ../../assets/imgs/wellness-revolution/wellness-revolution-817.png 817w,
+            ../../assets/imgs/wellness-revolution/wellness-revolution-1002.png 1002w,
+            ../../assets/imgs/wellness-revolution/wellness-revolution-1164.png 1164w" />
+    </section>
 
-      <!-- The Wellness Revolution -->
-      <section>
-        <img (click)="openVideoModal('wellness-revolution')" sizes="(max-width: 1164px) 100vw" src="../../assets/imgs/wellness-revolution/wellness-revolution-1164.png"
-          alt="The Wellness Revolution" srcset="
-          ../../assets/imgs/wellness-revolution/wellness-revolution-600.png 600w,
-          ../../assets/imgs/wellness-revolution/wellness-revolution-817.png 817w,
-          ../../assets/imgs/wellness-revolution/wellness-revolution-1002.png 1002w,
-          ../../assets/imgs/wellness-revolution/wellness-revolution-1164.png 1164w" />
-      </section>
+    <div class="flex-container">
+      <!-- Start Your Life -->
+      <figure class="flex-item">
+        <img src="../../assets/imgs/start-your-life/start-your-life-770.jpg" (click)="openVideoModal('start-your-life')" sizes="(max-width: 773px) 100vw"
+          alt="Start Your Life (18 - 35)" class="video-thumb" srcset="
+            ../../assets/imgs/start-your-life/start-your-life-300.jpg 300w,
+            ../../assets/imgs/start-your-life/start-your-life-654.jpg 654w,
+            ../../assets/imgs/start-your-life/start-your-life-770.jpg 770w" />
+        <figcaption class="video-caption uppercase nowrap centered">Start Your Life
+          <span>(18-35)</span>
+        </figcaption>
+      </figure>
 
-      <ion-grid>
-        <ion-row>
-          <!-- Start Your Life -->
-          <ion-col col-12 col-sm>
-            <section class="video-section">
-              <img (click)="openVideoModal('start-your-life')" sizes="(max-width: 773px) 100vw" src="../../assets/imgs/start-your-life/start-your-life-770.jpg"
-                alt="Start Your Life (18 - 35)" class="bordered" srcset="
-                ../../assets/imgs/start-your-life/start-your-life-300.jpg 300w,
-                ../../assets/imgs/start-your-life/start-your-life-654.jpg 654w,
-                ../../assets/imgs/start-your-life/start-your-life-770.jpg 770w" />
-              <div>
-                <span>START YOUR LIFE (18-35)</span>
-              </div>
-            </section>
-          </ion-col>
+      <!-- Enterprising Women -->
+      <figure class="flex-item">
+        <img src="../../assets/imgs/enterprising-women/enterprising-women-770.jpg" (click)="openVideoModal('enterprising-women')"
+          sizes="(max-width: 1198px) 100vw" alt="Enterprising Women" class="video-thumb" srcset="
+              ../../assets/imgs/enterprising-women/enterprising-women-300.jpg 300w,
+              ../../assets/imgs/enterprising-women/enterprising-women-536.jpg 536w,
+              ../../assets/imgs/enterprising-women/enterprising-women-770.jpg 770w" />
+        <figcaption class="video-caption uppercase nowrap centered">Enterprising Women</figcaption>
+      </figure>
 
-          <!-- Enterprising Women -->
-          <ion-col col-12 col-sm>
-            <section class="video-section">
-              <img (click)="openVideoModal('enterprising-women')" sizes="(max-width: 1198px) 100vw" src="../../assets/imgs/enterprising-women/enterprising-women-770.jpg"
-                alt="Enterprising Women" class="bordered" srcset="
-                ../../assets/imgs/enterprising-women/enterprising-women-300.jpg 300w,
-                ../../assets/imgs/enterprising-women/enterprising-women-536.jpg 536w,
-                ../../assets/imgs/enterprising-women/enterprising-women-770.jpg 770w" />
-              <div>
-                <span>ENTERPRISING WOMEN</span>
-              </div>
-            </section>
-          </ion-col>
-
-          <!-- Retire Wealthy -->
-          <ion-col col-12 col-sm>
-            <section class="video-section">
-              <img (click)="openVideoModal('retire-wealthy')" sizes="(max-width: 1159px) 100vw" src="../../assets/imgs/retire-wealthy/retire-wealthy-770.jpg"
-                alt="Retire Wealthy" class="bordered" srcset="
-                ../../assets/imgs/retire-wealthy/retire-wealthy-300.jpg 300w,
-                ../../assets/imgs/retire-wealthy/retire-wealthy-636.jpg 636w,
-                ../../assets/imgs/retire-wealthy/retire-wealthy-770.jpg 770w" />
-              <div>
-                <span>RETIRE WEALTHY</span>
-              </div>
-            </section>
-          </ion-col>
-        </ion-row>
-      </ion-grid>
-    </article>
+      <!-- Retire Wealthy -->
+      <figure class="flex-item">
+        <img src="../../assets/imgs/retire-wealthy/retire-wealthy-770.jpg" (click)="openVideoModal('retire-wealthy')" sizes="(max-width: 1159px) 100vw"
+          alt="Retire Wealthy" class="video-thumb" srcset="
+              ../../assets/imgs/retire-wealthy/retire-wealthy-300.jpg 300w,
+              ../../assets/imgs/retire-wealthy/retire-wealthy-636.jpg 636w,
+              ../../assets/imgs/retire-wealthy/retire-wealthy-770.jpg 770w" />
+        <figcaption class="video-caption uppercase nowrap centered">Retire Wealthy</figcaption>
+      </figure>
+    </div>
+  </article>
   </main>
-  <footer>
-    <img sizes="(max-width: 937px) 100vw" src="../../assets/imgs/countries/countries.jpg" alt="" />
-    <div>
-      <span>Learn More About Our Product</span>
-    </div>
-    <div>
-      <a href="//getfit.global">
-        <img sizes="(max-width: 295px) 100vw" src="../../assets/imgs/getfit-global/getfit-global.png" />
-      </a>
-    </div>
-    <div>
-      <span id="copyright">&copy; {{year}} Get Free</span>
-    </div>
-  </footer>
+  <get-footer></get-footer>
 </ion-content>
