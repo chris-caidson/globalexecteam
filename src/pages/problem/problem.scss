@@ -1,86 +1,68 @@
 page-problem {
   article {
-    max-width: 95vw;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: -$large-margin !important;
   }
 
-  main {
-    margin-bottom: 20px;
-  }
-
-  p {
-    text-align: justify;
-    letter-spacing: 0.05em;
-  }
-
-  ion-col img {
-    box-shadow: 0px 0px 30px black;
-  }
-
-  .title {
-    font-style: italic;
-  }
-
-  ion-row {
-    border-bottom: 1px solid #aaa;
-    margin-bottom: 5px;
-    padding-bottom: 20px;
-  }
-
-  #fedUp1,
-  #foodMatters1,
-  #unhealthyTruth1,
-  #dietsFailing1 {
-    display: none;
-  }
-
-  #fedUp2,
-  #foodMatters2,
-  #unhealthyTruth2,
-  #dietsFailing2 {
-    display: block;
+  .grid-container {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    max-width: $max-grid-width;
+    margin: auto;
   }
 
   @media (min-width: 768px) {
-    article {
-      max-width: 85vw;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-
-  @media (min-width: 992px) {
-    article {
-      max-width: 75vw;
-      margin-left: auto;
-      margin-right: auto;
+    .grid-container {
+      grid-template-columns: auto auto;
     }
 
-    ion-col img {
-      margin-top: 20px;
+    section {
+      display: inline-block;
+      margin-left: $default-margin;
+      margin-right: $default-margin;
+
+      img {
+        display: inline-block;
+        margin-top: $large-margin;
+      }
     }
 
-    .col-right {
-      margin-left: 20px;
+    #fedUpContent {
+      order: 0;
     }
 
-    .col-left {
-      margin-right: 20px;
+    #fedUpImage {
+      order: 1;
+      margin-top: $xlarge-margin;
     }
 
-    #fedUp1,
-    #foodMatters2,
-    #unhealthyTruth1,
-    #dietsFailing2 {
-      display: block;
+    #foodMattersContent {
+      order: 3;
+      margin-top: $large-margin;
     }
 
-    #fedUp2,
-    #foodMatters1,
-    #unhealthyTruth2,
-    #dietsFailing1 {
-      display: none;
+    #foodMattersImage {
+      order: 2;
+      margin-top: $xlarge-margin;
+    }
+
+    #theUnhealthyTruthContent {
+      order: 4;
+      margin-top: $large-margin;
+    }
+
+    #theUnhealthyTruthImage {
+      order: 5;
+      margin-top: $xlarge-margin;
+    }
+
+    #whyDietsAreFailingUsContent {
+      order: 7;
+      margin-top: $large-margin;
+    }
+
+    #whyDietsAreFailingUsImage {
+      order: 6;
+      margin-top: $xlarge-margin;
     }
   }
 }

@@ -1,19 +1,26 @@
 page-today-is-the-day {
   article {
-    max-width: 95vw;
+    max-width: $max-grid-width;
     margin-left: auto;
     margin-right: auto;
   }
 
-  p {
-    text-align: justify;
-    letter-spacing: 0.05em;
-    margin: 10px;
+  .grid-container {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    max-width: $max-grid-width;
+    margin: auto;
   }
 
   #jessQuoteSection {
     max-width: 824px;
     margin: 20px auto;
+    display: block;
+
+    img {
+      display: inline-block;
+      margin: auto;
+    }
   }
 
   #todayIsTheDayDiv {
@@ -30,25 +37,12 @@ page-today-is-the-day {
     box-shadow: 0px 0px 10px #333;
   }
 
-  figure {
+  section {
     display: inline-block;
-    width: 100%;
-    margin-left: 0px;
-  }
 
-  figure img {
-    border: 6px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px #333;
-    margin-bottom: 5px;
-    width: 100%;
-    margin: auto;
-  }
-
-  figcaption {
-    text-align: center;
-    font-size: x-large;
-    margin-top: 10px;
+    img {
+      display: inline-block;
+    }
   }
 
   @media (min-width: 640px) {
@@ -60,33 +54,45 @@ page-today-is-the-day {
   }
 
   @media (min-width: 768px) {
+    .grid-container {
+      grid-template-columns: auto auto;
+    }
+
+    section {
+      display: inline-block;
+      margin-left: $default-margin;
+      margin-right: $default-margin;
+
+      img {
+        display: inline-block;
+        margin-top: $large-margin;
+      }
+    }
+
+    #freedomPlanContent {
+      order: 0;
+      margin-right: $large-margin;
+    }
+
+    #freedomPlanImage {
+      order: 2;
+      margin-right: $large-margin;
+    }
+
+    #theTimeIsNowContent {
+      order: 1;
+      margin-left: $large-margin;
+    }
+
+    #theTimeIsNowImage {
+      order: 3;
+      margin-left: $large-margin;
+    }
+
     #todayIsTheDayDiv {
       top: 70px;
       left: 70px;
       width: 350px;
-    }
-
-    hr {
-      display: none;
-    }
-
-    article {
-      max-width: 75vw;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    figure img {
-      width: 100%;
-      margin: auto;
-    }
-
-    #leftCol {
-      margin-right: 15px;
-    }
-
-    #rightCol {
-      margin-left: 15px;
     }
   }
 

@@ -8,6 +8,7 @@ get-footer {
     display: block;
     width: 85vw;
     margin: auto;
+    max-width: 800px;
   }
 
   footer div {
@@ -28,8 +29,8 @@ get-footer {
   }
 
   .simple-lbl {
+    display: inline-block;
     color: #777;
-    font-size: large;
   }
 
   #copyright {
@@ -45,10 +46,30 @@ get-footer {
     margin: auto;
     margin-top: 35px;
     margin-bottom: 30px;
-    width: 75vw;
+    width: 85vw;
+    max-width: 600px;
   }
 
-  @media (min-width: 800px) {
+  a img {
+    width: 50vw;
+    max-width: 200px;
+  }
+
+  @media (min-width: 640px) {
+    a img {
+      width: 40vw;
+    }
+
+    #getQuote {
+      width: 75vw;
+    }
+
+    .simple-lbl {
+      font-size: large;
+    }
+  }
+
+  @media (min-width: 700px) {
     footer div span {
       font-size: large;
     }
@@ -59,8 +80,26 @@ get-footer {
       max-width: 25vw;
     }
 
+    a img {
+      max-width: 25vw !important;
+    }
+
     #getQuote {
       width: 50vw;
+    }
+
+    .simple-lbl {
+      font-size: x-large;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    a img {
+      max-width: 15vw !important;
+    }
+
+    #getQuote {
+      width: 40vw;
     }
   }
 }

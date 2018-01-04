@@ -1,82 +1,56 @@
 page-solution {
   article {
-    max-width: 95vw;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: -$large-margin !important;
   }
 
-  main {
-    margin-bottom: 20px;
-  }
-
-  p {
-    text-align: justify;
-    letter-spacing: 0.05em;
-  }
-
-  ion-col img {
-    box-shadow: 0px 0px 30px black;
-  }
-
-  .title {
-    font-style: italic;
-  }
-
-  ion-row {
-    border-bottom: 1px solid #aaa;
-    margin-bottom: 5px;
-    padding-bottom: 20px;
-  }
-
-  #toxic1,
-  #cleansing1,
-  #isaWorks1 {
-    display: none;
-  }
-
-  #toxic2,
-  #cleansing2,
-  #isaWorks2 {
-    display: block;
+  .grid-container {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    max-width: $max-grid-width;
+    margin: auto;
   }
 
   @media (min-width: 768px) {
-    article {
-      max-width: 85vw;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
-
-  @media (min-width: 992px) {
-    article {
-      max-width: 75vw;
-      margin-left: auto;
-      margin-right: auto;
+    .grid-container {
+      grid-template-columns: auto auto;
     }
 
-    ion-col img {
-      margin-top: 20px;
+    section {
+      display: inline-block;
+      margin-left: $default-margin;
+      margin-right: $default-margin;
+
+      img {
+        display: inline-block;
+        margin-top: $large-margin;
+      }
     }
 
-    .col-right {
-      margin-left: 20px;
+    #areYouToxicContent {
+      order: 0;
     }
 
-    .col-left {
-      margin-right: 20px;
+    #areYouToxicImage {
+      order: 1;
+      margin-top: $large-margin;
     }
 
-    #toxic1,
-    #cleansing2,
-    #isaWorks1 {
-      display: block;
+    #nutritionalCleansingContent {
+      order: 3;
     }
 
-    #toxic2,
-    #cleansing1,
-    #isaWorks2 {
-      display: none;
+    #nutritionalCleansingImage {
+      order: 2;
+      margin-top: $xlarge-margin;
+    }
+
+    #whyIsagenixWorksContent {
+      order: 4;
+    }
+
+    #whyIsagenixWorksImage {
+      order: 5;
+      margin-top: $large-margin;
     }
   }
 }

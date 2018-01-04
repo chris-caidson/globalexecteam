@@ -20,6 +20,7 @@ h1 {
   color: $primary-header-color;
   font-size: $base-font-size + 12;
   text-shadow: $text-shadow;
+  border-bottom: 1px solid $primary-header-color;
 }
 
 h2 {
@@ -46,12 +47,6 @@ header {
   margin-bottom: $large-margin;
 }
 
-hr {
-  background-color: $primary-header-color !important;
-  color: $primary-header-color !important;
-  height: 1px !important;
-}
-
 p {
   color: $default-text-color;
   text-align: justify;
@@ -63,8 +58,16 @@ p {
   text-align: center;
 }
 
-.nowrap {
-  white-space: nowrap;
+.flex-container {
+  display: flex;
+}
+
+.grid-container {
+  display: grid;
+}
+
+.title {
+  font-style: italic;
 }
 
 .uppercase {

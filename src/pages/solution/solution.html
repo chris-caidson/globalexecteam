@@ -11,66 +11,51 @@
 </ion-header>
 <ion-content>
   <header role="banner">
-      <img sizes="(max-width: 1701px) 100vw" src="../../assets/imgs/cleanse-carol-elizabeth/cleanse-carol-elizabeth-1701.jpg" alt="Cleanse for a Healthier Life"
+    <img sizes="(max-width: 1701px) 100vw" src="../../assets/imgs/cleanse-carol-elizabeth/cleanse-carol-elizabeth-1701.jpg" alt="Cleanse for a Healthier Life"
       srcset="../../assets/imgs/cleanse-carol-elizabeth/cleanse-carol-elizabeth-400.jpg 400w,
               ../../assets/imgs/cleanse-carol-elizabeth/cleanse-carol-elizabeth-975.jpg 975w,
               ../../assets/imgs/cleanse-carol-elizabeth/cleanse-carol-elizabeth-1380.jpg 1380w,
               ../../assets/imgs/cleanse-carol-elizabeth/cleanse-carol-elizabeth-1701.jpg 1701w" />
   </header>
   <main>
-    <article>
-      <ion-grid>
-        <!-- Are You Toxic? -->
-        <ion-row>
-          <ion-col col-12 col-lg id="toxic1">
-            <img src="../../assets/imgs/misc/are-you-toxic.jpg" alt="Are You Toxic Video" (click)="openVideoModal('toxic')" />
-          </ion-col>
-          <ion-col col-12 col-lg class="col-right">
-            <h1>ARE YOU TOXIC?</h1>
-            <p>
-              Addresses the concerns of living in a world that is TOXIC and a food supply that is DEFICIENT which are major contributors
-              to chronic disease and obesity. Offering a solution with Isagenix – The World Leader in Deep Cellular Nutritional
-              Cleansing and Fat burning system</p>
-          </ion-col>
-          <ion-col col-12 col-lg id="toxic2">
-            <img src="../../assets/imgs/misc/are-you-toxic.jpg" alt="Are You Toxic Video" (click)="openVideoModal('toxic')" />
-          </ion-col>
-        </ion-row>
+    <article class="grid-container">
+      <!-- Are You Toxic? -->
+      <section id="areYouToxicContent">
+        <h1 class="uppercase">Are You Toxic?</h1>
+        <p>
+          <span class="title">Are You Toxic</span> addresses the concerns of living in a world that is TOXIC and a food supply that is DEFICIENT, which are major contributors
+          to chronic disease and obesity. Isagenix, the World Leader in Deep Cellular Nutritional
+          Cleansing and Fat-burning, offers a solution.</p>
+      </section>
+      <section id="areYouToxicImage">
+        <img src="../../assets/imgs/misc/are-you-toxic.jpg" alt="Are You Toxic Video" (click)="openVideoModal('toxic')" class="video-thumb" />
+      </section>
 
-        <!-- Nutritional Cleansing -->
-        <ion-row>
-          <ion-col col-12 col-lg id="cleansing1">
-            <img src="../../assets/imgs/misc/mary.jpg" alt="Nutritional Cleansing Video" (click)="openVideoModal('cleansing')" />
-          </ion-col>
-          <ion-col col-12 col-lg class="col-left">
-            <h1>NUTRITIONAL CLEANSING</h1>
-            <p>
-              Discusses a life style change with Nutritional Cleansing by addressing two major issues of environmental toxicity and nutritional
-              deficiency and the benefits of Isagenix products.
-            </p>
-          </ion-col>
-          <ion-col col-12 col-lg id="cleansing2">
-            <img src="../../assets/imgs/misc/mary.jpg" alt="Nutritional Cleansing Video" (click)="openVideoModal('cleansing')" />
-          </ion-col>
-        </ion-row>
-      </ion-grid>
+      <!-- Nutritional Cleansing -->
+      <section id="nutritionalCleansingContent">
+        <ion-col col-12 col-lg class="col-left">
+          <h1 class="uppercase">Nutritional Cleansing</h1>
+          <p>
+            <span class="title">Nutritional Cleansing</span> discusses a lifestyle change with Nutritional Cleansing by addressing two major issues:
+            environmental toxicity and nutritional deficiency. The video also describes the benefits of Isagenix products.
+          </p>
+        </ion-col>
+      </section>
+      <section id="nutritionalCleansingImage">
+          <img src="../../assets/imgs/misc/mary.jpg" alt="Nutritional Cleansing Video" (click)="openVideoModal('cleansing')" class="video-thumb" />
+      </section>
 
       <!-- Why Isagenix Works -->
-      <ion-row>
-        <ion-col col-12 col-lg id="isaWorks1">
-          <img src="../../assets/imgs/misc/michael.jpg" alt="Why Isagenix Works Video" (click)="openVideoModal('isa-works')" />
-        </ion-col>
-        <ion-col col-12 col-lg class="col-right">
-          <h1>WHY ISAGENIX WORKS</h1>
-          <p>
-            Dr. Michael Colgan is a leading visionary in the field of healthy aging and athletic performance. He shares his insight as
-            to WHY our bodies NEED the nutrients provided by Isagenix. Focusing on the power of the System and undenatured
-            Whey Protein.</p>
-        </ion-col>
-        <ion-col col-12 col-lg id="isaWorks2">
-          <img src="../../assets/imgs/misc/michael.jpg" alt="Why Isagenix Works Video" (click)="openVideoModal('isa-works')" />
-        </ion-col>
-      </ion-row>
+      <section id="whyIsagenixWorksContent">
+        <h1 class="uppercase">Why Isagenix Works</h1>
+        <p>
+          Dr. Michael Colgan is a leading visionary in the field of healthy aging and athletic performance. He shares his insight as
+          to WHY our bodies NEED the nutrients provided by Isagenix. <span class="title">Why Isagenix Works</span>focuses on the power
+          of the Isagenix System and undenatured whey protein.</p>
+      </section>
+      <section id="whyIsagenixWorksImage">
+        <img src="../../assets/imgs/misc/michael.jpg" alt="Why Isagenix Works Video" (click)="openVideoModal('isa-works')" class="video-thumb" />
+      </section>
     </article>
   </main>
 
