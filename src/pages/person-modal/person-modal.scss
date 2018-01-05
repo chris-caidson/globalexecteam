@@ -1,3 +1,29 @@
 page-person-modal {
+  article {
+    max-width: $max-grid-width;
+    margin-top: $large-margin;
+    margin-bottom: $large-margin;
+  }
 
+  h3 {
+    color: $secondary-color;
+  }
+
+  div {
+    text-align: justify;
+  }
+
+  @media (min-width: 640px) {
+    .grid-container {
+      grid-template-columns: auto auto;
+    }
+
+    img {
+      margin-right: $large-margin;
+    }
+
+    section {
+      margin-top: -$default-margin;
+    }
+  }
 }

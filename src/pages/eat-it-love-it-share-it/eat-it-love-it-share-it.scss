@@ -1,9 +1,9 @@
 page-eat-it-love-it-share-it {
   article {
-    max-width: 95vw;
+    max-width: $max-grid-width;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: $default-margin;
   }
 
   ul {
@@ -11,14 +11,15 @@ page-eat-it-love-it-share-it {
   }
 
   li {
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    padding-bottom: $default-margin;
+    margin-bottom: $default-margin;
     border-bottom: 1px solid #999;
   }
 
   .pdf {
     display: inline-block;
-    max-width: 50px;
+    margin-top: 10px;
+    max-width: 30px;
   }
 
   .pdf-link {
@@ -26,22 +27,23 @@ page-eat-it-love-it-share-it {
     vertical-align: top;
     margin-top: 15px;
     text-decoration: none;
-    color: #0db8e3;
+    color: $secondary-color;
     margin-left: 10px;
   }
 
   #listSection ul li {
-    margin-left: -40px;
-  }
-
-  #videoImg {
-    border: 8px solid #ccc;
-    border-radius: 8px;
+    margin-left: -$large-margin;
+    margin-top: -$default-margin;
   }
 
   @media (min-width: 992px) {
     #listSection {
-      margin-left: 20px;
+      margin-left: $default-margin;
+    }
+
+    .pdf {
+      display: inline-block;
+      max-width: 45px;
     }
   }
 }

@@ -1,3 +1,51 @@
 page-awards {
+  .grid-container {
+    grid-template-columns: auto;
 
+    section {
+      border-radius: 10px;
+      box-shadow: 0 0 10px #333;
+      margin: $default-margin;
+      padding: $default-margin;
+      background-color: #FBFBFB;
+
+      img {
+        display: block;
+        margin: auto;
+        border: 1px solid #cdcdcd;
+        border-radius: 10px;
+        padding: $small-margin;
+        background-color: white;
+      }
+
+      .award-details {
+        display: grid;
+        grid-template-columns: auto auto;
+
+        h4 {
+          color: $primary-color;
+          font-size: 48pt;
+          font-weight: bold;
+          margin-right: $default-margin;
+          text-shadow: 2px 2px 1px #999;
+        }
+
+        p {
+          margin-top: 25px;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 950px) {
+    .grid-container {
+      grid-template-columns: auto auto;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .grid-container {
+      grid-template-columns: auto auto auto;
+    }
+  }
 }

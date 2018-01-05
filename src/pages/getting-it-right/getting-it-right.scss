@@ -1,13 +1,8 @@
 page-getting-it-right {
   article {
-    max-width: 95vw;
+    max-width: $max-grid-width;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  p {
-    text-align: justify;
-    letter-spacing: 0.05em;
   }
 
   ul {
@@ -15,8 +10,8 @@ page-getting-it-right {
   }
 
   li {
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    padding-bottom: $default-margin;
+    margin-bottom: $default-margin;
     border-bottom: 1px solid #999;
   }
 
@@ -40,13 +35,14 @@ page-getting-it-right {
   audio {
     border: 1px solid #999;
     box-shadow: 0px 0px 10px #333;
-    margin-top: 10px;
+    margin-top: $small-margin;
     width: 100%;
   }
 
   .pdf {
     display: inline-block;
-    max-width: 50px;
+    margin-top: 10px;
+    max-width: 30px;
   }
 
   .pdf-link {
@@ -54,8 +50,8 @@ page-getting-it-right {
     vertical-align: top;
     margin-top: 15px;
     text-decoration: none;
-    color: #0db8e3;
-    margin-left: 10px;
+    color: $secondary-color;
+    margin-left: $small-margin;
   }
 
   #fiveBillion {
@@ -71,22 +67,27 @@ page-getting-it-right {
 
   #susanSection img {
     display: inline-block;
+    border: 1px solid #999;
   }
 
   #listSection ul li {
-    margin-left: -40px;
+    margin-left: -$large-margin;
   }
 
   @media (min-width: 992px) {
     #listSection {
       display: block;
       margin: auto;
-      padding-left: 40px;
+      padding-left: $large-margin;
     }
 
     #listSection ul {
       display: inline-block;
       margin: auto;
+    }
+
+    .pdf {
+      max-width: 45px;
     }
   }
 }

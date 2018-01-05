@@ -82,9 +82,9 @@ export class ScientificAdvisoryBoardPage {
             "State Polytechnic University in Pomona, CA. He retired with emeritus status, but continues to teach one quarter " +
             "each year. He received his bachelor’s of science degree in Dairy Science and Technology from Pennsylvania State " +
             "University, his master’s in food science from Iowa State University, and his Ph.D. in biochemistry from the " +
-            "University of California, Davis. He also was a post-doctoral fellow in the department of pharmacology at " +
+            "University of California, Davis. He also was a post-doctoral fellow in the department of pharmacology at the " +
             "University of Southern California School of Medicine.<p>His research interests integrate the general areas of " +
-            "nutrition, biochemistry, pharmacology and toxicology. He maintains interest in the development of value-added " +
+            "nutrition, biochemistry, pharmacology, and toxicology. He maintains interest in the development of value-added " +
             "food products, evaluation of biologically active food components, and in development of nutritional genomics. " +
             "From these efforts, Dr. Bidlack has published more than 55 publications, written 12 book chapters, and edited " +
             "seven books. He was also involved in successful international symposia on nutritional genomics, which resulted " +
@@ -123,7 +123,7 @@ export class ScientificAdvisoryBoardPage {
             "group practice. He has served as the director for an integrative medical facility and went on to become the " +
             "medical director for an independent research facility. While there, he participated as the principal investigator " +
             "on numerous clinical trials sponsored by many of the Fortune 500 pharmaceutical companies. These trials involved " +
-            "hypertension, osteoarthritis, hyperlipidemia, diabetes, obesity, depression, chronic pain, and anxiety among " +
+            "hypertension, osteoarthritis, hyperlipidemia, diabetes, obesity, depression, chronic pain, and anxiety, among " +
             "others.<p>He has also served as the vice-chairman of an Institutional Review Board, overseeing scientific design " +
             "and human subject safety in proposed pharmaceutical research. He is the author of several publications in " +
             "scientific journals. Currently Dr. Messina does independent consulting for the pharmaceutical and healthcare " +

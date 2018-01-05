@@ -20,8 +20,6 @@ export class PersonModalPage {
     this.personTitle = this.navParams.get("personTitle");
     this.imageSrc = this.navParams.get("imageSrc");
     this.details = this.navParams.get("details");
-
-    console.log(this.navParams.get("imageSrc"));
   }
 
   closeModal() {

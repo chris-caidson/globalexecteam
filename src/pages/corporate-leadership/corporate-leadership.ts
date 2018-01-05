@@ -22,7 +22,7 @@ export class CorporateLeadershipPage {
           personTitle: "Co-Founder and Chief Executive Officer",
           imageSrc: "../../assets/imgs/company/jim-coover.jpg",
           details:
-            "With more than 35 years’ experience, Jim Coover is widely considered a pioneer in the weight-loss and nutrition " +
+            "With more than 35 years of experience, Jim Coover is widely considered a pioneer in the weight-loss and nutrition " +
             "industry. He successfully led numerous network marketing companies throughout his career, serving more than 7 " +
             "million customers and exceeding $1 billion in sales. In 2001, Jim and his wife, expert network marketer Kathy, " +
             "left retirement to link arms with John Anderson to co-found Isagenix in pursuit of a vision to impact world health " +
@@ -139,9 +139,7 @@ export class CorporateLeadershipPage {
             "to $70 billion annually, devising and monetizing new products that drove hundreds of millions of dollars in " +
             "global revenue.<p>Bob holds a Bachelor of Arts in psychology, a Master of Science in nutritional science, and " +
             "a doctorate in nutritional science from the University of Connecticut. He is also a certified CGMP instructor " +
-            "and former registered dietitian.</p><p>Kathy is a nationally recognized and respected leader who has translated " +
-            "her personal achievements into training and support systems that have helped create physical and financial " +
-            "success for countless Isagenix Associates.</p>"
+            "and former registered dietitian.</p>"
         };
         break;
 
@@ -154,7 +152,7 @@ export class CorporateLeadershipPage {
             "continues to build a legacy company. Steadfast in his passion to “bring out the best” in people, he is " +
             "dedicated to challenging the status quo by leading others to discover healthy lifestyle solutions and an " +
             "opportunity to build a brighter future for themselves and for the world in which they live.<p>Today, Erik " +
-            "leads with experience having built his own six-figure income as an Isagenix Associate, during his education " +
+            "leads with experience, having built his own six-figure income as an Isagenix Associate, during his education " +
             "at Arizona State University. After graduating with a Bachelor of Arts degree in Business Communications, Erik " +
             "joined the Isagenix World Headquarters to support the entire field of Associates.</p>"
         };
@@ -223,7 +221,7 @@ export class CorporateLeadershipPage {
           personName: "Richard Stagg",
           personTitle: "Vice President of Legal",
           imageSrc: "../../assets/imgs/company/richard-stagg.jpg",
-          details: "Richard has nearly 30 years’ experience in private practice, advising companies and individuals on a " +
+          details: "Richard has nearly 30 years of experience in private practice, advising companies and individuals on a " +
             "wide variety of legal issues. Richard is responsible for ensuring compliance with regulations issued by the " +
             "governing authorities in the countries where Isagenix operates and also advises, assists, and educates Isagenix " +
             "Associates on how to build their businesses in a compliant, ethical, and effective manner. Prior to joining " +
@@ -240,8 +238,8 @@ export class CorporateLeadershipPage {
           imageSrc: "../../assets/imgs/company/deborah-mathews.jpg",
           details: "With 22 years of experience leading human resource teams for global Fortune 500 companies including " +
             "Motorola and Intel, Deborah’s core emphasis is to align people, create strategy and maximize performance within " +
-            "an organization. She is an expert in multi-faceted human resource disciplines including, talent acquisition, " +
-            "organizational effectiveness, mergers and acquisitions and employee relations. During the course of her career, " +
+            "an organization. She is an expert in multi-faceted human resource disciplines including talent acquisition, " +
+            "organizational effectiveness, mergers and acquisitions, and employee relations. During the course of her career, " +
             "Deborah has held senior leadership and consultative roles in which she worked to design and re-design several " +
             "human resource organizations, focusing on stakeholder relationships and business achievement. In 2007, Deborah " +
             "joined Isagenix and immediately began working to attract and retain a high-performing and diverse workforce. " +
@@ -280,7 +278,7 @@ export class CorporateLeadershipPage {
             "their lives, his programs are exciting, engaging, effective and fun. His philosophy is simple: “Real people " +
             "need real results.” He believes that he can give things that they can take home and apply immediately with " +
             "their spouses, children, friends and community. These are things that allow them to be open and available, " +
-            "authentic and in the moment."
+            "authentic, and in the moment."
         };
         break;
     }
