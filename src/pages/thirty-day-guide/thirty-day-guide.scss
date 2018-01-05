@@ -1,3 +1,78 @@
 page-thirty-day-guide {
+  article {
+    max-width: $max-grid-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  .grid-container {
+    grid-template-columns: auto;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  ul {
+    list-style: none;
+    margin-top: -$small-margin;
+  }
+
+  li {
+    padding-bottom: $default-margin;
+    margin-bottom: $default-margin;
+    border-bottom: 1px solid #999;
+  }
+
+  #listSection {
+    margin: auto;
+
+    ul {
+      margin-left: -$large-margin;
+    }
+  }
+
+  .video-container {
+    margin: auto;
+    margin-bottom: $default-margin;
+  }
+
+  .pdf {
+    display: inline-block;
+    margin-top: 10px;
+    max-width: 30px;
+  }
+
+  .pdf-link {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+    text-decoration: none;
+    color: $secondary-color;
+    margin-left: $small-margin;
+  }
+
+  .name {
+    font-size: smaller;
+  }
+
+  p {
+    margin-bottom: 5px;
+  }
+
+  audio {
+    border: 1px solid #999;
+    box-shadow: 0px 0px 10px #333;
+    width: 100%;
+  }
+
+  @media (min-width: 768px) {
+    .grid-container {
+      grid-template-columns: auto auto auto;
+    }
+
+    .video-container {
+      margin: inherit;
+      margin-left: $large-margin;
+    }
+  }
 }

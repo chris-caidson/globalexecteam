@@ -19,8 +19,47 @@
   </header>
   <main>
     <article>
-      <h1>30-Day Guide</h1>
-      <hr />
+      <h1 class="uppercase centered">30-Day Guide</h1>
+      <div class="grid-container">
+        <section id="listSection">
+          <ul>
+            <li>
+              <img class="pdf" src="../../assets/imgs/misc/pdf.png" alt="" />
+              <a class="pdf-link" href="../../assets/pdf/30-day-system-guide.pdf">30-Day System</a>
+            </li>
+            <li>
+              <img class="pdf" src="../../assets/imgs/misc/pdf.png" alt="" />
+              <a class="pdf-link" href="../../assets/pdf/product-fast-facts.pdf">Product Fast Facts</a>
+            </li>
+            <li>
+              <p>
+                <span class="uppercase">Why Isagenix</span><span class="name"> - Dr. Joshua Dunsky</span>
+              </p>
+              <audio controls>
+                <source src="https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/audio%2FWealthCreation_080315_NWM101_SusanM_mixdown.mp3?alt=media&token=11a0a98f-b95d-492b-9774-6ff64de9ba7b">
+                <p>Your device does not support native audio.</p>
+              </audio>
+            </li>
+            <li>
+              <p>
+                <span class="uppercase">Holistic Review</span><span class="name"> - Delialah Lotich</span>
+              </p>
+              <audio controls>
+                <source src="https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/audio%2FWealthCreation_080315_NWM101_SusanM_mixdown.mp3?alt=media&token=11a0a98f-b95d-492b-9774-6ff64de9ba7b">
+                <p>Your device does not support native audio.</p>
+              </audio>
+            </li>
+          </ul>
+        </section>
+        <section class="video-container">
+          <img src="../../assets/imgs/misc/shake-day.jpg" alt="How to do a Shake Day" class="video-thumb" (click)="openVideoModal('shake-day')"
+          />
+        </section>
+        <section class="video-container">
+          <img src="../../assets/imgs/misc/cleanse-day.jpg" alt="How to do a Shake Day" class="video-thumb" (click)="openVideoModal('cleanse-day')"
+          />
+        </section>
+      </div>
     </article>
   </main>
   <get-footer></get-footer>
