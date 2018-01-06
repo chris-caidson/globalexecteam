@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, ModalController } from 'ionic-angular';
 
 @IonicPage()
 @Component({
@@ -8,7 +8,31 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class StarterPakPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public modalCtrl: ModalController) {
   }
 
+  openVideoModal(video: string) {
+    var data: any;
+
+    switch (video) {
+      case "":
+        data = {
+          name: "",
+          url:
+            ""
+        };
+        break;
+
+      case "":
+        data = {
+          name: "",
+          url:
+            ""
+        };
+        break;
+    }
+
+    const myModal = this.modalCtrl.create("VideoModalPage", data);
+    myModal.present();
+  }
 }
