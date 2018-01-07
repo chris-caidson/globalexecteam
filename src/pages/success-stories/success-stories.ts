@@ -37,7 +37,7 @@ export class SuccessStoriesPage {
           weightLost: "46 pounds *",
           quote:
             "“I feel the best I have ever felt. The fact that it happened while I’m able to earn an income that will allow " +
-            " my husband and I to expand our family is something I can never repary. My life is forever changed.”",
+            " my husband and I to expand our family is something I can never repay. My life is forever changed.”",
           imageUrl: "../../assets/imgs/transformations/natalie-h-before-and-after.jpg",
           videoUrl: "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Ftransformations%2Fnatalie-h.mp4?alt=media&token=e3be4bf4-79d8-419e-a61e-572e2fc68717"
         };
@@ -98,7 +98,7 @@ export class SuccessStoriesPage {
           height: "5'9\"",
           formerWeight: "198 pounds *",
           weightLost: "29 pounds *",
-          quote: "“I really want to let other baby boomers know that Isagenix is a great opportunity,” says John. “if you’re " +
+          quote: "“I really want to let other Baby Boomers know that Isagenix is a great opportunity,” says John. “if you’re " +
             "looking to get in shape and stay young, as far as i’m concerned, this is the ultimate system that will take you " +
             "there.”",
           imageUrl: "../../assets/imgs/transformations/john-m-before-and-after.jpg",
