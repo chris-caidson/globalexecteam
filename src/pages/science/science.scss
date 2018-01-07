@@ -1,3 +1,40 @@
 page-science {
+  article {
+    max-width: $max-grid-width;
+  }
 
+  section {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  ul {
+    list-style: none;
+    padding-top: $small-margin;
+    padding-bottom: $default-margin;
+
+    li {
+      margin-left: -$default-margin;
+      padding-top: $small-margin;
+      padding-left: $xlarge-margin;
+      margin-bottom: $small-margin;
+      height: 55px;
+      background-image: url("../../assets/imgs/misc/html.png");
+      background-position-x: 0px;
+      background-position-y: 0px;
+      background-repeat: no-repeat;
+      border-bottom: 1px solid $tertiary-color;
+
+      img {
+        display: inline-block;
+        margin-right: $default-margin;
+      }
+
+      span {
+        display: inline-block;
+        margin-top: -$default-margin;
+        color: $secondary-color;
+      }
+    }
+  }
 }

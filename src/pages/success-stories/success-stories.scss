@@ -1,3 +1,55 @@
 page-success-stories {
+  article {
+    max-width: $max-grid-width;
+  }
 
+  .grid-container {
+    max-width: 1200px;
+    margin: auto;
+    grid-template-columns: auto;
+  }
+
+  h3 {
+    margin-top: -$small-margin;
+  }
+
+  h5 {
+    font-size: smaller;
+    margin-top: -$xsmall-margin;
+    padding-bottom: $small-margin;
+  }
+
+  figcaption {
+    display: block;
+    margin: auto;
+    margin-top: $small-margin;
+    margin-bottom: $small-margin;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: $secondary-color;
+  }
+
+  figure img {
+    display: block;
+    margin: auto;
+  }
+
+  #disclaimer {
+    color: darken($tertiary-color, 60%);
+    font-size: small;
+    font-style: italic;
+  }
+
+  @media (min-width: 640px) {
+    .grid-container {
+      grid-template-columns: auto auto;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .grid-container {
+      grid-template-columns: auto auto auto auto;
+    }
+  }
 }

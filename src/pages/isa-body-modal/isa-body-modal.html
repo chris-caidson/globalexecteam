@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      <i class="fa fa-user fixed-width space-right"></i>
+      <span>{{personName}}</span>
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="closeModal()">Close</button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <main>
+    <article>
+      <div class="grid-container">
+        <section>
+          <ul>
+            <li>
+              <h3>{{personName}}</h3>
+            </li>
+            <li>
+              <span class="field">Location:</span>
+              <span class="value">{{location}}</span>
+            </li>
+            <li>
+              <span class="field">Age:</span>
+              <span class="value">{{age}}</span>
+            </li>
+            <li>
+              <span class="field">Height:</span>
+              <span class="value">{{height}}</span>
+            </li>
+            <li>
+              <span class="field">Was:</span>
+              <span class="value">{{formerWeight}}</span>
+            </li>
+            <li>
+              <span class="field">Lost:</span>
+              <span class="value">{{weightLost}}</span>
+            </li>
+          </ul>
+        </section>
+        <section id="imageSection">
+          <img [src]="imageUrl" alt="{{personName}}" />
+        </section>
+        <section id="videoSection">
+          <img src="../../assets/imgs/misc/isabody-overlay.jpg" alt="{{personName}} Video" (click)="openVideoModal()" />
+        </section>
+        <section id="quoteSection">
+          <p>{{quote}}</p>
+        </section>
+      </div>
+    </article>
+  </main>
+</ion-content>
