@@ -207,14 +207,33 @@ export class GetOurTeamPage {
         imageUrl: "../../assets/imgs/team/sue-lee.jpg",
         title: "Commercial and Residential Real Estate",
         details:
-          "Susan and her husband Rob Lee live in Attleboro, MA.  Susan is a busy mom of three and one who has had the privilege of being the primary caregiver to her elderly parents for the past 4 years.  She also has a fast-paced real estate career that she also balances while focusing on keeping family first.   She has been truly blessed but for some reason always felt something was missing.  She felt like most working parents -tired, frustrated, always running, up early, working late, squeezing in family time here and there…. never really getting ahead, never having the time to be fully focused on her family.  She was feeling as though life was passing her by.  She had for years watched close friends of theirs, Murray and Susan Miller, live a lifestyle of time freedom and good fortune.  After two difficult years in the real estate market and facing some financial challenges I reached out to Susan and asked her to explain to me a little bit more about Isagenix and what it was that drew her back into the industry after retiring 15 years prior. I jumped in with both feet and now two years later, I am seeing how residual income and serving others will bring me the dream and satisfaction I have always wanted -working with who I want, when I want and spending time with the people I want to be with most."
+          "Susan and her husband, Rob, live in Attleboro, MA. Susan is a busy mom of three and one who has had the privilege " +
+          "of being the primary caregiver to her elderly parents for the past four years. She also has a fast-paced real " +
+          "estate career that she balances while focusing on keeping family first. She has been truly blessed, but for some " +
+          "reason always felt something was missing. She felt like most working parents: tired, frustrated, always running, " +
+          "up early, working late, squeezing in family time here and there, never really getting ahead, never having the time " +
+          "to be fully focused on her family. Susan was feeling as though life was passing her by. For years, she had watched " +
+          "close friends of theirs, Murray and Susan Miller, live a lifestyle of time-freedom and good fortune. After two " +
+          "difficult years in the real estate market, and facing some financial challenges, Susan reached out to the Millers " +
+          "and asked Susan Miller to explain to her a little bit more about Isagenix and what it was that drew her back into " +
+          "the industry after retiring 15 years earlier. Susan Lee jumped in with both feet and, now two years later, is " +
+          "seeing how residual income and serving others will bring her the dream and satisfaction she has always wanted " +
+          "- working with whom she wants, when she wants, and spending time with the people she wants to be with most."
       },
       {
         name: "Jennifer Barry",
         imageUrl: "../../assets/imgs/team/jen-barry.jpg",
         title: "Business Owner, Masters in Finance",
         details:
-          "Jennifer and her husband Phil Barry live in beautiful Foxborough, MA with their 2 children.  Jennifer is a self-motivated and entrepreneurial minded leader.  She has seen the benefits of being your own boss and embraces that lifestyle.  She began her career working in corporate finance.  Jennifer then went on to start a multi-million-dollar Internet based gift basket company which is currently ranked number four in the United States.  As she continued to see success in her own business she was still looking for a source of residual income and more time freedom for her and her family.  A friend had shared Isagenix with her and she totally saw the value in the products, as she has always had an interest in nutrition and fitness. However, what caught her eye was the ease of which one could start a business with no investment other than personal consumption and create "
+          "Jennifer and her husband, Phil, live in beautiful Foxborough, MA, with their 2 children. Jennifer is a " +
+          "self-motivated and entrepreneurial-minded leader. She has seen the benefits of being her own boss and embraces " +
+          "that lifestyle. She began her career working in corporate finance. Jennifer then went on to start a " +
+          "multi-million-dollar Internet-based gift basket company which is currently ranked number four in the United States. " +
+          "As she continued to see success in her own business, Jennifer was still looking for a source of residual income " +
+          "and more time freedom for her and her family. A friend had shared Isagenix with her and she clearly saw the value " +
+          "in the products, as she has always had an interest in nutrition and fitness. However, what truly caught her eye was " +
+          "the ease of which one could start a business with no investment other than personal consumption as a means of " +
+          "creating a significant residual income."
       },
       {
         name: "Liz Lima and Chris Ryan",
@@ -222,84 +241,170 @@ export class GetOurTeamPage {
         title:
           "Scientist, Double-Masters in Science, MBA; Senior Software Engineer",
         details:
-          "Liz Lima and her husband Chris Ryan live in Boston, MA with their 2 beautiful children.  Liz has had her own health and weight struggles. She was considered obese in her early 20s, was diagnosed with high blood pressure, high cholesterol and had constant migraine headaches. She reached a breaking point and changed her life once and for all. For the past two years, Liz has been coaching clients on nutrition, in the field of weight loss, reducing inflammation, and gaining energy to name a few. Liz is a self-driven, determined, and highly focused individual.  For Liz to know and be able to show people her results and validate with her highly educated background, full heartedly, reaffirms why Isagenix got it right."
+          "Liz Lima and her husband, Chris Ryan, live in Boston, MA, with their two beautiful children. Liz has had her own " +
+          "health and weight struggles. She was considered obese in her early 20s, was diagnosed with high blood pressure, high " +
+          "cholesterol, and had constant migraine headaches. She reached a breaking point and decided to change her life once " +
+          "and for all. For the past two years, Liz has been coaching clients on nutrition, weight loss, reducing inflammation," +
+          "and gaining energy, to name a few. Liz is a self-driven, determined, and highly-focused individual. Liz is able to " +
+          "show people her results and validate them via her highly-educated background, which full-heartedly reaffirms how and " +
+          "why Isagenix got it right.<p>Like Liz, her husband, Chris, is highly entrepreneurial. Shortly after Liz introduced " +
+          "him to Isagenix, he quickly saw the benefits of the nutrition as well as the power of the compensation plan. As a " +
+          "Senior Software Engineer, Chis now strives to provide the Global Exec Team with additional tools to make sharing " +
+          "Isagenix easier than ever."
       },
       {
         name: "Debra Gebhardt",
         imageUrl: "../../assets/imgs/team/deb-gebhardt.jpg",
         title: "Network Marketing Industry Expert",
         details:
-          "Debra and her husband Scott live in Tampa, Florida.  Debra’s personalsuccess is nothing less than highlyaccomplished,but what makes her even more successful is the heart of service and leadership that she brings to the people she is coaching.  Debra has always taken care of herself and put her and her husband’s health as a priority.  Nutrition was nonnegotiable but when a close friend, an Industry Expert as well, shared how Isagenix impacted her own health and how the company had GOTTEN IT RIGHT,  it was a game changer.  Isagenix merged into her values and mindset not only physically but financially when she saw the bigger picture of what this company offered.  It wasn’t even a second thought, that when a company could touch so many people in such a positive way, that Debra embraced what she does best and began impacting people and is now building an amazing tribe of amazing people."
+          "Debra and her husband, Scott, live in Tampa, Florida. Debra’s personal success is nothing less than highly " +
+          "accomplished, but what makes her even more successful is the heart of service and leadership that she brings to the " +
+          "people she is coaching. Debra has always taken care of herself and made her and her husband’s health a priority. " +
+          "Nutrition was non-negotiable, but when a close friend, an Industry Expert as well, shared how Isagenix impacted her " +
+          "own health and how the company had GOTTEN IT RIGHT, it was a game changer. Isagenix merged into her values and " +
+          "mindset not only physically, but financially too, when she saw the bigger picture of what this company offered. " +
+          "It wasn’t even a second thought, that when a company could touch so many people in such a positive way, that Debra " +
+          "embraced what she does best and began impacting people. She is now building an amazing tribe of amazing people."
       },
       {
         name: "Judith Libby Froelich",
         imageUrl: "../../assets/imgs/team/judy-froelich.jpg",
         title: "Marriage and Family Therapist",
         details:
-          "Judith and her husband Keith Froehlich live is sunny beautiful San Diego.  In 2012 my husband, Keith was diagnosed with a rare formof Kidney Cancer and through the course of treatment over the following 2 years he developed a large amount of visceral fat. During Keith’s second kidney surgery the visceral fat caused the surgery to take more than 3 times longer with 4 times the blood loss as compared to the first surgery the year prior. Luckily, we were introduced to Isagenix in August of 2014 after reconnecting with a friend. We found incredible results after consuming the 30-day weight loss pack in September of 2014. I lost 30 pounds and Keith lost 25 pounds. We have continued a maintenance plan ever since. The truly remarkable result was in February of 2015, during post-surgical follow up, Keith’s MRI showed a decrease of 28 % visceral fat. We became product users for life and immediately on the spot we made the commitment to share our story to help those who needed help and who wanted to have optimal health and wellness. We have optimal health today and get paid to help others-What a blessing!We love Isagenix-people and products are just amazing!"
+          "Judith and her husband, Keith, live is sunny, beautiful San Diego. In 2012 Keith was diagnosed with a rare form of " +
+          "kidney cancer, and through the course of treatment over the following two years, had developed a large amount of " +
+          "visceral fat. During Keith’s second kidney surgery, the visceral fat caused the surgery to take more than three times " +
+          "longer, with four times the typical blood loss, as compared to the first surgery the prior year. Luckily, Judith and " +
+          "Keith were introduced to Isagenix in August of 2014 after reconnecting with a friend. They found incredible results " +
+          "after consuming the 30-day weight loss pack in September of 2014. Judith lost 30 pounds and Keith lost 25 pounds. The " +
+          "Froelich's have continued a maintenance plan ever since. The truly remarkable result was in February of 2015, during " +
+          "post-surgical follow up, when Keith’s MRI showed a decrease of 28% visceral fat. Judith and Keith became product users " +
+          "for life and immediately made the commitment to share their story to help those who needed help and who wanted to have " +
+          "optimal health and wellness. They have optimal health today and get paid to help others - a true a blessing! Judith " +
+          "and Keith love Isagenix - the people and products are just amazing!"
       },
       {
         name: "E.Z. Smith",
         imageUrl: "../../assets/imgs/team/ez-smith.jpg",
         title: "Personal Trainer",
         details:
-          "E.Z. and his wife Janna Smith live in Charlotte, NC with their 2 beautiful children.  E.Z. is a prominent personal trainer within the Charlotte area.  He is the owner of Metro Fitness 51, Charlotte’s premier Private and Small Group training facility. I have been a gym own for 7 years and was a college and professional football player before that.  The products have been phenomenal for my family. I started with Isagenix 2 years ago, and have released over 55 pounds of visceral body fat and couldn’t imagine going a day without my 2 IsaPro shakes and Cleanse for Life at night. The financial opportunity with Isagenix has also been great for their family.  They have been able to relieve several financial burdens since starting and are actively working towards creating permanent financial freedom in their lives!!!"
+          "E.Z. and his wife, Janna, live in Charlotte, NC, with their tho beautiful children. E.Z. is a prominent personal " +
+          "trainer within the Charlotte area. He is the owner of Metro Fitness 51, Charlotte’s premier Private and Small Group " +
+          "training facility. He has been a gym own for seven years and was a college and professional football player previously. " +
+          "E.Z. states, “The products have been phenomenal for my family. I started with Isagenix 2 years ago, and have released " +
+          "over 55 pounds of visceral body fat and couldn’t imagine going a day without my two IsaPro shakes and Cleanse for Life " +
+          "at night.” The financial opportunity with Isagenix has also been great for their family. They have been able to " +
+          "relieve several financial burdens since starting and are actively working towards creating permanent financial freedom " +
+          "in their lives!"
       },
       {
         name: "Jeanette Baack-Lowry",
         imageUrl: "../../assets/imgs/team/jeanette-lowry.jpg",
         title: "NWM Professional, Entrepreneur",
         details:
-          "Jeanette and her husband Gary live in Vancouver, Washington.  As an entrepreneur, Jeanette had started dabbling in the Network Marketing industry and not understanding the financial model she became intentional with sharing the products she loved and in turn became a very successful expert within the industry.  Jeanette still had a need to do something that she could get that sense of accomplishment-using her skills & filling that spot deep in her heart of making a difference in a large tribe of people.  Jeanette has always been interested in health & fitness and when industry expert Susan Miller shared the Isagenix opportunity with her Jeanette was open and embraced the reconnection with Susan and her tribe.  “Thank you, Susan Miller, for calling me for years till I finally looked!  I’ve found my passion, MY LAST STOP in network marketing and today I am INSPIRED AGAIN!”"
+          "Jeanette and her husband, Gary, live in Vancouver, Washington. As an entrepreneur, Jeanette had started dabbling in " +
+          "the Network Marketing industry and, not understanding the financial model, became intentional regarding sharing the " +
+          "products she loved, and, in turn, became a very successful expert within the industry. Jeanette still had a need to do " +
+          "something where she could get the sense of accomplishment of using her skills and filling that spot deep in her heart " +
+          "of making a difference in a large tribe of people. Jeanette has always been interested in health and fitness and when " +
+          "industry expert Susan Miller shared the Isagenix opportunity with her, Jeanette was open and embraced the reconnection " +
+          "with Susan and her tribe. “Thank you, Susan Miller, for calling me for years until I finally looked! I’ve found my " +
+          "passion, MY LAST STOP in Network Marketing and today I am INSPIRED AGAIN!”"
       },
       {
         name: "Susy and Robbie Wicks",
         imageUrl: "../../assets/imgs/team/susy-and-robbie-wicks.jpg",
         title: "Solicitor; Entrepreneur (Australia)",
         details:
-          "Susy and her husband Robbie Wicks live in beautiful down under Sydney, Australia.  Together they are a couple that have had the time of their life enjoying earlier successes in Network Marketing in the 90’s, (without today’s technology!).   They had decided to leave the industry to pursue other business interests. In 2012 we travelled for 10 months throughout Europe and America. We decided to come out of retirement in April 2013, when we were introduced to the business of Isagenix. We specifically wanted to capture the huge financial growth we saw happening with this company.  They were witnessing the rapid growth towards critical mass and that excited them.  Together they are building teams worldwide capturing market share, enjoying amazing good health and securing our children’s long term financial security."
+          "Susy and her husband, Robbie, live in beautiful, down under Sydney, Australia. Together they are a couple that have " +
+          "had the time of their lives enjoying earlier successes in Network Marketing in the 90’s (without today’s technology)! " +
+          "Eventually, they decided to leave the industry to pursue other business interests. In 2012, Susy and Robbie travelled " +
+          "for 10 months throughout Europe and America. They then decided to come out of retirement in April 2013, when they were " +
+          "introduced to the business of Isagenix. They specifically wanted to capture the huge financial growth they saw " +
+          "happening with the company. Susy and Robbie were witnessing the rapid growth towards critical mass and that excited " +
+          "them. Together they are building teams worldwide, capturing market share, enjoying amazing good health, and securing " +
+          "their children’s long-term financial security."
       },
       {
         name: "Jenn Andrews",
         imageUrl: "../../assets/imgs/team/jenn-andrews.jpg",
         title: "Former Insurance Regoinal Manager",
         details:
-          "Jenn and her husband Miles live in Charlotte, NC with their 2 beautiful children.  She is a former Group Insurance Manager for the North Carolina and South Carolina territories.  Working in employee benefits, health has always been an important topic in her household. In her own words, “What first started a means of post baby weight loss, turned into a full health transformation after some major health challenges.  Having my body in an alkaline state better prepares me to fight disease.  As for the opportunity, it has allowed me to walk away from corporate America and put my growth in my own hands.  I will never look back!"
+          "Jenn and her husband, Miles, live in Charlotte, NC, with their two beautiful children. Jenn is a former Group " +
+          "Insurance Manager for the North Carolina and South Carolina territories. Working in employee benefits, health has " +
+          "always been an important topic in her household. In her own words, “What first started a means of post-baby weight " +
+          "loss, turned into a full health transformation after some major health challenges. Having my body in an alkaline state " +
+          "better prepares me to fight disease. As for the opportunity, it has allowed me to walk away from corporate America and " +
+          "put my growth in my own hands. I will never look back!"
       },
       {
         name: "Andrea Labouchere",
         imageUrl: "../../assets/imgs/team/andrea-labouchere.jpg",
         title: "Former English Teacher",
         details:
-          "Andrea and her husband Mark Labouchere are living in Smyrna, Georgia with their 2 beautiful children and number 3 on the way.  Andrea is a former high school English teacher of ten years. This opportunity has allowed her to now be home with her family and that Isagenix allows her to focus on being available to them while building a life of financial freedom. More importantly, this opportunity has given their family the ability to dream beyond their wildest dreams and to show their children that investing in yourself and your health is worth every sacrifice that it may bring."
+          "Andrea and her husband, Mark, are living in Smyrna, Georgia, with their two beautiful children and number three on the " +
+          "way. Andrea is a former high school English teacher of ten years. This opportunity allows her to now be home with her " +
+          "family; Isagenix allows her to focus on being available to them while building a life of financial freedom. More " +
+          "importantly, this opportunity has given their family the ability to dream beyond their wildest dreams and to show their " +
+          "children that investing in yourself and your health is worth every sacrifice that it may bring."
       },
       {
         name: "Adrienne Donovan",
         imageUrl: "../../assets/imgs/team/adrienne-donovan.jpg",
         title: "Former Pharmaceutical Sales Rep",
         details:
-          "Adrienne and her husband Mike, with their children, reside in Wake Forest, NC.  Adrienne after having her children, saw the need to transition from the professional field to the stay at home mom.  As an at home mom of 3, one of which, her son Bennett is diagnosed with Downs Syndrome, benefited greatly from her being home fulltime.  Isagenix was an avenue to provide health and a financial solution to her family, especially for the expensive therapies Bennett needed.   This nutrition has greatly impacted her family first and foremost as a tool to provide the nutrition they need daily but also provided a significant income that surpassed her prior salary in less than a year."
+          "Adrienne and her husband, Mike, with their children, reside in Wake Forest, NC. Adrienne, after having her children, " +
+          "saw the need to transition from the professional field to becoming a stay-at-home mom. Her three children, one of whom, " +
+          "her son Bennett, having been diagnosed with Down's Syndrome, benefited greatly from Adrienne being home full-time. " +
+          "Isagenix was an avenue to provide health and a financial solution to her family, especially for the expensive therapies " +
+          "Bennett needed. This nutrition has greatly impacted her family, first and foremost, as a tool to provide the nutrition " +
+          "they need daily, but also provided a significant income that surpassed her prior salary in less than a year."
       },
       {
         name: "Melissa Henault",
         imageUrl: "../../assets/imgs/team/melissa-henault.jpg",
         title: "Medical Director for Team of Medical Scientists",
         details:
-          "Melissa and her husband Jake Henault, along with their 2 beautiful children, patiently awaiting baby number 3, reside in beautiful Charlotte, NC.  Melissa is currently working fulltime as a Medical Director in the Charlotte area.  This position requires consistent travel and elevated stress levels.  Melissa is an avid athlete and fuels her body through a clean paleo lifestyle, but remained exhausted on the inside daily.  She began her search for something to help simplify the extensive food prep process andstill achieve the alkaline lifestyle which was her goal.  Melissa was approached by a dear friend, for a year, sharing the Isagenix nutrition that supports an alkaline lifestyle.  Only after several no’s Melissa was finally open to saying yes.  Shortly after starting iswhen simplicity was found.  Isagenix met all her needs physically and for time management.  Life became fun again and energy was restored.  At that point she knew she needed to share this simplicity with everyone.  This opportunity has blessed Melissa and her family with a six-figure income while still enjoying her fulltime job."
+          "Melissa and her husband, Jake, along with their two beautiful children, and patiently awaiting baby number three, reside " +
+          "in lovely Charlotte, NC. Melissa is currently working full-time as a Medical Director in the Charlotte area. This position " +
+          "requires consistent travel and causes elevated stress levels. Melissa is an avid athlete and fuels her body through a " +
+          "clean Paleo lifestyle, but remained exhausted on the inside daily. She began her search for something to help simplify " +
+          "the extensive food prep process while continuing to achieve the alkaline lifestyle, which was her goal. Melissa was " +
+          "approached several times by a dear friend, for a year, regarding sharing the Isagenix nutrition, which supports an " +
+          "alkaline lifestyle. Only after several 'no’s', Melissa was finally open to saying 'yes'. Shortly after starting, Melissa " +
+          "discovered the simplicity of Isagenix. Not only did Isagenix meet all her needs physically, but it also allowed her to " +
+          "manage her time. Life became fun again and her energy was restored. At that point, Melissa knew she needed to share this " +
+          "simplicity with everyone. This opportunity has blessed Melissa and her family with a six-figure income while still " +
+          "allowing her to enjoy her full-time job."
       },
       {
         name: "Nina McCallie",
         imageUrl: "../../assets/imgs/team/nina-mccallie.jpg",
         title: "20-year Veteran Network Marketer",
         details:
-          "Nina McCallie, Crystal Executive 3 Star Golden Circle, has been in the network marketing industry for the last 20 years with the last 10 being in health and wellness. She is deeply passionate about the industry and even more passionate about bringing Mama’s and Daddy’s home to raise their families. With a Masters degree in Marriage and Family Therapy, Nina knows the value and power of the presence of parents in their children daily lives. Nina has never known a day without the freedom to be present at every doctors appt and sporting event for her three children. One of Nina’s greatest joys is helping women achieve their goals and find their life’s calling by living in their “passion zone”. She understands fear and loves to empower women to dig deep to unlock their God given potential and gifts as well as stretch themselves to become all they were designed for. For Nina, her success is measured in time with her family, transformation of her teams bodies and minds, and freedom from financial burdens. Isagenix has been the perfect vehicle to allow her and those she partners with to live their best lives!"
+          "Nina McCallie, Crystal Executive Three-Star Golden Circle, has been in the Network Marketing industry for the last 20 " +
+          "years, with the last 10 being in health and wellness. She is deeply passionate about the industry and even more " +
+          "passionate about bringing Mama’s and Daddy’s home to raise their families. With a Masters degree in Marriage and Family " +
+          "Therapy, Nina knows the value and power of the presence of parents in their children's daily lives. Nina has never known " +
+          "a day without the freedom to be present at every doctor's appointment and sporting event for her three children. One of " +
+          "Nina’s greatest joys is helping women achieve their goals and find their life’s calling by living in their “passion " +
+          "zone”. She understands fear and loves to empower women to dig deep to unlock their God-given potential and gifts as well " +
+          "as stretch themselves to become all they were designed to be. For Nina, her success is measured in time with her family, " +
+          "transformation of her teams' bodies and minds, and freedom from financial burdens. Isagenix has been the perfect vehicle " +
+          "to allow her and those she partners with to live their best lives!"
       },
       {
         name: "Kathleen Miller",
         imageUrl: "../../assets/imgs/team/kathleen-miller.jpg",
         title: "Stay-at-home Mom and Medical Interpreter",
         details:
-          "Shawn and Kathleen Miller live in Goshen, Indiana along with their 8 children.  Shawn and Kathleen describe Isagenix as a gift that was given to them when they least expected it. It was Kathleen’s search for nutrition for their newly adopted son that would eventually lead them into the opportunity that would change them forever. Kathleen’s ability to connect with others, along with Shawn’s experience in the workforce, has allowed them to use their personalities and experiences to build a team of likeminded leaders. After years of corporate work, Shawn especially enjoys being able to build into the success of others, living out the greatest form of leadership, duplication. Their desire is to inspire others to think and walk differently, to embrace the truth that we have all been called to live a life of IMPACT."
+          "Shawn and Kathleen Miller live in Goshen, Indiana, along with their eight children. Shawn and Kathleen describe Isagenix " +
+          "as a gift that was given to them when they least expected it. It was Kathleen’s search for nutrition for their newly " +
+          "adopted son that would eventually lead them into the opportunity that would change them forever. Kathleen’s ability to " +
+          "connect with others, along with Shawn’s experience in the workforce, has allowed them to use their personalities and " +
+          "experiences to build a team of like-minded leaders. After years of corporate work, Shawn especially enjoys being able to " +
+          "build into the success of others, living out the greatest form of leadership, duplication. Their desire is to inspire " +
+          "others to think and walk differently, to embrace the truth that we have all been called to live a life of IMPACT."
       },
       {
         name: "McLane Layton",
@@ -307,175 +412,366 @@ export class GetOurTeamPage {
         title:
           "Former Legislative Counsel for Energy and Environment in the U.S. Senate",
         details:
-          "McLane and her husband Rusty live in Alexandria, VA, ten miles from the U.S. Capitol.  McLane is an attorney who has practiced in the areas of energy and environment law for over 20 years.  When McLane and Rusty adopted siblings from Eastern Europe, McLane turned her passion and talents towards advocating for equal rights of adoptees and their families through a non-profit she founded called Equality for Adopted Children (EACH).  After being introduced to Isagenix through two dear friends and fellow adoption advocates, Deanna and Carolyn,  McLane experienced a personal health transformation and now feels passionately about sharing the health and financial opportunity of Isagenix with others in need of physical and financial freedom."
+          "McLane and her husband, Rusty, live in Alexandria, VA, ten miles from the U.S. Capitol. McLane is an attorney who has " +
+          "practiced in the areas of energy and environment law for over 20 years. When McLane and Rusty adopted siblings from " +
+          "Eastern Europe, McLane turned her passion and talents towards advocating for equal rights of adoptees and their families " +
+          "through a non-profit she founded called Equality for Adopted Children (EACH). After being introduced to Isagenix through " +
+          "two dear friends and fellow adoption advocates, Deanna and Carolyn, McLane experienced a personal health transformation " +
+          "and now feels passionately about sharing the health and financial opportunity of Isagenix with others in need of physical " +
+          "and financial freedom."
       },
       {
         name: "Linda Hannum",
         imageUrl: "../../assets/imgs/team/linda-hannum.jpg",
         title: "Business Owner",
         details:
-          "Linda Hannum – Salon Owner Kristi Nelson – Executive Director a Non-Profit Linda Hannum along with her spouse Kristi Nelson live in Hadley, MA.  Linda is the owner of a Salon and Spa in Northampton Massachusetts and had been working tirelessly since opening in 2003 and although the salon is successful, Linda was unable to draw much if any salary from the business and had invested everything she had and thus was struggling under a mountain of debt. She knew that she needed to find a different way to get out from under this debt and to begin to provide a steady stream of income for her family and this new work would need to be done in the pockets of her time.  From a health standpoint Linda was diagnosed with a disease in 2001 that affects the myelin sheath that covers the nervous system in her brain and she knew that she needed better nutrition for her body and vitamins and minerals too but just didn’t know who to turn to for that information.  After being on the products for a few months she really began to feel increased energy, had much better focus, and knew that she had found the answer to her financial struggles! Linda has found that the best reason she loves Isagenix is that she has been able to change people’s lives by sharing with them the gift of better health and the invaluable gift of rekindling life-long dreams that the people she works with have long ago forgotten but now can see the possibility that those dreams can become a reality…and this is what Isagenix is all about!"
+          "Linda Hannum – Salon Owner<p>Kristi Nelson – Executive Director of a Non-Profit</p><p>Linda Hannum, along with her " +
+          "spouse Kristi Nelson, live in Hadley, MA. Linda is the owner of a Salon and Spa in Northampton, Massachusetts and " +
+          "had been working tirelessly since opening in 2003. Although the salon is successful, Linda was unable to draw much, " +
+          "if any, salary from the business. She had invested everything she had and thus was struggling under a mountain of " +
+          "debt. Linda knew that she needed to find a different way to get out from under the debt and to begin to provide a " +
+          "steady stream of income for her family, and this new work would need to be done in the pockets of her time. From a " +
+          "health standpoint, Linda was diagnosed with a disease in 2001 that affects the myelin sheath that covers the nervous " +
+          "system in her brain. She knew she needed better nutrition for her body, and vitamins and minerals too, but just didn’t " +
+          "know who to turn to for that information. After being on the products for a few months, she really began to feel " +
+          "increased energy, had much better focus, and knew that she had found the answer to her financial struggles! Linda has " +
+          "found that the primary reason she loves Isagenix is that she has been able to change people’s lives by sharing with " +
+          "them the gift of better health and the invaluable gift of rekindling life-long dreams that the people she works with " +
+          "had long ago forgotten. Those people can now see the possibility of turning those dreams into reality… and this is " +
+          "what Isagenix is all about!"
       },
       {
         name: "Delialah and Todd Lotich",
         imageUrl: "../../assets/imgs/team/delialah-and-todd-lotich.jpg",
         title: "Holistic Health and Nutrition Writer/Author; Corporate Sales",
         details:
-          "Delialah and Todd Lotich reside with their beautiful children in Charlotte, NC.    As a busy mom and freelancer, Delialah had a difficult time releasing the last few pounds of her pregnancy weight.  Given Delialah’s health background, she would not agree to try any nutritional programs unless they met her strong expectations.  When introduced to Isagenix, after saying no multiple times, she finally agreed to give it a try after acknowledging the superior ingredients in the food.  After seeing rapid results in the matter of days, she quickly began sharing with moms and families.  Because of the generous compensation plan, Delialah was able to free Todd from his corporate position after one year with Isagenix.  Together, Delialah and Todd were able to take their passion for helping others and grow a multiple six-figure income in just 2 years."
+          "Delialah and Todd Lotich reside with their beautiful children in Charlotte, NC. As a busy mom and freelancer, Delialah " +
+          "had a difficult time releasing the last few pounds of her pregnancy weight. Given Delialah’s health background, she would " +
+          "not agree to try any nutritional programs unless they met her strong expectations. When introduced to Isagenix, after " +
+          "saying 'no' multiple times, she finally agreed to give it a try after acknowledging the superior ingredients in the food. " +
+          "After seeing rapid results in a matter of days, she quickly began sharing with moms and families. Because of the generous " +
+          "compensation plan, Delialah was able to free Todd from his corporate position after one year with Isagenix. Together, " +
+          "Delialah and Todd were able to take their passion for helping others and grew a multiple six-figure income in just two " +
+          "years."
       },
       {
         name: "Staci Friedman Shapiro",
         imageUrl: "../../assets/imgs/team/staci-shapiro.jpg",
         title: "Former Montessori Primary Teacher",
         details:
-          "Staci Friedman lives in Chicago, Illinois with her husband and son.  Staci is a former Montessori Primary Teacher, she spent 10 years in the classroom. Staci was introduced to Isagenix and had a dramatic physical transformation that completely gave her a new perspective on life. Her love for sharing the gift of physical wellness and financial opportunity has become her new life of “caring” for others including moms (like herself).  Thanks to Isagenix, Staci has since retired from teaching; a choice she could make for herself and her family. She now realizes the importance of fueling properly and fully understands the impact of being able to have and make choices not based on limited resources.  Smiling often… Dreaming big… Laughing with her entire body…Staci aspires to help others live on their own terms, not locked in by somebody else’s schedule or parameters."
+          "Staci Friedman lives in Chicago, Illinois with her husband and son. Staci is a former Montessori Primary Teacher; she " +
+          "spent 10 years in the classroom. Staci was introduced to Isagenix and had a dramatic physical transformation that " +
+          "completely gave her a new perspective on life. Her love for sharing the gift of physical wellness and financial " +
+          "opportunity has become her new life of “caring” for others, including moms (like herself). Thanks to Isagenix, Staci " +
+          "has since retired from teaching - a choice she could make for herself and her family. She now realizes the importance " +
+          "of fueling properly and fully understands the impact of being able to have and make choices not based on limited " +
+          "resources. Smiling often… dreaming big… laughing with her entire body… Staci aspires to help others live on their " +
+          "own terms, not locked in by somebody else’s schedule or parameters."
       },
       {
         name: "Barb Kolby",
         imageUrl: "../../assets/imgs/team/barb-kolby.jpg",
         title: "Grandmother of 10",
         details:
-          "Barb Kolby and her husband Kurt reside in Waxhaw, NC formerly from Ohio.  Barb is a beautiful and dedicated mom to 6 children and currently has 10 grandchildren.  Family is the primary key reason as to why network marketing appealed to this already busy mom.  The ability to have a passion, impact others, support a profession that embraced family first and a lifestyle with a professional income, hands down, this was the opportunity she was looking for.  Barb came to Isagenix with very successful industry experience from other network marketing companies, but something was missing from her prior company.  When people ask Barb why she left her former company to join Isagenix she answers “Just the fact that someone like me did should tell you everything you need to know. My only regret is not joining ISA sooner!”"
+          "Formerly from Ohio, Barb Kolby and her husband, Kurt, now reside in Waxhaw, NC. Barb is a beautiful and dedicated mom " +
+          "to six children and currently has 10 grandchildren. Family is the key reason why Network Marketing appealed to this " +
+          "already busy mom. The ability to have a passion, impact others, support a profession that embraced family first, and " +
+          "live a lifestyle with a professional income, demonstrated, hands-down, that Isagenix was the opportunity she was " +
+          "looking for. Barb came to Isagenix with very successful industry experience from other Network Marketing companies, " +
+          "but something was missing from her prior company. When people ask Barb why she left her former company to join " +
+          "Isagenix, she answers “Just the fact that someone like me did that should tell you everything you need to know. My " +
+          "only regret is not joining Isagenix sooner!”"
       },
       {
         name: "Courtney Aldridge",
         imageUrl: "../../assets/imgs/team/courtney-aldridge.jpg",
         title: "Stay-at-home Mom",
         details:
-          "Courtney and Chad Aldridge live in beautiful Greensboro, NC and have three children.  As a stay at home mom, Courtney was desperate for energy and looking for an overall jump start to better health for herself and her family as well, during this time she was introduced to Isagenix.  As Courtney found an incredible new found energy and mental clarity, Chad also experienced weight loss results and less stress in his demanding career in a way that that he never had before, they realized they had found something they were very passionate about sharing and it aligned perfectly with their nature and desire to care for and help others. Courtney and Chad’s combined heart and passion is to help others redeem the best version of themselves both physically and financially, with a specific focus and mission to provide other mom’s the same gift of supplementing income from home.  Together they have built a team of people helping people and to be blessed by a six-figure income with Isagenix in less than a year."
+          "Courtney and Chad Aldridge live in beautiful Greensboro, NC, and have three children. As a stay-at-home mom, Courtney " +
+          "was desperate for energy and looking for an overall jumpstart to better health for herself and her family. During this " +
+          "time, she was introduced to Isagenix. As Courtney realized an incredible newfound energy and mental clarity, Chad also " +
+          "experienced weight loss results and less stress in his demanding career, in a way that that he never had before. They " +
+          "realized they had found something they were very passionate about sharing, and it aligned perfectly with their nature " +
+          "and desire to care for and help others. Courtney’s and Chad’s combined heart and passion is to help others redeem the " +
+          "best version of themselves both physically and financially, with a specific focus and mission to provide other moms " +
+          "the same gift of supplementing income from home. Together they have built a team of people helping people and are " +
+          "blessed to have created a six-figure income with Isagenix in less than a year."
       },
       {
         name: "Dana and John Gezik",
         imageUrl: "../../assets/imgs/team/dana-and-john-gezik.jpg",
         title: "Home-school Mom; Small Business Owner",
         details:
-          "Dana and John Gezik live in Shorewood, IL and have been married for 22 years and have two teenage boys. John has owned his own business for the past 15 years, and Dana is a stay-home “home school” mom. They were introduced to the network marketing industry early in their marriage, and immediately caught the vision of having control of their time and financial freedom. However, they experienced only limited success with other companies. This all changed when they were introduced to Isagenix. Dana quickly saw weight loss results and the products have now changed their lives physically and the compensation plan has changed their lives financially. They are now on a mission to help those who are looking for the same freedom. This couple finally found a company that “got it right” and would allow them to achieve the freedom they’ve always dreamed possible."
+          "Dana and John Gezik live in Shorewood, IL, have been married for 22 years, and have two teenage boys. John has owned " +
+          "his own business for the past 15 years and Dana is a stay-home “home school” mom. They were introduced to the Network " +
+          "Marketing industry early in their marriage, and they immediately caught the vision of having control of their time and " +
+          "financial freedom. However, they experienced only limited success with other companies. This all changed when they " +
+          "were introduced to Isagenix. Dana quickly saw weight loss results; the products have helped changed their lives " +
+          "physically and the compensation plan changed their lives financially. Dana and John are now on a mission to help those " +
+          "who are looking for the same freedom. This couple finally found a company that “got it right” and would allow them to " +
+          "achieve the freedom they’ve always dreamed possible."
       },
       {
         name: "Illy Rosenstein",
         imageUrl: "../../assets/imgs/team/illy-rosenstein.jpg",
         title: "Aquatics Instructor",
         details:
-          "Illy Rosenstein lives in beautiful Brisbane, Queensland, Australia.  Illy for years worked within the aquatics industry teaching and coaching while still being able to travel and snowboard my way around the world.  She worked her way to the top of her “career” within the health and fitness industry culminating as the regional manager for the corporate division of one of the leading management groups of health and leisure facilities within Australia.  Deep down though she knew that this “corporate” lifestyle was not for her.  After 4 years at the top she had lost her passion for the industry and was burnt out, stressed out and my health was suffering.  She knew it was time to close one door to open another so she decided to go back to her passion of teaching, coaching and helping others. This is when she was introduced to Isagenix and aligned herself with a company dedicated to changing lives. Her personal philosophy:  WORK SMART, KICK GOALS, FULFILL DREAMS"
+          "Illy Rosenstein lives in beautiful Brisbane, Queensland, Australia. For years, Illy worked within the aquatics " +
+          "industry teaching and coaching while still being able to travel and snowboard her way around the world. She worked " +
+          "her way to the top of her “career” within the health and fitness industry, culminating as the regional manager for " +
+          "the corporate division of one of the leading management groups of health and leisure facilities within Australia. " +
+          "Deep down, though, she knew that this “corporate” lifestyle was not for her. After four years at the top, she had lost " +
+          "her passion for the industry and was burned out, stressed out, and her health was suffering. She knew it was time to " +
+          "close one door to open another, so she decided to go back to her passion of teaching, coaching, and helping others. " +
+          "This is when she was introduced to Isagenix and aligned herself with a company dedicated to changing lives. Her " +
+          "personal philosophy: WORK SMART, KICK GOALS, FULFILL DREAMS!"
       },
       {
         name: "Elaine Moody",
         imageUrl: "../../assets/imgs/team/elaine-moody.jpg",
         title: "Former Technology Business Manager",
         details:
-          "Elaine Moody and her husband Brad live in Charlotte, NC with their 2 beautiful daughters.  As a former “technology geek” for Corporate America she spent many stressful hours doing what she loved but battling health battles along the way.  Forever grateful to a friend for introducing her to this nutritional solution which has given her a chance to live with no symptoms.  Elaine saw huge benefits and began to share her knowledge with those also facing health challenges.  This in turn opened up a financial opportunity for her family and the ability to free those who struggle in Corporate America and help create a #weekendlifestyle for all."
+          "Elaine Moody and her husband, Brad, live in Charlotte, NC with their two beautiful daughters. As a former “technology " +
+          "geek” for Corporate America, Elaine spent many stressful hours doing what she loved but fighting health battles along " +
+          "the way. She's forever grateful to a friend for introducing her to this nutritional solution, which has given her a " +
+          "chance to live with no symptoms. Elaine saw huge benefits and began to share her knowledge with those also facing " +
+          "health challenges. This, in turn, opened a financial opportunity for her family and the ability to free those who " +
+          "struggle in Corporate America, as well as help create a #weekendlifestyle for all."
       },
       {
         name: "Tina and Mick Hyman",
         imageUrl: "../../assets/imgs/team/tina-and-mick-hyman.jpg",
         title: "Entrepreneurs",
         details:
-          "Tina and Mick Hyman live in beautiful Sydney, Australia.  Both being driven by their entrepreneurial spirits, they were busy running their own businesses alongside raising their large family of 5 boys.  As crazy as life can be with large families, we quickly lose focus on our health.  It was at this time, they were introduced to Isagenix by their closefriends Robbie and Susy Wicks.  They quickly saw results asTina shed almost 50 lbs. and Mick 40 lbs. with profound improvement in general health and wellbeing.  With renewed energy and enthusiasm for life people started to notice and were attracted to the opportunity Isagenix has to offer both from a product and business perspective which made sharing easy with friends and family and their business started to grow organically.They immediately recognized that Isagenix offered an exciting and viable option to transition from their current businesses, working part time to create some leveraged income something that was lacking in their lives."
+          "Tina and Mick Hyman live in beautiful Sydney, Australia. Both being driven by their entrepreneurial spirits, they were " +
+          "busy running their own businesses alongside raising their large family of five boys. As crazy as life can be with " +
+          "large families, people quickly lose focus on their health. It was at this time, Tina and Mick were introduced to " +
+          "Isagenix by their close friends, Robbie and Susy Wicks. Tina and Mick quickly saw results as Tina shed almost 50 " +
+          "pounds and Mick 40 pounds with profound improvement in general health and well-being. With renewed energy and " +
+          "enthusiasm for life, people started to notice and were attracted to the opportunity Isagenix offered both from a " +
+          "product and business perspective, which made sharing easy with friends and family. Their business started to grow " +
+          "organically and Tina and Mick immediately recognized that Isagenix offered an exciting and viable option to transition " +
+          "from their current businesses, working part-time to create some leveraged income - something that was lacking in their " +
+          "lives."
       },
       {
         name: "John and Tracie Loux",
         imageUrl: "../../assets/imgs/team/tracie-and-john-loux.jpg",
         title: "Adoption Consultant; Educator / Musician",
         details:
-          "Tracie and her husband John Loux live in Kansas City, MO. They have 7 children and one beautiful granddaughter. Tracie has a degree in art education, but has spent the last 10 years working as an adoption consultant. John is a full-time musician and a very busy dad!  Tracie’s impact is greatly felt in families throughout the United States in her mission to help children find forever homes.  After7 years immersed in the adoption community and adopting 4 of their own children, she describes herself as a “Dead Woman Walking” exhausted with stress levels elevated daily. John too was experiencing his own burn out at the same time.  After struggling with their health and having years of stress take its toll on their bodies, John and Tracie have experienced incredible transformations of their body, mind, and spirit through the power of nutritional cleansing, maintaining healthy fitness routines, and through developing a life giving spiritual practice.  Isagenix has given a nutritional solution to help under nourished children and their families get healthy, as well as a providing a financial opportunity to change their futures.  John and Tracie’s passion is to help others come alive and strong from the inside out, physically and financially."
+          "Tracie and her husband, John, live in Kansas City, MO. They have seven children and one beautiful granddaughter. Tracie " +
+          "has a degree in Art Education, but has spent the last ten years working as an adoption consultant. John is a full-time " +
+          "musician and a very busy dad! Tracie’s impact is greatly felt in families throughout the United States in her mission " +
+          "to help children find forever homes. After seven years immersed in the adoption community, and adopting four of their " +
+          "own children, she describes herself as a “Dead Woman Walking,” exhausted with stress levels elevated daily. John, too, " +
+          "was experiencing his own burnout at the same time. After struggling with their health and having years of stress take " +
+          "its toll on their bodies, John and Tracie have experienced incredible transformations of their bodies, minds, and " +
+          "spirits through the power of nutritional cleansing, maintaining healthy fitness routines, and through developing a " +
+          "life giving spiritual practice. Isagenix has provided a nutritional solution to help under-nourished children and their " +
+          "families get healthy, and also provides a financial opportunity to change their futures. John and Tracie’s passion is " +
+          "to help others come alive and strong from the inside out, physically and financially."
       },
       {
         name: "Erin Brauer",
         imageUrl: "../../assets/imgs/team/erin-brauer.jpg",
         title: "Former Elementary School Teacher",
         details:
-          "Erin and her husband Kevin live in beautiful Wake Forest, NC.  Erin was a former elementary school teacher and even though she loved making a daily impact in these children’s lives she knew she wanted to be at home with her own children.  Erin was searching for better nutrition for herself and her family to be proactive with a history of health challenges within the family.  When a close friend of Erin’s heard of her desire she immediately shared the nutrition that had already changed their family.  Erin quickly felt the benefits of this nutrition and has fed this to her entire family for the past 3 years.  When friends quickly saw her results, she began sharing the nutrition and is currently building a strong team and changing their family’s financial future by helping others.  Within three months, Erin was able to surpass her monthly teaching income and has since built a six-figure income with Isagenix."
+          "Erin and her husband, Kevin, live in beautiful Wake Forest, NC. Erin was a former elementary school teacher and even " +
+          "though she loved making a daily impact in these children’s lives, she knew she wanted to be at home with her own children. " +
+          "Erin was searching for better nutrition for herself and her family so she could be proactive with a history of health " +
+          "challenges within the family. When a close friend of Erin’s heard of her desire, she immediately shared the nutrition " +
+          "that had already changed their family. Erin quickly felt the benefits of this nutrition and has fed this to her entire " +
+          "family for the past three years. When friends quickly saw her results, she began sharing the nutrition and is currently " +
+          "building a strong team and changing her family’s financial future by helping others. Within three months, Erin was able " +
+          "to surpass her monthly teaching income and has since built a six-figure income with Isagenix."
       },
       {
         name: "Dr. Michael Guthrie",
         imageUrl: "../../assets/imgs/team/michael-guthrie.jpg",
         title: "Oral Surgeon",
         details:
-          "Michael Guthrie, D.D.S. lives in beautiful South Barrington, IL.  He has practiced for 21 years in his private practice as an Oral & Maxillofacial Surgeon.  Michael was introduced to Isagenix at a time in his life when things were not going as planned.  He suffered a shoulder injury that required him to have to take 2 years away from his surgical profession.  He gained weight and needed to lose it and gain better control of his health.  He lost 35 pounds, felt great, had better energy and realized that this nutrition was excellent.  He researched the company, its corporate leadership and the compensation plan, and was equally impressed!  He knew that residual income was a way that he could allow himself to never have to worry again about losing income from his practice– as he experienced when he was injured.  He also loved the idea of building networks of people, meeting new people, locking arms with them as we grow and build our networks together. Isagenix has allowed me to experience a life-changing transformation that occurred as a result of feeding your body complete, dense and powerful nutrition."
+          "Michael Guthrie, D.D.S. lives in beautiful South Barrington, IL. He has practiced for 21 years in his private practice as " +
+          "an Oral and Maxillofacial Surgeon. Michael was introduced to Isagenix at a time in his life when things were not going as " +
+          "planned. He suffered a shoulder injury that required him to have to take two years away from his surgical profession. He " +
+          "gained weight and needed to lose it and gain better control of his health. He lost 35 pounds, felt great, had better " +
+          "energy, and realized that this nutrition was excellent. He researched the company, its corporate leadership, and the " +
+          "compensation plan, and was equally impressed! He knew that residual income was a way that he could allow himself to never " +
+          "have to worry again about losing income from his practice – as he experienced when he was injured. He also loved the idea " +
+          "of building networks of people, meeting new people, and locking arms with them as they grow and build networks together. " +
+          "Isagenix has allowed Michael to experience a life-changing transformation that occurred as a result of feeding his body " +
+          "complete, dense, and powerful nutrition."
       },
       {
         name: "Nancy Baxter",
         imageUrl: "../../assets/imgs/team/nancy-baxter.jpg",
         title: "Stay-at-home Mom and Fitness Coach",
         details:
-          "Nancy and her husband Mike Baxterlive in Malvern, PA along with their two children.  Shortly after Nancy became pregnant with their third child, they had found out that their daughter, Lainey, would be born with Down syndrome. Knowing that their growing family would need extra help, the Baxter’s decided to relocate to the Philadelphia area to be closer to Nancy’s family. This decision also meant a job change and pay cut for Mike. Nancy desperately wanted to help her husband financially as well as give to Lainey as much extra support as she needed. The stress had taken such a physical toll on Nancy that her health and wellbeing were in jeopardy. She was introduced to Isagenix by her friend Adrienne Donovan, who also has a Down Syndrome son, shortly after starting the system, Nancy lost countless pounds and inches and regained the strength and energy that had been lacking for such a long time.  She began sharing her experience with friends and family members which led to an incredible business opportunity in which she never expected. This opportunity has opened so many new doors for Nancy.  Not only is she able to contribute to the financial needs of her family, she has also followed her dreams to help others with their health and fitness goals. Nancy is a CrossFit Level 1 Coach, Les Mills Grit Instructor and training for her first Half Ironman. This has afforded Nancy time and financial freedom and a new release on life!"
+          "Nancy and her husband, Mike, live in Malvern, PA, along with their two children. Shortly after Nancy became pregnant with " +
+          "their third child, they had found out that their daughter, Lainey, would be born with Down's Syndrome. Knowing that their " +
+          "growing family would need extra help, the Baxter’s decided to relocate to the Philadelphia area to be closer to Nancy’s " +
+          "family. This decision also meant a job change and pay cut for Mike. Nancy desperately wanted to help her husband " +
+          "financially as well as give to Lainey as much extra support as she needed. The stress had taken such a physical toll on " +
+          "Nancy that her health and well-being were in jeopardy. She was introduced to Isagenix by her friend Adrienne Donovan, who " +
+          "also has a Down's Syndrome son. Shortly after starting the system, Nancy lost countless pounds and inches and regained " +
+          "the strength and energy that had been lacking for such a long time. She began sharing her experience with friends and " +
+          "family members, which led to an incredible business opportunity - one she never expected. This opportunity has opened so " +
+          "many new doors for Nancy. Not only is she able to contribute to the financial needs of her family, but she has also " +
+          "followed her dreams to help others with their health and fitness goals. Nancy is a CrossFit Level 1 Coach, Les Mills Grit " +
+          "Instructor, and she's training for her first Half Ironman. This has afforded Nancy time and financial freedom and a new " +
+          "lease on life!"
       },
       {
         name: "Link Kiser",
         imageUrl: "../../assets/imgs/team/link-kiser.jpg",
         title: "Fashion Model",
         details:
-          "Link Kiser finds his home in beautiful Winston Salem, NC.  He has had a very successful career within the modeling industry for the past 30 years.  He has always been focused on proper nutrition to maintain a physical physique needed for success within the industry.  Link is always maintaining a business mind and always considers himself to be open to business opportunities.  When he was introduced to Isagenix through a social media platform, it totally caught his eye.He was blown away when he saw how generous the compensation plan was, so he hasn’t wasted anytime making this the only thing he wants do for the rest of his life. Isagenix is both impacting him physically and financially."
+          "Link Kiser finds his home in beautiful Winston Salem, NC. He has had a very successful career within the modeling industry " +
+          "for the past 30 years. He has always been focused on proper nutrition to maintain the physical physique needed for success " +
+          "within the industry. Link is always maintaining a business mind and always considers himself to be open to business " +
+          "opportunities. When he was introduced to Isagenix through a social media platform, it really caught his eye. He was blown " +
+          "away when he saw how generous the compensation plan was, so he didn't waste any time making this the only thing he wants " +
+          "do for the rest of his life. Isagenix is both impacting him physically and financially."
       },
       {
         name: "Ginna Larson",
         imageUrl: "../../assets/imgs/team/ginna-larson.jpg",
         title: "National Sales Manager",
         details:
-          "Ginna and her husband Nels live in beautiful Lyons, Colorado along with their 2 beautiful daughters.  Ginna has a Bachelors degree in Journalism and a Master’s degree in marketing.   She has worked in sales and marketing management for over 20 years and gained valuable experience. After a powerful Isagenix product experience introduced to her by a close friend, Ginna saw a post from her friend Carol Elizabeth discussing the power of residual income. In sales, Ginna always made a very good income within her position.  Ginna knew the more successful she was the more changes her company would make to the compensation plan.  Thus, making it harder and harder to earn money. Seeing Carol’s post is when the lightbulb went off, and she decided to learn how to share the gift of Isagenix with others. Now, not only is she building a successful business with Isagenix, but she is also leaving a legacy for her two young daughters."
+          "Ginna and her husband, Nels, live in beautiful Lyons, Colorado, along with their two beautiful daughters. Ginna has a " +
+          "Bachelor's degree in Journalism and a Master’s degree in Marketing.  She has worked in sales and marketing management for " +
+          "over 20 years and gained valuable experience. After a powerful Isagenix product experience introduced to her by a close " +
+          "friend, Ginna saw a post from her friend Carol Elizabeth discussing the power of residual income. In sales, Ginna always " +
+          "earned a very good income within her position. Ginna knew the more successful she was, the more changes her company would " +
+          "make to the compensation plan, thus, making it harder and harder to earn money. Seeing Carol’s post is when the lightbulb " +
+          "went off, and she decided to learn how to share the gift of Isagenix with others. Now, not only is she building a " +
+          "successful business with Isagenix, but she is also leaving a legacy for her two young daughters."
       },
       {
         name: "Tracie Taylor",
         imageUrl: "../../assets/imgs/team/tracie-taylor.jpg",
         title: "Elite Trainer / Personal Development",
         details:
-          "Tracie Taylor lives in Charlotte NC.  She is a single Mother who spent 12 years prior to Isagenix as an Elite Trainer for Robert Kiyosaki’s Rich Dad Education Company. She’s a Financial Literacy Coach and Wealth & Wellness Advocate.  Tracie Taylor educates and empowers groups and individuals to gain mastery of self to facilitate access to time, money and freedom. She truly believes that abundance begins with a Healthy, Mind, Body & Spirit.   Her mission by creating environments where all individuals feel inspired, valued and honored for their contribution. She’s on a global mission to free people both physically and financially with Isagenix as her partner to accomplish this."
+          "Tracie Taylor lives in Charlotte, NC. She is a single mother who spent 12 years prior to Isagenix as an Elite Trainer " +
+          "for Robert Kiyosaki’s Rich Dad Education Company. She’s a Financial Literacy Coach and Wealth and Wellness Advocate. " +
+          "Tracie educates and empowers groups and individuals to gain mastery of self to facilitate access to time, money, and " +
+          "freedom. She truly believes that abundance begins with a healthy mind, body, and spirit. Her mission is  to create " +
+          "environments where all individuals feel inspired, valued, and honored for their contribution. She’s on a global mission " +
+          "to free people both physically and financially, using Isagenix as her partner to help accomplish this."
       },
       {
         name: "Erin Taylor",
         imageUrl: "../../assets/imgs/team/erin-taylor.jpg",
         title: "Home-school Mom",
         details:
-          "Erin and her husband Chris Taylor live in Portage, Indiana with their 4 beautiful children.  Erin is an at home mom that loves being there for her family full time. As busy as her life is she was looking for a weight loss and energy solution but was not interested in settling for poor ingredients.  She was pleasantly surprised when her adoptive momma friend shared Isagenix with her and it met her rigorous standards for quality.  When Chris and I decided to go for it, we knew within a week we had made a great choice.  We were so thrilled by our results and how amazing we felt, we couldn’t help but share and encourage our family and friends to give this a try.  What started as a fun hobby for me that first year has blossomed into an opportunity for me, in the pockets of my time and around my husband and children (whom I continue to educate at home), to contribute significantly to our family’s financial picture. I thank God, every day that we said yes."
+          "Erin and her husband, Chris, live in Portage, Indiana, with their four beautiful children. Erin is an at-home mom that " +
+          "loves being there for her family full-time. As busy as her life is, she was looking for a weight loss and energy solution " +
+          "but was not interested in settling for poor ingredients. She was pleasantly surprised when her adoptive momma friend " +
+          "shared Isagenix with her, and it met her rigorous standards for quality. When Chris and Erin decided to go for it, they " +
+          "knew within a week they had made a great choice. They were so thrilled by their results and how amazing they felt, they " +
+          "couldn’t help but share and encourage their family and friends to give Isagenix a try. What started as a fun hobby for " +
+          "Erin that first year has blossomed into an opportunity for her, in the pockets of her time, and around her husband and " +
+          "children (whom she continues to educate at home), to contribute significantly to her family’s financial picture. Erin " +
+          "thanks God every day that she and her husband said 'yes'."
       },
       {
         name: "Aaron Ciarla",
         imageUrl: "../../assets/imgs/team/aaron-ciarla.jpg",
         title: "Professional Swim Coach",
         details:
-          "Aaron Ciarla currently lives in sunny Miami, Florida.  During the last 20 years as a Division I collegiate swimmer Aaron advances into a professional swim career.  Aaron was always in search for the BEST health and wellness products to aid in his training. Unfortunately, it wasn’t until he took a coaching position at the college level did he find Isagenix! After a long stint in the swimming world and a short career with a medical start-up company he was able to “retire” from the daily grind and focus solely on his Isagenix business.  He is forever grateful for Isagenix, not only for the amazing health it has afforded him, but also the financial freedom and the opportunity to form the types of relationships with all the awesome people involved along the way, from Jim and Kathy Coover, to my fellow associates that make it a goal to help people find this. I am with Isagenix for life!Aaron was introduced to Isagenix by his sister Jessica Johnston, not knowing how his life would change with this amazing company forever."
+          "Aaron Ciarla currently lives in sunny Miami, Florida. During the last 20 years as a Division I collegiate swimmer, Aaron " +
+          "advanced into a professional swim career. Aaron was always in search for the BEST health and wellness products to aid in " +
+          "his training. Unfortunately, it wasn’t until he took a coaching position at the college level did he find Isagenix! After " +
+          "a long stint in the swimming world and a short career with a medical start-up company, he was able to “retire” from the " +
+          "daily grind and focus solely on his Isagenix business. He is forever grateful for Isagenix, not only for the amazing health " +
+          "it has afforded him, but also the financial freedom and opportunity to form excellent relationships with all the awesome " +
+          "people involved along the way - people like from Jim and Kathy Coover, to his fellow associates that make it a goal to help " +
+          "people find Isagenix. \"I am with Isagenix for life!\" says Aaron. He was introduced to Isagenix by his sister Jessica " +
+          "Johnston, not knowing how his life would change with this amazing company forever."
       },
       {
         name: "Tavia Rogerson",
         imageUrl: "../../assets/imgs/team/tavia-rogerson.jpg",
         title: "Brand Director, Sporting Goods",
         details:
-          "Tavia and her husband Jay Rogerson live in Hamilton, Ontario with their 2 beautiful daughters.  She has found a career in the corporate world as a Brand Director.  This was a position she enjoyed but knew the stressful hours affected her and her health.  She had some unwanted weight she wanted to release and when her friend, a Holistic Nutritionist, called her and told her she needed to look at these products. Tavia began her Isagenix journey in 2014.    She went on to lose 25lbs and naturally people around her needed to know what she was doing.  By sharing her transformation with others and helping people begin on their own health journey, Tavia realized that there was a significant financial opportunity with Isagenix by doing something that fueled her with passion and drive.  Now her goal is to educate people on the importance of nutrition, finding their inner confidence and setting goals and crushing them."
+          "Tavia and her husband, Jay, live in Hamilton, Ontario, with their two beautiful daughters. Tavia had found a career in the " +
+          "corporate world as a Brand Director. This was a position she enjoyed but knew the stressful hours affected her and her " +
+          "health. She had some unwanted weight she wanted to release, and her friend, a Holistic Nutritionist, called her and told " +
+          "her she needed to look at these products. Tavia began her Isagenix journey in 2014. She went on to lose 25 pounds and, " +
+          "naturally, people around her needed to know what she was doing. By sharing her transformation with others and helping " +
+          "people begin their own health journeys, Tavia realized that there was a significant financial opportunity with Isagenix by " +
+          "doing something that fueled her with passion and drive. Now her goal is to educate people on the importance of nutrition, " +
+          "finding their inner confidence, setting goals, and crushing them."
       },
       {
         name: "Jackie Black",
         imageUrl: "../../assets/imgs/team/jackie-black.jpg",
         title: "Former Visual Arts Teacher, Head of Department",
         details:
-          "As a former head of a high school visual arts department, I have always been passionate about everything I do – from working with students to ensuring the best health for myself and my family. I believed that eating organic whole foods and maintaining daily exercise would give me the health results I wanted. Since being introduced to Isagenix in 2013 I have more energy, sleep better,and feel amazing. I would not go a day without putting these products into my body. “Passionate to help others live the life they truly deserve.”"
+          "As a former head of a high school visual arts department, Jackie has always been passionate about everything she does – " +
+          "from working with students to ensuring the best health for herself and my family. She believed that eating organic whole " +
+          "foods and maintaining daily exercise would give her the health results she wanted. Since being introduced to Isagenix in " +
+          "2013, she has more energy, sleeps better, and feels amazing. Now, Jackie will not go a day without putting these products " +
+          "into her body. She is “passionate to help others live the lives they truly deserve.”"
       },
       {
         name: "Jennifer Warnock",
         imageUrl: "../../assets/imgs/team/jennifer-warnock.jpg",
         title: "Former Gym Owner",
         details:
-          "Jen Warnock lives in beautiful Murrieta, California.  She was the owner of a personal training facility in Southern California.  Jennifer was frustrated daily by the limitations of gym ownership and the long hours away from her family.   Jennifer knew there was a better time freedom solution to allow her to be home with her family and still financially be ok.  She began building her Isagenix business in 2013. She quickly found that she could help far more people outside the gym than inside her four walls and saw Isagenix as the solution she had been looking for.  Isagenix allowed her to close her physical location in 2016 and take her business virtual, creating more time freedom and the ability to help a much larger group of people across the globe, not just across the street."
+          "Jen Warnock lives in beautiful Murrieta, California, and was the owner of a personal training facility in Southern " +
+          "California. Jennifer was frustrated daily by the limitations of gym ownership and the long hours away from her family. " +
+          "She knew there was a better time-freedom solution to allow her to be home with her family and still financially be okay. " +
+          "She began building her Isagenix business in 2013. Jen quickly found that she could help far more people outside the gym " +
+          "than inside her four walls and saw Isagenix as the solution she had been looking for. Isagenix allowed her to close her " +
+          "physical location in 2016 and take her business virtual, creating more time freedom and the ability to help a much larger " +
+          "group of people across the globe, not just across the street."
       },
       {
         name: "Kim Wojnowich",
         imageUrl: "../../assets/imgs/team/kim-wojnowich.jpg",
         title: "Wellness Director and Health Educator",
         details:
-          "Kim and her husband Marc Wojnowich live in Charlotte, NC along with their 2 beautiful daughters.  Kim has an extensive background in health, wellness and passion for helping others.  She is a Wellness Director and health educator with a Master’s Degree in Health Education, so healthy lifestyles was a priority for her family. Sadly, 4 years ago, their oldest daughter, who was 10 at the time, suddenly became very sick and was diagnosed with an Autoimmune Disease.  Kim began to do massive research and ask questions on how nutrition could help their daughter.  Specialists could give no answers and her research continued. Through a friend, who was having fantastic health results, their family discovered Isagenix. The Isagenix system had all the nutritional components she had been researching, and she knew they had to give it a shot.  Over 3 1/2 years later, their daughter remains in remission (not cured) from her auto immune disease and our family has never felt better!  And now sharing this gift of health and wealth has allowed her the opportunity to create a home-based business making more income than she ever made in previous health jobs. Not to mention, she has become the best version of herself that she honestly never knew existed, and I love helping others do the same!"
+          "Kim and her husband, Marc, live in Charlotte, NC, along with their two beautiful daughters. Kim has an extensive " +
+          "background in health and wellness and passion for helping others. She is a Wellness Director and health educator with a" +
+          "oldest daughter, who was 10 at the time, suddenly became very sick and was diagnosed with an autoimmune disease. Kim began " +
+          "to do massive research and asked questions on how nutrition could help their daughter. Specialists could give no answers " +
+          "and her research continued. Through a friend, who was having fantastic health results, she and he family discovered " +
+          "Isagenix. The Isagenix system had all the nutritional components she had been researching, and she knew they had to give " +
+          "it a shot. Over three-and-a-half years later, their daughter remains in remission (not cured) from her auto immune disease " +
+          "and their family has never felt better! Sharing this gift of health and wealth has allowed her the opportunity to create a " +
+          "home-based business making more income than she ever made in previous health jobs. Additionally, she has become the best " +
+          "version of herself that she honestly never knew existed, and she loves helping others do the same!"
       },
       {
         name: "Mandy Andre",
         imageUrl: "../../assets/imgs/team/mandy-andre.jpg",
         title: "Fitness Coach",
         details:
-          "Mandy and her husband Charlie live in Navarre, Florida along with their 2 children.  Mandy has always valued nutrition and the importance of exercise.  She has such a strong passion for helping others achieve their goals, which is where she could really impact people the most.  Mandy began coaching as a personal trainer and fitness instructor.  She loved what she was doing but quickly saw this was trading more time for the income she was making. Her hours quickly proved she was right, working crazy hours pulling her away from her family.  She was introduced to Isagenix by a dear friend, who saw what this opportunity was capable of offering people.  When Mandy quickly caught the vision of the bigger picture she jumped in with both feet knowing she could impact more people.   With Isagenix Mandy is now able to train who she wants and when she wants.  Isagenix has truly shown her how to do what she loves and still have the time freedom she was searching for."
+          "Mandy and her husband, Charlie, live in Navarre, Florida, along with their two children. Mandy has always valued nutrition " +
+          "and the importance of exercise. She has a strong passion for helping others achieve their goals, which is where she can " +
+          "really impact people the most. Mandy began coaching as a personal trainer and fitness instructor. She loved what she was " +
+          "doing but quickly saw that she was trading too much time for the income she was making. Her hours quickly proved she was " +
+          "right, working crazy hours, pulling her away from her family. She was introduced to Isagenix by a dear friend, who saw what " +
+          "this opportunity was capable of offering people. When Mandy quickly caught the vision of the bigger picture, she jumped in " +
+          "with both feet, knowing she could impact more people. With Isagenix, Mandy is now able to train whom she wants and when she " +
+          "wants. Isagenix has truly shown her how to do what she loves and still have the time freedom she was searching for."
       },
       {
         name: "Carene and Danny Pisano",
         imageUrl: "../../assets/imgs/team/carene-and-danny-pisano.jpg",
         title: "Stay-at-home Mom; Entertainer / Singer",
         details:
-          "Carene and her husband Danny Pisano live in Smithtown, New York with their 3 beautiful children.  Carene, was a Stay at Home Mom and worked a few times a month at Michaels Craft store teaching crochet classes.  She was also, tired all the time, and not happy with what I saw when I looked in the mirror.Danny was working his 9 to 5 job, and the lead singer in his band Nitework. We were struggling to make ends meet, both Danny and I both knew we needed a change.   A very dear friend of ours introduced us to Isagenix. She was studying Holistic Nutrition, and had been helping me make some healthy changes for Danny and my family.We went from barely getting out of the bed in the mornings and falling asleep on the couch at night, to getting up early on the weekends, and being more active with the kids. We also have “couples therapy”. 5-6 times a week, at the gym! I have never gone to a gym, or lifted a weight until Isagenix.  Danny is still singing with his band, but now he has the energy to dance and sing, I no longer have to teach crochet classes.  Being healthy and having more energy has brought us so much closer as a couple, and we are no longer struggling the way we did before."
+          "Carene and her husband, Danny, live in Smithtown, New York, with their three beautiful children. Carene was a stay-at-home " +
+          "mom and worked a few times a month at Michael's Craft store teaching crochet classes. She was also tired all the time " +
+          "and not happy with what she saw when she looked in the mirror. Danny was working his nine-to-five job, and was also the " +
+          "lead singer in his band, Nitework. Carene and Danny were struggling to make ends meet, and they both knew they needed a " +
+          "change. A very dear friend introduced them to Isagenix. The friend was studying Holistic Nutrition, and had been helping " +
+          "Carene make some healthy changes for Danny and their family. They went from barely getting out of the bed in the mornings " +
+          "and falling asleep on the couch at night, to getting up early on the weekends and being more active with the kids. They " +
+          "also have “couples therapy” five or six times a week at the gym! Carene had never gone to a gym or lifted a weight until " +
+          "she discovered Isagenix. Danny is still singing with his band, but now he has the energy to dance and sing, and Carene " +
+          "no longer has to teach crochet classes. Being healthy and having more energy has brought the Pisano's much closer as a " +
+          "couple, and they're no longer struggling the way they did in the past."
       },
       {
         name: "Helen Costa Giles",
@@ -483,7 +779,18 @@ export class GetOurTeamPage {
         title:
           "Supervisor for Yazaki North America, 2016 IsaBody Finalish, 2017 IsaBody Champion",
         details:
-          "Helen and her husband Gary live in beautiful historic San Antonio, Texas along with their children.  Helen is a mother, coach and career woman and with her constant stress levels and busy schedule it was affecting her physically and mentally.  She began to lose her spark and was losing balance between family and work, something we all face at some time along the way.  Without her past energy, she started to neglect her own health and began gaining unwanted weight.  Sadly, she accepted this as the way it had to be.  After a visit to her doctor for her annual checkup, Helen realized how badly her health was being affected and knew she needed to make a change.  Helen had tried every pill, fad, and diet out there but couldn’t find the results she was looking until she noticed the changes in her best friend after using Isagenix products, Helen knew she had to get on board.Helen started with Isagenix and the IsaBody Challenge® and immediately began to feel a difference. She felt her energy return, and she started to lose the extra weight. Helen kept her momentum going with her husband who also released an outstanding 60 pounds with Isagenix.Helen hopes to retire her husband and then herself to pursue her Isagenix business and other passions full time. She wants to help others while having the flexibility to spend quality time with her family both at home and while traveling."
+          "Helen and her husband, Gary, live in beautiful historic San Antonio, Texas, along with their children. Helen is a mother, " +
+          "coach, and career woman, and her constant stress levels and busy schedule were affecting her physically and mentally. " +
+          "She began to lose her spark and was losing balance between family and work, something all of us face at some time along " +
+          "the way. Without her past energy, Helen started to neglect her own health and began gaining unwanted weight. Sadly, she " +
+          "accepted this as the way it had to be. After a visit to her doctor for her annual checkup, Helen realized how badly her " +
+          "health had deteriorated and knew she needed to make a change. Helen had tried every pill, fad, and diet out there, but " +
+          "couldn’t find the results she was looking for until she noticed the changes in her best friend, who'd been using Isagenix " +
+          "products. Helen knew she had to get on board. She started with Isagenix and the IsaBody Challenge® and immediately began " +
+          "to feel a difference. She felt her energy return, and she started to lose the extra weight. Helen kept her momentum going " +
+          "with her husband, who also released an outstanding 60 pounds with Isagenix. Helen hopes to retire her husband and then " +
+          "herself so that she can pursue her Isagenix business and other passions full time. She wants to help others while having " +
+          "the flexibility to spend quality time with her family, both at home and while traveling."
       }
     ];
   }
