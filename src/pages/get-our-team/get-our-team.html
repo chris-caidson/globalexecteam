@@ -10,18 +10,110 @@
   </ion-navbar>
 </ion-header>
 <ion-content>
-    <header role="banner">
-        <img sizes="(max-width: 1400px) 100vw" src="../../assets/imgs/jeanette/jeanette-1400.jpg" alt=""
-        srcset="
+  <header role="banner">
+    <img sizes="(max-width: 1400px) 100vw" src="../../assets/imgs/jeanette/jeanette-1400.jpg" alt="" srcset="
         ../../assets/imgs/jeanette/jeanette-400.jpg 400w,
         ../../assets/imgs/jeanette/jeanette-821.jpg 821w,
         ../../assets/imgs/jeanette/jeanette-1132.jpg 1132w,
         ../../assets/imgs/jeanette/jeanette-1400.jpg 1400w" />
-    </header>
-    <main>
-      <article>
-
-      </article>
-    </main>
+  </header>
+  <main>
+    <article>
+      <h1 class="uppercase centered">Our Team</h1>
+      <h5>
+        GLOBAL EXEC TEAM is a powerful movement driven by a vision to unite like-minded individuals to own their lives both physically
+        and financially. Our GET Leaders give their time and knowledge to help others achieve success by locking arms with
+        each other to create personal freedom and a lasting legacy. These GAME-CHANGERS live to help others through collaboration
+        and unity and are uniquely qualified to be LEADERS of this incredible team and movement.
+      </h5>
+      <div id="millionaires" *ngIf="millionairesVisible">
+        <h2 class="centered">Millionaires</h2>
+        <h5 class="centered note">(Tap a picture or name to see details.)</h5>
+        <div class="grid-container">
+          <section *ngFor="let s of millionaires" class="person-content">
+            <div class="image-container">
+              <img [src]="s.imageUrl" alt="s.name" (click)="openPersonModal(s)" />
+            </div>
+            <div>
+              <h3 (click)="openPersonModal(s)">{{s.name}}</h3>
+              <h5>{{s.title}}</h5>
+              <a href="#">Check out the IsaFyi Story</a>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div id="leaders" *ngIf="leadersVisible">
+        <h2 class="centered">Leaders</h2>
+        <h5 class="centered note">(Tap a picture or name to see details.)</h5>
+        <div class="grid-container">
+          <section *ngFor="let s of leaders" class="person-content">
+            <div class="image-container">
+              <img [src]="s.imageUrl" alt="s.name" (click)="openPersonModal(s)" />
+            </div>
+            <div>
+              <h3 (click)="openPersonModal(s)">{{s.name}}</h3>
+              <h5>{{s.title}}</h5>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div id="start1000" *ngIf="start1000Visible">
+        <h2 class="centered">Start 1000</h2>
+        <h5 class="centered note">(Tap a picture or name to see details.)</h5>
+        <div class="grid-container">
+          <section *ngFor="let s of start1000" class="person-content">
+            <div class="image-container">
+              <img [src]="s.imageUrl" alt="s.name" (click)="openPersonModal(s)" />
+            </div>
+            <div>
+              <h3 (click)="openPersonModal(s)">{{s.name}}</h3>
+              <h5>{{s.title}}</h5>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div id="teamIsagenix" *ngIf="teamIsagenixVisible">
+        <h2 class="centered">Team Isagenix</h2>
+        <h5 class="centered note">(Tap a picture or name to see details.)</h5>
+        <div class="grid-container">
+          <section *ngFor="let s of teamIsagenix" class="person-content">
+            <div class="image-container">
+              <img [src]="s.imageUrl" alt="s.name" (click)="openPersonModal(s)" />
+            </div>
+            <div>
+              <h3 (click)="openPersonModal(s)">{{s.name}}</h3>
+              <h5>{{s.title}}</h5>
+            </div>
+          </section>
+        </div>
+      </div>
+    </article>
+  </main>
   <get-footer></get-footer>
 </ion-content>
+<ion-footer>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <button ion-button full small color="secondary" (click)="showMillionaires()">
+          <span>Millionaires</span>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button full small color="secondary" (click)="showLeaders()">
+          <span>Leaders</span>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button full small color="secondary" (click)="showStart1000()">
+          <span>Start 1000</span>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button full small color="secondary" (click)="showTeamIsagenix()">
+          <span>Team Isagenix</span>
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-footer>

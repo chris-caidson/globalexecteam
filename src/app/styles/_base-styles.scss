@@ -66,6 +66,12 @@ p {
   display: grid;
 }
 
+.note {
+  font-style: italic;
+  margin-top: -$xsmall-margin;
+  color: darken($tertiary-color, 15%);
+}
+
 .title {
   font-style: italic;
 }

@@ -50,8 +50,12 @@ page-corporate-leadership {
   }
 
   #peopleGrid {
-    border-top: 1px solid #999;
     padding-top: $default-margin;
+  }
+
+  .note {
+    border-top: 1px solid $tertiary-color;
+    padding-top: $small-margin;
   }
 
   @media (min-width: 640px) {

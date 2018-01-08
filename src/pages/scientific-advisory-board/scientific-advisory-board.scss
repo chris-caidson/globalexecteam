@@ -30,6 +30,11 @@ page-scientific-advisory-board {
     font-size: smaller;
   }
 
+  .note {
+    border-top: 1px solid $tertiary-color;
+    padding-top: $small-margin;
+  }
+
   figure {
     margin-bottom: $xlarge-margin;
 
@@ -50,7 +55,6 @@ page-scientific-advisory-board {
   }
 
   #peopleGrid {
-    border-top: 1px solid #999;
     padding-top: $default-margin;
   }
 

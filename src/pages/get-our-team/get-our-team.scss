@@ -1,3 +1,100 @@
 page-get-our-team {
+  button span {
+    color: $light-color;
 
+    i {
+      color: $light-color !important;
+    }
+  }
+
+  h2 {
+    padding-top: $small-margin;
+  }
+  .note {
+    font-size: smaller;
+    padding-bottom: $small-margin;
+  }
+
+  ion-footer ion-grid {
+    background-color: #efefef;
+    border-top: 1px solid #bbb;
+  }
+
+  .person-content h3 {
+    margin-right: $default-margin;
+    margin-bottom: -$small-margin;
+  }
+
+  .person-content h5 {
+    margin-right: $default-margin;
+    margin-bottom: $default-margin;
+    font-size: smaller;
+  }
+
+  .person-content a {
+    font-size: smaller;
+    color: $secondary-color;
+    display: inline-block;
+    margin-bottom: $default-margin;
+  }
+
+  .person-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+    margin-bottom: $default-margin;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #999;
+    background: rgb(254, 254, 254); /* Old browsers */
+    background: -moz-linear-gradient(
+      top,
+      rgba(254, 254, 254, 1) 0%,
+      rgba(239, 239, 239, 1) 100%
+    ); /* FF3.6-15 */
+    background: -webkit-linear-gradient(
+      top,
+      rgba(254, 254, 254, 1) 0%,
+      rgba(239, 239, 239, 1) 100%
+    ); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      rgba(254, 254, 254, 1) 0%,
+      rgba(239, 239, 239, 1) 100%
+    ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(
+        startColorstr="#fefefe",
+        endColorstr="#efefef",
+        GradientType=0
+      ); /* IE6-9 */
+
+    .image-container {
+      margin-top: $default-margin;
+      margin-left: $default-margin;
+      margin-bottom: $default-margin;
+      width: 135px;
+    }
+
+    img {
+      max-width: 115px;
+      max-height: 115px;
+      border-radius: 10px;
+      box-shadow: 0 0 5px #000;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .grid-container {
+      grid-template-columns: auto auto;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .person-content {
+      margin-left: $small-margin;
+      margin-right: $small-margin;
+      padding-right: $small-margin;
+    }
+  }
 }

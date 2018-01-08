@@ -5,8 +5,13 @@ page-person-modal {
     margin-bottom: $large-margin;
   }
 
+  h1 {
+    text-align: left;
+  }
+
   h3 {
     color: $secondary-color;
+    text-align: left;
   }
 
   div {
@@ -16,6 +21,15 @@ page-person-modal {
   @media (min-width: 640px) {
     .grid-container {
       grid-template-columns: auto auto;
+      justify-content: flex-start;
+
+      section {
+        padding-left: $default-margin;
+      }
+
+      aside {
+        max-width: 400px;
+      }
     }
 
     img {
