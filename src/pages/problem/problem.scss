@@ -1,13 +1,18 @@
 page-problem {
   article {
     margin-top: -$large-margin !important;
+    max-width: $max-grid-width;
   }
 
   .grid-container {
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
-    max-width: $max-grid-width;
+    max-width: 1200px;
     margin: auto;
+  }
+
+  ion-grid {
+    max-width: 500px;
   }
 
   @media (min-width: 768px) {
