@@ -7,9 +7,16 @@
   line-height: 1.35;
 }
 
-article {
-  max-width: 90vw;
-  margin: auto;
+main {
+  max-width: $max-grid-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1300px) {
+  main {
+    max-width: 1200px;
+  }
 }
 
 footer {
@@ -72,13 +79,25 @@ p {
   color: darken($tertiary-color, 15%);
 }
 
+.pdf {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 45px;
+  text-decoration: none;
+  color: $secondary-color;
+  background-image: url("../../assets/imgs/misc/pdf.png");
+  background-repeat: no-repeat;
+  background-position-x: 0px;
+  background-position-y: 0px;
+  height: 30px;
+}
+
 .title {
   font-style: italic;
 }
 
 .uppercase {
   font-variant: small-caps;
-  // text-transform: uppercase;
 }
 
 .video-caption {

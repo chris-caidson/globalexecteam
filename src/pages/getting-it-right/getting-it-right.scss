@@ -1,10 +1,4 @@
 page-getting-it-right {
-  article {
-    max-width: $max-grid-width;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   ul {
     list-style: none;
   }
@@ -13,12 +7,6 @@ page-getting-it-right {
     padding-bottom: $default-margin;
     margin-bottom: $default-margin;
     border-bottom: 1px solid #999;
-  }
-
-  h1,
-  h2,
-  h3 {
-    text-align: center;
   }
 
   h3,
@@ -37,21 +25,6 @@ page-getting-it-right {
     box-shadow: 0px 0px 10px #333;
     margin-top: $small-margin;
     width: 100%;
-  }
-
-  .htmlpdf {
-    display: inline-block;
-    margin-top: 10px;
-    max-width: 30px;
-  }
-
-  .html-link {
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 15px;
-    text-decoration: none;
-    color: $secondary-color;
-    margin-left: $small-margin;
   }
 
   #fiveBillion {
@@ -84,10 +57,6 @@ page-getting-it-right {
     #listSection ul {
       display: inline-block;
       margin: auto;
-    }
-
-    .html {
-      max-width: 45px;
     }
   }
 }

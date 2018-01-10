@@ -16,10 +16,10 @@
       ../../assets/imgs/sue-lee/sue-lee-1237.jpg 1237w,
       ../../assets/imgs/sue-lee/sue-lee-1400.jpg 1400w" />
   </header>
-  <main>
+  <main role="main">
     <article>
-      <h1 class="uppercase">Getting it Right</h1>
-      <h3>The Coming of Age of an Industry ~ By Susan Miller</h3>
+      <h1 class="uppercase centered">Getting it Right</h1>
+      <h3 class="centered">The Coming of Age of an Industry ~ By Susan Miller</h3>
       <ion-grid>
         <ion-row>
           <ion-col col-12 col-lg>
@@ -44,13 +44,10 @@
                   />
                 </li>
                 <li>
-                  <img class="html" src="../../assets/imgs/misc/pdf.png" alt="" />
-                  <div id="canLoad" *ngIf="canLoadPdf">Can load PDF!</div>
-                  <span class="html-link" (click)="openPdf('../../assets/pdf/five-billion.pdf')">$5 Billion - By the Numbers</span>
+                  <span class="pdf" (click)="openPdf('../../assets/pdf/five-billion.pdf')">$5 Billion - By the Numbers</span>
                 </li>
                 <li>
-                  <img class="html" src="../../assets/imgs/misc/pdf.png" alt="" />
-                  <span class="html-link" (click)="openPdf('../../assets/pdf/exec-summary-2018.pdf')">Executive Summary</span>
+                  <span class="pdf" (click)="openPdf('../../assets/pdf/exec-summary-2018.pdf')">Executive Summary</span>
                 </li>
               </ul>
             </section>

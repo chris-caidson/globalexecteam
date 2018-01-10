@@ -1,14 +1,7 @@
 page-solution {
-  article {
-    margin-top: -$large-margin !important;
-    max-width: $max-grid-width;
-  }
-
   .grid-container {
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
-    max-width: 1200px;
-    margin: auto;
   }
 
   @media (min-width: 768px) {

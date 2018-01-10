@@ -1,8 +1,4 @@
 page-product-b {
-  article {
-    max-width: $max-grid-width;
-  }
-
   h3 {
     font-variant: small-caps;
     border-bottom: 1px solid $tertiary-color;
@@ -26,12 +22,10 @@ page-product-b {
   @media (min-width: 640px) {
     #topContainer {
       grid-template-columns: auto auto;
-      max-width: 1600px;
       margin: auto;
     }
 
     #bottomContainer {
-      max-width: 1600px;
       margin: auto;
     }
   }

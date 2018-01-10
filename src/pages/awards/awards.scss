@@ -42,10 +42,4 @@ page-awards {
       grid-template-columns: auto auto;
     }
   }
-
-  @media (min-width: 1600px) {
-    .grid-container {
-      grid-template-columns: auto auto auto;
-    }
-  }
 }

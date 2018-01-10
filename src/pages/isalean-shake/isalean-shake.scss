@@ -1,8 +1,4 @@
 page-isalean-shake {
-  article {
-    max-width: $max-grid-width;
-  }
-
   #topContainer section {
     margin-left: auto;
     margin-right: auto;
@@ -21,7 +17,6 @@ page-isalean-shake {
   @media (min-width: 640px) {
     #topContainer {
       grid-template-columns: auto auto;
-      max-width: 1600px;
       margin: auto;
 
       img {
@@ -31,7 +26,6 @@ page-isalean-shake {
     }
 
     #bottomContainer {
-      max-width: 1600px;
       margin: auto;
     }
   }

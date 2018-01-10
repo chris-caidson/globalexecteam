@@ -11,7 +11,6 @@ import {
   templateUrl: "getting-it-right.html"
 })
 export class GettingItRightPage {
-  canLoadPdf: boolean;
 
   constructor(
     public navCtrl: NavController,
@@ -24,10 +23,6 @@ export class GettingItRightPage {
   };
 
   openPdf(pdfFile: string) {
-    if (this.docViewer.canViewDocument(pdfFile, "application/pdf", this.docOptions)) {
-      this.canLoadPdf = true;
-    }
-
     this.docViewer.viewDocument(pdfFile, "application/pdf", this.docOptions);
   }
 }

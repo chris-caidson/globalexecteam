@@ -1,8 +1,6 @@
 page-person-modal {
   article {
-    max-width: $max-grid-width;
-    margin-top: $large-margin;
-    margin-bottom: $large-margin;
+    margin-top: $default-margin;
   }
 
   h1 {
@@ -19,6 +17,10 @@ page-person-modal {
   }
 
   @media (min-width: 640px) {
+    article {
+      margin-top: $large-margin;
+    }
+
     .grid-container {
       grid-template-columns: auto auto;
       justify-content: flex-start;

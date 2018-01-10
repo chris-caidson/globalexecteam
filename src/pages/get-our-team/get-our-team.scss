@@ -10,6 +10,7 @@ page-get-our-team {
   h2 {
     padding-top: $small-margin;
   }
+
   .note {
     font-size: smaller;
     padding-bottom: $small-margin;
@@ -86,7 +87,6 @@ page-get-our-team {
   @media (min-width: 768px) {
     .grid-container {
       grid-template-columns: auto auto;
-      max-width: 1200px;
       margin-left: auto;
       margin-right: auto;
     }

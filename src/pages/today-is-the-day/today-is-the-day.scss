@@ -1,15 +1,7 @@
 page-today-is-the-day {
-  article {
-    max-width: $max-grid-width;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .grid-container {
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
-    max-width: $max-grid-width;
-    margin: auto;
   }
 
   #jessQuoteSection {

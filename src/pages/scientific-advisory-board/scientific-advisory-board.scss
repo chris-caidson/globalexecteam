@@ -1,10 +1,4 @@
 page-scientific-advisory-board {
-  article {
-    max-width: $max-grid-width;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   #headerImage {
     margin: auto;
 
@@ -88,24 +82,6 @@ page-scientific-advisory-board {
   @media (min-width: 1024px) {
     .grid-container {
       grid-template-columns: auto auto auto auto;
-    }
-  }
-
-  @media (min-width: 1400px) {
-    .grid-container {
-      grid-template-columns: auto auto auto auto auto;
-    }
-  }
-
-  @media (min-width: 1900px) {
-    .grid-container {
-      grid-template-columns: auto auto auto auto auto auto;
-    }
-  }
-
-  @media (min-width: 2400px) {
-    .grid-container {
-      grid-template-columns: auto auto auto auto auto auto auto;
     }
   }
 }
