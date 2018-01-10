@@ -45,6 +45,7 @@
                 </li>
                 <li>
                   <img class="html" src="../../assets/imgs/misc/pdf.png" alt="" />
+                  <div id="canLoad" *ngIf="canLoadPdf">Can load PDF!</div>
                   <span class="html-link" (click)="openPdf('../../assets/pdf/five-billion.pdf')">$5 Billion - By the Numbers</span>
                 </li>
                 <li>
