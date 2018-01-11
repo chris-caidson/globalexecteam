@@ -11,7 +11,8 @@
 </ion-header>
 <ion-content>
   <header role="banner">
-      <img sizes="(max-width: 1400px) 100vw" src="../../../assets/imgs/susan-quote/susan-quote-1400.jpg" alt="Leaving Legacies" srcset="../../../assets/imgs/susan-quote/susan-quote-400.jpg 400w,
+    <img sizes="(max-width: 1400px) 100vw" src="../../../assets/imgs/susan-quote/susan-quote-1400.jpg" alt="Leaving Legacies"
+      srcset="../../../assets/imgs/susan-quote/susan-quote-400.jpg 400w,
       ../../../assets/imgs/susan-quote/susan-quote-849.jpg 849w,
       ../../../assets/imgs/susan-quote/susan-quote-1177.jpg 1177w,
       ../../../assets/imgs/susan-quote/susan-quote-1400.jpg 1400w" />
@@ -26,7 +27,8 @@
               />
             </div>
             <div class="imgContainer">
-              <img id="videoImg" class="video-thumb" src="../../../assets/imgs/misc/celebration.jpg" (click)="openVideoModal()" alt="Compensation Plan Video" />
+              <img id="videoImg" class="video-thumb" src="../../../assets/imgs/misc/celebration.jpg" (click)="openVideoModal()" alt="Compensation Plan Video"
+              />
             </div>
           </ion-col>
           <ion-col col-lg col-12>
@@ -39,20 +41,16 @@
                   </div>
                 </li>
                 <li>
-                  <img class="pdf" src="../../../assets/imgs/misc/pdf.png" alt="" />
-                  <a class="pdf-link" href="../../../assets/pdf/us-en-global-compensation-plan-1.pdf">Global Compensation Plan</a>
+                  <span class="pdf" (click)="pdfProvider.openPdf('Global Compensation Plan', '../../../assets/pdf/us-en-global-compensation-plan-1.pdf')">Global Compensation Plan</span>
                 </li>
                 <li>
-                  <img class="pdf" src="../../../assets/imgs/misc/pdf.png" alt="" />
-                  <a class="pdf-link" href="../../../assets/pdf/us-en-compesnation-plan-glossary.pdf">Global Compensation Glossary</a>
+                  <span class="pdf" (click)="pdfProvider.openPdf('Global Compensation Glossary', '../../../assets/pdf/us-en-compesnation-plan-glossary.pdf')">Global Compensation Glossary</span>
                 </li>
                 <li>
-                  <img class="pdf" src="../../../assets/imgs/misc/pdf.png" alt="" />
-                  <a class="pdf-link" href="../../../assets/pdf/your-path-to-success.pdf">YOUR Path to SUCCESS</a>
+                  <span class="pdf" (click)="pdfProvider.openPdf('YOUR Path to SUCCESS', '../../../assets/pdf/your-path-to-success.pdf')">YOUR Path to SUCCESS</span>
                 </li>
                 <li>
-                  <img class="pdf" src="../../../assets/imgs/misc/pdf.png" alt="" />
-                  <a class="pdf-link" href="../../../assets/pdf/shared-revenue-plan.pdf">Shared Revenue Plan</a>
+                  <span class="pdf" (click)="pdfProvider.openPdf('Shared Revenue Plan', '../../../assets/pdf/shared-revenue-plan.pdf')">Shared Revenue Plan</span>
                 </li>
               </ul>
             </section>

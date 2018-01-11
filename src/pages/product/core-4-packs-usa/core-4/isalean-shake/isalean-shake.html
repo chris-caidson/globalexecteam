@@ -37,11 +37,11 @@
         <section>
           <h3>Flavors</h3>
           <ul>
+            <li>Creamy Dutch Chocolate</li>
             <li>Creamy French Vanilla</li>
             <li>Strawberry Cream</li>
-            <li>Creamy Dutch Chocolate</li>
-            <li>Dairy-free Vanilla</li>
             <li>Dairy-free Chocolate</li>
+            <li>Dairy-free Vanilla</li>
             <li>Limited-Quantity Seasonal Flavors, including (but not limited to):
               <ul>
                 <li>Chocolate Mint</li>
@@ -58,43 +58,88 @@
         </section>
         <section>
           <h3>Videos</h3>
+          <ul class="list-unstyled">
+            <li (click)="openVideoModal('shake-day')">
+              <span class="video-li">How to do an Isagenix Shake Day</span>
+            </li>
+            <li (click)="openVideoModal('presentation')">
+              <span class="video-li">IsaLean Shake Presentation</span>
+            </li>
+          </ul>
         </section>
         <section>
           <h3>Product Info</h3>
+          <ul class="list-unstyled">
+            <li>
+              <span class="pdf" (click)="pdfProvider.openPdf('What Makes IsaLean Shake Superior?', '../../../../../assets/pdf/us-en-isalean-shake-it-works-flyer.pdf')">What Makes IsaLean Shake Superior?</span>
+            </li>
+            <li>
+              <span class="pdf" (click)="pdfProvider.openPdf('IsaLean Shake Product Information Sheet', '../../../../../assets/pdf/us-en-isalean-shake-pis.pdf')">IsaLean Shake Product Information Sheet</span>
+            </li>
+          </ul>
         </section>
         <section>
           <h3>Ingredients</h3>
+          <ul class="list-unstyled">
+            <li>
+              <span class="pdf" (click)="pdfProvider.openPdf('IsaLean Shake - Cookies and Cream', '../../../../../assets/pdf/cookies-and-cream.pdf')">IsaLean Shake - Cookies and Cream</span>
+            </li>
+            <li>
+              <span class="pdf" (click)="pdfProvider.openPdf('IsaLean Shake - Chocolate Mint', '../../../../../assets/pdf/chocolate-mint.pdf')">IsaLean Shake - Chocolate Mint</span>
+            </li>
+            <li>
+              <span class="pdf" (click)="pdfProvider.openPdf('IsaLean Shake - Creamy Dutch Chocolate', '../../../../../assets/pdf/us-en-fact-panel-isalean-shake-can-creamy-dutch-chocolate.pdf')">IsaLean Shake - Creamy Dutch Chocolate</span>
+            </li>
+            <li>
+              <span class="pdf" (click)="pdfProvider.openPdf('IsaLean Shake - French Vanilla', '../../../../../assets/pdf/us-en-fact-panel-isalean-shake-can-creamy-french-vanilla.pdf')">IsaLean Shake - French Vanilla</span>
+            </li>
+            <li>
+              <span class="pdf" (click)="pdfProvider.openPdf('IsaLean Shake - Peach Mango', '../../../../../assets/pdf/peach-mango-ingredients.pdf')">IsaLean Shake - Peach Mango</span>
+            </li>
+            <li>
+              <span class="pdf" (click)="pdfProvider.openPdf('IsaLean Shake - Pina Colada', '../../../../../assets/pdf/us-en-fact-panel-isalean-shake-pina-colada.pdf')">IsaLean Shake - Pina Colada</span>
+            </li>
+            <li>
+              <span class="pdf" (click)="pdfProvider.openPdf('IsaLean Shake - Pumpkin Spice', '../../../../../assets/pdf/pumpkin-spice.pdf')">IsaLean Shake - Pumpkin Spice</span>
+            </li>
+            <li>
+              <span class="pdf" (click)="pdfProvider.openPdf('IsaLean Shake - Strawberry Cream', '../../../../../assets/pdf/us-en-fact-panel-isalean-shake-strawberry.pdf')">IsaLean Shake - Strawberry Cream</span>
+            </li>
+          </ul>
         </section>
         <section>
           <h3>Testimonials</h3>
           <p>
-            “Love the IsaLean® Shakes; they’re a delicious, whole meal replacement. Perfect protein/carb balance with the clean, undenatured
-            protein with all enzymes/amino acids. I don’t go a day without it. My daughter has it every day. I feel healthier
-            and less cravings than ever on my shakes.” – Mitja K., Washington
+            <span class="testimonial">“Love the IsaLean® Shakes; they’re a delicious, whole meal replacement. Perfect protein/carb balance with the
+              clean, undenatured protein with all enzymes/amino acids. I don’t go a day without it. My daughter has it every
+              day. I feel healthier and less cravings than ever on my shakes.”</span> – Mitja K., Washington
           </p>
           <p>
-            “My children know this is how we start our day every day so they get up and make their own shakes. It helps us to establish
-            our morning routine and stay focused.” – Rebecca F., Texas
+            <span class="testimonial">“My children know this is how we start our day every day so they get up and make their own shakes. It helps us
+              to establish our morning routine and stay focused.”</span> – Rebecca F., Texas
           </p>
           <p>
-            “IsaLean® Shakes give me energy and my body feels balanced. I love it for dinner. My body feels that it is really nourished.”
+            <span class="testimonial">“IsaLean® Shakes give me energy and my body feels balanced. I love it for dinner. My body feels that it is really
+              nourished.”
+            </span>
             – Monica B., Washington
           </p>
           <p>
-            “IsaLean® Shakes have helped me gain control of my weight. I now maintain a consistent weight, have gained lean muscle and
-            feel healthier than ever before.” – Janie L., California
+            <span class="testimonial"> “IsaLean® Shakes have helped me gain control of my weight. I now maintain a consistent weight, have gained lean
+              muscle and feel healthier than ever before.”</span> – Janie L., California
           </p>
           <p>
-            “I love IsaLean® Shakes. They are delicious, filling, and totally satisfying. Simple to prepare and feel so easy in the tummy.
-            No gas, bloating, or other heaviness. They make it very easy to stick to the 30-Day System.” – Patricia A., California
+            <span class="testimonial">“I love IsaLean® Shakes. They are delicious, filling, and totally satisfying. Simple to prepare and feel so easy
+              in the tummy. No gas, bloating, or other heaviness. They make it very easy to stick to the 30-Day System.”</span>
+            – Patricia A., California
           </p>
           <p>
-            “My body can’t wait for its morning shake. When I drink it, I can just feel my body responding to its nutritional value.
-            It wakes me up and makes me feel alive!” – Richard O., Texas
+            <span class="testimonial">“My body can’t wait for its morning shake. When I drink it, I can just feel my body responding to its nutritional
+              value. It wakes me up and makes me feel alive!”</span> – Richard O., Texas
           </p>
           <p>
-            “I went from being tired, overwhelmed, and irritable to unbelievable energy, mental clarity, and a sense of peace. My 5½-year-old
-            said I am much nicer when I drink my shakes.” – Becky B., Texas
+            <span class="testimonial">“I went from being tired, overwhelmed, and irritable to unbelievable energy, mental clarity, and a sense of peace.
+              My 5½-year-old said I am much nicer when I drink my shakes.”</span> – Becky B., Texas
           </p>
         </section>
         <section>
@@ -132,7 +177,7 @@
             IsaPro, Isagenix FiberPro™ or a half of an Oatmeal Berry SlimCake. You can add fresh fruit to your shake. See
             your Independent Associate for recipes.
           </p>
-          <p>
+          <p class="disclaimer">
             * These statements have not been evaluated by the Food and Drug Administration. These products are not intended to diagnose,
             treat, cure or prevent any disease.
           </p>

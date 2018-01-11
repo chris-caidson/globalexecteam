@@ -65,12 +65,22 @@ p {
   text-align: center;
 }
 
+.disclaimer {
+  font-size: smaller;
+  font-style: italic;
+}
+
 .flex-container {
   display: flex;
 }
 
 .grid-container {
   display: grid;
+}
+
+.list-unstyled {
+  list-style: none;
+  margin-left: -$default-margin;
 }
 
 .note {
@@ -88,8 +98,21 @@ p {
   background-image: url("../../assets/imgs/misc/pdf.png");
   background-repeat: no-repeat;
   background-position-x: 0px;
-  background-position-y: 0px;
-  height: 30px;
+  background-position-y: 5px;
+  height: 40px;
+  margin-bottom: $default-margin;
+}
+
+@media (min-width: 640px) {
+  .pdf {
+    height: 30px;
+    background-position-y: 0px;
+    margin-bottom: $small-margin;
+  }
+}
+
+.testimonial {
+  font-style: italic;
 }
 
 .title {
@@ -98,6 +121,28 @@ p {
 
 .uppercase {
   font-variant: small-caps;
+}
+
+.video-li {
+  display: inline-block;
+  vertical-align: top;
+  background-image: url("../../assets/imgs/misc/play-button.png");
+  background-repeat: no-repeat;
+  background-position-x: 0px;
+  background-position-y: 10px;
+  background-size: 35px 25px;
+  padding-left: 45px;
+  height: 50px;
+  color: $secondary-color;
+  margin-bottom: $default-margin;
+}
+
+@media (min-width: 640px) {
+  .video-li {
+    height: 50px;
+    background-position-y: 0px;
+    margin-bottom: 0px;
+  }
 }
 
 .video-caption {

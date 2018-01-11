@@ -163,12 +163,12 @@ export class MyApp {
         separatorLevel: 4,
         icon: "gavel"
       },
-      {
-        title: "Our Stories",
-        component: "GetOurStoriesPage",
-        separatorLevel: 4,
-        icon: "commenting"
-      },
+      // {
+      //   title: "Our Stories",
+      //   component: "GetOurStoriesPage",
+      //   separatorLevel: 4,
+      //   icon: "commenting"
+      // },
       {
         title: "Our Team",
         component: "GetOurTeamPage",

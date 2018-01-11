@@ -14,6 +14,10 @@ page-isalean-shake {
     font-style: italic;
   }
 
+  p {
+    margin-bottom: $large-margin;
+  }
+
   @media (min-width: 640px) {
     #topContainer {
       grid-template-columns: auto auto;

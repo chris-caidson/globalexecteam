@@ -16,19 +16,19 @@ export class IsaleanShakePage {
     var data: any;
 
     switch (video) {
-      case "":
+      case "shake-day":
         data = {
-          name: "",
+          name: "How to do an Isagenix Shake Day",
           url:
-            ""
+            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fhow-to-do-a-shake-day.mp4?alt=media&token=2015e97e-bb87-4a0c-85ea-9e664ca13a7f"
         };
         break;
 
-      case "":
+      case "presentation":
         data = {
-          name: "",
+          name: "IsaLean Shake Presentation",
           url:
-            ""
+            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fisalean-shake-presentation.mp4?alt=media&token=5a616879-197c-4ba6-99e1-4d33c6f94176"
         };
         break;
     }

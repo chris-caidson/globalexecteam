@@ -31,10 +31,10 @@
                   />
                 </li>
                 <li>
-                  <a class="pdf-link" href="../../../assets/pdf/paid-for.pdf">Get Your Product Paid For</a>
+                  <span class="pdf" (click)="pdfProvider.openPdf('Get Your Product Paid For', '../../../assets/pdf/paid-for.pdf')">Get Your Product Paid For</span>
                 </li>
                 <li>
-                  <a class="pdf-link" href="../../../assets/pdf/customer-first.pdf">Customer First</a>
+                  <span class="pdf" (click)="pdfProvider.openPdf('Customer First', '../../../assets/pdf/customer-first.pdf')">Customer First</span>
                 </li>
               </ul>
             </section>

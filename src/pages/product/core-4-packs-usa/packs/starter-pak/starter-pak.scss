@@ -9,6 +9,10 @@ page-starter-pak {
     font-style: italic;
   }
 
+  p {
+    margin-bottom: $large-margin;
+  }
+
   #topContainer section {
     margin-left: auto;
     margin-right: auto;

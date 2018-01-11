@@ -10,7 +10,6 @@
 </ion-header>
 <ion-content>
   <header role="banner">
-    <img src="src/assets/fitness-people/fitness-peope-400.jpg" alt="" />
     <img sizes="(max-width: 1600px) 100vw" src="../../../../../assets/imgs/fitness-people/fitness-people-1600.jpg" alt="" srcset="
           ../../../../../assets/imgs/fitness-people/fitness-people-400.jpg 400w,
           ../../../../../assets/imgs/fitness-people/fitness-people-979.jpg 979w,
@@ -46,39 +45,59 @@
       <div id="bottomContainer" class="grid-container">
         <section>
           <h3>Videos</h3>
+          <ul class="list-unstyled">
+            <li (click)="openVideoModal('telomeres')">
+              <span class="video-li">Telomeres and Aging</span>
+            </li>
+            <li (click)="openVideoModal('aging-you')">
+              <span class="video-li">What's Aging You</span>
+            </li>
+          </ul>
         </section>
         <section>
           <h3>Product Info</h3>
+          <ul class="list-unstyled">
+            <li>
+              <span class="pdf" (click)="pdfProvider.openPdf('Product B Information Sheet', '../../../../../assets/pdf/us-en-product-b-pis.pdf')">Product B Information Sheet</span>
+            </li>
+          </ul>
         </section>
         <section>
           <h3>Ingredients</h3>
+          <ul class="list-unstyled">
+            <li>
+              <span class="pdf" (click)="pdfProvider.openPdf('Product B IsaGenesis', '../../../../../assets/pdf/us-en-fact-panel-product-b.pdf')">Product B IsaGenesis</span>
+            </li>
+          </ul>
         </section>
         <section>
           <h3>Testimonials</h3>
           <p>
-            “I began taking Product B in September 2010. The changes are both visible and invisible, but the biggest change is that I’ve
-            lost all semblance of my age. If it weren’t for my driver’s license, I’d feel like I was 25. I have more energy,
-            and every day I feel more and more alive. I went skiing with Associate Kirk M. and didn’t feel sore afterward.”
+            <span class="testimonial">“I began taking Product B in September 2010. The changes are both visible and invisible, but the biggest change
+              is that I’ve lost all semblance of my age. If it weren’t for my driver’s license, I’d feel like I was 25. I
+              have more energy, and every day I feel more and more alive. I went skiing with Associate Kirk M. and didn’t
+              feel sore afterward.”</span>
             – Peter G
           </p>
           <p>
-            “After adding Product B to my regimen of using the Isagenix Pillars of Health [Cleanse for Life®, IsaLean® Shake, Ionix®
-            Supreme and Ageless Essentials™ Daily Pack] friends have commented on how good I look! I feel I have increased
-            energy and more stamina, too. I’m amazed at what I have noticed in such a short period of time. I love it!” –
-            Deborah K. Niagra Falls, New York
+            <span class="testimonial">“After adding Product B to my regimen of using the Isagenix Pillars of Health [Cleanse for Life®, IsaLean® Shake,
+              Ionix® Supreme and Ageless Essentials™ Daily Pack] friends have commented on how good I look! I feel I have
+              increased energy and more stamina, too. I’m amazed at what I have noticed in such a short period of time. I
+              love it!”</span> – Deborah K. Niagra Falls, New York
           </p>
           <p>
-            “I’ve been working with Isagenix Founder and Master Formulator John Anderson for nearly a year to help identify natural,
-            non-drug substances that can help provide incremental support to our telomeres. Product B and the Isagenix Pillars
-            of Health are the breakthrough support we’ve been looking for. ” – Dr. William Andrews, Reno, Nevada
+            <span class="testimonial">“I’ve been working with Isagenix Founder and Master Formulator John Anderson for nearly a year to help identify
+              natural, non-drug substances that can help provide incremental support to our telomeres. Product B and the
+              Isagenix Pillars of Health are the breakthrough support we’ve been looking for. ”</span> – Dr. William Andrews,
+            Reno, Nevada
           </p>
           <p>
-            “My energy went through the roof. I recently went on a trip to Europe, and I didn’t feel sluggish with the time change. Every
-            day keeps getting better and better.” – Susan Sly
+            <span class="testimonial">“My energy went through the roof. I recently went on a trip to Europe, and I didn’t feel sluggish with the time
+              change. Every day keeps getting better and better.”</span> – Susan Sly
           </p>
           <p>
-            “I’ve always been energetic, but with Product B I’m running faster and further. I’m so fired up about this product!” – Patty
-            C
+            <span class="testimonial">“I’ve always been energetic, but with Product B I’m running faster and further. I’m so fired up about this product!”</span>
+            – Patty C
           </p>
         </section>
         <section>

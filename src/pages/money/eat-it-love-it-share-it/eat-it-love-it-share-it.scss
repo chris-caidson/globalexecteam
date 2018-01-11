@@ -10,18 +10,7 @@ page-eat-it-love-it-share-it {
   }
 
   .pdf {
-    display: inline-block;
-    margin-top: 10px;
-    max-width: 30px;
-  }
-
-  .pdf-link {
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 15px;
-    text-decoration: none;
-    color: $secondary-color;
-    margin-left: 10px;
+    margin-top: 20px;
   }
 
   #listSection ul li {
@@ -32,11 +21,6 @@ page-eat-it-love-it-share-it {
   @media (min-width: 992px) {
     #listSection {
       margin-left: $default-margin;
-    }
-
-    .pdf {
-      display: inline-block;
-      max-width: 45px;
     }
   }
 }

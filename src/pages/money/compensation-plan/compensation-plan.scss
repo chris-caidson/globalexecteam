@@ -20,20 +20,6 @@ page-compensation-plan {
     margin: auto;
   }
 
-  .pdf {
-    display: inline-block;
-    max-width: 30px;
-    margin-top: $small-margin;
-  }
-
-  .pdf-link {
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 15px;
-    text-decoration: none;
-    color: $secondary-color;
-    margin-left: $small-margin;
-  }
 
   #listSection ul li {
     margin-left: -$large-margin;
@@ -47,12 +33,6 @@ page-compensation-plan {
   @media (min-width: 992px) {
     #listSection {
       margin-left: $default-margin;
-    }
-
-    .pdf {
-      display: inline-block;
-      margin-top: $xsmall-margin;
-      max-width: 45px;
     }
   }
 }
