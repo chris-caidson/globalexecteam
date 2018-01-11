@@ -1,4 +1,3 @@
-import { VideoModalPage } from "./../video-modal/video-modal";
 import { Component } from "@angular/core";
 import { NavController, ModalController, IonicPage } from "ionic-angular";
 
