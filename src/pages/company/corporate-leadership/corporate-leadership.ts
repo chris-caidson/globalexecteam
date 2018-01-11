@@ -20,7 +20,7 @@ export class CorporateLeadershipPage {
         data = {
           personName: "Jim Coover",
           personTitle: "Co-Founder and Chief Executive Officer",
-          imageSrc: "../../assets/imgs/company/jim-coover.jpg",
+          imageSrc: "../../../assets/imgs/company/jim-coover.jpg",
           details:
             "With more than 35 years of experience, Jim Coover is widely considered a pioneer in the weight-loss and nutrition " +
             "industry. He successfully led numerous network marketing companies throughout his career, serving more than 7 " +
@@ -35,7 +35,7 @@ export class CorporateLeadershipPage {
         data = {
           personName: "Kathy Coover",
           personTitle: "Co-Founder and Executive Vice President",
-          imageSrc: "../../assets/imgs/company/kathy-coover.jpg",
+          imageSrc: "../../../assets/imgs/company/kathy-coover.jpg",
           details:
             "In 1990, Kathy Coover left her career as a dental hygienist in search of a way to spend more time with her " +
             "family and contribute to others on a greater scale. Kathy went on to become a top earner in three separate " +
@@ -53,7 +53,7 @@ export class CorporateLeadershipPage {
         data = {
           personName: "Travis Ogden",
           personTitle: "President and Chief Operating Officer",
-          imageSrc: "../../assets/imgs/company/travis-ogden.jpg",
+          imageSrc: "../../../assets/imgs/company/travis-ogden.jpg",
           details: "Travis is a seasoned executive with more than 12 years in the network marketing industry. In his role " +
             "as President and Chief Operating Officer, Travis is committed to helping Isagenix continue to positively impact " +
             "world health and build upon the tremendous success the company has had. Prior to Isagenix, Travis served as " +
@@ -68,7 +68,7 @@ export class CorporateLeadershipPage {
         data = {
           personName: "Travis Garza",
           personTitle: "Chief Sales and Marketing Officer",
-          imageSrc: "../../assets/imgs/company/travis-garza.jpg",
+          imageSrc: "../../../assets/imgs/company/travis-garza.jpg",
           details: "Travis has over 15 years of sales leadership and extensive experience in the network-marketing arena. " +
             "Prior to joining Isagenix, Travis served as the National Vice President of Sales at a direct sales company " +
             "where he helped catapult that company to nearly a $1 billion in sales. He understands the importance of working " +
@@ -81,7 +81,7 @@ export class CorporateLeadershipPage {
         data = {
           personName: "Justin Powell",
           personTitle: "Chief Legal Officer and General Counsel",
-          imageSrc: "../../assets/imgs/company/justin-powell.jpg",
+          imageSrc: "../../../assets/imgs/company/justin-powell.jpg",
           details: "Justin advises Isagenix on a wide variety of legal and business matters and is striving to ensure that " +
             "Isagenix leads the industry with its responsible business practices. In addition to managing the legal " +
             "department, Justin is responsible for global compliance, human resources, and public relations. He also " +
@@ -100,7 +100,7 @@ export class CorporateLeadershipPage {
         data = {
           personName: "Jon Robinson",
           personTitle: "Chief Information Officer",
-          imageSrc: "../../assets/imgs/company/jon-robinson.jpg",
+          imageSrc: "../../../assets/imgs/company/jon-robinson.jpg",
           details: "Over the past 20 years, Jon has worked on diverse projects to help businesses realize the power of " +
             "technology. Throughout his career, he has applied his extensive knowledge and expertise to architecting " +
             "solutions for e-commerce, supply chain, and many other business functions. Since he joined Isagenix in 2008, " +
@@ -116,7 +116,7 @@ export class CorporateLeadershipPage {
         data = {
           personName: "Tim Jones",
           personTitle: "Chief Financial Officer",
-          imageSrc: "../../assets/imgs/company/tim-jones.jpg",
+          imageSrc: "../../../assets/imgs/company/tim-jones.jpg",
           details: "Tim is a seasoned accountant with more than 20 years in the field. In his role as Chief Financial " +
             "Officer, Tim develops and implements financial strategies that align with the company’s vision and business " +
             "objectives while overseeing the company’s day-to-day financials. Throughout his career, Tim has been " +
@@ -131,7 +131,7 @@ export class CorporateLeadershipPage {
         data = {
           personName: "Robert 'Bob' Kay, Ph.D.",
           personTitle: "Chief Science Officer",
-          imageSrc: "../../assets/imgs/company/robert-kay.jpg",
+          imageSrc: "../../../assets/imgs/company/robert-kay.jpg",
           details: "Bob has more than 25 years of experience leveraging business and science to create innovative, " +
             "market-leading products. As Chief Science Officer, Bob oversees the research and development, product design " +
             "and development, product commercialization, and quality assurance of all Isagenix products. Prior to joining " +
@@ -147,7 +147,7 @@ export class CorporateLeadershipPage {
         data = {
           personName: "Erik Coover",
           personTitle: "St. Vice President of Global Field Development",
-          imageSrc: "../../assets/imgs/company/erik-coover.jpg",
+          imageSrc: "../../../assets/imgs/company/erik-coover.jpg",
           details: "Erik Coover is the force behind the worldwide movement to unite the next generation of leaders as he " +
             "continues to build a legacy company. Steadfast in his passion to “bring out the best” in people, he is " +
             "dedicated to challenging the status quo by leading others to discover healthy lifestyle solutions and an " +
@@ -162,7 +162,7 @@ export class CorporateLeadershipPage {
         data = {
           personName: "Chantal Chaput",
           personTitle: "Senior Vice President of Operations",
-          imageSrc: "../../assets/imgs/company/chantal-chaput.jpg",
+          imageSrc: "../../../assets/imgs/company/chantal-chaput.jpg",
           details: "Chantal brings more than 25 years of global manufacturing experience to Isagenix. She has a deep acumen " +
             "and strong knowledge of profit and loss management, engineering, product commercialization, logistics, cost " +
             "containment, quality, and safety. As Senior Vice President of Operations, Chantal oversees several manufacturing " +
@@ -177,7 +177,7 @@ export class CorporateLeadershipPage {
         data = {
           personName: "Sharron Walsh",
           personTitle: "Vice President of International",
-          imageSrc: "../../assets/imgs/company/sharron-walsh.jpg",
+          imageSrc: "../../../assets/imgs/company/sharron-walsh.jpg",
           details: "Sharron has more than 18 years of experience in the direct selling industry. Prior to joining Isagenix, " +
             "she built one of the fastest-growing direct sales and marketing companies in Australia. Sharron excels at " +
             "building strong direct sales teams and driving overall business growth.<p>Before joining the team at our " +
@@ -190,7 +190,7 @@ export class CorporateLeadershipPage {
         data = {
           personName: "Dave Pickrell",
           personTitle: "Vice President of Program Management Office",
-          imageSrc: "../../assets/imgs/company/dave-pickrell.jpg",
+          imageSrc: "../../../assets/imgs/company/dave-pickrell.jpg",
           details: "Dave, an information technology specialist, has more than 20 years of executive level experience as a " +
             "P&L leader and people developer. He’s a seasoned IT professional who brings valuable project management, " +
             "financial, and operational skills to the Isagenix management team. Dave most recently was the president and " +
@@ -205,7 +205,7 @@ export class CorporateLeadershipPage {
         data = {
           personName: "Patty Raphael",
           personTitle: "Vice President of Opportunity Solutions",
-          imageSrc: "../../assets/imgs/company/patty-raphael.jpg",
+          imageSrc: "../../../assets/imgs/company/patty-raphael.jpg",
           details: "Patty is a marketing executive passionate about servant leadership, teamwork and creating great " +
             "customer experiences. She excels at identifying problems, defining a vision for change, and empowering others " +
             "to contribute and take actions that will make the vision happen. As a leader in brand and relationship " +
@@ -220,7 +220,7 @@ export class CorporateLeadershipPage {
         data = {
           personName: "Richard Stagg",
           personTitle: "Vice President of Legal",
-          imageSrc: "../../assets/imgs/company/richard-stagg.jpg",
+          imageSrc: "../../../assets/imgs/company/richard-stagg.jpg",
           details: "Richard has nearly 30 years of experience in private practice, advising companies and individuals on a " +
             "wide variety of legal issues. Richard is responsible for ensuring compliance with regulations issued by the " +
             "governing authorities in the countries where Isagenix operates and also advises, assists, and educates Isagenix " +
@@ -235,7 +235,7 @@ export class CorporateLeadershipPage {
         data = {
           personName: "Deborah Mathews",
           personTitle: "Vice President of Human Resources",
-          imageSrc: "../../assets/imgs/company/deborah-mathews.jpg",
+          imageSrc: "../../../assets/imgs/company/deborah-mathews.jpg",
           details: "With 22 years of experience leading human resource teams for global Fortune 500 companies including " +
             "Motorola and Intel, Deborah’s core emphasis is to align people, create strategy and maximize performance within " +
             "an organization. She is an expert in multi-faceted human resource disciplines including talent acquisition, " +
@@ -254,7 +254,7 @@ export class CorporateLeadershipPage {
         data = {
           personName: "Doug Jensen",
           personTitle: "Vice President of Sales Programs and Strategy",
-          imageSrc: "../../assets/imgs/company/doug-jensen.jpg",
+          imageSrc: "../../../assets/imgs/company/doug-jensen.jpg",
           details: "Doug has over 20 years of corporate leadership and sales experience with over 10 years in the network " +
             "marketing industry. He finds the ultimate satisfaction in helping individuals find both the will and skill in " +
             "developing strategies to improve their lives, both physically and financially. Doug has held leadership roles " +
@@ -269,7 +269,7 @@ export class CorporateLeadershipPage {
         data = {
           personName: "David Wood",
           personTitle: "Strategic Training Consultant",
-          imageSrc: "../../assets/imgs/company/david-wood.jpg",
+          imageSrc: "../../../assets/imgs/company/david-wood.jpg",
           details: "David Wood has developed a world-class personal development training program for Isagenix® and has " +
             "trained hundreds of top leaders. David has lived, traveled and worked in more than 40 countries and has grown " +
             "several multi-million and million-dollar companies. He was a lead trainer for Peak Potentials Training, the " +

@@ -94,7 +94,7 @@ export class GetOurTeamPage {
     this.millionaires = [
       {
         name: "Susan and Murray Miller",
-        imageUrl: "../../assets/imgs/team/susan-and-murray-miller.jpg",
+        imageUrl: "../../../assets/imgs/team/susan-and-murray-miller.jpg",
         title: "Isagenix Millionaire #144",
         isaFyiUrl: "",
         details:
@@ -118,7 +118,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Jessica and Joe Johnston",
-        imageUrl: "../../assets/imgs/team/jessica-and-joe-johnston.jpg",
+        imageUrl: "../../../assets/imgs/team/jessica-and-joe-johnston.jpg",
         title: "Isagenix Millionaire #157",
         isaFyiUrl: "",
         details:
@@ -135,7 +135,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Carolyn and Kiel Tweitmeyer",
-        imageUrl: "../../assets/imgs/team/carolyn-and-kiel-twietmeyer.jpg",
+        imageUrl: "../../../assets/imgs/team/carolyn-and-kiel-twietmeyer.jpg",
         title: "Isagenix Millionaire #196",
         isaFyiUrl: "",
         details:
@@ -150,7 +150,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Natalie Jill",
-        imageUrl: "../../assets/imgs/team/natalie-jill.jpg",
+        imageUrl: "../../../assets/imgs/team/natalie-jill.jpg",
         title: "Isagenix Millionaire #197",
         isaFyiUrl: "",
         details:
@@ -166,7 +166,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Deanna and Mark Falchook",
-        imageUrl: "../../assets/imgs/team/deanna-and-mark-falchook.jpg",
+        imageUrl: "../../../assets/imgs/team/deanna-and-mark-falchook.jpg",
         title: "Isagenix Millionaire #200",
         isaFyiUrl: "",
         details:
@@ -181,7 +181,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Adam Ciarla",
-        imageUrl: "../../assets/imgs/team/adam-ciarla.jpg",
+        imageUrl: "../../../assets/imgs/team/adam-ciarla.jpg",
         title: "Isagenix Millionaire #212",
         isaFyiUrl: "",
         details:
@@ -204,7 +204,7 @@ export class GetOurTeamPage {
     this.leaders = [
       {
         name: "Susan Lee",
-        imageUrl: "../../assets/imgs/team/sue-lee.jpg",
+        imageUrl: "../../../assets/imgs/team/sue-lee.jpg",
         title: "Commercial and Residential Real Estate",
         details:
           "Susan and her husband, Rob, live in Attleboro, MA. Susan is a busy mom of three and one who has had the privilege " +
@@ -222,7 +222,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Jennifer Barry",
-        imageUrl: "../../assets/imgs/team/jen-barry.jpg",
+        imageUrl: "../../../assets/imgs/team/jen-barry.jpg",
         title: "Business Owner, Masters in Finance",
         details:
           "Jennifer and her husband, Phil, live in beautiful Foxborough, MA, with their 2 children. Jennifer is a " +
@@ -237,7 +237,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Liz Lima and Chris Ryan",
-        imageUrl: "../../assets/imgs/team/liz-lima.jpg",
+        imageUrl: "../../../assets/imgs/team/liz-lima.jpg",
         title:
           "Scientist, Double-Masters in Science, MBA; Senior Software Engineer",
         details:
@@ -254,7 +254,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Debra Gebhardt",
-        imageUrl: "../../assets/imgs/team/deb-gebhardt.jpg",
+        imageUrl: "../../../assets/imgs/team/deb-gebhardt.jpg",
         title: "Network Marketing Industry Expert",
         details:
           "Debra and her husband, Scott, live in Tampa, Florida. Debra’s personal success is nothing less than highly " +
@@ -268,7 +268,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Judith Libby Froelich",
-        imageUrl: "../../assets/imgs/team/judy-froelich.jpg",
+        imageUrl: "../../../assets/imgs/team/judy-froelich.jpg",
         title: "Marriage and Family Therapist",
         details:
           "Judith and her husband, Keith, live is sunny, beautiful San Diego. In 2012 Keith was diagnosed with a rare form of " +
@@ -285,7 +285,7 @@ export class GetOurTeamPage {
       },
       {
         name: "E.Z. Smith",
-        imageUrl: "../../assets/imgs/team/ez-smith.jpg",
+        imageUrl: "../../../assets/imgs/team/ez-smith.jpg",
         title: "Personal Trainer",
         details:
           "E.Z. and his wife, Janna, live in Charlotte, NC, with their tho beautiful children. E.Z. is a prominent personal " +
@@ -299,7 +299,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Jeanette Baack-Lowry",
-        imageUrl: "../../assets/imgs/team/jeanette-lowry.jpg",
+        imageUrl: "../../../assets/imgs/team/jeanette-lowry.jpg",
         title: "NWM Professional, Entrepreneur",
         details:
           "Jeanette and her husband, Gary, live in Vancouver, Washington. As an entrepreneur, Jeanette had started dabbling in " +
@@ -313,7 +313,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Susy and Robbie Wicks",
-        imageUrl: "../../assets/imgs/team/susy-and-robbie-wicks.jpg",
+        imageUrl: "../../../assets/imgs/team/susy-and-robbie-wicks.jpg",
         title: "Solicitor; Entrepreneur (Australia)",
         details:
           "Susy and her husband, Robbie, live in beautiful, down under Sydney, Australia. Together they are a couple that have " +
@@ -327,7 +327,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Jenn Andrews",
-        imageUrl: "../../assets/imgs/team/jenn-andrews.jpg",
+        imageUrl: "../../../assets/imgs/team/jenn-andrews.jpg",
         title: "Former Insurance Regoinal Manager",
         details:
           "Jenn and her husband, Miles, live in Charlotte, NC, with their two beautiful children. Jenn is a former Group " +
@@ -339,7 +339,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Andrea Labouchere",
-        imageUrl: "../../assets/imgs/team/andrea-labouchere.jpg",
+        imageUrl: "../../../assets/imgs/team/andrea-labouchere.jpg",
         title: "Former English Teacher",
         details:
           "Andrea and her husband, Mark, are living in Smyrna, Georgia, with their two beautiful children and number three on the " +
@@ -350,7 +350,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Adrienne Donovan",
-        imageUrl: "../../assets/imgs/team/adrienne-donovan.jpg",
+        imageUrl: "../../../assets/imgs/team/adrienne-donovan.jpg",
         title: "Former Pharmaceutical Sales Rep",
         details:
           "Adrienne and her husband, Mike, with their children, reside in Wake Forest, NC. Adrienne, after having her children, " +
@@ -362,7 +362,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Melissa Henault",
-        imageUrl: "../../assets/imgs/team/melissa-henault.jpg",
+        imageUrl: "../../../assets/imgs/team/melissa-henault.jpg",
         title: "Medical Director for Team of Medical Scientists",
         details:
           "Melissa and her husband, Jake, along with their two beautiful children, and patiently awaiting baby number three, reside " +
@@ -379,7 +379,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Nina McCallie",
-        imageUrl: "../../assets/imgs/team/nina-mccallie.jpg",
+        imageUrl: "../../../assets/imgs/team/nina-mccallie.jpg",
         title: "20-year Veteran Network Marketer",
         details:
           "Nina McCallie, Crystal Executive Three-Star Golden Circle, has been in the Network Marketing industry for the last 20 " +
@@ -395,7 +395,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Kathleen Miller",
-        imageUrl: "../../assets/imgs/team/kathleen-miller.jpg",
+        imageUrl: "../../../assets/imgs/team/kathleen-miller.jpg",
         title: "Stay-at-home Mom and Medical Interpreter",
         details:
           "Shawn and Kathleen Miller live in Goshen, Indiana, along with their eight children. Shawn and Kathleen describe Isagenix " +
@@ -408,7 +408,7 @@ export class GetOurTeamPage {
       },
       {
         name: "McLane Layton",
-        imageUrl: "../../assets/imgs/team/mclane-layton.jpg",
+        imageUrl: "../../../assets/imgs/team/mclane-layton.jpg",
         title:
           "Former Legislative Counsel for Energy and Environment in the U.S. Senate",
         details:
@@ -422,7 +422,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Linda Hannum",
-        imageUrl: "../../assets/imgs/team/linda-hannum.jpg",
+        imageUrl: "../../../assets/imgs/team/linda-hannum.jpg",
         title: "Business Owner",
         details:
           "Linda Hannum – Salon Owner<p>Kristi Nelson – Executive Director of a Non-Profit</p><p>Linda Hannum, along with her " +
@@ -442,7 +442,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Delialah and Todd Lotich",
-        imageUrl: "../../assets/imgs/team/delialah-and-todd-lotich.jpg",
+        imageUrl: "../../../assets/imgs/team/delialah-and-todd-lotich.jpg",
         title: "Holistic Health and Nutrition Writer/Author; Corporate Sales",
         details:
           "Delialah and Todd Lotich reside with their beautiful children in Charlotte, NC. As a busy mom and freelancer, Delialah " +
@@ -456,7 +456,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Staci Friedman Shapiro",
-        imageUrl: "../../assets/imgs/team/staci-shapiro.jpg",
+        imageUrl: "../../../assets/imgs/team/staci-shapiro.jpg",
         title: "Former Montessori Primary Teacher",
         details:
           "Staci Friedman lives in Chicago, Illinois with her husband and son. Staci is a former Montessori Primary Teacher; she " +
@@ -470,7 +470,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Barb Kolby",
-        imageUrl: "../../assets/imgs/team/barb-kolby.jpg",
+        imageUrl: "../../../assets/imgs/team/barb-kolby.jpg",
         title: "Grandmother of 10",
         details:
           "Formerly from Ohio, Barb Kolby and her husband, Kurt, now reside in Waxhaw, NC. Barb is a beautiful and dedicated mom " +
@@ -484,7 +484,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Courtney Aldridge",
-        imageUrl: "../../assets/imgs/team/courtney-aldridge.jpg",
+        imageUrl: "../../../assets/imgs/team/courtney-aldridge.jpg",
         title: "Stay-at-home Mom",
         details:
           "Courtney and Chad Aldridge live in beautiful Greensboro, NC, and have three children. As a stay-at-home mom, Courtney " +
@@ -499,7 +499,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Dana and John Gezik",
-        imageUrl: "../../assets/imgs/team/dana-and-john-gezik.jpg",
+        imageUrl: "../../../assets/imgs/team/dana-and-john-gezik.jpg",
         title: "Home-school Mom; Small Business Owner",
         details:
           "Dana and John Gezik live in Shorewood, IL, have been married for 22 years, and have two teenage boys. John has owned " +
@@ -513,7 +513,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Illy Rosenstein",
-        imageUrl: "../../assets/imgs/team/illy-rosenstein.jpg",
+        imageUrl: "../../../assets/imgs/team/illy-rosenstein.jpg",
         title: "Aquatics Instructor",
         details:
           "Illy Rosenstein lives in beautiful Brisbane, Queensland, Australia. For years, Illy worked within the aquatics " +
@@ -528,7 +528,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Elaine Moody",
-        imageUrl: "../../assets/imgs/team/elaine-moody.jpg",
+        imageUrl: "../../../assets/imgs/team/elaine-moody.jpg",
         title: "Former Technology Business Manager",
         details:
           "Elaine Moody and her husband, Brad, live in Charlotte, NC with their two beautiful daughters. As a former “technology " +
@@ -540,7 +540,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Tina and Mick Hyman",
-        imageUrl: "../../assets/imgs/team/tina-and-mick-hyman.jpg",
+        imageUrl: "../../../assets/imgs/team/tina-and-mick-hyman.jpg",
         title: "Entrepreneurs",
         details:
           "Tina and Mick Hyman live in beautiful Sydney, Australia. Both being driven by their entrepreneurial spirits, they were " +
@@ -556,7 +556,7 @@ export class GetOurTeamPage {
       },
       {
         name: "John and Tracie Loux",
-        imageUrl: "../../assets/imgs/team/tracie-and-john-loux.jpg",
+        imageUrl: "../../../assets/imgs/team/tracie-and-john-loux.jpg",
         title: "Adoption Consultant; Educator / Musician",
         details:
           "Tracie and her husband, John, live in Kansas City, MO. They have seven children and one beautiful granddaughter. Tracie " +
@@ -573,7 +573,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Erin Brauer",
-        imageUrl: "../../assets/imgs/team/erin-brauer.jpg",
+        imageUrl: "../../../assets/imgs/team/erin-brauer.jpg",
         title: "Former Elementary School Teacher",
         details:
           "Erin and her husband, Kevin, live in beautiful Wake Forest, NC. Erin was a former elementary school teacher and even " +
@@ -587,7 +587,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Dr. Michael Guthrie",
-        imageUrl: "../../assets/imgs/team/michael-guthrie.jpg",
+        imageUrl: "../../../assets/imgs/team/michael-guthrie.jpg",
         title: "Oral Surgeon",
         details:
           "Michael Guthrie, D.D.S. lives in beautiful South Barrington, IL. He has practiced for 21 years in his private practice as " +
@@ -603,7 +603,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Nancy Baxter",
-        imageUrl: "../../assets/imgs/team/nancy-baxter.jpg",
+        imageUrl: "../../../assets/imgs/team/nancy-baxter.jpg",
         title: "Stay-at-home Mom and Fitness Coach",
         details:
           "Nancy and her husband, Mike, live in Malvern, PA, along with their two children. Shortly after Nancy became pregnant with " +
@@ -622,7 +622,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Link Kiser",
-        imageUrl: "../../assets/imgs/team/link-kiser.jpg",
+        imageUrl: "../../../assets/imgs/team/link-kiser.jpg",
         title: "Fashion Model",
         details:
           "Link Kiser finds his home in beautiful Winston Salem, NC. He has had a very successful career within the modeling industry " +
@@ -634,7 +634,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Ginna Larson",
-        imageUrl: "../../assets/imgs/team/ginna-larson.jpg",
+        imageUrl: "../../../assets/imgs/team/ginna-larson.jpg",
         title: "National Sales Manager",
         details:
           "Ginna and her husband, Nels, live in beautiful Lyons, Colorado, along with their two beautiful daughters. Ginna has a " +
@@ -648,7 +648,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Tracie Taylor",
-        imageUrl: "../../assets/imgs/team/tracie-taylor.jpg",
+        imageUrl: "../../../assets/imgs/team/tracie-taylor.jpg",
         title: "Elite Trainer / Personal Development",
         details:
           "Tracie Taylor lives in Charlotte, NC. She is a single mother who spent 12 years prior to Isagenix as an Elite Trainer " +
@@ -660,7 +660,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Erin Taylor",
-        imageUrl: "../../assets/imgs/team/erin-taylor.jpg",
+        imageUrl: "../../../assets/imgs/team/erin-taylor.jpg",
         title: "Home-school Mom",
         details:
           "Erin and her husband, Chris, live in Portage, Indiana, with their four beautiful children. Erin is an at-home mom that " +
@@ -675,7 +675,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Aaron Ciarla",
-        imageUrl: "../../assets/imgs/team/aaron-ciarla.jpg",
+        imageUrl: "../../../assets/imgs/team/aaron-ciarla.jpg",
         title: "Professional Swim Coach",
         details:
           "Aaron Ciarla currently lives in sunny Miami, Florida. During the last 20 years as a Division I collegiate swimmer, Aaron " +
@@ -690,7 +690,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Tavia Rogerson",
-        imageUrl: "../../assets/imgs/team/tavia-rogerson.jpg",
+        imageUrl: "../../../assets/imgs/team/tavia-rogerson.jpg",
         title: "Brand Director, Sporting Goods",
         details:
           "Tavia and her husband, Jay, live in Hamilton, Ontario, with their two beautiful daughters. Tavia had found a career in the " +
@@ -704,7 +704,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Jackie Black",
-        imageUrl: "../../assets/imgs/team/jackie-black.jpg",
+        imageUrl: "../../../assets/imgs/team/jackie-black.jpg",
         title: "Former Visual Arts Teacher, Head of Department",
         details:
           "As a former head of a high school visual arts department, Jackie has always been passionate about everything she does – " +
@@ -715,7 +715,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Jennifer Warnock",
-        imageUrl: "../../assets/imgs/team/jennifer-warnock.jpg",
+        imageUrl: "../../../assets/imgs/team/jennifer-warnock.jpg",
         title: "Former Gym Owner",
         details:
           "Jen Warnock lives in beautiful Murrieta, California, and was the owner of a personal training facility in Southern " +
@@ -728,7 +728,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Kim Wojnowich",
-        imageUrl: "../../assets/imgs/team/kim-wojnowich.jpg",
+        imageUrl: "../../../assets/imgs/team/kim-wojnowich.jpg",
         title: "Wellness Director and Health Educator",
         details:
           "Kim and her husband, Marc, live in Charlotte, NC, along with their two beautiful daughters. Kim has an extensive " +
@@ -744,7 +744,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Mandy Andre",
-        imageUrl: "../../assets/imgs/team/mandy-andre.jpg",
+        imageUrl: "../../../assets/imgs/team/mandy-andre.jpg",
         title: "Fitness Coach",
         details:
           "Mandy and her husband, Charlie, live in Navarre, Florida, along with their two children. Mandy has always valued nutrition " +
@@ -758,7 +758,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Carene and Danny Pisano",
-        imageUrl: "../../assets/imgs/team/carene-and-danny-pisano.jpg",
+        imageUrl: "../../../assets/imgs/team/carene-and-danny-pisano.jpg",
         title: "Stay-at-home Mom; Entertainer / Singer",
         details:
           "Carene and her husband, Danny, live in Smithtown, New York, with their three beautiful children. Carene was a stay-at-home " +
@@ -775,7 +775,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Helen Costa Giles",
-        imageUrl: "../../assets/imgs/team/helen-costa-giles.jpg",
+        imageUrl: "../../../assets/imgs/team/helen-costa-giles.jpg",
         title:
           "Supervisor for Yazaki North America, 2016 IsaBody Finalish, 2017 IsaBody Champion",
         details:
@@ -799,7 +799,7 @@ export class GetOurTeamPage {
     this.start1000 = [
       {
         name: "Renee Schreibman",
-        imageUrl: "../../assets/imgs/team/renee-schreibman.jpg",
+        imageUrl: "../../../assets/imgs/team/renee-schreibman.jpg",
         title: "Former Corporate Sales Trainer, Entrepreneur",
         details:
           "Renee and her husband, Philip, live in beautiful Charlotte, NC, with their three children. Renee has been " +
@@ -813,7 +813,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Elizabeth LeConey",
-        imageUrl: "../../assets/imgs/team/liz-leconey.jpg",
+        imageUrl: "../../../assets/imgs/team/liz-leconey.jpg",
         title: "Former Corporate Employee",
         details:
           "Elizabeth and her husband, Josh, reside in Wake Forest, NC, with their two sons. Prior to becoming a Network " +
@@ -826,7 +826,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Meredith and Brian Wright",
-        imageUrl: "../../assets/imgs/team/meredith-and-brian-wright.jpg",
+        imageUrl: "../../../assets/imgs/team/meredith-and-brian-wright.jpg",
         title: "Former Pre-school Teacher; Executive Management",
         details:
           "Brian and Meredith Wright are living in beautiful Greensboro, NC, with their three children. Meredith, a " +
@@ -843,7 +843,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Amanda Edwards Hamm",
-        imageUrl: "../../assets/imgs/team/amanda-edwards-hamm.jpg",
+        imageUrl: "../../../assets/imgs/team/amanda-edwards-hamm.jpg",
         title: "Former Corporate Recruiting Consultant",
         details:
           "Amanda and her husband, PJ, live in beautiful Atlanta, GA. Amanda was a former corporate recruiting " +
@@ -857,7 +857,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Chelsea Lauren Miller",
-        imageUrl: "../../assets/imgs/team/chelsea-lauren-miller.jpg",
+        imageUrl: "../../../assets/imgs/team/chelsea-lauren-miller.jpg",
         title: "2015 College Grad, Top 10 Income Earner < 25",
         details:
           "Chelsea Miller lives in Cambridge, MA, and is a graduate from Babson College (the #1 school in the U.S. for " +
@@ -876,7 +876,7 @@ export class GetOurTeamPage {
     this.teamIsagenix = [
       {
         name: "Carol Elizabeth",
-        imageUrl: "../../assets/imgs/team/carol-elizabeth.jpg",
+        imageUrl: "../../../assets/imgs/team/carol-elizabeth.jpg",
         title: "Fitness Competitor, Entrepreneur",
         details:
           "Carol Elizabeth and her husband, Michael, reside in beautiful Toronto, Canada, with their three children. " +
@@ -892,7 +892,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Joe Andruzzi",
-        imageUrl: "../../assets/imgs/team/joe-andruzzi.jpg",
+        imageUrl: "../../../assets/imgs/team/joe-andruzzi.jpg",
         title: "3x NFL Super Bowl Champion - NE Patriots",
         details:
           "Joe Andruzzi spent nine years in the NFL, where he won three Super Bowl titles with the New England " +
@@ -909,7 +909,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Mary Ellen Clark",
-        imageUrl: "../../assets/imgs/team/mary-ellen-clark.jpg",
+        imageUrl: "../../../assets/imgs/team/mary-ellen-clark.jpg",
         title: "Olympic Athlete / Diving",
         details:
           "Mary Ellen Clark is a two-time Olympic Medalist, winning Bronze Medals at the 1996 Atlanta Games and the " +
@@ -923,7 +923,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Brandon Jacobs",
-        imageUrl: "../../assets/imgs/team/brandon-jacobs.jpg",
+        imageUrl: "../../../assets/imgs/team/brandon-jacobs.jpg",
         title: "2x NFL Super Bowl Champion - NY Giants",
         details:
           "Brandon Christopher Jacobs (born July 6, 1982) is a former American football running back, who spent the " +
@@ -950,7 +950,7 @@ export class GetOurTeamPage {
       },
       {
         name: "Joe Ames",
-        imageUrl: "../../assets/imgs/team/joe-ames.jpg",
+        imageUrl: "../../../assets/imgs/team/joe-ames.jpg",
         title: "2015 Crossfit Masters Champion",
         details:
           "<p>Many parents would be OK setting a strong example for their children. Joe Ames literally embodied the " +
