@@ -1,9 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, ModalController } from 'ionic-angular';
-import {
-  DocumentViewer,
-  DocumentViewerOptions
-} from "@ionic-native/document-viewer";
+import { PdfProvider } from "../../../../../providers/pdf/pdf";
 
 @IonicPage()
 @Component({
@@ -12,13 +9,7 @@ import {
 })
 export class ProductBPage {
 
-  constructor(public navCtrl: NavController, public modalCtrl: ModalController,
-    public docViewer: DocumentViewer) {
-  }
-
-  openPdf(pdfFile: string, pdfTitle: string) {
-    var options: DocumentViewerOptions = { title: pdfTitle }
-    this.docViewer.viewDocument(pdfFile, "application/pdf", options);
+  constructor(public navCtrl: NavController, public modalCtrl: ModalController, public pdfProvider: PdfProvider) {
   }
 
   openVideoModal(video: string) {

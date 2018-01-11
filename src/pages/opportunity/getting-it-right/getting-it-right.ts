@@ -1,9 +1,6 @@
 import { Component } from "@angular/core";
 import { IonicPage, NavController, NavParams } from "ionic-angular";
-import {
-  DocumentViewer,
-  DocumentViewerOptions
-} from "@ionic-native/document-viewer";
+import { PdfProvider } from "../../../providers/pdf/pdf";
 
 @IonicPage()
 @Component({
@@ -11,15 +8,9 @@ import {
   templateUrl: "getting-it-right.html"
 })
 export class GettingItRightPage {
-
   constructor(
     public navCtrl: NavController,
     public navParams: NavParams,
-    public docViewer: DocumentViewer
+    public pdfProvider: PdfProvider
   ) {}
-
-  openPdf(pdfFile: string, pdfTitle: string) {
-    var options: DocumentViewerOptions = { title: pdfTitle }
-    this.docViewer.viewDocument(pdfFile, "application/pdf", options);
-  }
 }

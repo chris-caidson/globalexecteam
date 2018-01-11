@@ -2,7 +2,6 @@ import { ComponentsModule } from './../../../../../components/components.module'
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
 import { CleanseForLifePage } from './cleanse-for-life';
-import { DocumentViewer } from '@ionic-native/document-viewer';
 
 @NgModule({
   declarations: [
@@ -11,9 +10,6 @@ import { DocumentViewer } from '@ionic-native/document-viewer';
   imports: [
     ComponentsModule,
     IonicPageModule.forChild(CleanseForLifePage),
-  ],
-  providers: [
-    DocumentViewer
   ]
 })
 export class CleanseForLifePageModule {}
