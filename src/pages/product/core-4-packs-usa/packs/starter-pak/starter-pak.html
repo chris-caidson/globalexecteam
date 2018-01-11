@@ -44,21 +44,40 @@
         <section>
           <h3>Product List</h3>
           <ol>
-              <li>4 IsaLean® Shake</li>
-              <li>1 Ionix® Supreme</li>
-              <li>2 Cleanse for Life®</li>
-              <li>1 Isagenix Snacks™</li>
-              <li>1 Natural Accelerator™</li>
-              <li>4 Hydrate® (Sticks)</li>
-              <li>1 IsaFlush®</li>
-              <li>1 Guide – 30 Day Pak w/ CD</li>
+            <li>4 IsaLean® Shake</li>
+            <li>1 Ionix® Supreme</li>
+            <li>2 Cleanse for Life®</li>
+            <li>1 Isagenix Snacks™</li>
+            <li>1 Natural Accelerator™</li>
+            <li>4 Hydrate® (Sticks)</li>
+            <li>1 IsaFlush®</li>
+            <li>1 Guide – 30 Day Pak w/ CD</li>
           </ol>
         </section>
         <section>
           <h3>Videos</h3>
+          <ul class="list-unstyled">
+            <li (click)="openVideoModal('shake-day')">
+              <span class="video-li">How to do an Isagenix Shake Day</span>
+            </li>
+            <li (click)="openVideoModal('cleanse-day')">
+              <span class="video-li">How to do an Isagenix Cleanse Day</span>
+            </li>
+            <li (click)="openVideoModal('30-day')">
+              <span class="video-li">How to Use the 30-Day System</span>
+            </li>
+          </ul>
         </section>
         <section>
           <h3>Product Info</h3>
+          <ul class="list-unstyled">
+              <li>
+                <span class="pdf" (click)="pdfProvider.openPdf('System Guide for Weight Loss', '../../../../../assets/pdf/us-en-30-day-system-guide.pdf')">System Guide for Weight Loss</span>
+              </li>
+              <li>
+                <span class="pdf" (click)="pdfProvider.openPdf('30-Day-System Fast Facts', '../../../../../assets/pdf/us-en-30-day-system-fast-facts.pdf')">30-Day System Fast Facts</span>
+              </li>
+            </ul>
         </section>
       </div>
     </article>

@@ -9,6 +9,11 @@ page-value-pak {
     font-style: italic;
   }
 
+  ol li {
+    padding-left: $small-margin;
+    margin-bottom: $small-margin;
+  }
+
   p {
     margin-bottom: $large-margin;
   }
