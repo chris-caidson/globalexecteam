@@ -1,8 +1,8 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      <i class="fa fa-user fixed-width space-right"></i>
-      <span>{{docTitle}}</span>
+      <i class="fa fa-music fixed-width space-right"></i>
+      <span>SoundCloud Recording</span>
     </ion-title>
     <ion-buttons end>
       <button ion-button (click)="closeModal()">Close</button>
@@ -11,9 +11,10 @@
 </ion-header>
 <ion-content>
   <main role="main">
-    <article class="grid-container">
+    <article>
       <section>
-        <div [innerHTML]="html"></div>
+        <h3 class="centered">{{title}}</h3>
+        <iframe [src]="url"></iframe>
       </section>
     </article>
   </main>

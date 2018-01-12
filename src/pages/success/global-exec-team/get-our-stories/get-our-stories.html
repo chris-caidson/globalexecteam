@@ -19,8 +19,39 @@
   </header>
   <main role="main">
     <article>
-      <h1 class="uppercase centered">Our Stories</h1>
+      <section id="opportunityStoriesSection" *ngIf="opportunityVisible">
+        <h1 class="uppercase centered">Our Stories - Opportunity</h1>
+        <h5 class="centered note">(Tap a picture or title to see listen to the audio.)</h5>
+        <div class="soundCloud grid-container" *ngFor="let s of opportunityStories">
+          <img class="audio-thumb" [src]="s.image" alt="" (click)="openSoundCloudModal(s.title, s.url)" />
+          <span class="audio-title" (click)="openSoundCloudModal(s.title, s.url)">{{s.title}}</span>
+        </div>
+      </section>
+      <section id="productStoriesSection" *ngIf="productVisible">
+        <h1 class="uppercase centered">Our Stories - Product</h1>
+        <h5 class="centered note">(Tap a picture or name to see details.)</h5>
+        <div class="soundCloud grid-container" *ngFor="let s of productStories">
+          <img class="audio-thumb" [src]="s.image" alt="" (click)="openSoundCloudModal(s.title, s.url)" />
+          <span class="audio-title" (click)="openSoundCloudModal(s.title, s.url)">{{s.title}}</span>
+        </div>
+      </section>
     </article>
   </main>
   <get-footer></get-footer>
 </ion-content>
+<ion-footer>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <button ion-button full small color="secondary" (click)="showOpportunity()">
+          <span>Opportunity</span>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button full small color="secondary" (click)="showProduct()">
+          <span>Product</span>
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-footer>

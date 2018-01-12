@@ -1,3 +1,68 @@
 page-get-our-stories {
+  button span {
+    color: $light-color;
 
+    i {
+      color: $light-color !important;
+    }
+  }
+
+  h5 {
+    margin-bottom: $large-margin;
+  }
+
+  ion-footer ion-grid {
+    background-color: #efefef;
+    border-top: 1px solid #bbb;
+  }
+
+  section {
+    margin-bottom: $large-margin;
+  }
+
+  .grid-container {
+    grid-template-columns: auto;
+    justify-content: flex-start;
+  }
+
+  .soundCloud {
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+    margin: $default-margin;
+    padding: $default-margin;
+    background-color: #fbfbfb;
+  }
+
+  .audio-thumb {
+    height: 75px;
+    width: 75px;
+    min-height: 75px;
+    min-width: 75px;
+    margin-right: $default-margin;
+  }
+
+  .audio-title {
+    display: inline-block;
+    color: $secondary-color;
+    vertical-align: top;
+    background-image: url("../../../../assets/imgs/misc/soundcloud.png");
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    min-height: 40px;
+    padding-left: 45px;
+    margin-top: $default-margin;
+  }
+
+  @media (min-width: 640px) {
+    .grid-container {
+      grid-template-columns: auto auto;
+      justify-content: flex-start;
+    }
+
+    .audio-title {
+      padding-top: 5px;
+      margin-top: $small-margin;
+    }
+  }
 }

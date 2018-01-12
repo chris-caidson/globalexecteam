@@ -1,0 +1,24 @@
+page-sound-cloud-modal {
+  section {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: $default-margin;
+    border: none;
+    box-shadow: 0 0 10px #333;
+    border-radius: 10px;
+    padding: $default-margin;
+    width: 100%;
+    background-color: #efefef;
+  }
+
+  .mobilePrestitial .g-flex-row-centered .g-box-full .m-enabled {
+    display: none !important;
+  }
+}
