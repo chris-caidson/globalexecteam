@@ -1,0 +1,29 @@
+page-natalie-jill {
+  h2 {
+    margin-bottom: $xlarge-margin;
+    color: $secondary-color;
+  }
+
+  #natalie_01,
+  #natalie_02,
+  #natalie_03 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: 640px) {
+    #natalie_01,
+    #natalie_03 {
+      float: right;
+      margin-left: $default-margin;
+      margin-bottom: $default-margin;
+    }
+
+    #natalie_02 {
+      float: left;
+      margin-right: $default-margin;
+      margin-bottom: $default-margin;
+    }
+  }
+}

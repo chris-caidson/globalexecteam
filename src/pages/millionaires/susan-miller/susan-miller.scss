@@ -1,0 +1,32 @@
+page-susan-miller {
+  h2 {
+    margin-bottom: $xlarge-margin;
+    color: $secondary-color;
+  }
+
+  .disclaimer a {
+    font-size: smaller;
+  }
+
+  #susan_01,
+  #susan_02,
+  #susan_03 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: 640px) {
+    #susan_01,
+    #susan_02,
+    #susan_03 {
+      float: right;
+      margin-left: $default-margin;
+      margin-bottom: $default-margin;
+    }
+
+    .grid-container {
+      grid-template-columns: auto auto;
+    }
+  }
+}

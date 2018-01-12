@@ -78,6 +78,34 @@ export class GetOurTeamPage {
     this.teamIsagenixVisible = true;
   }
 
+  openPage(name: string) {
+    switch (name) {
+      case "Susan and Murray Miller":
+        this.navCtrl.push("SusanMillerPage");
+        break;
+
+      case "Jessica and Joe Johnston":
+        this.navCtrl.push("JessicaJohnstonPage");
+        break;
+
+      case "Carolyn and Kiel Tweitmeyer":
+        this.navCtrl.push("KielAndCarolynPage");
+        break;
+
+      case "Natalie Jill":
+        this.navCtrl.push("NatalieJillPage");
+        break;
+
+      case "Deanna and Mark Falchook":
+        this.navCtrl.push("MarkAndDeannaPage");
+        break;
+
+      case "Adam Ciarla":
+        this.navCtrl.push("AdamCiarlaPage");
+        break;
+    }
+  }
+
   openPersonModal(item: any) {
     var data: any = {
       personName: item.name,
@@ -685,7 +713,7 @@ export class GetOurTeamPage {
           "daily grind and focus solely on his Isagenix business. He is forever grateful for Isagenix, not only for the amazing health " +
           "it has afforded him, but also the financial freedom and opportunity to form excellent relationships with all the awesome " +
           "people involved along the way - people like from Jim and Kathy Coover, to his fellow associates that make it a goal to help " +
-          "people find Isagenix. \"I am with Isagenix for life!\" says Aaron. He was introduced to Isagenix by his sister Jessica " +
+          'people find Isagenix. "I am with Isagenix for life!" says Aaron. He was introduced to Isagenix by his sister Jessica ' +
           "Johnston, not knowing how his life would change with this amazing company forever."
       },
       {

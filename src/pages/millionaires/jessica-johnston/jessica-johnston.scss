@@ -1,0 +1,22 @@
+page-jessica-johnston {
+  h2 {
+    margin-bottom: $xlarge-margin;
+    color: $secondary-color;
+  }
+
+  #jess_01,
+  #jess_02 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: 640px) {
+    #jess_01,
+    #jess_02 {
+      float: right;
+      margin-left: $default-margin;
+      margin-bottom: $default-margin;
+    }
+  }
+}

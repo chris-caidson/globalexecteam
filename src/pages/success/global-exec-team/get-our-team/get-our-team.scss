@@ -21,6 +21,17 @@ page-get-our-team {
     border-top: 1px solid #bbb;
   }
 
+  .isaFyiLink {
+    display: inline-block;
+    color: $secondary-color;
+    font-size: smaller;
+    margin-bottom: $small-margin;
+    background-image: url("../../../../assets/imgs/misc/open-link.png");
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    padding-left: 25px;
+  }
+
   .person-content h3 {
     margin-right: $default-margin;
     margin-bottom: -$small-margin;

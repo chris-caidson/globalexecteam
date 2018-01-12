@@ -1,0 +1,29 @@
+page-mark-and-deanna {
+  h2 {
+    margin-bottom: $xlarge-margin;
+    color: $secondary-color;
+  }
+
+  #mark_and_deanna_01,
+  #mark_and_deanna_02,
+  #mark_and_deanna_03 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media (min-width: 640px) {
+    #mark_and_deanna_01,
+    #mark_and_deanna_03 {
+      float: right;
+      margin-left: $default-margin;
+      margin-bottom: $default-margin;
+    }
+
+    #mark_and_deanna_02 {
+      float: left;
+      margin-right: $default-margin;
+      margin-bottom: $default-margin;
+    }
+  }
+}
