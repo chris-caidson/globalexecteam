@@ -73,21 +73,15 @@ page-corporate-leadership {
     }
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 820px) {
     .grid-container {
       grid-template-columns: auto auto auto;
     }
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 1200px) {
     .grid-container {
       grid-template-columns: auto auto auto auto;
-    }
-  }
-
-  @media (min-width: 1400px) {
-    .grid-container {
-      grid-template-columns: auto auto auto auto auto;
     }
   }
 }
