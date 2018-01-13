@@ -44,13 +44,13 @@
                   <span class="pdf" (click)="pdfProvider.openPdf('Global Compensation Plan', '../../../assets/pdf/us-en-global-compensation-plan-1.pdf')">Global Compensation Plan</span>
                 </li>
                 <li>
-                  <span class="pdf" (click)="pdfProvider.openPdf('Global Compensation Glossary', '../../../assets/pdf/us-en-compesnation-plan-glossary.pdf')">Global Compensation Glossary</span>
+                  <span class="pdf" (click)="pdfProvider.openWithSystemBrowser('Global Compensation Glossary', '../../../assets/pdf/us-en-compesnation-plan-glossary.pdf')">Global Compensation Glossary</span>
                 </li>
                 <li>
-                  <span class="pdf" (click)="pdfProvider.openPdf('YOUR Path to SUCCESS', '../../../assets/pdf/your-path-to-success.pdf')">YOUR Path to SUCCESS</span>
+                  <span class="pdf" (click)="pdfProvider.openWithInAppBrowser('YOUR Path to SUCCESS', '../../../assets/pdf/your-path-to-success.pdf')">YOUR Path to SUCCESS</span>
                 </li>
                 <li>
-                  <span class="pdf" (click)="pdfProvider.openPdf('Shared Revenue Plan', '../../../assets/pdf/shared-revenue-plan.pdf')">Shared Revenue Plan</span>
+                  <span class="pdf" (click)="pdfProvider.openWithCordovaBrowser('Shared Revenue Plan', '../../../assets/pdf/shared-revenue-plan.pdf')">Shared Revenue Plan</span>
                 </li>
               </ul>
             </section>
