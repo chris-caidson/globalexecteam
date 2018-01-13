@@ -57,7 +57,8 @@ export class PressReleasesPage {
     var data = {
       title: entry.title,
       content: entry.content,
-      imgUrl: entry.enclosure.url
+      imgUrl: entry.enclosure.url,
+      isoDate: entry.isoDate
     };
 
     const myModal = this.modalCtrl.create("PressReleaseModalPage", data);

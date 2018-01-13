@@ -12,10 +12,11 @@
 <ion-content>
   <main role="main">
     <article>
-      <h3>{{title}}</h3>
+      <h3 class="centered">{{title}}</h3>
+      <h5 class="centered">{{isoDate | date }}</h5>
       <section class="grid-container">
         <img [src]="imgUrl" alt="" />
-        <div [innerHTML]="content"></div>
+        <div id="contentDiv" [innerHTML]="content"></div>
       </section>
     </article>
   </main>

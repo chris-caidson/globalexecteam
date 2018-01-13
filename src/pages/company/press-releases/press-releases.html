@@ -26,7 +26,8 @@
       <p class="note">(Tap a headline or image to view full press release.)</p>
       <div *ngIf="hasEntries">
         <section class="entry" *ngFor="let e of entries">
-          <h3 (click)="openPressReleaseModal(e)">{{e.title}}</h3>
+          <h3 (click)="openPressReleaseModal(e)" class="centered">{{e.title}}</h3>
+          <h5 class="centered">{{e.isoDate | date }}</h5>
           <div class="grid-container">
             <img [src]="e.enclosure.url" alt="" (click)="openPressReleaseModal(e)" />
             <div [innerHTML]="e.contentSnippet"></div>

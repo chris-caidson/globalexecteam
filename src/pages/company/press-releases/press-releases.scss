@@ -25,7 +25,12 @@ page-press-releases {
 
     h3 {
       margin-top: -$small-margin;
-      margin-bottom: $default-margin;
+    }
+
+    h5 {
+      margin-top: -$xsmall-margin;
+      font-style: italic;
+      font-size: smaller;
     }
 
     img {
