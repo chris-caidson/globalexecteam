@@ -38,21 +38,22 @@ export class PdfProvider {
   ) {}
 
   openPdf(title, path) {
-    if (this.platform.is("cordova")) {
-      this.platform.ready().then(function() {
-        let alert = this.alertCtrl.create({
-          title: "Open PDF",
-          subTitle: "Not sure if this will work in Ionic View...",
-          buttons: ["Ok"]
-        });
-        alert.present();
+    // if (this.platform.is("cordova")) {
+    //   this.platform.ready().then(function() {
+    //     let alert = this.alertCtrl.create({
+    //       title: "Open PDF",
+    //       subTitle: "Not sure if this will work in Ionic View...",
+    //       buttons: ["Ok"]
+    //     });
+    //     alert.present();
 
-        var options: DocumentViewerOptions = { title: title };
-        this.docViewer.viewDocument(path, "application/pdf", options);
-      });
-    } else {
-      window.open(path, "_blank");
-    }
+    //     var options: DocumentViewerOptions = { title: title };
+    //     this.docViewer.viewDocument(path, "application/pdf", options);
+    //   });
+    // } else {
+    //   window.open(path, "_blank");
+    // }
+    this.openWithSystemBrowser(title, path);
   }
 
   openWithSystemBrowser(title: string, url: string) {
