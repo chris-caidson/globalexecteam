@@ -1,3 +1,82 @@
 page-press-releases {
+  #makeAWish {
+    display: block;
+    margin: auto;
 
+    img {
+      display: block;
+      width: 80vw;
+      max-width: 350px;
+      margin: auto;
+    }
+  }
+
+  .note {
+    text-align: center;
+    margin-top: $default-margin;
+  }
+
+  .entry {
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+    margin: $default-margin;
+    padding: $default-margin;
+    background-color: #fbfbfb;
+
+    h3 {
+      margin-top: -$small-margin;
+      margin-bottom: $default-margin;
+    }
+
+    img {
+      display: block;
+      max-width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: $default-margin;
+    }
+
+    .grid-container {
+      grid-template-columns: auto;
+    }
+  }
+
+  @media (min-width: 640px) {
+    .entry {
+      img {
+        display: inline-block;
+        margin-left: 0;
+        margin-right: $default-margin;
+        margin-bottom: 0;
+      }
+
+      .grid-container {
+        grid-template-columns: auto auto;
+        margin-right: $default-margin;
+      }
+    }
+  }
+
+  #noEntries {
+    display: block;
+    margin: auto;
+
+    span {
+      display: block;
+      color: $tertiary-color;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: $large-margin;
+      padding-left: 20px;
+      text-align: left;
+      font-size: smaller;
+      font-style: italic;
+      background-image: url("../../../assets/imgs/misc/loading.gif");
+      background-repeat: no-repeat;
+      background-size: 15px 15px;
+      background-position-y: 2px;
+      height: 30px;
+      max-width: 315px;
+    }
+  }
 }

@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      <i class="fa fa-newspaper-o fixed-width space-right"></i>
+      <span>Press Release</span>
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button (click)="closeModal()">Close</button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <main role="main">
+    <article>
+      <h3>{{title}}</h3>
+      <section class="grid-container">
+        <img [src]="imgUrl" alt="" />
+        <div [innerHTML]="content"></div>
+      </section>
+    </article>
+  </main>
+</ion-content>

@@ -20,8 +20,21 @@
   <main role="main">
     <article>
       <h1 class="uppercase centered">Isagenix Surpasses $5 Million for Make-A-Wish</h1>
-      <div>
+      <section id="makeAWish">
         <img src="../../assets/imgs/misc/make-a-wish.jpg" alt="Make-A-Wish" />
+      </section>
+      <p class="note">(Tap a headline or image to view full press release.)</p>
+      <div *ngIf="hasEntries">
+        <section class="entry" *ngFor="let e of entries">
+          <h3 (click)="openPressReleaseModal(e)">{{e.title}}</h3>
+          <div class="grid-container">
+            <img [src]="e.enclosure.url" alt="" (click)="openPressReleaseModal(e)" />
+            <div [innerHTML]="e.contentSnippet"></div>
+          </div>
+        </section>
+      </div>
+      <div id="noEntries" *ngIf="!hasEntries">
+        <span>Loading press releases... please wait.</span>
       </div>
     </article>
   </main>

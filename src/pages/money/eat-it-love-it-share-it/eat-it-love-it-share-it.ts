@@ -8,6 +8,8 @@ import { PdfProvider } from "../../../providers/pdf/pdf";
   templateUrl: "eat-it-love-it-share-it.html"
 })
 export class EatItLoveItShareItPage {
+  pdfSrc: string = "http://getfree.global/wp-content/uploads/2017/03/document3.pdf";
+
   constructor(public navCtrl: NavController, public modalCtrl: ModalController, public pdfProvider: PdfProvider) {}
 
   openVideoModal() {
