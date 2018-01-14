@@ -14,10 +14,9 @@
     <article>
       <h3 class="centered">{{title}}</h3>
       <h5 class="centered">{{isoDate | date }}</h5>
-      <section class="grid-container">
-        <img [src]="imgUrl" alt="" />
-        <div id="contentDiv" [innerHTML]="content"></div>
-      </section>
+
+      <img [src]="imgUrl" alt="" />
+      <section [innerHTML]="content"></section>
     </article>
   </main>
 </ion-content>

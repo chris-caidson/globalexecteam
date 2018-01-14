@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, ViewChild } from "@angular/core";
 import { IonicPage, NavParams, ViewController } from "ionic-angular";
 import { DomSanitizer, SafeResourceUrl } from "@angular/platform-browser";
 
@@ -11,6 +11,8 @@ export class SoundCloudModalPage {
   title: string;
   url: SafeResourceUrl;
 
+  @ViewChild("iframe") iframe;
+
   baseUrl: string = "http://w.soundcloud.com/player?url=https://soundcloud.com/";
 
   queryString: string = "&amp;color=75c043&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;" +
@@ -21,13 +23,12 @@ export class SoundCloudModalPage {
     public navParams: NavParams,
     public viewCtrl: ViewController,
     private sanitizer: DomSanitizer
-  ) {
-  }
+  ) {}
 
   ionViewWillLoad() {
     this.title = this.navParams.get("title");
     this.url = this.sanitizer.bypassSecurityTrustResourceUrl(
-        `${this.baseUrl}${this.navParams.get("url")}${this.queryString}`
+      `${this.baseUrl}${this.navParams.get("url")}${this.queryString}`
     );
   }
 

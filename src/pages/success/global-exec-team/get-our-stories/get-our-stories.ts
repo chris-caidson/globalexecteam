@@ -35,12 +35,12 @@ export class GetOurStoriesPage {
 
     this.opportunityStories = [
       {
-        title: "Three Women Share their Success Stories",
+        title: "Three Women Share Their Success Stories",
         url: "user-940323348/susan-miller-jessica-johnston-and-deanna-falchook",
         image: `${this.imagePath}opportunity-01.jpg`
       },
       {
-        title: "Successful Entrepreneur Shares WHY he Loves NWM",
+        title: "Successful Entrepreneur Shares WHY He Loves Network Marketing",
         url:
           "user-297693051-59186954/validation-call-with-successful-business-owner-and-entrepreneur",
         image: `${this.imagePath}opportunity-02.jpg`
@@ -52,7 +52,7 @@ export class GetOurStoriesPage {
         image: `${this.imagePath}opportunity-03.jpg`
       },
       {
-        title: "22 Year Old College Graduate Excels in Isagenix",
+        title: "22-Year-Old College Graduate Excels in Isagenix",
         url: "user-43669633/22-year-old-college-student-shares-her-why",
         image: `${this.imagePath}opportunity-04.jpg`
       },
@@ -62,7 +62,7 @@ export class GetOurStoriesPage {
         image: `${this.imagePath}opportunity-05.jpg`
       },
       {
-        title: "From Corporate America to Momprenuer",
+        title: "From Corporate America to 'Momprenuer'",
         url: "user-297693051-59186954/elizabeth-leconey",
         image: `${this.imagePath}opportunity-06.jpg`
       },
@@ -72,7 +72,7 @@ export class GetOurStoriesPage {
         image: `${this.imagePath}opportunity-07.jpg`
       },
       {
-        title: "Women of Isagenix Share their WHY",
+        title: "Women of Isagenix Share Their WHY",
         url:
           "user-750713208/woman-of-isagenix-share-nina-mccallie-and-renee-shriebman",
         image: `${this.imagePath}opportunity-08.jpg`
@@ -83,7 +83,7 @@ export class GetOurStoriesPage {
         image: `${this.imagePath}opportunity-09.jpg`
       },
       {
-        title: "Professional NWMr Explains the Industry",
+        title: "Professional Network Marketer Explains the Industry",
         url: "user-750713208/professional-nwmr-explains-the-industry",
         image: `${this.imagePath}opportunity-10.jpg`
       },
@@ -94,7 +94,7 @@ export class GetOurStoriesPage {
         image: `${this.imagePath}opportunity-11.jpg`
       },
       {
-        title: "Mother of 7, Grandmother of 10 Secures Future",
+        title: "Mother of 7, Grandmother of 10, Secures Future",
         url:
           "user-750713208/mother-of-7-grandmother-of-10-and-industry-bulding-her-childrens-future",
         image: `${this.imagePath}opportunity-12.jpg`

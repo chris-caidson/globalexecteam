@@ -16,6 +16,11 @@ page-sound-cloud-modal {
     padding: $default-margin;
     width: 100%;
     background-color: #efefef;
+    background-image: url("../../../assets/imgs/misc/loading.gif");
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 50px 50px;
   }
 
   .mobilePrestitial .g-flex-row-centered .g-box-full .m-enabled {

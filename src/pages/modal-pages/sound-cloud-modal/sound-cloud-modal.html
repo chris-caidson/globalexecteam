@@ -14,7 +14,9 @@
     <article>
       <section>
         <h3 class="centered">{{title}}</h3>
-        <iframe [src]="url"></iframe>
+        <iframe #iframe [src]="url">
+          Loading... please wait.
+        </iframe>
       </section>
     </article>
   </main>
