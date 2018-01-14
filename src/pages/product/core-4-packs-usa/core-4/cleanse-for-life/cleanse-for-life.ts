@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, ModalController } from 'ionic-angular';
 import { PdfProvider } from "../../../../../providers/pdf/pdf";
+import { GoogleAnalyticsProvider } from './../../../../../providers/google-analytics/google-analytics';
 
 @IonicPage()
 @Component({
@@ -9,7 +10,8 @@ import { PdfProvider } from "../../../../../providers/pdf/pdf";
 })
 export class CleanseForLifePage {
 
-  constructor(public navCtrl: NavController, public modalCtrl: ModalController, public pdfProvider: PdfProvider) {
+  constructor(public navCtrl: NavController, public modalCtrl: ModalController,
+    public pdfProvider: PdfProvider, private gap: GoogleAnalyticsProvider) {
   }
 
   openVideoModal(video: string) {
@@ -42,5 +44,9 @@ export class CleanseForLifePage {
 
     const myModal = this.modalCtrl.create("VideoModalPage", data);
     myModal.present();
+  }
+
+  ionViewWillLoad() {
+    this.gap.trackView("CleanseForLifePage");
   }
 }

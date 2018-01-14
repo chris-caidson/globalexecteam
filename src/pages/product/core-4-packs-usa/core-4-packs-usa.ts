@@ -1,5 +1,6 @@
 import { Component } from "@angular/core";
 import { IonicPage, NavController } from "ionic-angular";
+import { GoogleAnalyticsProvider } from './../../../providers/google-analytics/google-analytics';
 
 @IonicPage()
 @Component({
@@ -8,7 +9,7 @@ import { IonicPage, NavController } from "ionic-angular";
 })
 export class Core_4PacksUsaPage {
   constructor(
-    public navCtrl: NavController
+    public navCtrl: NavController, private gap: GoogleAnalyticsProvider
   ) {}
 
   loadCleansePage(){
@@ -37,5 +38,9 @@ export class Core_4PacksUsaPage {
 
   loadValuePakPage(){
     this.navCtrl.push('ValuePakPage');
+  }
+
+  ionViewWillLoad() {
+    this.gap.trackView("Core4PacksPage");
   }
 }

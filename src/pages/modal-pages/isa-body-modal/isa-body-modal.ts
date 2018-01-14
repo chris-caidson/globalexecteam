@@ -6,6 +6,7 @@ import {
   ViewController,
   ModalController
 } from "ionic-angular";
+import { GoogleAnalyticsProvider } from "./../../../providers/google-analytics/google-analytics";
 
 @IonicPage()
 @Component({
@@ -27,7 +28,8 @@ export class IsaBodyModalPage {
     public navCtrl: NavController,
     public navParams: NavParams,
     public viewCtrl: ViewController,
-    public modalCtrl: ModalController
+    public modalCtrl: ModalController,
+    private gap: GoogleAnalyticsProvider
   ) {}
 
   ionViewWillLoad() {
@@ -40,6 +42,9 @@ export class IsaBodyModalPage {
     this.quote = this.navParams.get("quote");
     this.imageUrl = this.navParams.get("imageUrl");
     this.videoUrl = this.navParams.get("videoUrl");
+
+    this.gap.trackView("IsaBodyModalPage");
+    this.gap.trackEvent("Opened Modal", `Loaded ${this.personName}`, "IsaBody");
   }
 
   openVideoModal() {

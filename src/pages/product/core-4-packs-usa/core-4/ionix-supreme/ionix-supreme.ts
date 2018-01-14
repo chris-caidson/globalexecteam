@@ -1,6 +1,7 @@
 import { Component } from "@angular/core";
 import { IonicPage, NavController, ModalController } from "ionic-angular";
 import { PdfProvider } from "../../../../../providers/pdf/pdf";
+import { GoogleAnalyticsProvider } from './../../../../../providers/google-analytics/google-analytics';
 
 @IonicPage()
 @Component({
@@ -11,7 +12,8 @@ export class IonixSupremePage {
   constructor(
     public navCtrl: NavController,
     public modalCtrl: ModalController,
-    public pdfProvider: PdfProvider
+    public pdfProvider: PdfProvider,
+    private gap: GoogleAnalyticsProvider
   ) {}
 
   openVideoModal() {
@@ -22,5 +24,9 @@ export class IonixSupremePage {
     });
 
     myModal.present();
+  }
+
+  ionViewWillLoad() {
+    this.gap.trackView("IonixSupremePage");
   }
 }

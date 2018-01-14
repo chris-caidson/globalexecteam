@@ -1,6 +1,7 @@
 import { Component, ViewChild } from "@angular/core";
 import { Nav, Platform } from "ionic-angular";
 import { StatusBar } from "@ionic-native/status-bar";
+import { GoogleAnalytics } from "@ionic-native/google-analytics";
 import { SplashScreen } from "@ionic-native/splash-screen";
 
 @Component({
@@ -21,7 +22,8 @@ export class MyApp {
   constructor(
     public platform: Platform,
     public statusBar: StatusBar,
-    public splashScreen: SplashScreen
+    public splashScreen: SplashScreen,
+    public ga: GoogleAnalytics
   ) {
     this.initializeApp();
 
@@ -182,6 +184,17 @@ export class MyApp {
     this.platform.ready().then(() => {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
+
+      return this.ga.startTrackerWithId("UA-112477677-1")
+        .then(() => {
+          console.log('Google analytics is ready now');
+          return this.ga.enableUncaughtExceptionReporting(true)
+        }).then((_success) => {
+          console.log("startTrackerWithId success")
+        }).catch((_error) => {
+          console.log("enableUncaughtExceptionReporting", _error)
+        });
+
     });
   }
 

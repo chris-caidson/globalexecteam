@@ -5,6 +5,7 @@ import {
   NavParams,
   ModalController
 } from "ionic-angular";
+import { GoogleAnalyticsProvider } from './../../../providers/google-analytics/google-analytics';
 
 declare var RSSParser;
 
@@ -22,7 +23,8 @@ export class PressReleasesPage {
   constructor(
     public navCtrl: NavController,
     public navParams: NavParams,
-    public modalCtrl: ModalController
+    public modalCtrl: ModalController,
+    private gap: GoogleAnalyticsProvider
   ) {}
 
   ionViewDidLoad() {
@@ -63,5 +65,9 @@ export class PressReleasesPage {
 
     const myModal = this.modalCtrl.create("PressReleaseModalPage", data);
     myModal.present();
+  }
+
+  ionViewWillLoad() {
+    this.gap.trackView("PressReleasesPage");
   }
 }

@@ -1,5 +1,6 @@
 import { Component } from "@angular/core";
 import { IonicPage, NavController, ModalController } from "ionic-angular";
+import { GoogleAnalyticsProvider } from './../../../providers/google-analytics/google-analytics';
 
 @IonicPage()
 @Component({
@@ -7,7 +8,7 @@ import { IonicPage, NavController, ModalController } from "ionic-angular";
   templateUrl: "meet-our-cofounder.html"
 })
 export class MeetOurCofounderPage {
-  constructor(public navCtrl: NavController, public modalCtrl: ModalController) {}
+  constructor(public navCtrl: NavController, public modalCtrl: ModalController, private gap: GoogleAnalyticsProvider) {}
 
   openVideoModal() {
     const myModal = this.modalCtrl.create("VideoModalPage", {
@@ -16,5 +17,9 @@ export class MeetOurCofounderPage {
     });
 
     myModal.present();
+  }
+
+  ionViewWillLoad() {
+    this.gap.trackView("MeetOurCofounderPage");
   }
 }

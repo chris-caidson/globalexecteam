@@ -6,6 +6,7 @@ import {
   NavParams,
   ModalController
 } from "ionic-angular";
+import { GoogleAnalyticsProvider } from './../../../../providers/google-analytics/google-analytics';
 
 @IonicPage()
 @Component({
@@ -29,7 +30,8 @@ export class GetOurStoriesPage {
   constructor(
     public navCtrl: NavController,
     public navParams: NavParams,
-    public modalCtrl: ModalController
+    public modalCtrl: ModalController,
+    private gap: GoogleAnalyticsProvider
   ) {
     console.log(`${this.imagePath}opportunity-01.jpg`);
 
@@ -182,5 +184,9 @@ export class GetOurStoriesPage {
     });
 
     myModal.present();
+  }
+
+  ionViewWillLoad() {
+    this.gap.trackView("OurStoriesPage");
   }
 }

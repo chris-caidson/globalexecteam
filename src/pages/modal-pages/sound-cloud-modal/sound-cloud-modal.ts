@@ -1,6 +1,7 @@
 import { Component, ViewChild } from "@angular/core";
 import { IonicPage, NavParams, ViewController } from "ionic-angular";
 import { DomSanitizer, SafeResourceUrl } from "@angular/platform-browser";
+import { GoogleAnalyticsProvider } from './../../../providers/google-analytics/google-analytics';
 
 @IonicPage()
 @Component({
@@ -22,7 +23,8 @@ export class SoundCloudModalPage {
   constructor(
     public navParams: NavParams,
     public viewCtrl: ViewController,
-    private sanitizer: DomSanitizer
+    private sanitizer: DomSanitizer,
+    private gap: GoogleAnalyticsProvider
   ) {}
 
   ionViewWillLoad() {
@@ -30,6 +32,9 @@ export class SoundCloudModalPage {
     this.url = this.sanitizer.bypassSecurityTrustResourceUrl(
       `${this.baseUrl}${this.navParams.get("url")}${this.queryString}`
     );
+
+    this.gap.trackView("SoundCloudModalPage");
+    this.gap.trackEvent("Opened Modal", `Loaded ${this.title}`, "SoundCloud");
   }
 
   closeModal() {

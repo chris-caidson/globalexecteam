@@ -1,5 +1,6 @@
 import { Component } from "@angular/core";
 import { IonicPage, NavController, ModalController } from "ionic-angular";
+import { GoogleAnalyticsProvider } from './../../../providers/google-analytics/google-analytics';
 
 @IonicPage()
 @Component({
@@ -9,7 +10,8 @@ import { IonicPage, NavController, ModalController } from "ionic-angular";
 export class CorporateLeadershipPage {
   constructor(
     public navCtrl: NavController,
-    public modalCtrl: ModalController
+    public modalCtrl: ModalController,
+    private gap: GoogleAnalyticsProvider
   ) {}
 
   openPersonModal(person: string) {
@@ -285,5 +287,9 @@ export class CorporateLeadershipPage {
 
     const myModal = this.modalCtrl.create("PersonModalPage", data);
     myModal.present();
+  }
+
+  ionViewWillLoad() {
+    this.gap.trackView("CorporateLeadershipPage");
   }
 }

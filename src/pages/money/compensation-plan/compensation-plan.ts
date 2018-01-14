@@ -1,6 +1,7 @@
 import { Component } from "@angular/core";
 import { IonicPage, NavController, ModalController } from "ionic-angular";
 import { PdfProvider } from "../../../providers/pdf/pdf";
+import { GoogleAnalyticsProvider } from './../../../providers/google-analytics/google-analytics';
 
 @IonicPage()
 @Component({
@@ -8,7 +9,8 @@ import { PdfProvider } from "../../../providers/pdf/pdf";
   templateUrl: "compensation-plan.html"
 })
 export class CompensationPlanPage {
-  constructor(public navCtrl: NavController, public modalCtrl: ModalController, public pdfProvider: PdfProvider) {}
+  constructor(public navCtrl: NavController, public modalCtrl: ModalController,
+    public pdfProvider: PdfProvider, private gap: GoogleAnalyticsProvider) {}
 
   openVideoModal() {
     const myModal = this.modalCtrl.create("VideoModalPage", {
@@ -17,5 +19,9 @@ export class CompensationPlanPage {
     });
 
     myModal.present();
+  }
+
+  ionViewWillLoad() {
+    this.gap.trackView("CompensationPlanPage");
   }
 }
