@@ -1,10 +1,7 @@
 import { Injectable } from "@angular/core";
 import { Platform } from "ionic-angular";
 import { AlertController } from "ionic-angular";
-import {
-  InAppBrowser,
-  InAppBrowserOptions
-} from "@ionic-native/in-app-browser";
+import { InAppBrowser } from "@ionic-native/in-app-browser";
 
 @Injectable()
 export class PdfProvider{
