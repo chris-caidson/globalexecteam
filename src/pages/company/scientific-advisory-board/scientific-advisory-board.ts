@@ -18,7 +18,7 @@ export class ScientificAdvisoryBoardPage {
         data = {
           personName: "John W. Anderson",
           personTitle: "Isagenix Founder",
-          imageSrc: "/assets/imgs/advisory/john-anderson.jpg",
+          imageSrc: "assets/imgs/advisory/john-anderson.jpg",
           details: "John Anderson has worked as a private-label supplement manufacturer and formulator for more than " +
             "600 companies, creating more than 2,300 nutritional and weight loss products. His products are internationally " +
             "recognized and respected as groundbreaking and incredibly effective.<p>For Isagenix, John took the art of " +
@@ -33,7 +33,7 @@ export class ScientificAdvisoryBoardPage {
         data = {
           personName: "Robert 'Bob' Kay, Ph.D.",
           personTitle: "Chief Science Officer",
-          imageSrc: "/assets/imgs/advisory/robert-kay.jpg",
+          imageSrc: "assets/imgs/advisory/robert-kay.jpg",
           details: "Bob has more than 25 years of experience leveraging business and science to create innovative, " +
             "market-leading products. As Chief Science Officer, Bob oversees the research and development, product design " +
             "and development, product commercialization, and quality assurance of all Isagenix products. Prior to joining " +
@@ -49,7 +49,7 @@ export class ScientificAdvisoryBoardPage {
         data = {
           personName: "Suk Cho, Ph.D.",
           personTitle: "Senior Science Advisor and SAB Chair",
-          imageSrc: "/assets/imgs/advisory/suk-cho.jpg",
+          imageSrc: "assets/imgs/advisory/suk-cho.jpg",
           details: "Dr. Suk Cho brings breadth of product development experience and diverse technical knowledge to our " +
             "Isagenix® Scientific Advisory Board. Since joining the company in 2010, he has directed new product concept and " +
             "development, managed international regulatory affairs, overseen all quality management processes including " +
@@ -65,7 +65,7 @@ export class ScientificAdvisoryBoardPage {
         data = {
           personName: "Dennis Harper, D.O.",
           personTitle: "",
-          imageSrc: "/assets/imgs/advisory/dennis-harper.jpg",
+          imageSrc: "assets/imgs/advisory/dennis-harper.jpg",
           details: "Dr. Harper has been in general medical practice for 20 years and was instrumental in getting the DSHEA " +
             "(Dietary Supplement Health and Education Act) implemented in 1994. Dr. Harper was a voting member of the American " +
             "Osteopathic Association, former President of Physicians for Progressive Medicine, former Chairman for the " +
@@ -78,7 +78,7 @@ export class ScientificAdvisoryBoardPage {
         data = {
           personName: "Wayne Bidlack, Ph.D.",
           personTitle: "",
-          imageSrc: "/assets/imgs/advisory/wayne-bidlack.jpg",
+          imageSrc: "assets/imgs/advisory/wayne-bidlack.jpg",
           details: "Dr. Wayne Bidlack is a professor in the Human Nutrition and Food Science Department at the California " +
             "State Polytechnic University in Pomona, CA. He retired with emeritus status, but continues to teach one quarter " +
             "each year. He received his bachelor’s of science degree in Dairy Science and Technology from Pennsylvania State " +
@@ -97,7 +97,7 @@ export class ScientificAdvisoryBoardPage {
         data = {
           personName: "Zhaoping Li, M.D., Ph.D.",
           personTitle: "",
-          imageSrc: "/assets/imgs/advisory/zhaoping-li.jpg",
+          imageSrc: "assets/imgs/advisory/zhaoping-li.jpg",
           details: "Dr. Zhaoping Li received a medical degree and a Ph.D. in physiology from Peking University, School of " +
             "Medicine, in China. She completed her internship and residency in Internal Medicine at the VA Greater Los " +
             "Angeles. She also completed a fellowship in Cardiovascular Research at UCLA. Dr. Li is board certified in " +
@@ -119,7 +119,7 @@ export class ScientificAdvisoryBoardPage {
         data = {
           personName: "Nicholas Messina, M.D.",
           personTitle: "",
-          imageSrc: "/assets/imgs/advisory/nicholas-messina.jpg",
+          imageSrc: "assets/imgs/advisory/nicholas-messina.jpg",
           details: "Dr. Nicholas Messina became a board certified family practitioner in 1985. He has been in both solo and " +
             "group practice. He has served as the director for an integrative medical facility and went on to become the " +
             "medical director for an independent research facility. While there, he participated as the principal investigator " +
@@ -138,7 +138,7 @@ export class ScientificAdvisoryBoardPage {
         data = {
           personName: "Michael Colgan, Ph.D., CCN",
           personTitle: "",
-          imageSrc: "/assets/imgs/advisory/michael-colgan.jpg",
+          imageSrc: "assets/imgs/advisory/michael-colgan.jpg",
           details: "Dr. Colgan is an internationally renowned research scientist acknowledged as one of the world’s scientific " +
             "experts on the inhibition of aging. Dr. Colgan has written more than fifty research papers, authored more than " +
             "700 articles and written 16 books, including two bestsellers. His first book, Your Personal Vitamin Profile, " +
