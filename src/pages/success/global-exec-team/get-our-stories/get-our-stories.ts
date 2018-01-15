@@ -20,7 +20,7 @@ export class GetOurStoriesPage {
   productStories: Array<{ title: string; url: string; image: string }>;
 
   baseUrl: string = "http://w.soundcloud.com/player?url=https://soundcloud.com/";
-  imagePath: string = "../../../../assets/imgs/sound-cloud/";
+  imagePath: string = "/assets/imgs/sound-cloud/";
 
   queryString: string = "&amp;color=75c043&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;" +
     "show_user=false&amp;start_track=0&amp;show_playcount=true&amp;show_artwork=true&amp;buying=false&amp;download=false" +
