@@ -9,6 +9,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { PdfProvider } from '../providers/pdf/pdf';
 import { GoogleAnalyticsProvider } from '../providers/google-analytics/google-analytics';
+import { AppAvailability } from '@ionic-native/app-availability'
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { GoogleAnalyticsProvider } from '../providers/google-analytics/google-an
     InAppBrowser,
     PdfProvider,
     GoogleAnalytics,
-    GoogleAnalyticsProvider
+    GoogleAnalyticsProvider,
+    AppAvailability
   ]
 })
 export class AppModule {}
