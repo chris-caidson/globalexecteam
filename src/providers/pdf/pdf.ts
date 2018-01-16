@@ -2,15 +2,13 @@ import { Injectable } from "@angular/core";
 import { Platform } from "ionic-angular";
 import { AlertController } from "ionic-angular";
 import { InAppBrowser } from "@ionic-native/in-app-browser";
-import { DocumentViewer } from '@ionic-native/document-viewer';
 
 @Injectable()
 export class PdfProvider{
   constructor(
     public platform: Platform,
     public alertCtrl: AlertController,
-    private browser: InAppBrowser,
-    private docViewer: DocumentViewer
+    private browser: InAppBrowser
   ) {}
 
   openPdf(title, path) {
@@ -31,11 +29,5 @@ export class PdfProvider{
       presentationstyle: "pagesheet",
       fullscreen: "yes"
     });
-  }
-
-  viewPdf(title, path) {
-    this.docViewer.viewDocument(path, 'application/pdf', {
-      title: title
-    })
   }
 }

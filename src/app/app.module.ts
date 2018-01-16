@@ -1,4 +1,3 @@
-import { DocumentViewer } from '@ionic-native/document-viewer';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -30,8 +29,7 @@ import { GoogleAnalyticsProvider } from '../providers/google-analytics/google-an
     InAppBrowser,
     PdfProvider,
     GoogleAnalytics,
-    GoogleAnalyticsProvider,
-    DocumentViewer
+    GoogleAnalyticsProvider
   ]
 })
 export class AppModule {}
