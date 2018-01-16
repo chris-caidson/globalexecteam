@@ -91,7 +91,7 @@ p {
 
 .pdf {
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
   padding-left: 45px;
   text-decoration: none;
   color: $secondary-color;
@@ -99,15 +99,13 @@ p {
   background-repeat: no-repeat;
   background-position-x: 0px;
   background-position-y: 5px;
-  height: 40px;
-  margin-bottom: $default-margin;
+  min-height: 40px;
 }
 
 @media (min-width: 640px) {
   .pdf {
-    height: 30px;
+    min-height: 30px;
     background-position-y: 0px;
-    margin-bottom: $small-margin;
   }
 }
 

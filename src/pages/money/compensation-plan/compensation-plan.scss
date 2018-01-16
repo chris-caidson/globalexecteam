@@ -1,6 +1,7 @@
 page-compensation-plan {
   ul {
     list-style: none;
+    padding-top: $default-margin;
   }
 
   li {
@@ -19,7 +20,6 @@ page-compensation-plan {
     max-width: 100%;
     margin: auto;
   }
-
 
   #listSection ul li {
     margin-left: -$large-margin;

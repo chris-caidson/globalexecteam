@@ -9,8 +9,14 @@ page-thirty-day-guide {
   }
 
   li {
+    margin-top: $default-margin;
     margin-bottom: $default-margin;
     border-bottom: 1px solid #999;
+    padding-bottom: $default-margin;
+
+    p {
+      margin-bottom: $small-margin;
+    }
   }
 
   #listSection {
@@ -40,7 +46,7 @@ page-thirty-day-guide {
     width: 100%;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 892px) {
     .grid-container {
       grid-template-columns: auto auto auto;
     }

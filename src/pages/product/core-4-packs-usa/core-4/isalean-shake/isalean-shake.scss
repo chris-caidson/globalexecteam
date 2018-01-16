@@ -18,6 +18,10 @@ page-isalean-shake {
     margin-bottom: $large-margin;
   }
 
+  .pdf-list li {
+    margin-bottom: $default-margin;
+  }
+
   @media (min-width: 640px) {
     #topContainer {
       grid-template-columns: auto auto;

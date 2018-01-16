@@ -11,8 +11,7 @@
 </ion-header>
 <ion-content>
   <header role="banner">
-    <img sizes="(max-width: 1400px) 100vw" src="assets/imgs/susan-quote/susan-quote-1400.jpg" alt="Leaving Legacies"
-      srcset="assets/imgs/susan-quote/susan-quote-400.jpg 400w,
+    <img sizes="(max-width: 1400px) 100vw" src="assets/imgs/susan-quote/susan-quote-1400.jpg" alt="Leaving Legacies" srcset="assets/imgs/susan-quote/susan-quote-400.jpg 400w,
       assets/imgs/susan-quote/susan-quote-849.jpg 849w,
       assets/imgs/susan-quote/susan-quote-1177.jpg 1177w,
       assets/imgs/susan-quote/susan-quote-1400.jpg 1400w" />
@@ -33,25 +32,21 @@
           </ion-col>
           <ion-col col-lg col-12>
             <section id="listSection">
+              <div class="imgContainer">
+                <img src="assets/imgs/misc/erin-quote.jpg" alt="Best food, best nutrition, best comp plan. What more could you want? - Erin Brauer (Teacher)" />
+              </div>
               <ul>
                 <li>
-                  <div class="imgContainer">
-                    <img src="assets/imgs/misc/erin-quote.jpg" alt="Best food, best nutrition, best comp plan. What more could you want? - Erin Brauer (Teacher)"
-                    />
-                  </div>
+                  <span class="pdf" (click)="pdfProvider.openPdf('Global Compensation Plan', 'https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/pdf%2Fglobal-compensation-plan.pdf?alt=media&token=5db90c54-e139-4318-9b09-c3686b61e55d')">Global Compensation Plan</span>
                 </li>
                 <li>
-                <li>
-                  <span class="pdf" (click)="pdfProvider.openPdf('Global Compensation Plan', 'https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/pdf%2Fus-en-global-compensation-plan-1.pdf?alt=media&token=e9a02f33-aa89-494f-b97d-e12422f380c0')">Global Compensation Plan</span>
+                  <span class="pdf" (click)="pdfProvider.openPdf('Global Compensation Glossary', 'https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/pdf%2Fglobal-compensation-glossary.pdf?alt=media&token=5bbd4ed9-9331-41c5-8487-78619afd313f')">Global Compensation Glossary</span>
                 </li>
                 <li>
-                  <span class="pdf" (click)="pdfProvider.openPdf('Global Compensation Glossary', 'https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/pdf%2Fus-en-compesnation-plan-glossary.pdf?alt=media&token=92b582a4-d218-4826-9801-368802559720')">Global Compensation Glossary</span>
+                  <span class="pdf" (click)="pdfProvider.openPdf('YOUR Path to SUCCESS', 'https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/pdf%2Fyour-path-to-success.pdf?alt=media&token=6059ff87-3df6-4622-a467-e1175b89778d')">YOUR Path to SUCCESS</span>
                 </li>
                 <li>
-                  <span class="pdf" (click)="pdfProvider.openPdf('YOUR Path to SUCCESS', 'https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/pdf%2Fyour-path-to-success.pdf?alt=media&token=c655d8cf-1c89-44a4-a2de-6f5a98fa373b')">YOUR Path to SUCCESS</span>
-                </li>
-                <li>
-                  <span class="pdf" (click)="pdfProvider.openPdf('Shared Revenue Plan', 'https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/pdf%2Fshared-revenue-plan.pdf?alt=media&token=71c3cb76-4c25-4ddd-85b7-3042c9c5cc2d')">Shared Revenue Plan</span>
+                  <span class="pdf" (click)="pdfProvider.openPdf('Shared Revenue Plan', 'https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/pdf%2Fshared-revenue-plan.pdf?alt=media&token=072754f6-6e80-45a6-8307-3a6e5365d205')">Shared Revenue Plan</span>
                 </li>
               </ul>
             </section>
