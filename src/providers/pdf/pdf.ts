@@ -3,6 +3,7 @@ import { Platform } from "ionic-angular";
 import { AlertController } from "ionic-angular";
 import { InAppBrowser } from "@ionic-native/in-app-browser";
 import { AppAvailability } from "@ionic-native/app-availability";
+import { Market } from '@ionic-native/market';
 
 @Injectable()
 export class PdfProvider {
@@ -10,15 +11,18 @@ export class PdfProvider {
     public platform: Platform,
     public alertCtrl: AlertController,
     private browser: InAppBrowser,
-    private appAvailability: AppAvailability
+    private appAvailability: AppAvailability,
+    private market: Market
   ) {}
 
   openPdf(title, path) {
     this.platform.ready().then(() => {
       if (this.platform.is("android")) {
         this.appAvailability
-          .check("com.adobe.reader")
-          .then(result => console.log("Has Adobe Acrobat Reader: " + result));
+          .check("com.xodo.pdf.reader") //"com.adobe.reader")
+          .then(result => { if (result) {
+            this.market.open("com.xodo.pdf.reader");
+          }});
       };
     });
 

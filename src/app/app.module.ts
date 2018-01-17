@@ -10,6 +10,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { PdfProvider } from '../providers/pdf/pdf';
 import { GoogleAnalyticsProvider } from '../providers/google-analytics/google-analytics';
 import { AppAvailability } from '@ionic-native/app-availability'
+import { Market } from '@ionic-native/market'
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { AppAvailability } from '@ionic-native/app-availability'
     PdfProvider,
     GoogleAnalytics,
     GoogleAnalyticsProvider,
-    AppAvailability
+    AppAvailability,
+    Market
   ]
 })
 export class AppModule {}
