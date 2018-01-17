@@ -29,7 +29,6 @@ export class MyApp {
 
     this.pages = [
       // GetFree Content
-      { title: "Get Free", component: null, separatorLevel: 1, icon: null },
       { title: "Home", component: "HomePage", separatorLevel: 4, icon: "home" },
 
       // GetFree - Movement
