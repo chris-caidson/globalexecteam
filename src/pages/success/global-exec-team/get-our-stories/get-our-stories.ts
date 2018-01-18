@@ -19,7 +19,7 @@ export class GetOurStoriesPage {
   opportunityStories: Array<{ title: string; url: string; image: string }>;
   productStories: Array<{ title: string; url: string; image: string }>;
 
-  baseUrl: string = "http://w.soundcloud.com/player?url=https://soundcloud.com/";
+  baseUrl: string = "//w.soundcloud.com/player?url=https://soundcloud.com/";
   imagePath: string = "assets/imgs/sound-cloud/";
 
   queryString: string = "&amp;color=75c043&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;" +
