@@ -21,12 +21,7 @@ export class GetOurStoriesPage {
   opportunityStories: Array<{ title: string; url: string; image: string }>;
   productStories: Array<{ title: string; url: string; image: string }>;
 
-  baseUrl: string = "//w.soundcloud.com/player?url=https://soundcloud.com/";
   imagePath: string = "assets/imgs/sound-cloud/";
-
-  queryString: string = "&amp;color=75c043&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;" +
-    "show_user=false&amp;start_track=0&amp;show_playcount=true&amp;show_artwork=true&amp;buying=false&amp;download=false" +
-    "&amp;liking=true&amp;sharing=false&amp;show_reposts=false";
 
   constructor(
     public navCtrl: NavController,
@@ -34,8 +29,6 @@ export class GetOurStoriesPage {
     public modalCtrl: ModalController,
     private gap: GoogleAnalyticsProvider
   ) {
-    console.log(`${this.imagePath}opportunity-01.jpg`);
-
     this.opportunityStories = [
       {
         title: "Three Women Share Their Success Stories",

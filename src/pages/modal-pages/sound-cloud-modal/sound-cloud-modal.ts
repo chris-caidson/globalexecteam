@@ -14,7 +14,7 @@ export class SoundCloudModalPage {
 
   @ViewChild("iframe") iframe;
 
-  baseUrl: string = "//w.soundcloud.com/player?url=https://soundcloud.com/";
+  baseUrl: string = "https://w.soundcloud.com/player?url=https://soundcloud.com/";
 
   queryString: string = "&amp;color=75c043&amp;auto_play=true&amp;hide_related=true&amp;show_comments=false&amp;" +
     "show_user=false&amp;start_track=0&amp;show_playcount=true&amp;show_artwork=true&amp;buying=false&amp;download=false" +
