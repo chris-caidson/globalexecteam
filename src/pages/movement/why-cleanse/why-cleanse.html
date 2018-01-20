@@ -37,6 +37,26 @@
             and support for healthy aging.</p>
         </section>
         <section>
+          <div id="buttonDiv">
+            <ion-grid>
+              <ion-row>
+                <ion-col>
+                  <button ion-button full color="secondary" (click)="loadProblemPage()">
+                    <i class="fa fa-exclamation-circle fixed-width space-right"></i>
+                    <span>Problem</span>
+                  </button>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col>
+                  <button ion-button full color="secondary" (click)="loadSolutionPage()">
+                    <i class="fa fa-check-circle fixed-width space-right"></i>
+                    <span>Solution</span>
+                  </button>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </div>
           <img src="assets/imgs/misc/toxins.jpg" alt="Toxins" />
         </section>
         <section id="thinkAboutItSection">

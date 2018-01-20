@@ -7,6 +7,10 @@ page-why-cleanse {
     }
   }
 
+  #buttonDiv {
+    display: none;
+  }
+
   .green-icon {
     color: $primary-color;
   }
@@ -53,6 +57,13 @@ page-why-cleanse {
 
     #yogaGirlSection {
       order: 1;
+    }
+  }
+
+  @media (min-width: 1250px) {
+    #buttonDiv {
+      display: block;
+      margin-top: $default-margin;
     }
   }
 }

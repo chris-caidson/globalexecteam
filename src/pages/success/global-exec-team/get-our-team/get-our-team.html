@@ -26,6 +26,32 @@
         each other to create personal freedom and a lasting legacy. These GAME-CHANGERS live to help others through collaboration
         and unity and are uniquely qualified to be LEADERS of this incredible team and movement.
       </h5>
+      <div id="buttonDiv">
+        <ion-grid>
+          <ion-row>
+            <ion-col>
+              <button ion-button full small color="secondary" (click)="showMillionaires()">
+                <span>Millionaires</span>
+              </button>
+            </ion-col>
+            <ion-col>
+              <button ion-button full small color="secondary" (click)="showLeaders()">
+                <span>Leaders</span>
+              </button>
+            </ion-col>
+            <ion-col>
+              <button ion-button full small color="secondary" (click)="showStart1000()">
+                <span>Start 1000</span>
+              </button>
+            </ion-col>
+            <ion-col>
+              <button ion-button full small color="secondary" (click)="showTeamIsagenix()">
+                <span>Team Isagenix</span>
+              </button>
+            </ion-col>
+          </ion-row>
+          </ion-grid>
+      </div>
       <div id="millionaires" *ngIf="millionairesVisible">
         <h2 class="centered">Millionaires</h2>
         <h5 class="centered note tap">(Tap a picture or name to see details.)</h5>

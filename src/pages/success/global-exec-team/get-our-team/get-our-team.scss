@@ -11,6 +11,10 @@ page-get-our-team {
     padding-top: $small-margin;
   }
 
+  #buttonDiv {
+    display: none;
+  }
+
   #ourTeamH5 {
     text-align: justify;
   }
@@ -130,5 +134,8 @@ page-get-our-team {
       display: block;
     }
 
+    #buttonDiv {
+      display: block;
+    }
   }
 }
