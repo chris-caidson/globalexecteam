@@ -6,6 +6,5 @@ import { Component } from "@angular/core";
 })
 export class GetFooterComponent {
   year: number = new Date().getFullYear();
-
   constructor() {}
 }

@@ -23,13 +23,14 @@
       <section id="makeAWish">
         <img src="assets/imgs/misc/make-a-wish.jpg" alt="Make-A-Wish" />
       </section>
-      <p class="note">(Tap a headline or image to view full press release.)</p>
+      <p id="tapH5" class="note">(Tap a headline or image to view full press release.)</p>
+      <p id="clickH5" class="note">(Click a headline or image to view full press release.)</p>
       <div *ngIf="hasEntries">
         <section class="entry" *ngFor="let e of entries">
-          <h3 (click)="openPressReleaseModal(e)" class="centered">{{e.title}}</h3>
+          <h3 (click)="openPressReleaseModal(e)" class="centered pointer">{{e.title}}</h3>
           <h5 class="centered">{{e.isoDate | date }}</h5>
           <div class="grid-container">
-            <img [src]="e.enclosure.url" alt="" (click)="openPressReleaseModal(e)" />
+            <img [src]="e.enclosure.url" alt="" (click)="openPressReleaseModal(e)" class="pointer" />
             <div [innerHTML]="e.contentSnippet"></div>
           </div>
         </section>

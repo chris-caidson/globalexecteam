@@ -26,4 +26,10 @@ page-mark-and-deanna {
       margin-bottom: $default-margin;
     }
   }
+
+  @media (min-width: 1250px) {
+    main {
+      margin-top: 85px;
+    }
+  }
 }

@@ -29,7 +29,7 @@ import { GoogleAnalyticsProvider } from '../providers/google-analytics/google-an
     InAppBrowser,
     PdfProvider,
     GoogleAnalytics,
-    GoogleAnalyticsProvider
+    GoogleAnalyticsProvider,
   ]
 })
 export class AppModule {}

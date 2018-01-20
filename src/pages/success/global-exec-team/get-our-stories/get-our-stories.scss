@@ -8,7 +8,16 @@ page-get-our-stories {
   }
 
   h5 {
+    font-size: smaller;
     margin-bottom: $large-margin;
+  }
+
+  .tap {
+    display: block;
+  }
+
+  .click {
+    display: none;
   }
 
   ion-footer ion-grid {
@@ -63,6 +72,16 @@ page-get-our-stories {
     .audio-title {
       padding-top: 5px;
       margin-top: $small-margin;
+    }
+  }
+
+  @media (min-width: 1250px) {
+    .tap {
+      display: none;
+    }
+
+    .click {
+      display: block;
     }
   }
 }

@@ -15,4 +15,8 @@ export class KielAndCarolynPage {
   ionViewWillLoad() {
     this.gap.trackView("KielAndCarolynPage");
   }
+
+  goBack() {
+    this.navCtrl.pop();
+  }
 }

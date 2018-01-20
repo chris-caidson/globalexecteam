@@ -19,3 +19,17 @@
     height: 100%;
   }
 }
+
+@media (min-width: 1250px) {
+  .modal-wrapper {
+    position: absolute;
+    top: calc(50% - (600px / 2));
+    left: calc(50% - (1000px / 2));
+    height: 600px;
+    width: 1000px;
+
+    main {
+      margin: $large-margin;
+    }
+  }
+}

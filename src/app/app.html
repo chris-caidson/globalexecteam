@@ -4,30 +4,41 @@
       <ion-title>Menu</ion-title>
     </ion-toolbar>
   </ion-header>
-
   <ion-content>
-    <div id="getFreeDiv">
-      <img src="assets/imgs/misc/get-free.png" alt="Get Free" />
-    </div>
-    <ion-list>
-      <div *ngFor="let p of pages">
-        <div *ngIf="p.separatorLevel === 1" class="primary-separator">
-          <span>{{p.title}}</span>
-        </div>
-        <div *ngIf="p.separatorLevel === 2" class="secondary-separator">
-          <span>{{p.title}}</span>
-        </div>
-        <div *ngIf="p.separatorLevel === 3" class="tertiary-separator">
-          <span>{{p.title}}</span>
-        </div>
-        <button *ngIf="p.component !== null" menuClose ion-item (click)="openPage(p)" no-lines class="menu-button">
-          <i item-start class="fa fa-{{p.icon}} space-right fixed-width"></i><span>{{p.title}}</span>
-        </button>
+    <div id="test">
+      <div id="getFreeDiv">
+        <img src="assets/imgs/misc/get-free.png" alt="Get Free" />
       </div>
-    </ion-list>
+      <ion-list>
+        <div *ngFor="let p of pages">
+          <div *ngIf="p.separatorLevel === 1" class="primary-separator">
+            <span>{{p.title}}</span>
+          </div>
+          <div *ngIf="p.separatorLevel === 2" class="secondary-separator">
+            <span>{{p.title}}</span>
+          </div>
+          <div *ngIf="p.separatorLevel === 3" class="tertiary-separator">
+            <span>{{p.title}}</span>
+          </div>
+          <button *ngIf="p.component !== null" menuClose ion-item (click)="openPage(p)" no-lines class="menu-button">
+            <i item-start class="fa fa-{{p.icon}} space-right fixed-width"></i>
+            <span>{{p.title}}</span>
+          </button>
+        </div>
+      </ion-list>
+    </div>
   </ion-content>
-
 </ion-menu>
-
-<!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus. -->
+<nav id="mainNav">
+  <img src="../assets/imgs/misc/get-free-lg.png" alt="Get Free" (click)="openPage()" class="pointer" />
+  <ul class="uppercase">
+    <li (click)="openPage()" class="pointer">Home</li>
+    <li>Movement</li>
+    <li>Opportunity</li>
+    <li>Money</li>
+    <li>Company</li>
+    <li>Product</li>
+    <li>Success</li>
+  </ul>
+</nav>
 <ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

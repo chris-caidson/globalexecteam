@@ -42,4 +42,8 @@ export class IsaleanShakePage {
   ionViewWillLoad() {
     this.gap.trackView("IsaLeanShakePage");
   }
+
+  goBack() {
+    this.navCtrl.pop();
+  }
 }

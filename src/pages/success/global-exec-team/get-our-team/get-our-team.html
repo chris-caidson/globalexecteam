@@ -20,7 +20,7 @@
   <main role="main">
     <article>
       <h1 class="uppercase centered">Our Team</h1>
-      <h5>
+      <h5 id="ourTeamH5">
         GLOBAL EXEC TEAM is a powerful movement driven by a vision to unite like-minded individuals to own their lives both physically
         and financially. Our GET Leaders give their time and knowledge to help others achieve success by locking arms with
         each other to create personal freedom and a lasting legacy. These GAME-CHANGERS live to help others through collaboration
@@ -28,30 +28,32 @@
       </h5>
       <div id="millionaires" *ngIf="millionairesVisible">
         <h2 class="centered">Millionaires</h2>
-        <h5 class="centered note">(Tap a picture or name to see details.)</h5>
+        <h5 class="centered note tap">(Tap a picture or name to see details.)</h5>
+        <h5 class="centered note click">(Click a picture or name to see details.)</h5>
         <div class="grid-container">
           <section *ngFor="let s of millionaires" class="person-content">
             <div class="image-container">
-              <img [src]="s.imageUrl" alt="s.name" (click)="openPersonModal(s)" />
+              <img [src]="s.imageUrl" alt="s.name" (click)="openPersonModal(s)" class="pointer" />
             </div>
             <div>
-              <h3 (click)="openPersonModal(s)">{{s.name}}</h3>
+              <h3 (click)="openPersonModal(s)" class="pointer">{{s.name}}</h3>
               <h5>{{s.title}}</h5>
-              <span class="isaFyiLink" (click)="openPage(s.name)">Check out the IsaFyi Story</span>
+              <span class="isaFyiLink pointer" (click)="openPage(s.name)">Check out the IsaFyi Story</span>
             </div>
           </section>
         </div>
       </div>
       <div id="leaders" *ngIf="leadersVisible">
         <h2 class="centered">Leaders</h2>
-        <h5 class="centered note">(Tap a picture or name to see details.)</h5>
+        <h5 class="centered note tap">(Tap a picture or name to see details.)</h5>
+        <h5 class="centered note click">(Click a picture or name to see details.)</h5>
         <div class="grid-container">
           <section *ngFor="let s of leaders" class="person-content">
             <div class="image-container">
-              <img [src]="s.imageUrl" alt="s.name" (click)="openPersonModal(s)" />
+              <img [src]="s.imageUrl" alt="s.name" (click)="openPersonModal(s)" class="pointer" />
             </div>
             <div>
-              <h3 (click)="openPersonModal(s)">{{s.name}}</h3>
+              <h3 (click)="openPersonModal(s)" class="pointer">{{s.name}}</h3>
               <h5>{{s.title}}</h5>
             </div>
           </section>
@@ -59,14 +61,15 @@
       </div>
       <div id="start1000" *ngIf="start1000Visible">
         <h2 class="centered">Start 1000</h2>
-        <h5 class="centered note">(Tap a picture or name to see details.)</h5>
+        <h5 class="centered note tap">(Tap a picture or name to see details.)</h5>
+        <h5 class="centered note click">(Click a picture or name to see details.)</h5>
         <div class="grid-container">
           <section *ngFor="let s of start1000" class="person-content">
             <div class="image-container">
-              <img [src]="s.imageUrl" alt="s.name" (click)="openPersonModal(s)" />
+              <img [src]="s.imageUrl" alt="s.name" (click)="openPersonModal(s)" class="pointer" />
             </div>
             <div>
-              <h3 (click)="openPersonModal(s)">{{s.name}}</h3>
+              <h3 (click)="openPersonModal(s)" class="pointer">{{s.name}}</h3>
               <h5>{{s.title}}</h5>
             </div>
           </section>
@@ -74,14 +77,15 @@
       </div>
       <div id="teamIsagenix" *ngIf="teamIsagenixVisible">
         <h2 class="centered">Team Isagenix</h2>
-        <h5 class="centered note">(Tap a picture or name to see details.)</h5>
+        <h5 class="centered note tap">(Tap a picture or name to see details.)</h5>
+        <h5 class="centered note click">(Click a picture or name to see details.)</h5>
         <div class="grid-container">
           <section *ngFor="let s of teamIsagenix" class="person-content">
             <div class="image-container">
-              <img [src]="s.imageUrl" alt="s.name" (click)="openPersonModal(s)" />
+              <img [src]="s.imageUrl" alt="s.name" (click)="openPersonModal(s)" class="pointer" />
             </div>
             <div>
-              <h3 (click)="openPersonModal(s)">{{s.name}}</h3>
+              <h3 (click)="openPersonModal(s)" class="pointer">{{s.name}}</h3>
               <h5>{{s.title}}</h5>
             </div>
           </section>

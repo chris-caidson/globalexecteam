@@ -17,4 +17,8 @@ export class ValuePakPage {
   ionViewWillLoad() {
     this.gap.trackView("ValuePakPage");
   }
+
+  goBack() {
+    this.navCtrl.pop();
+  }
 }

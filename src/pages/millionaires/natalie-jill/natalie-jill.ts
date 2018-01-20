@@ -15,4 +15,8 @@ export class NatalieJillPage {
   ionViewWillLoad() {
     this.gap.trackView("NatalieJillPage");
   }
+
+  goBack() {
+    this.navCtrl.pop();
+  }
 }

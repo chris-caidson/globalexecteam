@@ -18,6 +18,8 @@
   </header>
   <main role="main">
     <article>
+      <button id="backBtn" (click)="goBack()">
+        <i class="fa fa-caret-left"></i>&nbsp;Back</button>
       <h1 class="uppercase centered">Nature's Answer to Stress</h1>
       <div id="topContainer" class="grid-container">
         <section>
@@ -52,13 +54,13 @@
           <p>Natural Fruit Flavor, available in a liquid or powder</p>
         </section>
         <section>
-            <h3>Videos</h3>
-            <ul class="list-unstyled">
-              <li (click)="openVideoModal()">
-                <span class="video-li">The Science Behind Adaptogens</span>
-              </li>
-            </ul>
-          </section>
+          <h3>Videos</h3>
+          <ul class="list-unstyled">
+            <li (click)="openVideoModal()">
+              <span class="video-li">The Science Behind Adaptogens</span>
+            </li>
+          </ul>
+        </section>
         <section>
           <h3>Product Info</h3>
           <ul id="pdfList" class="list-unstyled">

@@ -10,6 +10,13 @@
   </ion-navbar>
 </ion-header>
 <ion-content>
+  <div class="modal-close-div">
+    <span>
+      <i class="fa fa-newspaper-o fixed-width space-right"></i>{{personName}}</span>
+    <button class="modal-close-btn" outline round (click)="closeModal()">
+      <i class="fa fa-close fixed-width"></i>
+    </button>
+  </div>
   <main role="main">
     <article class="grid-container">
       <aside>

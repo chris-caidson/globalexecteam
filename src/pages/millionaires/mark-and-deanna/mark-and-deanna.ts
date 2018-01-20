@@ -15,4 +15,8 @@ export class MarkAndDeannaPage {
   ionViewWillLoad() {
     this.gap.trackView("MarkAndDeannaPage");
   }
+
+  goBack() {
+    this.navCtrl.pop();
+  }
 }

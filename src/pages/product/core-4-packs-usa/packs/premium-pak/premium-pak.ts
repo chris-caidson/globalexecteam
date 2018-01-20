@@ -17,4 +17,8 @@ export class PremiumPakPage {
   ionViewWillLoad() {
     this.gap.trackView("PremiumPakPage");
   }
+
+  goBack() {
+    this.navCtrl.pop();
+  }
 }

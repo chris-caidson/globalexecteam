@@ -21,7 +21,7 @@
     <article>
       <section>
         <img src="assets/imgs/isabody-challenge/isabody-challenge-1164.png" (click)="openVideoModal()" sizes="(max-width: 1164px) 100vw"
-          alt="IsaBody Challenge" srcset="
+          alt="IsaBody Challenge" class="pointer" srcset="
             assets/imgs/isabody-challenge/isabody-challenge-400.png 400w,
             assets/imgs/isabody-challenge/isabody-challenge-725.png 725w,
             assets/imgs/isabody-challenge/isabody-challenge-959.png 959w,
@@ -29,37 +29,38 @@
       </section>
       <h1 class="centered uppercase">Real-Life Success Stories From Our Community</h1>
       <h3 class="centered">Hear from people just like you who took back their health.</h3>
-      <h5 class="centered note">(Tap a person to see details.)</h5>
+      <h5 id="tapH5" class="centered note">(Tap a person to see details.)</h5>
+      <h5 id="clickH5" class="centered note">(Click a person to see details.)</h5>
       <div class="grid-container">
-        <figure (click)="openPersonModal('natalie-h')">
+        <figure (click)="openPersonModal('natalie-h')" class="pointer">
           <img src="assets/imgs/transformations/natalie-h.jpg" alt="Natalie H." />
           <figcaption>Natalie H.</figcaption>
         </figure>
-        <figure (click)="openPersonModal('billy-a')">
+        <figure (click)="openPersonModal('billy-a')" class="pointer">
           <img src="assets/imgs/transformations/billy-a.jpg" alt="Billy A." />
           <figcaption>Billy A.</figcaption>
         </figure>
-        <figure (click)="openPersonModal('angela-f')">
+        <figure (click)="openPersonModal('angela-f')" class="pointer">
           <img src="assets/imgs/transformations/angela-f.jpg" alt="Angela F." />
           <figcaption>Angela F.</figcaption>
         </figure>
-        <figure (click)="openPersonModal('ryan-e')">
+        <figure (click)="openPersonModal('ryan-e')" class="pointer">
           <img src="assets/imgs/transformations/ryan-e.jpg" alt="Ryan E." />
           <figcaption>Ryan E.</figcaption>
         </figure>
-        <figure (click)="openPersonModal('john-m')">
+        <figure (click)="openPersonModal('john-m')" class="pointer">
           <img src="assets/imgs/transformations/john-m.jpg" alt="John M." />
           <figcaption>John M.</figcaption>
         </figure>
-        <figure (click)="openPersonModal('amy-o')">
+        <figure (click)="openPersonModal('amy-o')" class="pointer">
           <img src="assets/imgs/transformations/amy-o.jpg" alt="Amy O." />
           <figcaption>Amy O.</figcaption>
         </figure>
-        <figure (click)="openPersonModal('abilio-v')">
+        <figure (click)="openPersonModal('abilio-v')" class="pointer">
           <img src="assets/imgs/transformations/abilio-v.jpg" alt="Abilio V." />
           <figcaption>Abilio V.</figcaption>
         </figure>
-        <figure (click)="openPersonModal('kathy-p')">
+        <figure (click)="openPersonModal('kathy-p')" class="pointer">
           <img src="assets/imgs/transformations/kathy-p.jpg" alt="Kathy P." />
           <figcaption>Kathy P.</figcaption>
         </figure>

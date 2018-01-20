@@ -33,59 +33,65 @@
           </p>
         </section>
       </div>
-      <h5 class="centered note">(Tap an image to see details.)</h5>
+      <h5 id="tapH5" class="centered note">(Tap an image to see details.)</h5>
+      <h5 id="clickH5" class="centered note">(Click an image to see details.)</h5>
       <div id="peopleGrid" class="grid-container">
         <figure>
-          <img src="assets/imgs/company/jim-coover.jpg" alt="Jim Coover" (click)="openPersonModal('jim-coover')" />
+          <img src="assets/imgs/company/jim-coover.jpg" alt="Jim Coover" (click)="openPersonModal('jim-coover')" class="pointer" />
           <figcaption>
             <h5 class="uppercase centered">Jim Coover</h5>
             <span class="centered">Co-Founder and Chief Executive Officer</span>
           </figcaption>
         </figure>
         <figure>
-          <img src="assets/imgs/company/kathy-coover.jpg" alt="Kathy Coover" (click)="openPersonModal('kathy-coover')" />
+          <img src="assets/imgs/company/kathy-coover.jpg" alt="Kathy Coover" (click)="openPersonModal('kathy-coover')" class="pointer"
+          />
           <figcaption>
             <h5 class="uppercase centered">Kathy Coover</h5>
             <span class="centered">Co-Founder and Executive Vice President</span>
           </figcaption>
         </figure>
         <figure>
-          <img src="assets/imgs/company/travis-ogden.jpg" alt="Travis Ogden" (click)="openPersonModal('travis-ogden')" />
+          <img src="assets/imgs/company/travis-ogden.jpg" alt="Travis Ogden" (click)="openPersonModal('travis-ogden')" class="pointer"
+          />
           <figcaption>
             <h5 class="uppercase centered">Travis Ogden</h5>
             <span class="centered">President and Chief Operating Officer</span>
           </figcaption>
         </figure>
         <figure>
-          <img src="assets/imgs/company/travis-garza.jpg" alt="Travis Garza" (click)="openPersonModal('travis-garza')" />
+          <img src="assets/imgs/company/travis-garza.jpg" alt="Travis Garza" (click)="openPersonModal('travis-garza')" class="pointer"
+          />
           <figcaption>
             <h5 class="uppercase centered">Travis Garza</h5>
             <span class="centered">Chief Sales and Marketing Officer</span>
           </figcaption>
         </figure>
         <figure>
-          <img src="assets/imgs/company/justin-powell.jpg" alt="Justin Powell" (click)="openPersonModal('justin-powell')" />
+          <img src="assets/imgs/company/justin-powell.jpg" alt="Justin Powell" (click)="openPersonModal('justin-powell')" class="pointer"
+          />
           <figcaption>
             <h5 class="uppercase centered">Justin Powell</h5>
             <span class="centered">Chief Legal Officer and General Counsel</span>
           </figcaption>
         </figure>
         <figure>
-          <img src="assets/imgs/company/jon-robinson.jpg" alt="Jon Robinson" (click)="openPersonModal('jon-robinson')" />
+          <img src="assets/imgs/company/jon-robinson.jpg" alt="Jon Robinson" (click)="openPersonModal('jon-robinson')" class="pointer"
+          />
           <figcaption>
             <h5 class="uppercase centered">Jon Robinson</h5>
             <span class="centered">Chief Information Officer</span>
           </figcaption>
         </figure>
         <figure>
-          <img src="assets/imgs/company/tim-jones.jpg" alt="Tim Jones" (click)="openPersonModal('tim-jones')" />
+          <img src="assets/imgs/company/tim-jones.jpg" alt="Tim Jones" (click)="openPersonModal('tim-jones')" class="pointer" />
           <figcaption>
             <h5 class="uppercase centered">Tim Jones</h5>
             <span class="centered">Chief Financial Officer</span>
           </figcaption>
         </figure>
         <figure>
-          <img src="assets/imgs/company/robert-kay.jpg" alt="Robert 'Bob' Kay, Ph.D." (click)="openPersonModal('robert-kay')"
+          <img src="assets/imgs/company/robert-kay.jpg" alt="Robert 'Bob' Kay, Ph.D." (click)="openPersonModal('robert-kay')" class="pointer"
           />
           <figcaption>
             <h5 class="uppercase centered">Robert "Bob" Kay, Ph.D.</h5>
@@ -93,14 +99,15 @@
           </figcaption>
         </figure>
         <figure>
-          <img src="assets/imgs/company/erik-coover.jpg" alt="Erik Coover" (click)="openPersonModal('erik-coover')" />
+          <img src="assets/imgs/company/erik-coover.jpg" alt="Erik Coover" (click)="openPersonModal('erik-coover')" class="pointer"
+          />
           <figcaption>
             <h5 class="uppercase centered">Erik Coover</h5>
             <span class="centered">Sr. Vice President of Global Field Development</span>
           </figcaption>
         </figure>
         <figure>
-          <img src="assets/imgs/company/chantal-chaput.jpg" alt="Chantal Chaput" (click)="openPersonModal('chantal-chaput')"
+          <img src="assets/imgs/company/chantal-chaput.jpg" alt="Chantal Chaput" (click)="openPersonModal('chantal-chaput')" class="pointer"
           />
           <figcaption>
             <h5 class="uppercase centered">Chantal Chaput</h5>
@@ -108,35 +115,39 @@
           </figcaption>
         </figure>
         <figure>
-          <img src="assets/imgs/company/sharron-walsh.jpg" alt="Sharron Walsh" (click)="openPersonModal('sharron-walsh')" />
+          <img src="assets/imgs/company/sharron-walsh.jpg" alt="Sharron Walsh" (click)="openPersonModal('sharron-walsh')" class="pointer"
+          />
           <figcaption>
             <h5 class="uppercase centered">Sharron Walsh</h5>
             <span class="centered">Vice President of International</span>
           </figcaption>
         </figure>
         <figure>
-          <img src="assets/imgs/company/dave-pickrell.jpg" alt="Dave Pickrell" (click)="openPersonModal('dave-pickrell')" />
+          <img src="assets/imgs/company/dave-pickrell.jpg" alt="Dave Pickrell" (click)="openPersonModal('dave-pickrell')" class="pointer"
+          />
           <figcaption>
             <h5 class="uppercase centered">Dave Pickrell</h5>
             <span class="centered">Vice President of Program Management Office</span>
           </figcaption>
         </figure>
         <figure>
-          <img src="assets/imgs/company/patty-raphael.jpg" alt="Patty Raphael" (click)="openPersonModal('patty-raphael')" />
+          <img src="assets/imgs/company/patty-raphael.jpg" alt="Patty Raphael" (click)="openPersonModal('patty-raphael')" class="pointer"
+          />
           <figcaption>
             <h5 class="uppercase centered">Patty Raphael</h5>
             <span class="centered">Vice President of Opportunity Solutions</span>
           </figcaption>
         </figure>
         <figure>
-          <img src="assets/imgs/company/richard-stagg.jpg" alt="Richard Stagg" (click)="openPersonModal('richard-stagg')" />
+          <img src="assets/imgs/company/richard-stagg.jpg" alt="Richard Stagg" (click)="openPersonModal('richard-stagg')" class="pointer"
+          />
           <figcaption>
             <h5 class="uppercase centered">Richard Stagg</h5>
             <span class="centered">Vice President of Legal</span>
           </figcaption>
         </figure>
         <figure>
-          <img src="assets/imgs/company/deborah-mathews.jpg" alt="Deborah Mathews" (click)="openPersonModal('deborah-mathews')"
+          <img src="assets/imgs/company/deborah-mathews.jpg" alt="Deborah Mathews" (click)="openPersonModal('deborah-mathews')" class="pointer"
           />
           <figcaption>
             <h5 class="uppercase centered">Deborath Mathews</h5>
@@ -144,14 +155,15 @@
           </figcaption>
         </figure>
         <figure>
-          <img src="assets/imgs/company/doug-jensen.jpg" alt="Doug Jensen" (click)="openPersonModal('doug-jensen')" />
+          <img src="assets/imgs/company/doug-jensen.jpg" alt="Doug Jensen" (click)="openPersonModal('doug-jensen')" class="pointer"
+          />
           <figcaption>
             <h5 class="uppercase centered">Doug Jensen</h5>
             <span class="centered">Vice President of Sales Programs and Strategy</span>
           </figcaption>
         </figure>
         <figure>
-          <img src="assets/imgs/company/david-wood.jpg" alt="David Wood" (click)="openPersonModal('david-wood')" />
+          <img src="assets/imgs/company/david-wood.jpg" alt="David Wood" (click)="openPersonModal('david-wood')" class="pointer" />
           <figcaption>
             <h5 class="uppercase centered">David Wood</h5>
             <span class="centered">Strategic Training Consultant</span>

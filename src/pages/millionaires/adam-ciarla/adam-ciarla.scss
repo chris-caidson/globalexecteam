@@ -33,4 +33,10 @@ page-adam-ciarla {
       grid-template-columns: auto auto;
     }
   }
+
+  @media (min-width: 1250px) {
+    main {
+      margin-top: 85px;
+    }
+  }
 }

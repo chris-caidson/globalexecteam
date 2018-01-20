@@ -18,6 +18,8 @@
   </header>
   <main role="main">
     <article>
+      <button id="backBtn" (click)="goBack()">
+        <i class="fa fa-caret-left"></i>&nbsp;Back</button>
       <h1 class="uppercase centered">30-Day System</h1>
       <div id="topContainer" class="grid-container">
         <section>
@@ -71,13 +73,13 @@
         <section>
           <h3>Product Info</h3>
           <ul class="list-unstyled pdf-list">
-              <li>
-                <span class="pdf" (click)="pdfProvider.openPdf('System Guide for Weight Loss', 'https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/pdf%2Fsystem-guide-for-weight-loss.pdf?alt=media&token=cc5d7065-8137-47d3-b2ab-820e6c42fc72')">System Guide for Weight Loss</span>
-              </li>
-              <li>
-                <span class="pdf" (click)="pdfProvider.openPdf('30-Day-System Fast Facts', 'https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/pdf%2F30-day-system-fast-facts.pdf?alt=media&token=cd362cff-45db-47ec-ad2e-0c5c61342e8e')">30-Day System Fast Facts</span>
-              </li>
-            </ul>
+            <li>
+              <span class="pdf" (click)="pdfProvider.openPdf('System Guide for Weight Loss', 'https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/pdf%2Fsystem-guide-for-weight-loss.pdf?alt=media&token=cc5d7065-8137-47d3-b2ab-820e6c42fc72')">System Guide for Weight Loss</span>
+            </li>
+            <li>
+              <span class="pdf" (click)="pdfProvider.openPdf('30-Day-System Fast Facts', 'https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/pdf%2F30-day-system-fast-facts.pdf?alt=media&token=cd362cff-45db-47ec-ad2e-0c5c61342e8e')">30-Day System Fast Facts</span>
+            </li>
+          </ul>
         </section>
       </div>
     </article>

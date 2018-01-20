@@ -11,9 +11,21 @@ page-get-our-team {
     padding-top: $small-margin;
   }
 
+  #ourTeamH5 {
+    text-align: justify;
+  }
+
   .note {
     font-size: smaller;
     padding-bottom: $small-margin;
+  }
+
+  .tap {
+    display: block;
+  }
+
+  .click {
+    display: none;
   }
 
   ion-footer ion-grid {
@@ -107,5 +119,16 @@ page-get-our-team {
       margin-right: $small-margin;
       padding-right: $small-margin;
     }
+  }
+
+  @media (min-width: 1250px) {
+    .tap {
+      display: none;
+    }
+
+    .click {
+      display: block;
+    }
+
   }
 }

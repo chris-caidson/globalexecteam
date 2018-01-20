@@ -90,6 +90,7 @@ p {
 }
 
 .pdf {
+  cursor: pointer;
   display: inline-block;
   vertical-align: middle;
   padding-left: 45px;
@@ -109,6 +110,10 @@ p {
   }
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .testimonial {
   font-style: italic;
 }
@@ -122,6 +127,7 @@ p {
 }
 
 .video-li {
+  cursor: pointer;
   display: inline-block;
   vertical-align: top;
   background-image: url("../assets/imgs/misc/play-button.png");
@@ -153,4 +159,5 @@ p {
   border: $default-border-size solid $primary-color;
   border-radius: $default-border-radius;
   box-shadow: $video-shadow;
+  cursor: pointer;
 }

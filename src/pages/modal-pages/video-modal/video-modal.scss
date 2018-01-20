@@ -1,6 +1,6 @@
 page-video-modal {
   video {
-    background-color: #8CC831;
+    background-color: #8cc831;
     background-image: url("../assets/imgs/misc/green-isa-bg.jpg");
     background-repeat: repeat;
     width: 100%;
@@ -8,5 +8,12 @@ page-video-modal {
     max-width: 100%;
     max-height: 100%;
     margin: auto;
+  }
+
+  @media (min-width: 1250px) {
+    video {
+      margin-top: 35px;
+      height: 93%;
+    }
   }
 }

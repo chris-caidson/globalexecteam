@@ -50,4 +50,8 @@ export class StarterPakPage {
   ionViewWillLoad() {
     this.gap.trackView("StarterPakPage");
   }
+
+  goBack() {
+    this.navCtrl.pop();
+  }
 }

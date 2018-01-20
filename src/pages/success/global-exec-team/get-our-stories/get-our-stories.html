@@ -21,10 +21,11 @@
     <article>
       <section id="opportunityStoriesSection" *ngIf="opportunityVisible">
         <h1 class="uppercase centered">Our Stories - Opportunity</h1>
-        <h5 class="centered note">(Tap a picture or title to listen to the audio.)</h5>
+        <h5 class="centered note tap">(Tap a picture or title to listen to the audio.)</h5>
+        <h5 class="centered note click">(Click a picture or title to listen to the audio.)</h5>
         <div class="soundCloud grid-container" *ngFor="let s of opportunityStories">
-          <img class="audio-thumb" [src]="s.image" alt="" (click)="openSoundCloudModal(s.title, s.url)" />
-          <span class="audio-title" (click)="openSoundCloudModal(s.title, s.url)">{{s.title}}</span>
+          <img class="audio-thumb pointer" [src]="s.image" alt="" (click)="openSoundCloudModal(s.title, s.url)" />
+          <span class="audio-title pointer" (click)="openSoundCloudModal(s.title, s.url)">{{s.title}}</span>
         </div>
       </section>
       <section id="productStoriesSection" *ngIf="productVisible">

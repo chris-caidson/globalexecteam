@@ -184,20 +184,23 @@ export class MyApp {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
 
-      return this.ga.startTrackerWithId("UA-112477677-1")
+      return this.ga
+        .startTrackerWithId("UA-112477677-1")
         .then(() => {
-          console.log('Google analytics is ready now');
-          return this.ga.enableUncaughtExceptionReporting(true)
-        }).then((_success) => {
-          console.log("startTrackerWithId success")
-        }).catch((_error) => {
-          console.log("enableUncaughtExceptionReporting", _error)
+          return this.ga.enableUncaughtExceptionReporting(true);
+        })
+        .then(_success => {})
+        .catch(_error => {
+          console.log("Google Analytics Uncaught Exception:", _error);
         });
-
     });
   }
 
-  openPage(page) {
-    this.nav.setRoot(page.component);
+  openPage(page?) {
+    if (page) {
+      this.nav.setRoot(page.component);
+    } else {
+      this.nav.setRoot(this.pages[0].component);
+    }
   }
 }

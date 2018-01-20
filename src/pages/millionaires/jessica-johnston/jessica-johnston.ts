@@ -15,4 +15,8 @@ export class JessicaJohnstonPage {
   ionViewWillLoad() {
     this.gap.trackView("JessicaJohnstonPage");
   }
+
+  goBack() {
+    this.navCtrl.pop();
+  }
 }

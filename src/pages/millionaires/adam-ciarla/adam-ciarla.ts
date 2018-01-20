@@ -16,4 +16,7 @@ export class AdamCiarlaPage {
     this.gap.trackView("AdamCiarlaPage");
   }
 
+  goBack() {
+    this.navCtrl.pop();
+  }
 }

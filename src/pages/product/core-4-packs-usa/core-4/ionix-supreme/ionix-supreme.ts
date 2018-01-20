@@ -29,4 +29,8 @@ export class IonixSupremePage {
   ionViewWillLoad() {
     this.gap.trackView("IonixSupremePage");
   }
+
+  goBack() {
+    this.navCtrl.pop();
+  }
 }

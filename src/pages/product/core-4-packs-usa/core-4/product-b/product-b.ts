@@ -42,4 +42,8 @@ export class ProductBPage {
   ionViewWillLoad() {
     this.gap.trackView("ProductBPage");
   }
+
+  goBack() {
+    this.navCtrl.pop();
+  }
 }

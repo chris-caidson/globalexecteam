@@ -49,4 +49,8 @@ export class CleanseForLifePage {
   ionViewWillLoad() {
     this.gap.trackView("CleanseForLifePage");
   }
+
+  goBack() {
+    this.navCtrl.pop();
+  }
 }
