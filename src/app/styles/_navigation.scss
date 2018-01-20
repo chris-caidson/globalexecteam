@@ -1,3 +1,5 @@
+// All styles below are for side-menu navigation.
+
 .primary-separator {
   background: rgb(150, 223, 250);
   background: -moz-linear-gradient(
@@ -196,4 +198,81 @@ ion-icon[name="menu"],
     max-width:100%;
     margin: $small-margin auto;
   }
+}
+
+// All styles below are for traditional website navigation.
+
+#navigationDiv {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.main-menu {
+  color: darken($light-color, 10%);
+  border: none;
+  background-color: transparent;
+  font-size: larger;
+  margin: 12px 20px 0 0;
+  padding-bottom: 15px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: url("../assets/imgs/misc/transparent-menu-background.png");
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content p {
+  color: darken($light-color, 10%);
+  margin: 20px 30px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.dropdown-content p:hover {
+  cursor: pointer;
+  color: white;
+  text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .main-menu {
+  color: white;
+  border-bottom: 3px solid $primary-color;
+}
+
+#homeSpan {
+  color: $light-color;
+  font-size: larger;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+#homeSpan:hover {
+  border-bottom: 1px solid $light-color;
+}
+
+#successSubMenu {
+  right: 0px;
+}
+
+#productSubMenu {
+  right: 20px;
+}
+
+#getDiv {
+  margin-left: 20px;
+  color: darken($tertiary-color, 15%);
 }

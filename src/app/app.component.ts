@@ -196,11 +196,7 @@ export class MyApp {
     });
   }
 
-  openPage(page?) {
-    if (page) {
-      this.nav.setRoot(page.component);
-    } else {
-      this.nav.setRoot(this.pages[0].component);
-    }
+  openPage(pageName) {
+    this.nav.setRoot(pageName);
   }
 }

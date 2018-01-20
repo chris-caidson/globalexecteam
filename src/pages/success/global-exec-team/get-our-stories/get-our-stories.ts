@@ -1,5 +1,6 @@
-import { Component } from "@angular/core";
+import { Component, ViewChild } from "@angular/core";
 import {
+  Content,
   IonicPage,
   NavController,
   NavParams,
@@ -13,6 +14,7 @@ import { GoogleAnalyticsProvider } from './../../../../providers/google-analytic
   templateUrl: "get-our-stories.html"
 })
 export class GetOurStoriesPage {
+  @ViewChild(Content) content: Content;
   opportunityVisible: boolean = true;
   productVisible: boolean = false;
 
@@ -169,11 +171,13 @@ export class GetOurStoriesPage {
   showOpportunity() {
     this.productVisible = false;
     this.opportunityVisible = true;
+    this.content.scrollToTop();
   }
 
   showProduct() {
     this.productVisible = true;
     this.opportunityVisible = false;
+    this.content.scrollToTop();
   }
 
   openSoundCloudModal(title: string, url: string) {

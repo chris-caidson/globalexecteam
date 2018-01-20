@@ -4,6 +4,11 @@ page-today-is-the-day {
     grid-template-rows: auto auto auto auto;
   }
 
+  header {
+    max-height: 722px;
+    overflow: hidden;
+  }
+
   #jessQuoteSection {
     max-width: 824px;
     margin: 20px auto;
