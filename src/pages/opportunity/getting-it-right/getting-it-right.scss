@@ -52,6 +52,10 @@ page-getting-it-right {
       display: block;
       margin: auto;
       padding-left: $large-margin;
+
+      img {
+        max-width: 400px;
+      }
     }
 
     #listSection ul {

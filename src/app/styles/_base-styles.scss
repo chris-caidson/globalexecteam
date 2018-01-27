@@ -52,6 +52,10 @@ h5 {
 
 header {
   margin-bottom: $large-margin;
+
+  img {
+    width: 100%;
+  }
 }
 
 ion-navbar ion-title {
@@ -75,6 +79,9 @@ p {
 }
 
 .flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
 }
 

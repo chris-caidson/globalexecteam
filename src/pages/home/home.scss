@@ -15,4 +15,10 @@ page-home {
       flex-direction: row;
     }
   }
+
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
 }
