@@ -1,7 +1,7 @@
 {
   "name": "globalexecteam",
   "version": "0.0.1",
-  "author": "Ionic Framework",
+  "author": "Caidson Software, Inc.",
   "homepage": "http://ionicframework.com/",
   "private": true,
   "scripts": {
@@ -53,7 +53,7 @@
     "@ionic/app-scripts": "3.1.6",
     "typescript": "2.4.2"
   },
-  "description": "An Ionic project",
+  "description": "GET Free",
   "config": {
     "ionic_copy": "./scripts/copy-custom-libs.js"
   },

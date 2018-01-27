@@ -54,6 +54,10 @@ header {
   margin-bottom: $large-margin;
 }
 
+ion-navbar ion-title {
+  margin-left: -$default-margin;
+}
+
 p {
   color: $default-text-color;
   text-align: justify;
