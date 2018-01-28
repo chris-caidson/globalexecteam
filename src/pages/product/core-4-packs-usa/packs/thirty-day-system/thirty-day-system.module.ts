@@ -1,15 +1,15 @@
 import { ComponentsModule } from './../../../../../components/components.module';
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { PremiumPakPage } from './premium-pak';
+import { ThirtyDaySystemPage } from './thirty-day-system';
 
 @NgModule({
   declarations: [
-    PremiumPakPage,
+    ThirtyDaySystemPage,
   ],
   imports: [
     ComponentsModule,
-    IonicPageModule.forChild(PremiumPakPage),
+    IonicPageModule.forChild(ThirtyDaySystemPage),
   ]
 })
-export class PremiumPakPageModule {}
+export class ThirtyDaySystemPageModule {}

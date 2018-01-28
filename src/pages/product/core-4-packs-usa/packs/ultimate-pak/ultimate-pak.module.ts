@@ -1,15 +1,15 @@
 import { ComponentsModule } from './../../../../../components/components.module';
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { StarterPakPage } from './starter-pak';
+import { UltimatePakPage } from './ultimate-pak';
 
 @NgModule({
   declarations: [
-    StarterPakPage,
+    UltimatePakPage,
   ],
   imports: [
     ComponentsModule,
-    IonicPageModule.forChild(StarterPakPage),
+    IonicPageModule.forChild(UltimatePakPage),
   ]
 })
-export class StarterPakPageModule {}
+export class UltimatePakPageModule {}

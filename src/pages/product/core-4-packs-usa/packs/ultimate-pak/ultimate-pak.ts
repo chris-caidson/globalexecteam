@@ -5,17 +5,17 @@ import { GoogleAnalyticsProvider } from './../../../../../providers/google-analy
 
 @IonicPage()
 @Component({
-  selector: 'page-premium-pak',
-  templateUrl: 'premium-pak.html',
+  selector: 'page-ultimate-pak',
+  templateUrl: 'ultimate-pak.html',
 })
-export class PremiumPakPage {
+export class UltimatePakPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams,
     public pdfProvider: PdfProvider, private gap: GoogleAnalyticsProvider) {
   }
 
   ionViewWillLoad() {
-    this.gap.trackView("PremiumPakPage");
+    this.gap.trackView("UltimatePakPage");
   }
 
   goBack() {

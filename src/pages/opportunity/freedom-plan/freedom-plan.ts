@@ -4,10 +4,10 @@ import { GoogleAnalyticsProvider } from './../../../providers/google-analytics/g
 
 @IonicPage()
 @Component({
-  selector: "page-today-is-the-day",
-  templateUrl: "today-is-the-day.html"
+  selector: "page-freedom-plan",
+  templateUrl: "freedom-plan.html"
 })
-export class TodayIsTheDayPage {
+export class FreedomPlanPage {
   constructor(public navCtrl: NavController, public modalCtrl: ModalController, private gap: GoogleAnalyticsProvider) {}
 
   openVideoModal(video: string) {
@@ -44,6 +44,6 @@ export class TodayIsTheDayPage {
   }
 
   ionViewWillLoad() {
-    this.gap.trackView("TodayIsTheDayPage");
+    this.gap.trackView("FreedomPlanPage");
   }
 }

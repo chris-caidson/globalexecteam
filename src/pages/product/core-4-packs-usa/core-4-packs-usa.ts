@@ -24,20 +24,20 @@ export class Core_4PacksUsaPage {
     this.navCtrl.push('IsaleanShakePage');
   }
 
-  loadProductBPage(){
-    this.navCtrl.push('ProductBPage');
+  loadIsaGenesisPage(){
+    this.navCtrl.push('IsaGenesisPage');
   }
 
-  loadStarterPakPage(){
-    this.navCtrl.push('StarterPakPage');
-  }
-
-  loadPremiumPakPage(){
-    this.navCtrl.push('PremiumPakPage');
+  load30DaySystemPage(){
+    this.navCtrl.push('ThirtyDaySystemPage');
   }
 
   loadValuePakPage(){
     this.navCtrl.push('ValuePakPage');
+  }
+
+  loadUltimatePakPage(){
+    this.navCtrl.push('UltimatePakPage');
   }
 
   ionViewWillLoad() {

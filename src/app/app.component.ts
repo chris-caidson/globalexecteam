@@ -55,8 +55,8 @@ export class MyApp {
       // GetFree - Opportunity
       { title: "Opportunity", component: null, separatorLevel: 2, icon: null },
       {
-        title: "Today is the Day",
-        component: "TodayIsTheDayPage",
+        title: "Freedom Plan",
+        component: "FreedomPlanPage",
         separatorLevel: 4,
         icon: "calendar-check-o"
       },

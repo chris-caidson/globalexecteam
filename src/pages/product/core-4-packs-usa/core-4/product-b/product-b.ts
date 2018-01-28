@@ -8,7 +8,7 @@ import { GoogleAnalyticsProvider } from './../../../../../providers/google-analy
   selector: 'page-product-b',
   templateUrl: 'product-b.html',
 })
-export class ProductBPage {
+export class IsaGenesisPage {
 
   constructor(public navCtrl: NavController, public modalCtrl: ModalController,
     public pdfProvider: PdfProvider, private gap: GoogleAnalyticsProvider) {
@@ -40,7 +40,7 @@ export class ProductBPage {
   }
 
   ionViewWillLoad() {
-    this.gap.trackView("ProductBPage");
+    this.gap.trackView("IsaGenesisPage");
   }
 
   goBack() {

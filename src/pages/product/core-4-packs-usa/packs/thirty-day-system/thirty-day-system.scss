@@ -1,4 +1,4 @@
-page-premium-pak {
+page-thirty-day-system {
   h3 {
     font-variant: small-caps;
     border-bottom: 1px solid $tertiary-color;
@@ -18,24 +18,19 @@ page-premium-pak {
     margin-bottom: $large-margin;
   }
 
+  .pdf-list li {
+    margin-bottom: $default-margin;
+  }
+
   #topContainer section {
     margin-left: auto;
     margin-right: auto;
-
-    img {
-      margin-top: -$large-margin;
-    }
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 640px) {
     #topContainer {
       grid-template-columns: auto auto;
       margin: auto;
-
-      img {
-        display: inline-block;
-        padding-right: $default-margin;
-      }
     }
 
     #bottomContainer {

@@ -5,10 +5,10 @@ import { GoogleAnalyticsProvider } from './../../../../../providers/google-analy
 
 @IonicPage()
 @Component({
-  selector: 'page-starter-pak',
-  templateUrl: 'starter-pak.html',
+  selector: 'page-thirty-day-system',
+  templateUrl: 'thirty-day-system.html',
 })
-export class StarterPakPage {
+export class ThirtyDaySystemPage {
 
   constructor(public navCtrl: NavController, public modalCtrl: ModalController,
     public pdfProvider: PdfProvider, private gap: GoogleAnalyticsProvider) {
@@ -36,7 +36,7 @@ export class StarterPakPage {
 
         case "30-day":
         data = {
-          name: "How to Use the 30-Day System",
+          name: "How to Use the 30 Day System",
           url:
             "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fhow-to-use-the-30-day-system.mp4?alt=media&token=ea977e8c-042a-40b8-ac6b-924a6af7152e"
         };
@@ -48,7 +48,7 @@ export class StarterPakPage {
   }
 
   ionViewWillLoad() {
-    this.gap.trackView("StarterPakPage");
+    this.gap.trackView("ThirtyDaySystemPage");
   }
 
   goBack() {
