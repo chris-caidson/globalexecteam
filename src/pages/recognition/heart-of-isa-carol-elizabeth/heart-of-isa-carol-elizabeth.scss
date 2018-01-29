@@ -1,0 +1,19 @@
+page-heart-of-isa-carol-elizabeth {
+  img {
+    margin-left: none;
+  }
+
+  @media (min-width: 1250px) {
+    main {
+      margin-top: 85px;
+    }
+
+    .grid-container {
+      grid-template-columns: auto auto;
+    }
+
+    img {
+      margin-left: $default-margin;
+    }
+  }
+}

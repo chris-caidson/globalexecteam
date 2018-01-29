@@ -15,6 +15,7 @@ import { GoogleAnalyticsProvider } from './../../../../providers/google-analytic
 })
 export class GetOurStoriesPage {
   @ViewChild(Content) content: Content;
+  
   opportunityVisible: boolean = true;
   productVisible: boolean = false;
 

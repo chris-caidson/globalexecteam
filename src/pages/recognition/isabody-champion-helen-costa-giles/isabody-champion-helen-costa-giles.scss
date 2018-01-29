@@ -1,0 +1,30 @@
+page-isabody-champion-helen-costa-giles {
+  #helenImg01, #helenImg02, #helenImg04 {
+    display: block;
+    margin: auto;
+    padding-top: $default-margin;
+    padding-bottom: $default-margin;
+  }
+
+  #helenImg03 {
+    padding-right: none;
+    padding-bottom: $default-margin;
+    margin-top: $default-margin;
+  }
+
+  @media (min-width: 768px) {
+    .grid-container {
+      grid-template-columns: auto auto;
+    }
+
+    #helenImg03 {
+      padding-right: $default-margin;
+    }
+  }
+
+  @media (min-width: 1250px) {
+    main {
+      margin-top: 85px;
+    }
+  }
+}

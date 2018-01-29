@@ -1,0 +1,28 @@
+page-heart-of-isa-adrienne-donovan {
+  #heartOfIsagenixImage {
+    margin-left: none;
+  }
+
+  #adrienneImg {
+    padding-right: none;
+  }
+
+  @media (min-width: 1250px) {
+    main {
+      margin-top: 85px;
+    }
+
+    .grid-container {
+      grid-template-columns: auto auto;
+    }
+
+    #heartOfIsagenixImage {
+      margin-left: $default-margin;
+    }
+
+    #adrienneImg {
+      display: inline-block;
+      padding-right: $default-margin;
+    }
+  }
+}

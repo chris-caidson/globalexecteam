@@ -1,6 +1,11 @@
-import { Component } from "@angular/core";
-import { IonicPage, NavController, ModalController } from "ionic-angular";
-import { GoogleAnalyticsProvider } from './../../../../providers/google-analytics/google-analytics';
+import { ViewChild, Component } from "@angular/core";
+import {
+  Content,
+  IonicPage,
+  NavController,
+  ModalController
+} from "ionic-angular";
+import { GoogleAnalyticsProvider } from "./../../../../providers/google-analytics/google-analytics";
 
 @IonicPage()
 @Component({
@@ -8,6 +13,8 @@ import { GoogleAnalyticsProvider } from './../../../../providers/google-analytic
   templateUrl: "get-our-team.html"
 })
 export class GetOurTeamPage {
+  @ViewChild(Content) content: Content;
+
   millionairesVisible: boolean = true;
   leadersVisible: boolean = false;
   start1000Visible: boolean = false;
@@ -26,6 +33,7 @@ export class GetOurTeamPage {
     imageUrl: string;
     title: string;
     details: string;
+    recognitionName?: string;
   }>;
 
   start1000: Array<{
@@ -40,6 +48,8 @@ export class GetOurTeamPage {
     imageUrl: string;
     title: string;
     details: string;
+    recognitionUrl?: string;
+    recognitionName?: string;
   }>;
 
   constructor(
@@ -63,24 +73,29 @@ export class GetOurTeamPage {
   showMillionaires() {
     this.hideAllSections();
     this.millionairesVisible = true;
+    this.content.scrollToTop();
   }
 
   showLeaders() {
     this.hideAllSections();
     this.leadersVisible = true;
+    this.content.scrollToTop();
   }
 
   showStart1000() {
     this.hideAllSections();
     this.start1000Visible = true;
+    this.content.scrollToTop();
   }
 
   showTeamIsagenix() {
     this.hideAllSections();
     this.teamIsagenixVisible = true;
+    this.content.scrollToTop();
   }
 
   openPage(name: string) {
+    console.log(name);
     switch (name) {
       case "Susan and Murray Miller":
         this.navCtrl.push("SusanMillerPage");
@@ -104,6 +119,18 @@ export class GetOurTeamPage {
 
       case "Adam Ciarla":
         this.navCtrl.push("AdamCiarlaPage");
+        break;
+
+      case "Helen Costa Giles":
+        this.navCtrl.push("IsabodyChampionHelenCostaGilesPage");
+        break;
+
+      case "Carol Elizabeth":
+        this.navCtrl.push("HeartOfIsaCarolElizabethPage");
+        break;
+
+      case "Adrienne Donovan":
+        this.navCtrl.push("HeartOfIsaAdrienneDonovanPage");
         break;
     }
   }
@@ -129,7 +156,7 @@ export class GetOurTeamPage {
       {
         name: "Susan and Murray Miller",
         imageUrl: "assets/imgs/team/susan-and-murray-miller.jpg",
-        title: "Isagenix Millionaire #144",
+        title: "Isagenix Millionaires #144",
         isaFyiUrl: "",
         details:
           "<p><strong>Susan Miller – Residual Income Expert, #144 Isagenix Millionaire, Top 100 Income Earner</strong>" +
@@ -153,7 +180,7 @@ export class GetOurTeamPage {
       {
         name: "Jessica and Joe Johnston",
         imageUrl: "assets/imgs/team/jessica-and-joe-johnston.jpg",
-        title: "Isagenix Millionaire #157",
+        title: "Isagenix Millionaires #157",
         isaFyiUrl: "",
         details:
           "Jessica and Joe Johnston live in Charlotte, NC with their beautiful 3 girls. Jessica began her Isagenix " +
@@ -170,7 +197,7 @@ export class GetOurTeamPage {
       {
         name: "Carolyn and Kiel Tweitmeyer",
         imageUrl: "assets/imgs/team/carolyn-and-kiel-twietmeyer.jpg",
-        title: "Isagenix Millionaire #196",
+        title: "Isagenix Millionaires #196",
         isaFyiUrl: "",
         details:
           "Carolyn and her husband, Kiel Twietmeyer, live in the sunny panhandle of Florida. They are the proud parents " +
@@ -201,7 +228,7 @@ export class GetOurTeamPage {
       {
         name: "Deanna and Mark Falchook",
         imageUrl: "assets/imgs/team/deanna-and-mark-falchook.jpg",
-        title: "Isagenix Millionaire #200",
+        title: "Isagenix Millionaires #200",
         isaFyiUrl: "",
         details:
           "Deanna and her husband, Mark, reside in beautiful, sunny Orlando, Florida with their 7 children. Deanna and " +
@@ -230,6 +257,21 @@ export class GetOurTeamPage {
           "in. But also from a product perspective, he knew he had the perfect audience of 20 to 25 trainers and about 400 " +
           "clients who'd want to try these products. This opportunity has been a tremendous blessing to his son, and he " +
           "couldn’t have done it without the incredible drive and passion of the Global Exec Team."
+      },
+      {
+        name: "Delialah and Todd Lotich",
+        imageUrl: "assets/imgs/team/delialah-and-todd-lotich.jpg",
+        title: "Isagenix Millionaires #237",
+        isaFyiUrl: null,
+        details:
+          "Delialah and Todd Lotich reside with their beautiful children in Charlotte, NC. As a busy mom and freelancer, Delialah " +
+          "had a difficult time releasing the last few pounds of her pregnancy weight. Given Delialah’s health background, she would " +
+          "not agree to try any nutritional programs unless they met her strong expectations. When introduced to Isagenix, after " +
+          "saying 'no' multiple times, she finally agreed to give it a try after acknowledging the superior ingredients in the food. " +
+          "After seeing rapid results in a matter of days, she quickly began sharing with moms and families. Because of the generous " +
+          "compensation plan, Delialah was able to free Todd from his corporate position after one year with Isagenix. Together, " +
+          "Delialah and Todd were able to take their passion for helping others and grew a multiple six-figure income in just two " +
+          "years."
       }
     ];
   }
@@ -392,7 +434,8 @@ export class GetOurTeamPage {
           "her son Bennett, having been diagnosed with Down's Syndrome, benefited greatly from Adrienne being home full-time. " +
           "Isagenix was an avenue to provide health and a financial solution to her family, especially for the expensive therapies " +
           "Bennett needed. This nutrition has greatly impacted her family, first and foremost, as a tool to provide the nutrition " +
-          "they need daily, but also provided a significant income that surpassed her prior salary in less than a year."
+          "they need daily, but also provided a significant income that surpassed her prior salary in less than a year.",
+        recognitionName: "2018 Heart of Isagenix - Check out the IsaFyi Story"
       },
       {
         name: "Melissa Henault",
@@ -824,7 +867,9 @@ export class GetOurTeamPage {
           "to feel a difference. She felt her energy return, and she started to lose the extra weight. Helen kept her momentum going " +
           "with her husband, who also released an outstanding 60 pounds with Isagenix. Helen hopes to retire her husband and then " +
           "herself so that she can pursue her Isagenix business and other passions full time. She wants to help others while having " +
-          "the flexibility to spend quality time with her family, both at home and while traveling."
+          "the flexibility to spend quality time with her family, both at home and while traveling.",
+        recognitionName:
+          "2017 IsaBody Grand Prize Winner - Check out the IsaFyi Story"
       }
     ];
   }
@@ -922,7 +967,8 @@ export class GetOurTeamPage {
           "people. Isagenix has allowed her to help many find their “sparkle” and has financially impacted her family along " +
           "her way to a becoming a multiple six-figure income-earner. The goal was to feed her body the proper nutrition to " +
           "get healthy, but what she found was the bonds she has formed with those on this team is unlike anything she has " +
-          "ever been a part of.”"
+          "ever been a part of.”",
+        recognitionName: "2017 Heart of Isagenix - Check out the IsaFyi Story"
       },
       {
         name: "Joe Andruzzi",

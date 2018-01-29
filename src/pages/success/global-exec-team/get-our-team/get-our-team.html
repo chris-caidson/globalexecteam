@@ -64,7 +64,7 @@
             <div>
               <h3 (click)="openPersonModal(s)" class="pointer">{{s.name}}</h3>
               <h5>{{s.title}}</h5>
-              <span class="isaFyiLink pointer" (click)="openPage(s.name)">Check out the IsaFyi Story</span>
+              <span *ngIf="s.isaFyiUrl !== null" class="isaFyiLink pointer" (click)="openPage(s.name)">Check out the IsaFyi Story</span>
             </div>
           </section>
         </div>
@@ -81,6 +81,7 @@
             <div>
               <h3 (click)="openPersonModal(s)" class="pointer">{{s.name}}</h3>
               <h5>{{s.title}}</h5>
+              <span *ngIf="s.recognitionName !== null" class="isaFyiLink pointer" (click)="openPage(s.name)">{{s.recognitionName}}</span>
             </div>
           </section>
         </div>
@@ -113,6 +114,7 @@
             <div>
               <h3 (click)="openPersonModal(s)" class="pointer">{{s.name}}</h3>
               <h5>{{s.title}}</h5>
+              <span *ngIf="s.recognitionName !== null" class="isaFyiLink pointer" (click)="openPage(s.name)">{{s.recognitionName}}</span>
             </div>
           </section>
         </div>
