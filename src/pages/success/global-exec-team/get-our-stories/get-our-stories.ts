@@ -15,7 +15,7 @@ import { GoogleAnalyticsProvider } from './../../../../providers/google-analytic
 })
 export class GetOurStoriesPage {
   @ViewChild(Content) content: Content;
-  
+
   opportunityVisible: boolean = true;
   productVisible: boolean = false;
 
@@ -144,20 +144,9 @@ export class GetOurStoriesPage {
         image: `${this.imagePath}product-05.jpg`
       },
       {
-        title: "Elaine Moody and Kim Wojnowich",
-        url: "user-995485347/kim-wojnowich-and-elaine-moddy",
-        image: `${this.imagePath}product-06.jpg`
-      },
-      {
         title: "Carol Elizabeth and Jessica Johnston",
         url: "user-995485347/jessica-johnston-and-carol-elizabeth",
         image: `${this.imagePath}product-07.jpg`
-      },
-      {
-        title: "Kim Wojnowich - Why We Cleanse",
-        url:
-          "user-870488889/health-educators-share-why-we-need-nutritional-cleansing-kim-wojnowich-and-karen-clark",
-        image: `${this.imagePath}product-08.jpg`
       }
     ];
   }

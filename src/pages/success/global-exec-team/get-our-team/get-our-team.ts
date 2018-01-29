@@ -804,22 +804,6 @@ export class GetOurTeamPage {
           "group of people across the globe, not just across the street."
       },
       {
-        name: "Kim Wojnowich",
-        imageUrl: "assets/imgs/team/kim-wojnowich.jpg",
-        title: "Wellness Director and Health Educator",
-        details:
-          "Kim and her husband, Marc, live in Charlotte, NC, along with their two beautiful daughters. Kim has an extensive " +
-          "background in health and wellness and passion for helping others. She is a Wellness Director and health educator with a" +
-          "oldest daughter, who was 10 at the time, suddenly became very sick and was diagnosed with an autoimmune disease. Kim began " +
-          "to do massive research and asked questions on how nutrition could help their daughter. Specialists could give no answers " +
-          "and her research continued. Through a friend, who was having fantastic health results, she and he family discovered " +
-          "Isagenix. The Isagenix system had all the nutritional components she had been researching, and she knew they had to give " +
-          "it a shot. Over three-and-a-half years later, their daughter remains in remission (not cured) from her auto immune disease " +
-          "and their family has never felt better! Sharing this gift of health and wealth has allowed her the opportunity to create a " +
-          "home-based business making more income than she ever made in previous health jobs. Additionally, she has become the best " +
-          "version of herself that she honestly never knew existed, and she loves helping others do the same!"
-      },
-      {
         name: "Mandy Andre",
         imageUrl: "assets/imgs/team/mandy-andre.jpg",
         title: "Fitness Coach",
