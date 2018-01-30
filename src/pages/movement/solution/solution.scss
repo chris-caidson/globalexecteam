@@ -3,7 +3,7 @@ page-solution {
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
   }
-
+ 
   @media (min-width: 768px) {
     .grid-container {
       grid-template-columns: auto auto;

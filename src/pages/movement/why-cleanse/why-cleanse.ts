@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 import { IonicPage, NavController, NavParams } from "ionic-angular";
 import { GoogleAnalyticsProvider } from './../../../providers/google-analytics/google-analytics';
-
+ 
 @IonicPage()
 @Component({
   selector: "page-why-cleanse",

@@ -12,4 +12,4 @@ import { WhyCleansePage } from './why-cleanse';
     IonicPageModule.forChild(WhyCleansePage),
   ],
 })
-export class WhyCleansePageModule {}
+export class WhyCleansePageModule { }
