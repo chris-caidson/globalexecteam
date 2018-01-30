@@ -29,7 +29,7 @@ export class SolutionPage {
             "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2FMary-Evans-on-the-power-of-the-Isagenix-System---YouTube-(480p).mp4?alt=media&token=8cb0b61a-7d39-4871-a5f2-c50e2f007b2f"
         };
         break;
- 
+        
       case "isa-works":
         data = {
           name: "Why Isagenix Works",

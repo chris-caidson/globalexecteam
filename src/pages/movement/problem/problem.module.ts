@@ -6,10 +6,11 @@ import { ProblemPage } from './problem';
 @NgModule({
   declarations: [
     ProblemPage
-  ], 
+  ],
   imports: [
     ComponentsModule,
     IonicPageModule.forChild(ProblemPage),
   ],
 })
 export class ProblemPageModule {}
+

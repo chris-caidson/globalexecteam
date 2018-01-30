@@ -40,8 +40,8 @@ export class ProblemPage {
           url:
             "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2FRobyn-O39Brien-_-TEDxAustin-2011-YouTube-360p.mp4?alt=media&token=13dbeda6-9c44-4cfd-a827-d588c4222738"
         };
-        break; 
-
+        break;
+        
       case "diets-failing":
         data = {
           name: "Why Diets Fail",
