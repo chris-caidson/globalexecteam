@@ -31,12 +31,12 @@
           <ion-row>
             <ion-col>
               <button ion-button full small color="secondary" (click)="showMillionaires()">
-                <span>Millionaires</span>
+                <span>Legacy Club</span>
               </button>
             </ion-col>
             <ion-col>
               <button ion-button full small color="secondary" (click)="showLeaders()">
-                <span>Leaders</span>
+                <span>GET Leaders</span>
               </button>
             </ion-col>
             <ion-col>
@@ -46,14 +46,15 @@
             </ion-col>
             <ion-col>
               <button ion-button full small color="secondary" (click)="showTeamIsagenix()">
-                <span>Team Isagenix</span>
+                <span>Team Isagenix Athletes</span>
               </button>
             </ion-col>
           </ion-row>
           </ion-grid>
       </div>
-      <div id="millionaires" *ngIf="millionairesVisible">
-        <h2 class="centered">Millionaires</h2>
+      <div id="scrollTop" #scrollTop></div>
+      <div id="millionaires" *ngIf="millionairesVisible" #millionairesDiv>
+        <h2 class="centered">Legacy Club</h2>
         <h5 class="centered note tap">(Tap a picture or name to see details.)</h5>
         <h5 class="centered note click">(Click a picture or name to see details.)</h5>
         <div class="grid-container">
@@ -69,8 +70,8 @@
           </section>
         </div>
       </div>
-      <div id="leaders" *ngIf="leadersVisible">
-        <h2 class="centered">Leaders</h2>
+      <div id="leaders" *ngIf="leadersVisible" #leadersDiv>
+        <h2 class="centered">GET Leaders</h2>
         <h5 class="centered note tap">(Tap a picture or name to see details.)</h5>
         <h5 class="centered note click">(Click a picture or name to see details.)</h5>
         <div class="grid-container">
@@ -86,7 +87,7 @@
           </section>
         </div>
       </div>
-      <div id="start1000" *ngIf="start1000Visible">
+      <div id="start1000" *ngIf="start1000Visible" #start1000Div>
         <h2 class="centered">Start 1000</h2>
         <h5 class="centered note tap">(Tap a picture or name to see details.)</h5>
         <h5 class="centered note click">(Click a picture or name to see details.)</h5>
@@ -102,8 +103,8 @@
           </section>
         </div>
       </div>
-      <div id="teamIsagenix" *ngIf="teamIsagenixVisible">
-        <h2 class="centered">Team Isagenix</h2>
+      <div id="teamIsagenix" *ngIf="teamIsagenixVisible" #teamIsagenixDiv>
+        <h2 class="centered">Team Isagenix Athletes</h2>
         <h5 class="centered note tap">(Tap a picture or name to see details.)</h5>
         <h5 class="centered note click">(Click a picture or name to see details.)</h5>
         <div class="grid-container">
@@ -128,12 +129,12 @@
     <ion-row>
       <ion-col>
         <button ion-button full small color="secondary" (click)="showMillionaires()">
-          <span>Millionaires</span>
+          <span>Legacy Club</span>
         </button>
       </ion-col>
       <ion-col>
         <button ion-button full small color="secondary" (click)="showLeaders()">
-          <span>Leaders</span>
+          <span>GET Leaders</span>
         </button>
       </ion-col>
       <ion-col>
@@ -143,7 +144,7 @@
       </ion-col>
       <ion-col>
         <button ion-button full small color="secondary" (click)="showTeamIsagenix()">
-          <span>Team Isagenix</span>
+          <span>Team Isagenix Athletes</span>
         </button>
       </ion-col>
     </ion-row>

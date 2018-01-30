@@ -73,25 +73,25 @@ export class GetOurTeamPage {
   showMillionaires() {
     this.hideAllSections();
     this.millionairesVisible = true;
-    this.content.scrollToTop();
+    document.getElementById('scrollTop').scrollIntoView();
   }
 
   showLeaders() {
     this.hideAllSections();
     this.leadersVisible = true;
-    this.content.scrollToTop();
+    document.getElementById('scrollTop').scrollIntoView();
   }
 
   showStart1000() {
     this.hideAllSections();
     this.start1000Visible = true;
-    this.content.scrollToTop();
+    document.getElementById('scrollTop').scrollIntoView();
   }
 
   showTeamIsagenix() {
     this.hideAllSections();
     this.teamIsagenixVisible = true;
-    this.content.scrollToTop();
+    document.getElementById('scrollTop').scrollIntoView();
   }
 
   openPage(name: string) {
