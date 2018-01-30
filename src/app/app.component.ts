@@ -67,7 +67,7 @@ export class MyApp {
         icon: "thumbs-up"
       },
       {
-        title: "Meet Our Cofounder",
+        title: "Meet Our Co-Founder",
         component: "MeetOurCofounderPage",
         separatorLevel: 4,
         icon: "female"

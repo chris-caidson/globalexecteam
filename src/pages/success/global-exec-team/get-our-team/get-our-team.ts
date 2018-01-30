@@ -170,7 +170,7 @@ export class GetOurTeamPage {
           "and Murray selling their companies and becoming full-time marketers who traveled the world building and supporting " +
           "their networks. Even though they became Industry Millionaires, they ultimately left the industry for 15 years after " +
           "realizing the compensation structure of MLM did not duplicate throughout their network. Not until Isagenix " +
-          "Cofounder Kathy Coover explained how ISAGENIX GOT IT RIGHT, did they return to the industry they loved. Within " +
+          "Co-Founder Kathy Coover explained how ISAGENIX GOT IT RIGHT, did they return to the industry they loved. Within " +
           "three years they became the 144th Isagenix Millionaires and locked arms with their Team Leaders to spearhead the " +
           "Global Exec Team to turn the company mission statement into a movement. Their daughter, Chelsea Lauren, joined them " +
           "upon graduating college with honors, and today is a START 1000 member and Top 10 Income earner under 25 years old. " +

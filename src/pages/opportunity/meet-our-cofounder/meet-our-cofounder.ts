@@ -12,7 +12,7 @@ export class MeetOurCofounderPage {
 
   openVideoModal() {
     const myModal = this.modalCtrl.create("VideoModalPage", {
-      name: "Meet Our Cofounder - Kathy Coover",
+      name: "Meet Our Co-Founder - Kathy Coover",
       url: "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2FSusan%20Miller%20with%20Kathy%20Coover%20-%20How%20Isagenix%20Got%20it%20Right!.mp4?alt=media&token=18cafa7c-4c84-48a9-9440-22498363739e"
     });
 
