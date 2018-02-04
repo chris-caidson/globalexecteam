@@ -3,6 +3,7 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 import { GoogleAnalytics } from "@ionic-native/google-analytics";
+import { LocationStrategy, PathLocationStrategy } from '@angular/common';
 
 import { MyApp } from './app.component';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -29,7 +30,8 @@ import { GoogleAnalyticsProvider } from '../providers/google-analytics/google-an
     InAppBrowser,
     PdfProvider,
     GoogleAnalytics,
-    GoogleAnalyticsProvider
+    GoogleAnalyticsProvider,
+    { provide: LocationStrategy, useClass: PathLocationStrategy }
   ]
 })
 export class AppModule {}

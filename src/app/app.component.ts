@@ -88,33 +88,6 @@ export class MyApp {
         icon: "usd"
       },
 
-      // GetFree - Company
-      { title: "Company", component: null, separatorLevel: 2, icon: null },
-      {
-        title: "Corporate Leadership",
-        component: "CorporateLeadershipPage",
-        separatorLevel: 4,
-        icon: "users"
-      },
-      {
-        title: "Sci. Advisory Board",
-        component: "ScientificAdvisoryBoardPage",
-        separatorLevel: 4,
-        icon: "handshake-o"
-      },
-      {
-        title: "Press Releases",
-        component: "PressReleasesPage",
-        separatorLevel: 4,
-        icon: "file-text"
-      },
-      {
-        title: "Awards",
-        component: "AwardsPage",
-        separatorLevel: 4,
-        icon: "trophy"
-      },
-
       // GetFree - Product
       { title: "Product", component: null, separatorLevel: 2, icon: null },
       {
@@ -140,6 +113,33 @@ export class MyApp {
         component: "SciencePage",
         separatorLevel: 4,
         icon: "flask"
+      },
+
+      // GetFree - Company
+      { title: "Company", component: null, separatorLevel: 2, icon: null },
+      {
+        title: "Corporate Leadership",
+        component: "CorporateLeadershipPage",
+        separatorLevel: 4,
+        icon: "users"
+      },
+      {
+        title: "Sci. Advisory Board",
+        component: "ScientificAdvisoryBoardPage",
+        separatorLevel: 4,
+        icon: "handshake-o"
+      },
+      {
+        title: "Press Releases",
+        component: "PressReleasesPage",
+        separatorLevel: 4,
+        icon: "file-text"
+      },
+      {
+        title: "Awards",
+        component: "AwardsPage",
+        separatorLevel: 4,
+        icon: "trophy"
       },
 
       // GetFree - Success

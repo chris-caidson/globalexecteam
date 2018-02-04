@@ -97,11 +97,6 @@ export class GetOurStoriesPage {
         image: `${this.imagePath}opportunity-12.jpg`
       },
       {
-        title: "Professional Network Marketers Choose Isagenix",
-        url: "user332863848/why-isagenix-now-johnnie-and-rachel-davis",
-        image: `${this.imagePath}opportunity-13.jpg`
-      },
-      {
         title: "Corporate Moms Take on Network Marketing",
         url:
           "user-940323348/corporate-moms-take-on-network-marketing-renee-schreibman-and-amanda-smith",

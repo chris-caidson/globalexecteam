@@ -921,14 +921,14 @@ export class GetOurTeamPage {
       {
         name: "Chelsea Lauren Miller",
         imageUrl: "assets/imgs/team/chelsea-lauren-miller.jpg",
-        title: "2015 College Grad, Top 10 Income Earner < 25",
+        title: "2015 College Grad, Top 3 Income Earner < 25",
         details:
           "Chelsea Miller lives in Cambridge, MA, and is a graduate from Babson College (the #1 school in the U.S. for " +
           "entrepreneurship). Chelsea graduated magnum cum laude with a double-concentration in economics and business " +
           "analytics. After spending the summer in an internship at a fortune 500 company in NYC, she realized that Corporate " +
           "America was not for her, since building someone else’s dream did not fit into her career plans. Since graduating, " +
           "she followed in her mother’s footsteps and has built a dynamic team within Isagenix, being honored to be in the top " +
-          "10 income earners under the age of 25 in the company (two years running), and a START 1000 member. She is on a " +
+          "3 income earners under the age of 25 in the company (two years running), and a START 1000 member. She is on a " +
           "mission to share and educate millennials that they can create a life by their own design and have a blast while " +
           "doing so."
       }
