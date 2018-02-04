@@ -18,7 +18,7 @@ export class HealthToWealthPage {
         data = {
           name: "The Johnston Family",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fjohnston-family.mp4?alt=media&token=0d798c12-7328-40ce-b99e-935b148ed05d"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fjohnston-family.mp4?alt=media&token=6e0e96d0-80b1-4693-9b7e-c479bc64ca0e"
         };
         break;
 
@@ -26,7 +26,7 @@ export class HealthToWealthPage {
         data = {
           name: "Kelley and Tyler",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fkelley-and-tyler.mp4?alt=media&token=6c5f53ad-1b6c-4824-94da-c0caf1b09871"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fkelley-and-tyler.mp4?alt=media&token=5bbfc445-5c8e-49f0-9a23-fcd6b7a7a28a"
         };
         break;
 
@@ -34,7 +34,7 @@ export class HealthToWealthPage {
         data = {
           name: "Laura S.",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Flaura-s.mp4?alt=media&token=8dc6816d-3c3c-4344-8ba9-b679f0f39ce6"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Flaura-s.mp4?alt=media&token=801f8fbb-ad99-4aba-ad22-6211276c91e8"
         };
         break;
 
@@ -42,7 +42,7 @@ export class HealthToWealthPage {
         data = {
           name: "Lisa R.",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Flisa-r.mp4?alt=media&token=bfc0e9da-a957-474b-b0f0-f4c2be46a7fd"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Flisa-r.mp4?alt=media&token=4933a94c-4750-4e62-8205-c2c52895b88a"
         };
         break;
     }

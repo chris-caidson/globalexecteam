@@ -20,7 +20,7 @@ export class IonixSupremePage {
     const myModal = this.modalCtrl.create("VideoModalPage", {
       name: "The Science Behind Adaptogens",
       url:
-        "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fthe-science-behind-adaptogens.mp4?alt=media&token=18c532a9-6268-4088-80c8-11510d33a55c"
+        "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fthe-science-behind-adaptogens.mp4?alt=media&token=855599c3-c597-45b7-bcfa-50e9275051fa"
     });
 
     myModal.present();

@@ -22,7 +22,7 @@ export class CleanseForLifePage {
         data = {
           name: "How to do an Isagenix Cleanse Day",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fhow-to-do-a-cleanse-day.mp4?alt=media&token=7e02e057-d60e-47ca-b6cb-763c61ba9e87"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fhow-to-do-a-cleanse-day.mp4?alt=media&token=598043fc-4744-41e5-b9ed-ea4f267cbc7c"
         };
         break;
 
@@ -30,7 +30,7 @@ export class CleanseForLifePage {
         data = {
           name: "Cleanse for Life Product Information",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fcleanse-for-life-product-info.mp4?alt=media&token=ce788be9-4f0f-4f6f-8a11-8a4ab030fc25"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fcleanse-for-life-product-info.mp4?alt=media&token=f3b21be1-e0fc-4be0-9064-e03aa5dfcf09"
         };
         break;
 
@@ -38,7 +38,7 @@ export class CleanseForLifePage {
         data = {
           name: "Cleanse for Life Info on the Go",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fcleanse-for-life-info-on-the-go.mp4?alt=media&token=0153d785-70f4-4737-96fb-8c33e81384a6"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fcleanse-for-life-info-on-the-go.mp4?alt=media&token=17661426-2880-423f-b076-e9eaefd8fbbf"
         };
     }
 

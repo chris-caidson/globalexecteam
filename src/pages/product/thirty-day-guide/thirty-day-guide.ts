@@ -20,7 +20,7 @@ export class ThirtyDayGuidePage {
         data = {
           name: "How to do a Shake Day",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fhow-to-do-a-shake-day.mp4?alt=media&token=2015e97e-bb87-4a0c-85ea-9e664ca13a7f"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fhow-to-do-a-shake-day.mp4?alt=media&token=3794d722-24ce-408a-9bb7-d1479a1fc975"
         };
         break;
 
@@ -28,7 +28,7 @@ export class ThirtyDayGuidePage {
         data = {
           name: "How to do a Cleanse Day",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fhow-to-do-a-cleanse-day.mp4?alt=media&token=7e02e057-d60e-47ca-b6cb-763c61ba9e87"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fhow-to-do-a-cleanse-day.mp4?alt=media&token=598043fc-4744-41e5-b9ed-ea4f267cbc7c"
         };
         break;
     }

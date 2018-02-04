@@ -22,7 +22,7 @@ export class IsaleanShakePage {
         data = {
           name: "How to do an Isagenix Shake Day",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fhow-to-do-a-shake-day.mp4?alt=media&token=2015e97e-bb87-4a0c-85ea-9e664ca13a7f"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fhow-to-do-a-shake-day.mp4?alt=media&token=3794d722-24ce-408a-9bb7-d1479a1fc975"
         };
         break;
 
@@ -30,7 +30,7 @@ export class IsaleanShakePage {
         data = {
           name: "IsaLean Shake Presentation",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fisalean-shake-presentation.mp4?alt=media&token=5a616879-197c-4ba6-99e1-4d33c6f94176"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fisalean-shake-presentation.mp4?alt=media&token=dbfce094-1133-4225-996b-67d1f7b5aaed"
         };
         break;
     }

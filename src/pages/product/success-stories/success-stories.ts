@@ -17,7 +17,7 @@ export class SuccessStoriesPage {
   openVideoModal() {
     var data = {
       name: "IsaBody Challenge",
-      url: "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fisabody-mission.mp4?alt=media&token=1dfb9c6f-0b61-407e-8cff-9b6e13271112"
+      url: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fisabody-mission.mp4?alt=media&token=911426dc-9c6f-4a51-b2ab-c29cba6200a6"
     };
 
     console.log(data);
@@ -41,7 +41,7 @@ export class SuccessStoriesPage {
             "“I feel the best I have ever felt. The fact that it happened while I’m able to earn an income that will allow " +
             " my husband and I to expand our family is something I can never repay. My life is forever changed.”",
           imageUrl: "assets/imgs/transformations/natalie-h-before-and-after.jpg",
-          videoUrl: "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Ftransformations%2Fnatalie-h.mp4?alt=media&token=e3be4bf4-79d8-419e-a61e-572e2fc68717"
+          videoUrl: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftransformations%2Fnatalie-h.mp4?alt=media&token=efc4f863-0a36-4678-b6e6-af1c47e9bf86"
         };
         break;
 
@@ -56,7 +56,7 @@ export class SuccessStoriesPage {
           quote: "“You don't want to just be alive. You want to be living,” shares Billy. “Let's live our lives to the " +
           "fullest into our 70's, 80's, and 90's.”",
           imageUrl: "assets/imgs/transformations/bill-a-before-and-after.jpg",
-          videoUrl: "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Ftransformations%2Fbilly-a.mp4?alt=media&token=0b9a0792-5d07-4c53-9b88-dddaa9f71348"
+          videoUrl: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftransformations%2Fbilly-a.mp4?alt=media&token=68f58099-2d9e-4a48-b72d-bcfff59a8ab4"
         };
         break;
 
@@ -72,7 +72,7 @@ export class SuccessStoriesPage {
             "financially,” says Angela, who credits her supportive husband, Ron, for easing her journey. This is not just " +
             "for show or to win prizes or look physically different. Isagenix truly is a vehicle for transforming lives.”",
           imageUrl: "assets/imgs/transformations/angela-f-before-and-after.jpg",
-          videoUrl: "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Ftransformations%2Fangela-f.mp4?alt=media&token=60fe3e84-0d8d-4a24-bab4-1f8f8f3d22b5"
+          videoUrl: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftransformations%2Fangela-f.mp4?alt=media&token=bd952561-e069-4538-b6d8-c0cf4cf34f5d"
         };
         break;
 
@@ -88,7 +88,7 @@ export class SuccessStoriesPage {
             "I find when people get on it, they have nothing but great things to say. And I love to hear that because I don’t " +
             "want to just help them physically with treatments, I want to see their lifestyle change.”",
           imageUrl: "assets/imgs/transformations/ryan-e-before-and-after.jpg",
-          videoUrl: "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Ftransformations%2Fryan-e.mp4?alt=media&token=4eeeb1eb-9aad-43a9-8f27-596cb9a55cc8"
+          videoUrl: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftransformations%2Fryan-e.mp4?alt=media&token=da41ea74-96f1-45cf-93f2-c1fc82459828"
         };
         break;
 
@@ -104,7 +104,7 @@ export class SuccessStoriesPage {
             "looking to get in shape and stay young, as far as i’m concerned, this is the ultimate system that will take you " +
             "there.”",
           imageUrl: "assets/imgs/transformations/john-m-before-and-after.jpg",
-          videoUrl: "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Ftransformations%2Fjohn-m.mp4?alt=media&token=08697eca-b56e-494d-a26b-11c24c148130"
+          videoUrl: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftransformations%2Fjohn-m.mp4?alt=media&token=3ea3a8a6-2a2c-46dc-88ff-4795f41ae3c7"
         };
         break;
 
@@ -119,7 +119,7 @@ export class SuccessStoriesPage {
           quote: "“I woke up… and knew my life was going to change that day… I had made a schedule, highlighted an agenda, and " +
             "immediately signed up for the IsaBody challenge to hold me accountable.”",
           imageUrl: "assets/imgs/transformations/amy-o-before-and-after.jpg",
-          videoUrl: "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Ftransformations%2Famy-o.mp4?alt=media&token=ee8b1bfb-b5dc-454f-963d-cc619550123c"
+          videoUrl: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftransformations%2Famy-o.mp4?alt=media&token=ec727091-cd9d-42ca-b5aa-de3610e6db18"
         };
         break;
 
@@ -135,7 +135,7 @@ export class SuccessStoriesPage {
             "explains Abilio. “I am no longer a 64-year-old dreaming of escape: there is no mountain too high to climb and I " +
             "realize that my highest life purpose is to help others do the same with Isagenix.”",
           imageUrl: "assets/imgs/transformations/abilio-v-before-and-after.jpg",
-          videoUrl: "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Ftransformations%2Fabilio-v.mp4?alt=media&token=fbd5d43a-00d0-4ea3-b8de-9d3fd0da8978"
+          videoUrl: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftransformations%2Fabilio-v.mp4?alt=media&token=e38b250d-42a8-4bc4-bf1b-4ddd7baa5513"
         };
         break;
 
@@ -150,7 +150,7 @@ export class SuccessStoriesPage {
           quote: "“I see firsthand, every day, how things are for the elderly folks who took care of themselves. They are " +
             "leading active, vital lives, and I want that kind of healthy aging for me,” says Kathy.",
           imageUrl: "assets/imgs/transformations/kathy-p-before-and-after.jpg",
-          videoUrl: "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Ftransformations%2Fkathy-p.mp4?alt=media&token=b874946b-7649-4896-8450-73f0a062820d"
+          videoUrl: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftransformations%2Fkathy-p.mp4?alt=media&token=48839ea0-4eae-4483-8409-2499deae0303"
         };
         break;
     }

@@ -18,7 +18,7 @@ export class FreedomPlanPage {
         data = {
           name: "Today is the Day",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2FToday%20is%20the%20Day.mp4?alt=media&token=8ad99737-c6ae-4245-a191-ff7a681f4fb7"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2FToday%20is%20the%20Day.mp4?alt=media&token=b8f4dd4c-14e9-45e6-88ec-302185454035"
         };
         break;
 
@@ -26,7 +26,7 @@ export class FreedomPlanPage {
         data = {
           name: "Freedom Plan",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Ffinal-freedom-video.mp4?alt=media&token=82af18c3-30cd-440d-9a01-af90bf3e7b77"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ffinal-freedom-video.mp4?alt=media&token=6890a090-123f-4b9d-a014-c7698ab102ec"
         };
         break;
 
@@ -34,7 +34,7 @@ export class FreedomPlanPage {
         data = {
           name: "The TIME is NOW!",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2FGMT20171102-010719_Herb-Patty_2560x1440.mp4?alt=media&token=f825ce87-c083-4801-8f77-2419aecb58f7"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2FGMT20171102-010719_Herb-Patty_2560x1440.mp4?alt=media&token=530d0b59-62fa-4fe6-a3c5-ff4c262db1e6"
         };
         break;
     }

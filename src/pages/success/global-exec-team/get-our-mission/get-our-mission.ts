@@ -18,7 +18,7 @@ export class GetOurMissionPage {
         data = {
           name: "GET Party",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fget-party.mp4?alt=media&token=09fb9ffb-d437-4d9a-ba42-d88cbb215f5d"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fget-party.mp4?alt=media&token=cc92d033-600e-4029-8ef4-24db25967677"
         };
         break;
 
@@ -26,7 +26,7 @@ export class GetOurMissionPage {
         data = {
           name: "What's Your 'Why'?",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fi-am-good-enough.mp4?alt=media&token=cca97046-24dd-40aa-9be3-bd8101441ee1"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fi-am-good-enough.mp4?alt=media&token=d2bdb828-55ba-4a2f-a608-543ff7a8430d"
         };
         break;
     }

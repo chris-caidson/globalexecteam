@@ -18,7 +18,7 @@ export class SolutionPage {
         data = {
           name: "Are You Toxic?",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2FAre-You-Toxic_-Isagenix-Promo-Length-YouTube-360p.mp4?alt=media&token=786d30b2-ebb6-41b6-82f3-fc5a68645c94"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2FAre-You-Toxic_-Isagenix-Promo-Length-YouTube-360p.mp4?alt=media&token=a6fa3b5d-b752-4a02-b382-19791d311c8a"
         };
         break;
 
@@ -26,15 +26,15 @@ export class SolutionPage {
         data = {
           name: "Nutritional Cleansing",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2FMary-Evans-on-the-power-of-the-Isagenix-System---YouTube-(480p).mp4?alt=media&token=8cb0b61a-7d39-4871-a5f2-c50e2f007b2f"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2FMary-Evans-on-the-power-of-the-Isagenix-System---YouTube-(480p).mp4?alt=media&token=cdc6fe3f-baff-4eb3-9833-3b4d8182320f"
         };
         break;
-        
+
       case "isa-works":
         data = {
           name: "Why Isagenix Works",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2FMichael.mp4?alt=media&token=cb23a367-b6b9-48e5-8a9a-d4ee9db8c4f4"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2FMichael.mp4?alt=media&token=f747bc3e-b287-47cd-a20e-9bc8bb7d1f6d"
         };
         break;
     }

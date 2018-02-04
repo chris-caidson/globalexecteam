@@ -15,7 +15,7 @@ export class CompensationPlanPage {
   openVideoModal() {
     const myModal = this.modalCtrl.create("VideoModalPage", {
       name: "Isagenix Compensation Plan",
-      url: "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2FIsagenix%20Compensation%20Plan.mp4?alt=media&token=3a387653-5c78-4593-ad4a-2aecf0d10b44"
+      url: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2FIsagenix%20Compensation%20Plan.mp4?alt=media&token=03805889-5eb4-4c93-8bf5-7553bf3eadaa"
     });
 
     myModal.present();

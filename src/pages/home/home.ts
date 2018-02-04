@@ -22,7 +22,7 @@ export class HomePage {
         data = {
           name: "The Wellness Revolution",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fwhy-isagenix.mp4?alt=media&token=c1fa9ed1-c70b-4f24-95f7-5877ea80a9dd"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fwhy-isagenix.mp4?alt=media&token=30419a29-2709-44c2-88ba-b93f1fc7f98c"
         };
         break;
 
@@ -30,7 +30,7 @@ export class HomePage {
         data = {
           name: "Start Your Life (18 - 35)",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fstart-your-life.mp4?alt=media&token=c04537c4-36f3-4e88-a6ee-fc8ed87d715e"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fstart-your-life.mp4?alt=media&token=d4208c34-2206-4735-8cad-18ed32050d6d"
         };
         break;
 
@@ -38,7 +38,7 @@ export class HomePage {
         data = {
           name: "Enterprising Women",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fenterprising-women.mp4?alt=media&token=466ee01e-494c-4987-8139-4b799a12b9a2"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fenterprising-women.mp4?alt=media&token=68db15cc-f3e9-4e03-bd8e-b71559704275"
         };
         break;
 
@@ -46,7 +46,7 @@ export class HomePage {
         data = {
           name: "Retire Wealthy",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fretire-wealthy.mp4?alt=media&token=375142d8-7bb4-4302-89ae-072bd2590eda"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fretire-wealthy.mp4?alt=media&token=bc685695-32cb-4020-8968-44b8767babc5"
         };
         break;
     }

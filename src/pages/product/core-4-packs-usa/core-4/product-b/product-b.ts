@@ -22,7 +22,7 @@ export class IsaGenesisPage {
         data = {
           name: "Telomeres and Aging",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Ftelomeres-and-aging.mp4?alt=media&token=3c9fb188-10ce-467a-8461-abbcd7626219"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftelomeres-and-aging.mp4?alt=media&token=615d0ec4-be6f-452e-afb7-c59363c883c9"
         };
         break;
 
@@ -30,7 +30,7 @@ export class IsaGenesisPage {
         data = {
           name: "What's Aging You?",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/globalexecteam-2018.appspot.com/o/videos%2Fwhat's-aging-you.mp4?alt=media&token=e3bda42c-a561-4390-93df-085ce1aacb59"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fwhat's-aging-you.mp4?alt=media&token=c569cd40-819a-4772-ba58-50424bb7c970"
         };
         break;
     }
