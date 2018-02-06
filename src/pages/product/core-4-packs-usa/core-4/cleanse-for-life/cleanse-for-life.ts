@@ -22,7 +22,7 @@ export class CleanseForLifePage {
         data = {
           name: "How to do an Isagenix Cleanse Day",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fhow-to-do-a-cleanse-day.mp4?alt=media&token=598043fc-4744-41e5-b9ed-ea4f267cbc7c"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2FHow%20to%20Do%20a%20Cleanse%20Day.mp4?alt=media&token=d7b2ac9d-17ed-48c6-98d0-860b65bbd8fa"
         };
         break;
 

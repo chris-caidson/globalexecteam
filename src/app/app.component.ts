@@ -199,4 +199,5 @@ export class MyApp {
   openPage(pageName) {
     this.nav.setRoot(pageName);
   }
+
 }
