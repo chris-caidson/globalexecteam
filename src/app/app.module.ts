@@ -10,6 +10,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { PdfProvider } from '../providers/pdf/pdf';
 import { GoogleAnalyticsProvider } from '../providers/google-analytics/google-analytics';
+import { AuthProvider } from '../providers/auth/auth';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { GoogleAnalyticsProvider } from '../providers/google-analytics/google-an
     PdfProvider,
     GoogleAnalytics,
     GoogleAnalyticsProvider,
-    { provide: LocationStrategy, useClass: PathLocationStrategy }
+    AuthProvider,
+    //{ provide: LocationStrategy, useClass: PathLocationStrategy }
   ]
 })
 export class AppModule {}

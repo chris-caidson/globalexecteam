@@ -3,6 +3,7 @@ import { Nav, Platform } from "ionic-angular";
 import { StatusBar } from "@ionic-native/status-bar";
 import { GoogleAnalytics } from "@ionic-native/google-analytics";
 import { SplashScreen } from "@ionic-native/splash-screen";
+import { AuthProvider } from '../providers/auth/auth';
 
 @Component({
   templateUrl: "app.html"
@@ -10,7 +11,7 @@ import { SplashScreen } from "@ionic-native/splash-screen";
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = "HomePage";
+  rootPage: any = "LoginPage";
 
   pages: Array<{
     title: string;
@@ -23,7 +24,8 @@ export class MyApp {
     public platform: Platform,
     public statusBar: StatusBar,
     public splashScreen: SplashScreen,
-    public ga: GoogleAnalytics
+    public ga: GoogleAnalytics,
+    public authProvider: AuthProvider
   ) {
     this.initializeApp();
 

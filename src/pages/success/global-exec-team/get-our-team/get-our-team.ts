@@ -6,6 +6,7 @@ import {
   ModalController
 } from "ionic-angular";
 import { GoogleAnalyticsProvider } from "./../../../../providers/google-analytics/google-analytics";
+import { AuthProvider } from '../../../../providers/auth/auth';
 
 @IonicPage()
 @Component({
@@ -55,8 +56,15 @@ export class GetOurTeamPage {
   constructor(
     public navCtrl: NavController,
     public modalCtrl: ModalController,
-    private gap: GoogleAnalyticsProvider
+    private gap: GoogleAnalyticsProvider,
+    public authProvider: AuthProvider
   ) {
+    if (!this.authProvider.loggedIn) {
+      this.authProvider.previousPage = "GetOurTeamPage";
+      this.navCtrl.setRoot("LoginPage");
+      return;
+    }
+
     this.initializeMillionaires();
     this.initializeLeaders();
     this.initializeStart1000();

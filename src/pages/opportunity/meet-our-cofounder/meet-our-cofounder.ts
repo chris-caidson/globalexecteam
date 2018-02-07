@@ -1,6 +1,7 @@
 import { Component } from "@angular/core";
 import { IonicPage, NavController, ModalController } from "ionic-angular";
 import { GoogleAnalyticsProvider } from './../../../providers/google-analytics/google-analytics';
+import { AuthProvider } from '../../../providers/auth/auth';
 
 @IonicPage()
 @Component({
@@ -8,7 +9,16 @@ import { GoogleAnalyticsProvider } from './../../../providers/google-analytics/g
   templateUrl: "meet-our-cofounder.html"
 })
 export class MeetOurCofounderPage {
-  constructor(public navCtrl: NavController, public modalCtrl: ModalController, private gap: GoogleAnalyticsProvider) {}
+  constructor(
+    public navCtrl: NavController,
+    public modalCtrl: ModalController,
+    private gap: GoogleAnalyticsProvider,
+    public authProvider: AuthProvider) {
+      if (!this.authProvider.loggedIn) {
+        this.authProvider.previousPage = "MeetOurCofounderPage";
+        this.navCtrl.setRoot("LoginPage");
+      }
+    }
 
   openVideoModal() {
     const myModal = this.modalCtrl.create("VideoModalPage", {

@@ -7,6 +7,7 @@ import {
   ModalController
 } from "ionic-angular";
 import { GoogleAnalyticsProvider } from './../../../../providers/google-analytics/google-analytics';
+import { AuthProvider } from '../../../../providers/auth/auth';
 
 @IonicPage()
 @Component({
@@ -28,8 +29,15 @@ export class GetOurStoriesPage {
     public navCtrl: NavController,
     public navParams: NavParams,
     public modalCtrl: ModalController,
-    private gap: GoogleAnalyticsProvider
+    private gap: GoogleAnalyticsProvider,
+    public authProvider: AuthProvider
   ) {
+    if (!this.authProvider.loggedIn) {
+      this.authProvider.previousPage = "GetOurStoriesPage";
+      this.navCtrl.setRoot("LoginPage");
+      return;
+    }
+
     this.opportunityStories = [
       {
         title: "Three Women Share Their Success Stories",

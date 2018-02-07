@@ -2,6 +2,7 @@ import { Component } from "@angular/core";
 import { IonicPage, NavController, ModalController } from "ionic-angular";
 import { PdfProvider } from "../../../../../providers/pdf/pdf";
 import { GoogleAnalyticsProvider } from './../../../../../providers/google-analytics/google-analytics';
+import { AuthProvider } from '../../../../../providers/auth/auth';
 
 @IonicPage()
 @Component({
@@ -13,8 +14,14 @@ export class IonixSupremePage {
     public navCtrl: NavController,
     public modalCtrl: ModalController,
     public pdfProvider: PdfProvider,
-    private gap: GoogleAnalyticsProvider
-  ) {}
+    private gap: GoogleAnalyticsProvider,
+    public authProvider: AuthProvider
+  ) {
+    if (!this.authProvider.loggedIn) {
+      this.authProvider.previousPage = "Core_4PacksUsaPage";
+      this.navCtrl.setRoot("LoginPage");
+    }
+  }
 
   openVideoModal() {
     const myModal = this.modalCtrl.create("VideoModalPage", {

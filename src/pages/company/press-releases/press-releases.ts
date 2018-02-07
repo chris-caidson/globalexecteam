@@ -6,6 +6,7 @@ import {
   ModalController
 } from "ionic-angular";
 import { GoogleAnalyticsProvider } from "./../../../providers/google-analytics/google-analytics";
+import { AuthProvider } from '../../../providers/auth/auth';
 
 declare var RSSParser;
 
@@ -24,8 +25,14 @@ export class PressReleasesPage {
     public navCtrl: NavController,
     public navParams: NavParams,
     public modalCtrl: ModalController,
-    private gap: GoogleAnalyticsProvider
-  ) {}
+    private gap: GoogleAnalyticsProvider,
+    public authProvider: AuthProvider
+  ) {
+    if (!this.authProvider.loggedIn) {
+      this.authProvider.previousPage = "PressReleasesPage";
+      this.navCtrl.setRoot("LoginPage");
+    }
+  }
 
   ionViewDidLoad() {
     this.parseUrl();
