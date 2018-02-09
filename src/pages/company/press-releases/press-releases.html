@@ -1,15 +1,18 @@
-<ion-header>
+<ion-header *ngIf="this.auth.loggedIn">
   <ion-navbar>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
-    </button>
+    </button> 
     <ion-title>
       <i class="fa fa-file-text fixed-width space-right"></i>
       <span>Press Releases</span>
     </ion-title>
   </ion-navbar>
 </ion-header>
-<ion-content>
+<ion-content *ngIf="!this.auth.loggedIn">
+  <login></login>
+</ion-content>
+<ion-content *ngIf="this.auth.loggedIn">
   <header role="banner">
     <img sizes="(max-width: 1400px) 100vw" src="assets/imgs/staci-shapiro/staci-shapiro-1400.jpg" alt="" srcset="
         assets/imgs/staci-shapiro/staci-shapiro-400.jpg 400w,

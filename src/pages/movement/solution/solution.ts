@@ -13,12 +13,8 @@ export class SolutionPage {
     public navCtrl: NavController,
     private modalCtrl: ModalController,
     private gap: GoogleAnalyticsProvider,
-    public authProvider: AuthProvider) {
-      if (!this.authProvider.loggedIn) {
-        this.authProvider.previousPage = "GetOurTeamPage";
-        this.navCtrl.setRoot("SolutionPage");
-      }
-    }
+    public auth: AuthProvider
+  ) { }
 
   openVideoModal(video: string) {
     var data: any;

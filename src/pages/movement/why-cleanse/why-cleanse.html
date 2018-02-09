@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header *ngIf="this.auth.loggedIn">
   <ion-navbar>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
@@ -9,7 +9,10 @@
     </ion-title>
   </ion-navbar>
 </ion-header>
-<ion-content>
+<ion-content *ngIf="!this.auth.loggedIn">
+  <login></login>
+</ion-content>
+<ion-content *ngIf="this.auth.loggedIn">
   <header role="banner">
     <img sizes="(max-width: 1600px) 100vw" src="assets/imgs/cleanse-healthier-life/cleanse-healthier-life-1600.jpg" alt="Cleanse for a Healthier Life"
       srcset="
@@ -116,7 +119,7 @@
   </main>
   <get-footer></get-footer>
 </ion-content>
-<ion-footer>
+<ion-footer *ngIf="this.auth.loggedIn">
   <ion-grid>
     <ion-row>
       <ion-col>

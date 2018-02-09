@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 import { IonicPage, NavController } from "ionic-angular";
 import { GoogleAnalyticsProvider } from './../../../providers/google-analytics/google-analytics';
-import { AuthProvider } from '../../../providers/auth/auth';
+import { AuthProvider } from './../../../providers/auth/auth';
 
 @IonicPage()
 @Component({
@@ -12,13 +12,8 @@ export class Core_4PacksUsaPage {
   constructor(
     public navCtrl: NavController,
     private gap: GoogleAnalyticsProvider,
-    public authProvider: AuthProvider
-  ) {
-    if (!this.authProvider.loggedIn) {
-      this.authProvider.previousPage = "Core_4PacksUsaPage";
-      this.navCtrl.setRoot("LoginPage");
-    }
-  }
+    public auth: AuthProvider
+  ) { }
 
   loadCleansePage(){
     this.navCtrl.push('CleanseForLifePage');

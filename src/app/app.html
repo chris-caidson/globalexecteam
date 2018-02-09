@@ -27,7 +27,7 @@
     </ion-list>
   </ion-content>
 </ion-menu>
-<nav id="mainNav" *ngIf="this.authProvider.loggedIn">
+<nav id="mainNav" *ngIf="this.auth.loggedIn"> 
   <img src="../assets/imgs/misc/get-free-lg.png" alt="Get Free" (click)="openPage('HomePage')" class="pointer" />
   <div id="navigationDiv" class="uppercase">
     <span id="homeSpan" (click)="openPage('HomePage')">Home</span>

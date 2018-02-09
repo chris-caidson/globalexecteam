@@ -7,7 +7,7 @@ import {
   ModalController
 } from "ionic-angular";
 import { GoogleAnalyticsProvider } from './../../../../providers/google-analytics/google-analytics';
-import { AuthProvider } from '../../../../providers/auth/auth';
+import { AuthProvider } from './../../../../providers/auth/auth';
 
 @IonicPage()
 @Component({
@@ -30,13 +30,8 @@ export class GetOurStoriesPage {
     public navParams: NavParams,
     public modalCtrl: ModalController,
     private gap: GoogleAnalyticsProvider,
-    public authProvider: AuthProvider
+    public auth: AuthProvider
   ) {
-    if (!this.authProvider.loggedIn) {
-      this.authProvider.previousPage = "GetOurStoriesPage";
-      this.navCtrl.setRoot("LoginPage");
-      return;
-    }
 
     this.opportunityStories = [
       {

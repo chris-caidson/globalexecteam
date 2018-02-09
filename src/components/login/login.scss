@@ -1,4 +1,4 @@
-page-login {
+login {
   #loginDiv {
     display: grid;
     height: 100vh;
@@ -7,7 +7,7 @@ page-login {
 
     #loginControlsContainer {
       position: absolute;
-      top: calc(100% / 2 - 50px);
+      top: calc(100% / 2 - 60px);
       left: calc(100% / 4 - 50px);
 
       #getFreeLogo {
@@ -17,6 +17,7 @@ page-login {
       }
 
       #loginControls {
+        display: grid;
         margin-top: $small-margin;
 
         label {
@@ -39,12 +40,12 @@ page-login {
 
         #incorrectSpan {
           display: inline-block;
-          color: #C00000;
+          color: #c00000;
           margin-top: 4px;
         }
       }
 
-      @media(min-width: 640px) {
+      @media (min-width: 640px) {
         #getFreeLogo {
           height: 75%;
           width: 75%;
@@ -61,7 +62,7 @@ page-login {
         }
       }
 
-      @media(min-width: 900px) {
+      @media (min-width: 900px) {
         #getFreeLogo {
           height: 100%;
           width: 100%;

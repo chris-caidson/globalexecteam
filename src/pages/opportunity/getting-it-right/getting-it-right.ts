@@ -2,7 +2,7 @@ import { Component } from "@angular/core";
 import { IonicPage, NavController, NavParams } from "ionic-angular";
 import { PdfProvider } from "../../../providers/pdf/pdf";
 import { GoogleAnalyticsProvider } from './../../../providers/google-analytics/google-analytics';
-import { AuthProvider } from '../../../providers/auth/auth';
+import { AuthProvider } from './../../../providers/auth/auth';
 
 @IonicPage()
 @Component({
@@ -15,13 +15,8 @@ export class GettingItRightPage {
     public navParams: NavParams,
     public pdfProvider: PdfProvider,
     private gap: GoogleAnalyticsProvider,
-    public authProvider: AuthProvider
-  ) {
-    if (!this.authProvider.loggedIn) {
-      this.authProvider.previousPage = "GettingItRightPage";
-      this.navCtrl.setRoot("LoginPage");
-    }
-  }
+    public auth: AuthProvider
+  ) { }
 
   ionViewWillLoad() {
     this.gap.trackView("GettingItRightPage");

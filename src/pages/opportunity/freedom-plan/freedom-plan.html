@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header *ngIf="this.auth.loggedIn">
   <ion-navbar>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
@@ -9,7 +9,10 @@
     </ion-title>
   </ion-navbar>
 </ion-header>
-<ion-content>
+<ion-content *ngIf="!this.auth.loggedIn">
+  <login></login>
+</ion-content>
+<ion-content *ngIf="this.auth.loggedIn">
   <header role="banner">
     <img sizes="(max-width: 960px) 100vw" src="assets/imgs/leaving-legacies/leaving-legacies-960.jpg" alt="Leaving Legacies"
       srcset="assets/imgs/leaving-legacies/leaving-legacies-400.jpg 400w,
