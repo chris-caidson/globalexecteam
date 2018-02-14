@@ -3,7 +3,7 @@
   "short_name": "GET",
   "description": "An application for the Isagenix Global Exec Team",
   "start_url": "index.html",
-  "display": "standalone",
+  "display": "browser",
   "lang": "en-US",
   "icons": [{
     "src": "assets/imgs/icons/icon-48x48.jpg",
