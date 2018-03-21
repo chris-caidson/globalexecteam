@@ -1,6 +1,6 @@
 {
   "name": "GET Free",
-  "short_name": "GET",
+  "short_name": "GETFree",
   "description": "An application for the Isagenix Global Exec Team",
   "start_url": "index.html",
   "display": "browser",
