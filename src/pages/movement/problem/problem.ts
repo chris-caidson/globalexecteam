@@ -60,4 +60,8 @@ export class ProblemPage {
   ionViewWillLoad() {
     this.gap.trackView("ProblemPage");
   }
+
+  loadSolutionPage() {
+    this.navCtrl.setRoot('SolutionPage');
+  }
 }
