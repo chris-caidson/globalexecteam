@@ -1,15 +1,15 @@
 import { Component } from "@angular/core";
 import { IonicPage, NavController, ModalController } from "ionic-angular";
 import { PdfProvider } from "../../../providers/pdf/pdf";
-import { GoogleAnalyticsProvider } from './../../../providers/google-analytics/google-analytics';
-import { AuthProvider } from './../../../providers/auth/auth';
+import { GoogleAnalyticsProvider } from '../../../providers/google-analytics/google-analytics';
+import { AuthProvider } from '../../../providers/auth/auth';
 
 @IonicPage()
 @Component({
-  selector: "page-thirty-day-guide",
-  templateUrl: "thirty-day-guide.html"
+  selector: "page-how-it-works",
+  templateUrl: "how-it-works.html"
 })
-export class ThirtyDayGuidePage {
+export class HowItWorksPage {
   constructor(
     public navCtrl: NavController,
     public modalCtrl: ModalController,
@@ -44,6 +44,6 @@ export class ThirtyDayGuidePage {
   }
 
   ionViewWillLoad() {
-    this.gap.trackView("ThirtyDayGuidePage");
+    this.gap.trackView("HowItWorksPage");
   }
 }

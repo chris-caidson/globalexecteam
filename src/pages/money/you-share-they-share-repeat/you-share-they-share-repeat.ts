@@ -1,15 +1,15 @@
 import { Component } from "@angular/core";
 import { IonicPage, NavController, ModalController } from "ionic-angular";
 import { PdfProvider } from "../../../providers/pdf/pdf";
-import { GoogleAnalyticsProvider } from './../../../providers/google-analytics/google-analytics';
-import { AuthProvider } from './../../../providers/auth/auth';
+import { GoogleAnalyticsProvider } from '../../../providers/google-analytics/google-analytics';
+import { AuthProvider } from '../../../providers/auth/auth';
 
 @IonicPage()
 @Component({
-  selector: "page-eat-it-love-it-share-it",
-  templateUrl: "eat-it-love-it-share-it.html"
+  selector: "page-you-share-they-share-repeat",
+  templateUrl: "you-share-they-share-repeat.html"
 })
-export class EatItLoveItShareItPage {
+export class YouShareTheyShareRepeatPage {
   constructor(
     public navCtrl: NavController,
     public modalCtrl: ModalController,
@@ -28,6 +28,6 @@ export class EatItLoveItShareItPage {
   }
 
   ionViewWillLoad() {
-    this.gap.trackView("EatItLoveItShareItPage");
+    this.gap.trackView("YouShareTheyShareRepeatPage");
   }
 }

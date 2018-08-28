@@ -78,10 +78,10 @@ export class MyApp {
       // GetFree - Money
       { title: "Money", component: null, separatorLevel: 2, icon: null },
       {
-        title: "Eat It, Love It, Share It",
-        component: "EatItLoveItShareItPage",
+        title: "You Share, They Share, Repeat",
+        component: "YouShareTheyShareRepeatPage",
         separatorLevel: 4,
-        icon: "cutlery"
+        icon: "share"
       },
       {
         title: "Compensation Plan",
@@ -93,14 +93,14 @@ export class MyApp {
       // GetFree - Product
       { title: "Product", component: null, separatorLevel: 2, icon: null },
       {
-        title: "30-day Guide",
-        component: "ThirtyDayGuidePage",
+        title: "How It Works",
+        component: "HowItWorksPage",
         separatorLevel: 4,
         icon: "book"
       },
       {
-        title: "Core 4 / Packs (USA)",
-        component: "Core_4PacksUsaPage",
+        title: "Getting Started Packs (USA)",
+        component: "GettingStartedPacksUsaPage",
         separatorLevel: 4,
         icon: "archive"
       },
@@ -115,33 +115,6 @@ export class MyApp {
         component: "SciencePage",
         separatorLevel: 4,
         icon: "flask"
-      },
-
-      // GetFree - Company
-      { title: "Company", component: null, separatorLevel: 2, icon: null },
-      {
-        title: "Corporate Leadership",
-        component: "CorporateLeadershipPage",
-        separatorLevel: 4,
-        icon: "users"
-      },
-      {
-        title: "Sci. Advisory Board",
-        component: "ScientificAdvisoryBoardPage",
-        separatorLevel: 4,
-        icon: "handshake-o"
-      },
-      {
-        title: "Press Releases",
-        component: "PressReleasesPage",
-        separatorLevel: 4,
-        icon: "file-text"
-      },
-      {
-        title: "Awards",
-        component: "AwardsPage",
-        separatorLevel: 4,
-        icon: "trophy"
       },
 
       // GetFree - Success

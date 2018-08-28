@@ -27,7 +27,7 @@
     </ion-list>
   </ion-content>
 </ion-menu>
-<nav id="mainNav" *ngIf="this.auth.loggedIn"> 
+<nav id="mainNav" *ngIf="this.auth.loggedIn">
   <img src="../assets/imgs/misc/get-free-lg.png" alt="Get Free" (click)="openPage('HomePage')" class="pointer" />
   <div id="navigationDiv" class="uppercase">
     <span id="homeSpan" (click)="openPage('HomePage')">Home</span>
@@ -50,26 +50,17 @@
     <div class="dropdown">
       <div class="main-menu">Money</div>
       <div class="dropdown-content">
-        <p (click)="openPage('EatItLoveItShareItPage')">Eat It, Love It, Share It</p>
+        <p (click)="openPage('YouShareTheyShareRepeatPage')">You Share, They Share, Repeat</p>
         <p (click)="openPage('CompensationPlanPage')">Compensation Plan</p>
       </div>
     </div>
     <div class="dropdown">
       <div class="main-menu">Product</div>
       <div id="productSubMenu" class="dropdown-content">
-        <p (click)="openPage('ThirtyDayGuidePage')">30-Day Guide</p>
-        <p (click)="openPage('Core_4PacksUsaPage')">Core 4 / Packs (USA)</p>
+        <p (click)="openPage('HowItWorksPage')">How it Works</p>
+        <p (click)="openPage('GettingStartedPacksUsaPage')">Getting Started Packs (USA)</p>
         <p (click)="openPage('SuccessStoriesPage')">Success Stories</p>
         <p (click)="openPage('SciencePage')">Science</p>
-      </div>
-    </div>
-    <div class="dropdown">
-      <div class="main-menu">Company</div>
-      <div id="companySubMenu" class="dropdown-content">
-        <p (click)="openPage('CorporateLeadershipPage')">Corporate Leadership</p>
-        <p (click)="openPage('ScientificAdvisoryBoardPage')">Scientific Advisory Board</p>
-        <p (click)="openPage('PressReleasesPage')">Press Releases</p>
-        <p (click)="openPage('AwardsPage')">Awards</p>
       </div>
     </div>
     <div class="dropdown">

@@ -794,11 +794,11 @@ export class GetOurTeamPage {
           "into her body. She is “passionate to help others live the lives they truly deserve.”"
       },
       {
-        name: "Jennifer Warnock",
-        imageUrl: "assets/imgs/team/jennifer-warnock.jpg",
+        name: "Jennifer Towkaniuk",
+        imageUrl: "assets/imgs/team/jennifer-towkaniuk.jpg",
         title: "Former Gym Owner",
         details:
-          "Jen Warnock lives in beautiful Murrieta, California, and was the owner of a personal training facility in Southern " +
+          "Jen Towkaniuk lives in beautiful Murrieta, California, and was the owner of a personal training facility in Southern " +
           "California. Jennifer was frustrated daily by the limitations of gym ownership and the long hours away from her family. " +
           "She knew there was a better time-freedom solution to allow her to be home with her family and still financially be okay. " +
           "She began building her Isagenix business in 2013. Jen quickly found that she could help far more people outside the gym " +
@@ -958,23 +958,6 @@ export class GetOurTeamPage {
         recognitionName: "2017 Heart of Isagenix - Check out the IsaFyi Story"
       },
       {
-        name: "Joe Andruzzi",
-        imageUrl: "assets/imgs/team/joe-andruzzi.jpg",
-        title: "3x NFL Super Bowl Champion - NE Patriots",
-        details:
-          "Joe Andruzzi spent nine years in the NFL, where he won three Super Bowl titles with the New England " +
-          "Patriots. In recognition of his contributions, Andruzzi received the Ed Block Courage Award in 2002 and the first " +
-          "Ron Burton Community Service Award in 2003.<p>In 2001, Abruzzi's three brothers, who were all NYC firefighters, " +
-          "responded to the attacks on the World Trade Center on September 11th. During pregame introductions at the next " +
-          "game on September 23, Andruzzi ran out to the field with an American flag in each hand. His brothers were honored " +
-          "at midfield prior to kickoff.</p><p>On April 15, 2013, Andruzzi’s non-profit foundation was hosting an event in " +
-          "Boston in support of the runners, when the 2013 Boston Marathon bombings occurred. In the aftermath, he was " +
-          "photographed carrying an injured woman to safety.</p><p>Joe is a survivor of an aggressive form of non-Hodgkin’s " +
-          "Burkitt’s lymphomais. He is a fighter not just for himself, but also for his community. After completing treatment, " +
-          "the Andruzzi family founded the Joe Andruzzi Foundation in 2008. They are committed to tackling cancer’s impact by " +
-          "providing financial assistance for patients and their families as well as funding pediatric brain cancer research.</p>"
-      },
-      {
         name: "Mary Ellen Clark",
         imageUrl: "assets/imgs/team/mary-ellen-clark.jpg",
         title: "Olympic Athlete / Diving",
@@ -987,33 +970,6 @@ export class GetOurTeamPage {
           "the areas of weight loss, energy and performance, healthy aging, and wealth creation. Mary Ellen is part of Team " +
           "Isagenix, working alongside professional athletes, fitness champions, and other Olympians, educating the world on " +
           "the benefits of the Isagenix nutritional cleansing and replenishment system to lead a healthy lifestyle."
-      },
-      {
-        name: "Brandon Jacobs",
-        imageUrl: "assets/imgs/team/brandon-jacobs.jpg",
-        title: "2x NFL Super Bowl Champion - NY Giants",
-        details:
-          "Brandon Christopher Jacobs (born July 6, 1982) is a former American football running back, who spent the " +
-          "majority of his career with the New York Giants of the National Football League (NFL). He was drafted by the " +
-          "Giants in the fourth round of the 2005 NFL Draft. He also played one season for the San Francisco 49ers before " +
-          "returning to New York for his final season. He played college football at Coffeyville, Auburn, and Southern " +
-          "Illinois.<p>Brandon Jacobs grew up in Napoleonville, Louisiana. The only son of a single mother, Janice Jacobs, " +
-          "he was raised by his mom and her sisters. His aunt and uncle, Dianne and Phil Cheavious, later became his legal " +
-          "guardians. He never had a relationship with his father. Brandon played basketball and football at Assumption High " +
-          "School and in his senior year received accolades such as USA Today All-America, Orlando Sentinel All-Southern, " +
-          "Prep Star All-Region, and Louisiana Class 4A Most Valuable Offensive Player. He ran for more than 3,000 yards and " +
-          "scored 38 touchdowns in that senior campaign.</p><p>Jacobs is larger and heavier than most NFL running backs, " +
-          "standing 6’4″ tall and weighing over 264 pounds. He also runs the 100 meters in 10.82 seconds and the 200 meters " +
-          "in 21.59. He won two Super Bowls in seven seasons with the New York Giants, and holds the franchise record for " +
-          "most career rushing touchdowns.</p><p>Jacobs’ college career started at Coffeyville Community College in " +
-          "Coffeyville, Kansas, under the direction of head coach Jeff Leiker and running backs coach Dickie Rolls. " +
-          "Coffeyville is a member school of the Kansas Jayhawk Community College Conference. In 2001, his freshman year at " +
-          "Coffeyville, he ran for 1,349 yards and 17 TD's and gained Kansas Jayhawk Conference All-Conference honorable " +
-          "mention. He was also named the team MVP for CCC. In his sophomore season for the Red Ravens, he racked up 1,896 " +
-          "yards and 20 TDs on 267 carries for a 7.1 yard-per-carry average. In light of these efforts, Jacobs was named a " +
-          "JUCO All-American and to the KJCCC All-Conference First Team. He once again garnered the Team MVP trophy and was " +
-          "also named the recipient of the Reb Russell Memorial Football Scholarship Award. The statistic of 1,896 yards " +
-          "rushing ranks second all-time on the Ravens individual season rushing yardage record."
       },
       {
         name: "Joe Ames",

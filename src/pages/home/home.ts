@@ -20,11 +20,11 @@ export class HomePage {
     var data: any;
 
     switch (video) {
-      case "wellness-revolution":
+      case "business-future":
         data = {
-          name: "The Wellness Revolution",
+          name: "The Business of the Future",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fwhy-isagenix.mp4?alt=media&token=30419a29-2709-44c2-88ba-b93f1fc7f98c"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fbusiness-of-the-future.mp4?alt=media&token=6a4eceeb-76b5-4a1c-92ba-74c32bf11d48"
         };
         break;
 
