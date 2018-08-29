@@ -4,6 +4,14 @@ page-freedom-plan {
     grid-template-rows: auto auto auto auto;
   }
 
+  #shapiroQuote {
+    display: none;
+    position: absolute;
+    top: 155px;
+    left: 10px;
+    max-width: 330px;
+  }
+
   header {
     max-height: 722px;
     overflow: hidden;
@@ -42,17 +50,36 @@ page-freedom-plan {
     }
   }
 
+  @media (min-width: 490px) {
+    #shapiroQuote {
+      display: inherit;
+    }
+  }
+
   @media (min-width: 640px) {
     #todayIsTheDayDiv {
       top: 50px;
       left: 50px;
       width: 200px;
     }
+
+    #shapiroQuote {
+      top: 200px;
+      left: 20px;
+      max-width: 385px;
+    }
+
   }
 
   @media (min-width: 768px) {
     .grid-container {
       grid-template-columns: auto auto;
+    }
+
+    #shapiroQuote {
+      top: 260px;
+      left: 20px;
+      max-width: 385px;
     }
 
     section {
@@ -99,13 +126,27 @@ page-freedom-plan {
       left: 60px;
       width: 400px;
     }
+
+    #shapiroQuote {
+      top: 350px;
+      left: 40px;
+      max-width: 455px;
+    }
+
   }
 
   @media (min-width: 1250px) {
     #todayIsTheDayDiv {
-      top: 180px;
-      left: 150px;
+      top: 100px;
+      left: 70px;
       width: 400px;
     }
+
+    #shapiroQuote {
+      top: 400px;
+      left: 60px;
+      max-width: 534px;
+    }
+
   }
 }
