@@ -794,7 +794,7 @@ export class GetOurTeamPage {
           "into her body. She is “passionate to help others live the lives they truly deserve.”"
       },
       {
-        name: "Jennifer Towkaniuk",
+        name: "Jen Towkaniuk",
         imageUrl: "assets/imgs/team/jennifer-towkaniuk.jpg",
         title: "Former Gym Owner",
         details:
@@ -924,7 +924,7 @@ export class GetOurTeamPage {
       {
         name: "Chelsea Lauren Miller",
         imageUrl: "assets/imgs/team/chelsea-lauren-miller.jpg",
-        title: "2015 College Grad, Top 3 Income Earner < 25",
+        title: "2015 College Grad, Top 3 Income Earner < 25, Start Ambassador",
         details:
           "Chelsea Miller lives in Cambridge, MA, and is a graduate from Babson College (the #1 school in the U.S. for " +
           "entrepreneurship). Chelsea graduated magnum cum laude with a double-concentration in economics and business " +
