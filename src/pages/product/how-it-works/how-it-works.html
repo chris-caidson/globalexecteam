@@ -41,14 +41,33 @@
             </li>
           </ul>
         </section>
+        <!--
         <section class="video-container">
           <img src="assets/imgs/misc/shake-day.jpg" alt="How to do a Shake Day" class="video-thumb" (click)="openVideoModal('shake-day')"
           />
         </section>
         <section class="video-container">
-          <img src="assets/imgs/misc/cleanse-day.jpg" alt="How to do a Shake Day" class="video-thumb" (click)="openVideoModal('cleanse-day')"
+          <img src="assets/imgs/misc/cleanse-day.jpg" alt="How to do a Cleanse Day" class="video-thumb" (click)="openVideoModal('cleanse-day')"
           />
         </section>
+      -->
+      <div id="topGrid">
+        <section id="videoSection">
+          <img *ngIf="activeVideo == 'shake-day'" src="assets/imgs/misc/shake-day.jpg" (click)="openVideoModal('shake-day')"
+            alt="How to Do a Shake Day" />
+          <img *ngIf="activeVideo == 'cleanse-day'" src="assets/imgs/misc/cleanse-day.jpg" (click)="openVideoModal('cleanse-day')"
+            alt="How to Do a Cleanse Day" />
+        </section>
+        <section id="videoSelectorSection">
+          <div id="shake-day" (click)="toggleVideo('shake-day')">
+            <h3>How to Do a Shake Day</h3>
+          </div>
+          <div class="divider"></div>
+          <div id="cleanse-day" (click)="toggleVideo('cleanse-day')">
+            <h3>How to Do a Cleanse Day</h3>
+          </div>
+        </section>
+      </div>
       </div>
     </article>
   </main>

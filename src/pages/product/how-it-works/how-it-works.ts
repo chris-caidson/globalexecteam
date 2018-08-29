@@ -10,6 +10,8 @@ import { AuthProvider } from '../../../providers/auth/auth';
   templateUrl: "how-it-works.html"
 })
 export class HowItWorksPage {
+  public activeVideo: string = "shake-day";
+
   constructor(
     public navCtrl: NavController,
     public modalCtrl: ModalController,
@@ -45,5 +47,9 @@ export class HowItWorksPage {
 
   ionViewWillLoad() {
     this.gap.trackView("HowItWorksPage");
+  }
+
+  toggleVideo(videoName: string) {
+    this.activeVideo = videoName;
   }
 }

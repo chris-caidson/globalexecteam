@@ -23,40 +23,783 @@
   </header>
   <main role="main">
     <article>
-      <h1 class="uppercase centered">Core 4</h1>
-      <div class="grid-container" id="topGrid">
-        <section>
-          <img src="assets/imgs/products/cleanse-for-life.jpg" alt="Cleanse for Life" (click)="loadCleansePage()" class="pointer" />
-          <h3 class="uppercase centered">Cleanse for Life</h3>
-        </section>
-        <section>
-          <img src="assets/imgs/products/ionix-supreme.jpg" alt="Ionix Supreme" (click)="loadIonixPage()" class="pointer" />
-          <h3 class="uppercase centered">Ionix Supreme</h3>
-        </section>
-        <section>
-          <img src="assets/imgs/products/isa-lean.jpg" alt="IsaLean Shake" (click)="loadIsaLeanPage()" class="pointer" />
-          <h3 class="uppercase centered">IsaLean Shake</h3>
-        </section>
-        <section>
-          <img src="assets/imgs/products/product-b.jpg" alt="Isagenesis" (click)="loadIsaGenesisPage()" class="pointer" />
-          <h3 class="uppercase centered">Isagenesis</h3>
-        </section>
-      </div>
-      <h1 class="uppercase centered">Packs</h1>
-      <div class="grid-container" id="bottomGrid">
-        <section>
-          <img src="assets/imgs/products/30-day-system.jpg" alt="30-Day System" (click)="load30DaySystemPage()" class="pointer" />
-          <h3 class="uppercase centered">Good</h3>
-        </section>
-        <section>
-          <img src="assets/imgs/products/value-pak.jpg" alt="Value Pak" (click)="loadValuePakPage()" class="pointer" />
-          <h3 class="uppercase centered">Better</h3>
-        </section>
-        <section>
-          <img src="assets/imgs/products/ultimate-pak.jpg" alt="Ultimate Pak" (click)="loadUltimatePakPage()" class="pointer" />
-          <h3 class="uppercase centered">Best</h3>
-        </section>
-      </div>
+      <h1 class="uppercase centered">Why You’ll Love the Weight Loss Value Pak!</h1>
+      <section id="topGrid">
+        <div id="valuePak1">
+          <img src="assets/imgs/paks/value-pak.png" alt="Value Pak" />
+        </div>
+        <div>
+          <p>One of our most-loved product bundles, the Value Pak drastically simplifies your weight loss mission and
+            sets you up for long-term success! We know weight loss can be hard, make it easier with these Value Pak
+            perks:</p>
+          <ul>
+            <li><strong>1 month of delicious, convenient, nutrient-packed meals.</strong> The Pak replaces 66 full
+              meals + snacks + vitamins for as low as $19/day** when purchased through an Isagenix Independent
+              Associate. Think about how much you spend on meals and snacks each day--you may find that you spend more
+              than $20 on average--but our way is convenient and always nutritious.</li>
+            <li><strong>A path to continued success.</strong> The Pak comes with a free 1-year Isagenix membership
+              (US$29 value) + US$25 product coupon to use on your next order + US$75 event coupon to attend an Isagenix
+              event + Two free refer-a-friend codes so you can share Isagenix with friends and family! (US$58 value)</li>
+            <li><strong>An incredible feeling of transformation.</strong> Watch your body change right before your eyes
+              + feel more energetic + discover the road to your optimal health.|||</li>
+          </ul>
+          <p>Not satisfied? Our 30-day Satisfaction Guarantee* has you covered! Order confidently knowing that you have
+            30 days to initiate a return of:</p>
+          <ul>
+            <li>Your initial product order, opened or unopened.</li>
+            <li>Any product(s) you are trying for the first time, opened or unopened.</li>
+            <li>Your first Autoship order for unopened products only.</li>
+          </ul>
+        </div>
+        <div id="valuePak2">
+          <img src="assets/imgs/paks/value-pak.png" alt="Value Pak" />
+        </div>
+      </section>
+      <h2>What's in Your Pak</h2>
+      <p id="note"><em>Click the products below to learn more.</em></p>
+
+      <!-- For Small Displays -->
+      <section id="smallDisplaysGrid">
+        <figure (click)="toggleDetails('shakes')">
+          <img src="assets/imgs/paks/shakes.png" alt="IsaLean Shakes" />
+          <figcaption>IsaLean Shakes</figcaption>
+        </figure>
+        <div *ngIf="details == 'shakes'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/shakes.png" alt="IsaLean Shakes" />
+            <div>
+              <h3>IsaLean Shakes</h3>
+              <p>
+                Each value pak contains (4) IsaLean Shakes. These scrumptious blended meal replacements are packed with
+                24 grams of high quality protein, energy fueling carbs, filling fiber and vitamins and minerals.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure (click)="toggleDetails('cleanse')">
+          <img src="assets/imgs/paks/cleanse.png" alt="Cleanse for Life" />
+          <figcaption>Cleanse for Life</figcaption>
+        </figure>
+        <div *ngIf="details == 'cleanse'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/cleanse.png" alt="Cleanse for Life" />
+            <div>
+              <h3>Cleanse for Life</h3>
+              <p>
+                Cleanse for Life provides herbal and plant-based nourishment for your body. Enjoy it as part of your
+                Cleanse Days or as an everyday supplement.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure (click)="toggleDetails('support')">
+          <img src="assets/imgs/paks/support.png" alt="Cleanse Support Kit" />
+          <figcaption>Cleanse Support Kit</figcaption>
+        </figure>
+        <div *ngIf="details == 'support'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/support.png" alt="Cleanse Support Kit" />
+            <div>
+              <h3>Cleanse Support Kit</h3>
+              <p>
+                The pak also includes everything you need for a successful cleanse: (2) Cleanse for Life and (1)
+                Cleanse
+                Support Bundle which is made up of the Accelerator, the IsaFlush and Snacks.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure (click)="toggleDetails('ionix')">
+          <img src="assets/imgs/paks/ionix.png" alt="Ionix Supreme" />
+          <figcaption>Ionix Supreme</figcaption>
+        </figure>
+        <div *ngIf="details == 'ionix'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/ionix.png" alt="Ionix Supreme" />
+            <div>
+              <h3>Ionix Supreme</h3>
+              <p>
+                Ionix® Supreme (1 included in pak) is a daily nutrient-rich tonic that can support mental and physical
+                performance.* It features a blend of adaptogenic herbs and other ingredients to help your body combat
+                and
+                adapt to stress.*
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure (click)="toggleDetails('vitamins')">
+          <img src="assets/imgs/paks/vitamins.png" alt="Complete Essentials Daily Pack with IsaGenesis" />
+          <figcaption>Complete Essentials&trade; Daily Pack with IsaGenesis</figcaption>
+        </figure>
+        <div *ngIf="details == 'vitamins'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/vitamins.png" alt="Complete Essentials Daily Pack with IsaGenesis" />
+            <div>
+              <h3>Complete Essentials&trade; Daily Pack with IsaGenesis</h3>
+              <p>
+                The Complete Essentials™ Daily Pack with IsaGenesis (1 box per pak) is a complete daily nutrient
+                support
+                with vitamins, minerals, omega-3s, antioxidants, and herbs and botanicals.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure (click)="toggleDetails('bars')">
+          <img src="assets/imgs/paks/bars.png" alt="IsaLean Bar" />
+          <figcaption>IsaLean&trade; Bar</figcaption>
+        </figure>
+        <div *ngIf="details == 'bars'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/bars.png" alt="IsaLean Bar" />
+            <div>
+              <h3>IsaLean&trade; Bar</h3>
+              <p>
+                If you’re not in the mood for a shake, try an Isalean™ Bar! The value pak contains (1) box of bars,
+                which
+                can be used as an alternative meal replacement option. Each bar provides 18-19 grams of high-quality
+                protein to keep you feeling full and they taste AMAZING! You can also cut a bar in half and use it as a
+                snack!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure (click)="toggleDetails('e-shot')">
+          <img src="assets/imgs/paks/e-shot.png" alt="e+ Energy Shot" />
+          <figcaption>e+&trade; Energy Shot</figcaption>
+        </figure>
+        <div *ngIf="details == 'e-shot'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/e-shot.png" alt="e+ Energy Shot" />
+            <div>
+              <h3>e+&trade; Energy Shot</h3>
+              <p>
+                On long days when you need an extra bit of energy, try an e+™ energy shot (1 box included in pak),
+                which
+                contains natural plant based caffeine and adaptogens to give you the energy boost without the jitters.*
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure (click)="toggleDetails('isadelight')">
+          <img src="assets/imgs/paks/isadelight.png" alt="IsaDelight" />
+          <figcaption>IsaDelight&reg;</figcaption>
+        </figure>
+        <div *ngIf="details == 'isadelight'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/isadelight.png" alt="IsaDelight" />
+            <div>
+              <h3>IsaDelight&reg;</h3>
+              <p>
+                Satisfy your sweet tooth without sabotaging your progress with our IsaDelight® chocolates (1 box
+                included
+                in pak). These little squares are infused with green tea to help satisfy cravings.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure (click)="toggleDetails('whey-thins')">
+          <img src="assets/imgs/paks/whey-thins.png" alt="Whey Thins or Harvest Thins" />
+          <figcaption>Whey Thins&trade; or Harvest Thins&trade;</figcaption>
+        </figure>
+        <div *ngIf="details == 'whey-thins'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/whey-thins.png" alt="Whey Thins or Harvest Thins" />
+            <div>
+              <h3>Whey Thins&trade; or Harvest Thins&trade;</h3>
+              <p>
+                You’ll also get (1) box of Whey Thins™ or Harvest Thins TM in this pak. These convenient, 100-calorie,
+                savory, protein-packed snacks will help you crunch away stubborn cravings.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure (click)="toggleDetails('greens')">
+          <img src="assets/imgs/paks/greens.png" alt="Isagenix Greens" />
+          <figcaption>Isagenix Greens&trade;</figcaption>
+        </figure>
+        <div *ngIf="details == 'greens'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/greens.png" alt="Isagenix Greens" />
+            <div>
+              <h3>Isagenix Greens&trade;</h3>
+              <p>
+                One Isagenix Greens™ is also included in the value pak. You can mix this powdered supplement into your
+                water or shake to give your body a dose of phytonutrients from more than 30 vegetables!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure (click)="toggleDetails('blender')">
+          <img src="assets/imgs/paks/blender.jpg" alt="IsaBlender Max" />
+          <figcaption>IsaBlender Max</figcaption>
+        </figure>
+        <div *ngIf="details == 'blender'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/blender.jpg" alt="IsaBlender Max" />
+            <div>
+              <h3>IsaBlender Max</h3>
+              <p>
+                Finally, you’ll also get a new (1) IsaBlender Max to help you whip up your delicious shakes in seconds!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure (click)="toggleDetails('benefits')">
+          <img src="assets/imgs/paks/benefits.jpg" alt="Additional Benefits" />
+          <figcaption>Additional Benefits</figcaption>
+        </figure>
+        <div *ngIf="details == 'benefits'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/benefits.jpg" alt="Additional Benefits" />
+            <div>
+              <h3>Additional Benefits</h3>
+              <p>Free 1 year Isagenix membership for you! (US$29 value)</p>
+              <p>US $25 product coupon to use on your next order</p>
+              <p>US $75 event coupon to attend an Isagenix event</p>
+              <p>Two free refer a friend codes so you can share Isagenix with friends and family (US $58 Value)</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- For Medium Displays -->
+      <section id="mediumDisplaysGrid">
+
+        <figure (click)="toggleDetails('shakes')">
+          <img src="assets/imgs/paks/shakes.png" alt="IsaLean Shakes" />
+          <figcaption>IsaLean Shakes</figcaption>
+        </figure>
+
+        <figure (click)="toggleDetails('cleanse')">
+          <img src="assets/imgs/paks/cleanse.png" alt="Cleanse for Life" />
+          <figcaption>Cleanse for Life</figcaption>
+        </figure>
+
+        <div *ngIf="details == 'shakes'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/shakes.png" alt="IsaLean Shakes" />
+            <div>
+              <h3>IsaLean Shakes</h3>
+              <p>
+                Each value pak contains (4) IsaLean Shakes. These scrumptious blended meal replacements are packed with
+                24 grams of high quality protein, energy fueling carbs, filling fiber and vitamins and minerals.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="details == 'cleanse'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/cleanse.png" alt="Cleanse for Life" />
+            <div>
+              <h3>Cleanse for Life</h3>
+              <p>
+                Cleanse for Life provides herbal and plant-based nourishment for your body. Enjoy it as part of your
+                Cleanse Days or as an everyday supplement.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure (click)="toggleDetails('support')">
+          <img src="assets/imgs/paks/support.png" alt="Cleanse Support Kit" />
+          <figcaption>Cleanse Support Kit</figcaption>
+        </figure>
+
+        <figure (click)="toggleDetails('ionix')">
+          <img src="assets/imgs/paks/ionix.png" alt="Ionix Supreme" />
+          <figcaption>Ionix Supreme</figcaption>
+        </figure>
+
+        <div *ngIf="details == 'support'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/support.png" alt="Cleanse Support Kit" />
+            <div>
+              <h3>Cleanse Support Kit</h3>
+              <p>
+                The pak also includes everything you need for a successful cleanse: (2) Cleanse for Life and (1)
+                Cleanse
+                Support Bundle which is made up of the Accelerator, the IsaFlush and Snacks.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="details == 'ionix'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/ionix.png" alt="Ionix Supreme" />
+            <div>
+              <h3>Ionix Supreme</h3>
+              <p>
+                Ionix® Supreme (1 included in pak) is a daily nutrient-rich tonic that can support mental and physical
+                performance.* It features a blend of adaptogenic herbs and other ingredients to help your body combat
+                and
+                adapt to stress.*
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure (click)="toggleDetails('vitamins')">
+          <img src="assets/imgs/paks/vitamins.png" alt="Complete Essentials Daily Pack with IsaGenesis" />
+          <figcaption>Complete Essentials&trade; Daily Pack with IsaGenesis</figcaption>
+        </figure>
+
+        <figure (click)="toggleDetails('bars')">
+          <img src="assets/imgs/paks/bars.png" alt="IsaLean Bar" />
+          <figcaption>IsaLean&trade; Bar</figcaption>
+        </figure>
+
+        <div *ngIf="details == 'vitamins'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/vitamins.png" alt="Complete Essentials Daily Pack with IsaGenesis" />
+            <div>
+              <h3>Complete Essentials&trade; Daily Pack with IsaGenesis</h3>
+              <p>
+                The Complete Essentials™ Daily Pack with IsaGenesis (1 box per pak) is a complete daily nutrient
+                support
+                with vitamins, minerals, omega-3s, antioxidants, and herbs and botanicals.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="details == 'bars'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/bars.png" alt="IsaLean Bar" />
+            <div>
+              <h3>IsaLean&trade; Bar</h3>
+              <p>
+                If you’re not in the mood for a shake, try an Isalean™ Bar! The value pak contains (1) box of bars,
+                which
+                can be used as an alternative meal replacement option. Each bar provides 18-19 grams of high-quality
+                protein to keep you feeling full and they taste AMAZING! You can also cut a bar in half and use it as a
+                snack!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure (click)="toggleDetails('e-shot')">
+          <img src="assets/imgs/paks/e-shot.png" alt="e+ Energy Shot" />
+          <figcaption>e+&trade; Energy Shot</figcaption>
+        </figure>
+
+        <figure (click)="toggleDetails('isadelight')">
+          <img src="assets/imgs/paks/isadelight.png" alt="IsaDelight" />
+          <figcaption>IsaDelight&reg;</figcaption>
+        </figure>
+
+        <div *ngIf="details == 'e-shot'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/e-shot.png" alt="e+ Energy Shot" />
+            <div>
+              <h3>e+&trade; Energy Shot</h3>
+              <p>
+                On long days when you need an extra bit of energy, try an e+™ energy shot (1 box included in pak),
+                which
+                contains natural plant based caffeine and adaptogens to give you the energy boost without the jitters.*
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="details == 'isadelight'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/isadelight.png" alt="IsaDelight" />
+            <div>
+              <h3>IsaDelight&reg;</h3>
+              <p>
+                Satisfy your sweet tooth without sabotaging your progress with our IsaDelight® chocolates (1 box
+                included
+                in pak). These little squares are infused with green tea to help satisfy cravings.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure (click)="toggleDetails('whey-thins')">
+          <img src="assets/imgs/paks/whey-thins.png" alt="Whey Thins or Harvest Thins" />
+          <figcaption>Whey Thins&trade; or Harvest Thins&trade;</figcaption>
+        </figure>
+
+        <figure (click)="toggleDetails('greens')">
+          <img src="assets/imgs/paks/greens.png" alt="Isagenix Greens" />
+          <figcaption>Isagenix Greens&trade;</figcaption>
+        </figure>
+
+        <div *ngIf="details == 'whey-thins'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/whey-thins.png" alt="Whey Thins or Harvest Thins" />
+            <div>
+              <h3>Whey Thins&trade; or Harvest Thins&trade;</h3>
+              <p>
+                You’ll also get (1) box of Whey Thins™ or Harvest Thins TM in this pak. These convenient, 100-calorie,
+                savory, protein-packed snacks will help you crunch away stubborn cravings.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="details == 'greens'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/greens.png" alt="Isagenix Greens" />
+            <div>
+              <h3>Isagenix Greens&trade;</h3>
+              <p>
+                One Isagenix Greens™ is also included in the value pak. You can mix this powdered supplement into your
+                water or shake to give your body a dose of phytonutrients from more than 30 vegetables!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure (click)="toggleDetails('blender')">
+          <img src="assets/imgs/paks/blender.jpg" alt="IsaBlender Max" />
+          <figcaption>IsaBlender Max</figcaption>
+        </figure>
+
+        <figure (click)="toggleDetails('benefits')">
+          <img src="assets/imgs/paks/benefits.jpg" alt="Additional Benefits" />
+          <figcaption>Additional Benefits</figcaption>
+        </figure>
+
+        <div *ngIf="details == 'blender'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/blender.jpg" alt="IsaBlender Max" />
+            <div>
+              <h3>IsaBlender Max</h3>
+              <p>
+                Finally, you’ll also get a new (1) IsaBlender Max to help you whip up your delicious shakes in seconds!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="details == 'benefits'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/benefits.jpg" alt="Additional Benefits" />
+            <div>
+              <h3>Additional Benefits</h3>
+              <p>Free 1 year Isagenix membership for you! (US$29 value)</p>
+              <p>US $25 product coupon to use on your next order</p>
+              <p>US $75 event coupon to attend an Isagenix event</p>
+              <p>Two free refer a friend codes so you can share Isagenix with friends and family (US $58 Value)</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- For Large Displays -->
+      <section id="largeDisplaysGrid">
+        <figure (click)="toggleDetails('shakes')">
+          <img src="assets/imgs/paks/shakes.png" alt="IsaLean Shakes" />
+          <figcaption>IsaLean Shakes</figcaption>
+        </figure>
+
+        <figure (click)="toggleDetails('cleanse')">
+          <img src="assets/imgs/paks/cleanse.png" alt="Cleanse for Life" />
+          <figcaption>Cleanse for Life</figcaption>
+        </figure>
+
+        <figure (click)="toggleDetails('support')">
+          <img src="assets/imgs/paks/support.png" alt="Cleanse Support Kit" />
+          <figcaption>Cleanse Support Kit</figcaption>
+        </figure>
+
+        <figure (click)="toggleDetails('ionix')">
+          <img src="assets/imgs/paks/ionix.png" alt="Ionix Supreme" />
+          <figcaption>Ionix Supreme</figcaption>
+        </figure>
+
+        <div *ngIf="details == 'shakes'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/shakes.png" alt="IsaLean Shakes" />
+            <div>
+              <h3>IsaLean Shakes</h3>
+              <p>
+                Each value pak contains (4) IsaLean Shakes. These scrumptious blended meal replacements are packed with
+                24 grams of high quality protein, energy fueling carbs, filling fiber and vitamins and minerals.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="details == 'cleanse'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/cleanse.png" alt="Cleanse for Life" />
+            <div>
+              <h3>Cleanse for Life</h3>
+              <p>
+                Cleanse for Life provides herbal and plant-based nourishment for your body. Enjoy it as part of your
+                Cleanse Days or as an everyday supplement.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="details == 'support'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/support.png" alt="Cleanse Support Kit" />
+            <div>
+              <h3>Cleanse Support Kit</h3>
+              <p>
+                The pak also includes everything you need for a successful cleanse: (2) Cleanse for Life and (1)
+                Cleanse
+                Support Bundle which is made up of the Accelerator, the IsaFlush and Snacks.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="details == 'ionix'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/ionix.png" alt="Ionix Supreme" />
+            <div>
+              <h3>Ionix Supreme</h3>
+              <p>
+                Ionix® Supreme (1 included in pak) is a daily nutrient-rich tonic that can support mental and physical
+                performance.* It features a blend of adaptogenic herbs and other ingredients to help your body combat
+                and
+                adapt to stress.*
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <figure (click)="toggleDetails('vitamins')">
+          <img src="assets/imgs/paks/vitamins.png" alt="Complete Essentials Daily Pack with IsaGenesis" />
+          <figcaption>Complete Essentials&trade; Daily Pack with IsaGenesis</figcaption>
+        </figure>
+
+        <figure (click)="toggleDetails('bars')">
+          <img src="assets/imgs/paks/bars.png" alt="IsaLean Bar" />
+          <figcaption>IsaLean&trade; Bar</figcaption>
+        </figure>
+
+        <figure (click)="toggleDetails('e-shot')">
+          <img src="assets/imgs/paks/e-shot.png" alt="e+ Energy Shot" />
+          <figcaption>e+&trade; Energy Shot</figcaption>
+        </figure>
+
+        <figure (click)="toggleDetails('isadelight')">
+          <img src="assets/imgs/paks/isadelight.png" alt="IsaDelight" />
+          <figcaption>IsaDelight&reg;</figcaption>
+        </figure>
+
+        <div *ngIf="details == 'vitamins'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/vitamins.png" alt="Complete Essentials Daily Pack with IsaGenesis" />
+            <div>
+              <h3>Complete Essentials&trade; Daily Pack with IsaGenesis</h3>
+              <p>
+                The Complete Essentials™ Daily Pack with IsaGenesis (1 box per pak) is a complete daily nutrient
+                support
+                with vitamins, minerals, omega-3s, antioxidants, and herbs and botanicals.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="details == 'bars'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/bars.png" alt="IsaLean Bar" />
+            <div>
+              <h3>IsaLean&trade; Bar</h3>
+              <p>
+                If you’re not in the mood for a shake, try an Isalean™ Bar! The value pak contains (1) box of bars,
+                which
+                can be used as an alternative meal replacement option. Each bar provides 18-19 grams of high-quality
+                protein to keep you feeling full and they taste AMAZING! You can also cut a bar in half and use it as a
+                snack!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="details == 'e-shot'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/e-shot.png" alt="e+ Energy Shot" />
+            <div>
+              <h3>e+&trade; Energy Shot</h3>
+              <p>
+                On long days when you need an extra bit of energy, try an e+™ energy shot (1 box included in pak),
+                which
+                contains natural plant based caffeine and adaptogens to give you the energy boost without the jitters.*
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="details == 'isadelight'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/isadelight.png" alt="IsaDelight" />
+            <div>
+              <h3>IsaDelight&reg;</h3>
+              <p>
+                Satisfy your sweet tooth without sabotaging your progress with our IsaDelight® chocolates (1 box
+                included
+                in pak). These little squares are infused with green tea to help satisfy cravings.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <figure (click)="toggleDetails('whey-thins')">
+          <img src="assets/imgs/paks/whey-thins.png" alt="Whey Thins or Harvest Thins" />
+          <figcaption>Whey Thins&trade; or Harvest Thins&trade;</figcaption>
+        </figure>
+
+        <figure (click)="toggleDetails('greens')">
+          <img src="assets/imgs/paks/greens.png" alt="Isagenix Greens" />
+          <figcaption>Isagenix Greens&trade;</figcaption>
+        </figure>
+
+        <figure (click)="toggleDetails('blender')">
+          <img src="assets/imgs/paks/blender.jpg" alt="IsaBlender Max" />
+          <figcaption>IsaBlender Max</figcaption>
+        </figure>
+
+        <figure (click)="toggleDetails('benefits')">
+          <img src="assets/imgs/paks/benefits.jpg" alt="Additional Benefits" />
+          <figcaption>Additional Benefits</figcaption>
+        </figure>
+
+        <div *ngIf="details == 'whey-thins'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/whey-thins.png" alt="Whey Thins or Harvest Thins" />
+            <div>
+              <h3>Whey Thins&trade; or Harvest Thins&trade;</h3>
+              <p>
+                You’ll also get (1) box of Whey Thins™ or Harvest Thins TM in this pak. These convenient, 100-calorie,
+                savory, protein-packed snacks will help you crunch away stubborn cravings.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="details == 'greens'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/greens.png" alt="Isagenix Greens" />
+            <div>
+              <h3>Isagenix Greens&trade;</h3>
+              <p>
+                One Isagenix Greens™ is also included in the value pak. You can mix this powdered supplement into your
+                water or shake to give your body a dose of phytonutrients from more than 30 vegetables!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="details == 'blender'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/blender.jpg" alt="IsaBlender Max" />
+            <div>
+              <h3>IsaBlender Max</h3>
+              <p>
+                Finally, you’ll also get a new (1) IsaBlender Max to help you whip up your delicious shakes in seconds!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div *ngIf="details == 'benefits'" class="details-container">
+          <span class="close" (click)="toggleDetails('')">X</span>
+          <div class="details">
+            <img src="assets/imgs/paks/benefits.jpg" alt="Additional Benefits" />
+            <div>
+              <h3>Additional Benefits</h3>
+              <p>Free 1 year Isagenix membership for you! (US$29 value)</p>
+              <p>US $25 product coupon to use on your next order</p>
+              <p>US $75 event coupon to attend an Isagenix event</p>
+              <p>Two free refer a friend codes so you can share Isagenix with friends and family (US $58 Value)</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <img id="paksImg" src="assets/imgs/paks/systems.jpg" alt="Product Paks" />
+      </section>
+      <h2>Connect With the Person Who Shared Isagenix With You</h2>
+      <section>
+        <p>
+          If you’d like to place your first order, contact the person who shared Isagenix with you. They can help you
+          get started. If you are interested in the business opportunity, they can also help you complete the steps to
+          help you transition from a Customer to a business builder.
+        </p>
+        <p><em>
+            ** Pricing incorporates discounts for Autoship Rewards and Isagenix membership. Pricing may vary based on
+            product selections. Shipping and tax not included.
+          </em></p>
+        <p><em>
+            ||| Results not typical. Weight loss, muscle gain, lifestyle, and other results depicted here reflect
+            exceptional individual experiences of Isagenix Customers and should not be construed as typical or average.
+            Results vary with individual effort, body composition, eating patterns, time, exercise, and other factors,
+            such as genetic and physiological makeup. In a study performed in 2012 by University of Illinois at Chicago
+            researchers, subjects lost an average of 9 pounds with an average of 2 pounds of the loss from visceral fat
+            after 30 days on an Isagenix System. The subjects also had a greater level of adherence and had more
+            consistent weight loss from week to week compared to subjects on a traditional diet. View the study
+            results.
+          </em></p>
+        <p><em>
+            * Isagenix offers a 30-day product satisfaction guarantee on your first order so you may enjoy the benefits
+            of Isagenix worry-free.
+          </em></p>
+        <p><em>
+            * This statement has not been evaluated by the Food and Drug Administration. This product is not intended
+            to diagnose, treat, cure, or prevent any disease.
+          </em></p>
+      </section>
     </article>
   </main>
   <get-footer></get-footer>

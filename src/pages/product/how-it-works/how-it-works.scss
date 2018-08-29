@@ -1,58 +1,116 @@
 page-how-it-works {
-  .grid-container {
-    grid-template-columns: auto;
-  }
-
-  ul {
-    list-style: none;
-    margin-top: -$small-margin;
-  }
-
-  li {
-    margin-top: $default-margin;
-    margin-bottom: $default-margin;
-    border-bottom: 1px solid #999;
-    padding-bottom: $default-margin;
-
-    p {
-      margin-bottom: $small-margin;
+    .grid-container {
+        grid-template-columns: auto;
     }
-  }
-
-  #listSection {
-    margin: auto;
 
     ul {
-      margin-left: -$large-margin;
+        list-style: none;
+        margin-top: -$small-margin;
     }
-  }
 
-  .video-container {
-    margin: auto;
-    margin-bottom: $default-margin;
-  }
+    li {
+        margin-top: $default-margin;
+        margin-bottom: $default-margin;
+        border-bottom: 1px solid #999;
+        padding-bottom: $default-margin;
 
-  .name {
-    font-size: smaller;
-  }
+        p {
+            margin-bottom: $small-margin;
+        }
+    }
 
-  p {
-    margin-bottom: 5px;
-  }
+    #listSection {
+        margin: auto;
 
-  audio {
-    background-color: white;
-    width: 100%;
-  }
-
-  @media (min-width: 892px) {
-    .grid-container {
-      grid-template-columns: auto auto auto;
+        ul {
+            margin-left: -$large-margin;
+        }
     }
 
     .video-container {
-      margin: inherit;
-      margin-left: $large-margin;
+        margin: auto;
+        margin-bottom: $default-margin;
     }
-  }
+
+    .name {
+        font-size: smaller;
+    }
+
+    p {
+        margin-bottom: 5px;
+    }
+
+    audio {
+        background-color: white;
+        width: 100%;
+    }
+
+    #videoSelectorSection {
+        display: grid;
+        background-color: #414244;
+        grid-template-rows: 1fr 1px 1fr;
+        align-items: stretch;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+
+        div {
+            display: grid;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        div:hover {
+            background-color: #72B61F;
+            -webkit-transition: background-color 100ms linear;
+            -ms-transition: background-color 100ms linear;
+            transition: background-color 100ms linear;
+        }
+
+        h3 {
+            color: white;
+            margin-left: 20px;
+        }
+
+        .divider {
+            background-color: #72B61F;
+            height: 1px;
+            width: 100%;
+        }
+    }
+
+    #videoSection {
+        display: grid;
+        align-items: stretch;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #topGrid {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+
+    @media (min-width: 800px) {
+        #topGrid {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+        }
+
+        #videoSelectorSection {
+            margin-left: -22px;
+        }
+    }
+
+    @media (min-width: 892px) {
+        .grid-container {
+            grid-template-columns: auto auto auto;
+        }
+
+        .video-container {
+            margin: inherit;
+            margin-left: $large-margin;
+        }
+    }
 }
