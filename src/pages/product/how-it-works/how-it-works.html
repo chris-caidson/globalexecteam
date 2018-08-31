@@ -53,9 +53,9 @@
       -->
       <div id="topGrid">
         <section id="videoSection">
-          <img *ngIf="activeVideo == 'shake-day'" src="assets/imgs/misc/shake-day.jpg" (click)="openVideoModal('shake-day')"
+          <img id="shakeDay" *ngIf="activeVideo == 'shake-day'" src="assets/imgs/misc/shake-day.jpg" (click)="openVideoModal('shake-day')"
             alt="How to Do a Shake Day" />
-          <img *ngIf="activeVideo == 'cleanse-day'" src="assets/imgs/misc/cleanse-day.jpg" (click)="openVideoModal('cleanse-day')"
+          <img id="cleanseDay" *ngIf="activeVideo == 'cleanse-day'" src="assets/imgs/misc/cleanse-day.jpg" (click)="openVideoModal('cleanse-day')"
             alt="How to Do a Cleanse Day" />
         </section>
         <section id="videoSelectorSection">

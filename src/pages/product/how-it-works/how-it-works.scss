@@ -19,6 +19,10 @@ page-how-it-works {
         }
     }
 
+    #shakeDay, #cleanseDay {
+      cursor: pointer;
+    }
+
     #listSection {
         margin: auto;
 
@@ -84,10 +88,6 @@ page-how-it-works {
         align-items: stretch;
         margin-left: auto;
         margin-right: auto;
-
-        img {
-          cursor: pointer;
-        }
     }
 
     #topGrid {
