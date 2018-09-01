@@ -117,11 +117,17 @@ page-getting-started-packs-usa {
     position: absolute;
   }
 
-  #valuePak1 {
-    display: block;
+  #valuePakDiv1 {
+    display: inline-block;
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
-  #valuePak2 {
+  #valuePakDiv2 {
     display: none;
   }
 
@@ -167,12 +173,14 @@ page-getting-started-packs-usa {
     #topGrid {
       grid-template-columns: 1fr 1fr;
 
-      #valuePak1 {
+      #valuePakDiv1 {
         display: none;
       }
 
-      #valuePak2 {
-        display: block;
+      #valuePakDiv2 {
+        display: inline-block;
+        margin-left: 40px;
+        margin-top: 25px;
       }
 
       img {

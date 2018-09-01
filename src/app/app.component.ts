@@ -1,4 +1,4 @@
-import { AuthProvider } from './../providers/auth/auth';
+import { AuthProvider } from "./../providers/auth/auth";
 import { Component, ViewChild } from "@angular/core";
 import { Nav, Platform } from "ionic-angular";
 import { StatusBar } from "@ionic-native/status-bar";
@@ -9,9 +9,10 @@ import { SplashScreen } from "@ionic-native/splash-screen";
   templateUrl: "app.html"
 })
 export class MyApp {
-  @ViewChild(Nav) nav: Nav;
+  @ViewChild(Nav)
+  nav: Nav;
 
-  rootPage: any =  "HomePage";
+  rootPage: any = "GlobalMovementPage";
 
   pages: Array<{
     title: string;
@@ -31,10 +32,15 @@ export class MyApp {
 
     this.pages = [
       // GetFree Content
-      { title: "Home", component: "HomePage", separatorLevel: 4, icon: "home" },
+      {
+        title: "Global Movement",
+        component: "GlobalMovementPage",
+        separatorLevel: 4,
+        icon: "globe"
+      },
+      { title: "", component: null, separatorLevel: 2, icon: null },
 
       // GetFree - Movement
-      { title: "Movement", component: null, separatorLevel: 2, icon: null },
       {
         title: "Why Cleanse?",
         component: "WhyCleansePage",
@@ -53,45 +59,9 @@ export class MyApp {
         separatorLevel: 4,
         icon: "check-circle"
       },
+      { title: "", component: null, separatorLevel: 2, icon: null },
 
-      // GetFree - Opportunity
-      { title: "Opportunity", component: null, separatorLevel: 2, icon: null },
-      {
-        title: "Freedom Plan",
-        component: "FreedomPlanPage",
-        separatorLevel: 4,
-        icon: "calendar-check-o"
-      },
-      {
-        title: "Getting It Right",
-        component: "GettingItRightPage",
-        separatorLevel: 4,
-        icon: "thumbs-up"
-      },
-      {
-        title: "Meet Our Co-Founder",
-        component: "MeetOurCofounderPage",
-        separatorLevel: 4,
-        icon: "female"
-      },
-
-      // GetFree - Money
-      { title: "Money", component: null, separatorLevel: 2, icon: null },
-      {
-        title: "You Share, They Share, Repeat",
-        component: "YouShareTheyShareRepeatPage",
-        separatorLevel: 4,
-        icon: "share"
-      },
-      {
-        title: "Compensation Plan",
-        component: "CompensationPlanPage",
-        separatorLevel: 4,
-        icon: "usd"
-      },
-
-      // GetFree - Product
-      { title: "Product", component: null, separatorLevel: 2, icon: null },
+      // GetFree - Products
       {
         title: "How It Works",
         component: "HowItWorksPage",
@@ -116,21 +86,55 @@ export class MyApp {
         separatorLevel: 4,
         icon: "flask"
       },
+      { title: "", component: null, separatorLevel: 2, icon: null },
 
-      // GetFree - Success
-      { title: "Success", component: null, separatorLevel: 2, icon: null },
+      // GetFree - Opportunity
+      {
+        title: "Freedom Plan",
+        component: "FreedomPlanPage",
+        separatorLevel: 4,
+        icon: "calendar-check-o"
+      },
+      {
+        title: "Getting It Right",
+        component: "GettingItRightPage",
+        separatorLevel: 4,
+        icon: "thumbs-up"
+      },
+      {
+        title: "Meet Our Co-Founder",
+        component: "MeetOurCofounderPage",
+        separatorLevel: 4,
+        icon: "female"
+      },
+      { title: "", component: null, separatorLevel: 2, icon: null },
+
+      // GetFree - Money
       {
         title: "Health to Wealth",
         component: "HealthToWealthPage",
         separatorLevel: 4,
         icon: "medkit"
       },
+      {
+        title: "You Share, They Share, Repeat",
+        component: "YouShareTheyShareRepeatPage",
+        separatorLevel: 4,
+        icon: "share"
+      },
+      {
+        title: "Compensation Plan",
+        component: "CompensationPlanPage",
+        separatorLevel: 4,
+        icon: "usd"
+      },
+      { title: "", component: null, separatorLevel: 2, icon: null },
 
-      // GetFree - Global Exec Team
+      // GetFree - Success
       {
         title: "Global Exec Team",
         component: null,
-        separatorLevel: 3,
+        separatorLevel: 4,
         icon: null
       },
       {

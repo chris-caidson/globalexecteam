@@ -202,19 +202,39 @@ ion-icon[name="menu"],
 
 // All styles below are for traditional website navigation.
 
+#homeSpan {
+  color: $light-color;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+#homeSpan:hover {
+  text-decoration: underline;
+}
+
 #navigationDiv {
   position: absolute;
   top: 10px;
   right: 20px;
 }
 
+#mainNav img {
+  margin-top: 10px;
+  max-width: 230px;
+}
+
 .main-menu {
   color: darken($light-color, 10%);
   border: none;
   background-color: transparent;
-  font-size: larger;
   margin: 12px 20px 0 0;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.main-menu:hover {
+  text-decoration: underline;
 }
 
 .dropdown {
@@ -252,18 +272,6 @@ ion-icon[name="menu"],
   border-bottom: 3px solid $primary-color;
 }
 
-#homeSpan {
-  color: $light-color;
-  font-size: larger;
-  cursor: pointer;
-  display: inline-block;
-  margin-right: 25px;
-}
-
-#homeSpan:hover {
-  border-bottom: 1px solid $light-color;
-}
-
 #successSubMenu {
   right: 0px;
 }
@@ -279,4 +287,11 @@ ion-icon[name="menu"],
 #getDiv {
   margin-left: 20px;
   color: darken($tertiary-color, 15%);
+}
+
+@media (min-width: 1350px) {
+  #mainNav img {
+    margin-top: 0;
+    max-width: 328px;
+  }
 }

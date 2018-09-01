@@ -4,6 +4,18 @@ page-science {
     margin: auto;
   }
 
+  #lizQuoteSection {
+    max-width: 350px;
+  }
+
+  @media (min-width: 850px) {
+    #lizQuoteSection {
+      float: right;
+      max-width: 375px;
+      padding-right: 25px;
+    }
+  }
+
   #quote {
     display: none;
     position: absolute;

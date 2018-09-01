@@ -6,7 +6,7 @@
   </ion-header>
   <ion-content>
     <div id="getFreeDiv">
-      <img src="assets/imgs/misc/get-free.png" alt="Get Free" (click)="openPage('HomePage')" menuClose />
+      <img src="assets/imgs/misc/get-free.png" alt="Get Free" (click)="openPage('GlobalMovementPage')" menuClose />
     </div>
     <ion-list>
       <div *ngFor="let p of pages">
@@ -28,51 +28,45 @@
   </ion-content>
 </ion-menu>
 <nav id="mainNav" *ngIf="this.auth.loggedIn">
-  <img src="../assets/imgs/misc/get-free-lg.png" alt="Get Free" (click)="openPage('HomePage')" class="pointer" />
+  <img src="../assets/imgs/misc/get-free-lg.png" alt="Get Free" (click)="openPage('GlobalMovementPage')" class="pointer" />
   <div id="navigationDiv" class="uppercase">
-    <span id="homeSpan" (click)="openPage('HomePage')">Home</span>
+    <span id="homeSpan" (click)="openPage('GlobalMovementPage')">Global Movement</span>
     <div class="dropdown">
-      <div class="main-menu">Movement</div>
+      <div class="main-menu" (click)="openPage('WhyCleansePage')">Why Cleanse</div>
       <div class="dropdown-content">
-        <p (click)="openPage('WhyCleansePage')">Why Cleanse?</p>
         <p (click)="openPage('ProblemPage')">Problem</p>
         <p (click)="openPage('SolutionPage')">Solution</p>
       </div>
     </div>
     <div class="dropdown">
-      <div class="main-menu">Opportunity</div>
+        <div class="main-menu" (click)="openPage('HowItWorksPage')">How It Works</div>
+        <div class="dropdown-content">
+            <p (click)="openPage('GettingStartedPacksUsaPage')">Getting Started Packs (USA)</p>
+            <p (click)="openPage('SuccessStoriesPage')">Success Stories</p>
+            <p (click)="openPage('SciencePage')">Science</p>
+        </div>
+    </div>
+    <div class="dropdown">
+      <div class="main-menu" (click)="openPage('FreedomPlanPage')">Freedom Plan</div>
       <div class="dropdown-content">
-        <p (click)="openPage('FreedomPlanPage')">Freedom Plan</p>
         <p (click)="openPage('GettingItRightPage')">Getting It Right</p>
         <p (click)="openPage('MeetOurCofounderPage')">Meet Our Co-Founder</p>
       </div>
     </div>
     <div class="dropdown">
-      <div class="main-menu">Money</div>
+      <div class="main-menu" (click)="openPage('HealthToWealthPage')">Health to Wealth</div>
       <div class="dropdown-content">
         <p (click)="openPage('YouShareTheyShareRepeatPage')">You Share, They Share, Repeat</p>
         <p (click)="openPage('CompensationPlanPage')">Compensation Plan</p>
       </div>
     </div>
+
     <div class="dropdown">
-      <div class="main-menu">Product</div>
-      <div id="productSubMenu" class="dropdown-content">
-        <p (click)="openPage('HowItWorksPage')">How it Works</p>
-        <p (click)="openPage('GettingStartedPacksUsaPage')">Getting Started Packs (USA)</p>
-        <p (click)="openPage('SuccessStoriesPage')">Success Stories</p>
-        <p (click)="openPage('SciencePage')">Science</p>
-      </div>
-    </div>
-    <div class="dropdown">
-      <div class="main-menu">Success</div>
-      <div id="successSubMenu" class="dropdown-content">
-        <p (click)="openPage('HealthToWealthPage')">Health to Wealth</p>
-        <div id="getDiv">Global Exec Team&nbsp;
-          <i class="fa fa-caret-down"></i>
-        </div>
-        <p (click)="openPage('GetOurMissionPage')">Our Mission</p>
-        <p (click)="openPage('GetOurStoriesPage')">Our Stories</p>
-        <p (click)="openPage('GetOurTeamPage')">Our Team</p>
+      <div class="main-menu" (click)="openPage('GetOurMissionPage')">Global Exec Team</div>
+      <div id="getSubMenu" class="dropdown-content">
+          <p (click)="openPage('GetOurMissionPage')">Our Mission</p>
+          <p (click)="openPage('GetOurStoriesPage')">Our Stories</p>
+          <p (click)="openPage('GetOurTeamPage')">Our Team</p>
       </div>
     </div>
   </div>

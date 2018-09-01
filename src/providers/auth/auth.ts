@@ -6,7 +6,7 @@ export class AuthProvider {
   private localStorageKey: string = "getFitLoggedIn";
 
   incorrectPassword: boolean = false;
-  previousPage: string = "HomePage";
+  previousPage: string = "GlobalMovementPage";
   loggedIn: boolean = localStorage.getItem(this.localStorageKey) != null;
   count: number = 0;
 

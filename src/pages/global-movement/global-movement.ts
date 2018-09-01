@@ -1,14 +1,14 @@
-import { AuthProvider } from './../../providers/auth/auth';
+import { AuthProvider } from '../../providers/auth/auth';
 import { Component } from "@angular/core";
 import { NavController, ModalController, IonicPage } from "ionic-angular";
-import { GoogleAnalyticsProvider } from './../../providers/google-analytics/google-analytics';
+import { GoogleAnalyticsProvider } from '../../providers/google-analytics/google-analytics';
 
 @IonicPage()
 @Component({
-  selector: "page-home",
-  templateUrl: "home.html"
+  selector: "page-global-movement",
+  templateUrl: "global-movement.html"
 })
-export class HomePage {
+export class GlobalMovementPage {
   constructor(
     public navCtrl: NavController,
     private modalCtrl: ModalController,
@@ -58,6 +58,6 @@ export class HomePage {
   }
 
   ionViewWillLoad() {
-    this.gap.trackView("HomePage");
+    this.gap.trackView("GlobalMovementPage");
   }
 }
