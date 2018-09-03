@@ -13,7 +13,7 @@ body {
   -ms-user-select: text;
   user-select: text;
   }
-  
+
 main {
   max-width: $max-grid-width;
   margin-left: auto;
@@ -104,7 +104,7 @@ p {
 .note {
   font-style: italic;
   margin-top: -$xsmall-margin;
-  color: darken($tertiary-color, 15%);
+  color: darken($tertiary-color, 35%);
 }
 
 .pdf {
@@ -168,7 +168,7 @@ p {
 }
 
 .video-caption {
-  color: $lighter-accent-color;
+  color: $accent-color;
   font-size: $base-font-size;
   text-shadow: $text-shadow;
 }

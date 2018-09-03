@@ -1,24 +1,26 @@
 page-science {
-  section {
-    max-width: 800px;
-    margin: auto;
-  }
+  #grid {
+    display: grid;
+    grid-template-columns: auto;
 
-  #lizQuoteSection {
-    max-width: 350px;
-  }
-
-  @media (min-width: 850px) {
-    #lizQuoteSection {
-      float: right;
-      max-width: 375px;
-      padding-right: 25px;
+    div, section {
+      margin-left: auto;
+      margin-right: auto;
     }
+  }
+
+  #arcieroThumb {
+    cursor: pointer;
   }
 
   #quote {
     display: none;
     position: absolute;
+  }
+
+  #lizQuoteSection {
+    margin-top: 20px;
+    max-width: 400px;
   }
 
   ul {
@@ -100,6 +102,17 @@ page-science {
   }
 
   @media (min-width: 1024px) {
+    #grid {
+      grid-template-columns: 1fr 1fr;
+      
+      #leftDiv {
+        margin-right: 20px;
+      }
+      #rightDiv {
+        margin-left: 20px;
+      }
+    }
+
     #quote {
       top: 225px;
       right: 80px;

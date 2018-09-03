@@ -138,12 +138,6 @@ export class MyApp {
         icon: null
       },
       {
-        title: "Our Mission",
-        component: "GetOurMissionPage",
-        separatorLevel: 4,
-        icon: "gavel"
-      },
-      {
         title: "Our Stories",
         component: "GetOurStoriesPage",
         separatorLevel: 4,
