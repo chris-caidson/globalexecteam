@@ -22,73 +22,28 @@
   </header>
   <main role="main">
     <article>
-      <section id="opportunityStoriesSection" *ngIf="opportunityVisible">
-        <h1 class="uppercase centered">Our Stories - Opportunity</h1>
-        <div id="buttonsDiv">
-          <ion-grid>
-            <ion-row>
-              <ion-col>
-                <button ion-button full small color="secondary" (click)="showOpportunity()">
-                  <span>Opportunity</span>
-                </button>
-              </ion-col>
-              <ion-col>
-                <button ion-button full small color="secondary" (click)="showProduct()">
-                  <span>Product</span>
-                </button>
-              </ion-col>
-            </ion-row>
-          </ion-grid>
-        </div>
-        <h5 class="centered note tap">(Tap a picture or title to listen to the audio.)</h5>
-        <h5 class="centered note click">(Click a picture or title to listen to the audio.)</h5>
-        <div class="soundCloud grid-container" *ngFor="let s of opportunityStories">
-          <img class="audio-thumb pointer" [src]="s.image" alt="" (click)="openSoundCloudModal(s.title, s.url)" />
-          <span class="audio-title pointer" (click)="openSoundCloudModal(s.title, s.url)">{{s.title}}</span>
-        </div>
-      </section>
-      <section id="productStoriesSection" *ngIf="productVisible">
-        <h1 class="uppercase centered">Our Stories - Product</h1>
-        <div id="buttonsDiv">
-          <ion-grid>
-            <ion-row>
-              <ion-col>
-                <button ion-button full small color="secondary" (click)="showOpportunity()">
-                  <span>Opportunity</span>
-                </button>
-              </ion-col>
-              <ion-col>
-                <button ion-button full small color="secondary" (click)="showProduct()">
-                  <span>Product</span>
-                </button>
-              </ion-col>
-            </ion-row>
-          </ion-grid>
-        </div>
-        <h5 class="centered note tap">(Tap a picture or title to listen to the audio.)</h5>
-        <h5 class="centered note click">(Click a picture or title to listen to the audio.)</h5>
-        <div class="soundCloud grid-container" *ngFor="let s of productStories">
-          <img class="audio-thumb" [src]="s.image" alt="" (click)="openSoundCloudModal(s.title, s.url)" />
-          <span class="audio-title" (click)="openSoundCloudModal(s.title, s.url)">{{s.title}}</span>
-        </div>
+      <h1 class="uppercase centered">Our Stories</h1>
+      <section id="stories">
+        <figure>
+          <img src="assets/imgs/misc/joe-ames-thumb.jpg" class="video-thumb" alt="Joe Ames" (click)="openVideoModal('joe-ames')" />
+          <figcaption>
+            Joe Ames
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="assets/imgs/misc/laura-thompson-thumb.jpg" class="video-thumb" alt="Laura Thompson" (click)="openVideoModal('laura-thompson')" />
+          <figcaption>
+            Laura Thompson
+          </figcaption>
+        </figure>
+        <figure>
+          <img src="assets/imgs/misc/andrea-thumb.jpg" class="video-thumb" alt="Andrea Labouchere" (click)="openVideoModal('andrea-labouchere')" />
+          <figcaption>
+            Andrea Labouchere
+          </figcaption>
+        </figure>
       </section>
     </article>
   </main>
   <get-footer></get-footer>
 </ion-content>
-<ion-footer *ngIf="this.auth.loggedIn">
-  <ion-grid>
-    <ion-row>
-      <ion-col>
-        <button ion-button full small color="secondary" (click)="showOpportunity()">
-          <span>Opportunity</span>
-        </button>
-      </ion-col>
-      <ion-col>
-        <button ion-button full small color="secondary" (click)="showProduct()">
-          <span>Product</span>
-        </button>
-      </ion-col>
-    </ion-row>
-  </ion-grid>
-</ion-footer>

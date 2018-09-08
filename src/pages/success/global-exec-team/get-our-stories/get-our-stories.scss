@@ -1,98 +1,22 @@
 page-get-our-stories {
-  button span {
-    color: $light-color;
-
-    i {
-      color: $light-color !important;
-    }
-  }
-
-  #buttonsDiv {
-    display: none;
-  }
-
-  h5 {
-    font-size: smaller;
-    margin-bottom: $large-margin;
-  }
-
-  .tap {
-    display: block;
-  }
-
-  .click {
-    display: none;
-  }
-
-  ion-footer ion-grid {
-    background-color: #efefef;
-    border-top: 1px solid #bbb;
-  }
-
-  section {
-    margin-bottom: $large-margin;
-  }
-
-  .grid-container {
+  #stories {
+    display: grid;
     grid-template-columns: auto;
-    justify-content: flex-start;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .soundCloud {
-    border-radius: 10px;
-    box-shadow: 0 0 10px #333;
-    margin: $default-margin;
-    padding: $default-margin;
-    background-color: #fbfbfb;
-  }
-
-  .audio-thumb {
-    height: 75px;
-    width: 75px;
-    min-height: 75px;
-    min-width: 75px;
-    margin-right: $default-margin;
-  }
-
-  .audio-title {
-    display: inline-block;
+  figcaption {
+    text-align: center;
     color: $secondary-color;
-    vertical-align: top;
-    background-image: url("../assets/imgs/misc/soundcloud.png");
-    background-repeat: no-repeat;
-    background-position-x: 0px;
-    background-position-y: 0px;
-    min-height: 40px;
-    padding-left: 45px;
-    margin-top: $default-margin;
+    font-weight: bold;
   }
 
-  @media (min-width: 640px) {
-    .grid-container {
-      grid-template-columns: auto auto;
-      justify-content: flex-start;
-    }
-
-    .audio-title {
-      padding-top: 5px;
-      margin-top: $small-margin;
-    }
-  }
-
-  @media (min-width: 1250px) {
-    .tap {
-      display: none;
-    }
-
-    .click {
-      display: block;
-      margin-bottom: $small-margin;
-    }
-
-    #buttonsDiv {
-      display: block;
-      margin-top: -$default-margin;
-      margin-bottom: $default-margin;
+  @media (min-width: 1024px) {
+    #stories {
+      grid-template-columns: 1fr 1fr;
+      max-width: inherit;
     }
   }
 }
