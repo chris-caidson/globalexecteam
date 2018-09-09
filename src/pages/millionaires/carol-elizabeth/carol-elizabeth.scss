@@ -4,28 +4,34 @@ page-carol-elizabeth {
     color: $secondary-color;
   }
 
-  #adam_01,
-  #adam_02,
-  #adam_03 {
+  #carolHeader {
+    display: block;
+    width: 90%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #carol1, #carol2{
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
 
-  #adam_01 {
+  #carol1 {
     margin-bottom: $xlarge-margin;
   }
 
   @media (min-width: 640px) {
-    #adam_02 {
-      float: right;
-      margin-left: $default-margin;
+    #carol1 {
+      float: left;
+      margin-right: $default-margin;
       margin-bottom: $default-margin;
     }
 
-    #adam_03 {
-      float: left;
-      margin-right: $default-margin;
+    #carol2 {
+      float: right;
+      margin-left: $default-margin;
       margin-bottom: $default-margin;
     }
 

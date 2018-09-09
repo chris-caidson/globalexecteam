@@ -6,7 +6,7 @@ import {
   ModalController
 } from "ionic-angular";
 import { GoogleAnalyticsProvider } from "./../../../providers/google-analytics/google-analytics";
-import { AuthProvider } from './../../../providers/auth/auth';
+import { AuthProvider } from "./../../../providers/auth/auth";
 
 @IonicPage()
 @Component({
@@ -14,7 +14,8 @@ import { AuthProvider } from './../../../providers/auth/auth';
   templateUrl: "get-our-team.html"
 })
 export class GetOurTeamPage {
-  @ViewChild(Content) content: Content;
+  @ViewChild(Content)
+  content: Content;
 
   millionairesVisible: boolean = true;
   leadersVisible: boolean = false;
@@ -59,7 +60,6 @@ export class GetOurTeamPage {
     private gap: GoogleAnalyticsProvider,
     public auth: AuthProvider
   ) {
-
     this.initializeMillionaires();
     this.initializeLeaders();
     this.initializeStart1000();
@@ -76,29 +76,28 @@ export class GetOurTeamPage {
   showMillionaires() {
     this.hideAllSections();
     this.millionairesVisible = true;
-    document.getElementById('scrollTop').scrollIntoView();
+    document.getElementById("scrollTop").scrollIntoView();
   }
 
   showLeaders() {
     this.hideAllSections();
     this.leadersVisible = true;
-    document.getElementById('scrollTop').scrollIntoView();
+    document.getElementById("scrollTop").scrollIntoView();
   }
 
   showStart1000() {
     this.hideAllSections();
     this.start1000Visible = true;
-    document.getElementById('scrollTop').scrollIntoView();
+    document.getElementById("scrollTop").scrollIntoView();
   }
 
   showTeamIsagenix() {
     this.hideAllSections();
     this.teamIsagenixVisible = true;
-    document.getElementById('scrollTop').scrollIntoView();
+    document.getElementById("scrollTop").scrollIntoView();
   }
 
   openPage(name: string) {
-    console.log(name);
     switch (name) {
       case "Susan and Murray Miller":
         this.navCtrl.push("SusanMillerPage");
@@ -134,6 +133,10 @@ export class GetOurTeamPage {
 
       case "Adrienne Donovan":
         this.navCtrl.push("HeartOfIsaAdrienneDonovanPage");
+        break;
+
+      case "Carol Elizabeth and Michael Grayer":
+        this.navCtrl.push("CarolElizabethPage");
         break;
     }
   }
@@ -280,18 +283,18 @@ export class GetOurTeamPage {
         name: "Carol Elizabeth and Michael Grayer",
         imageUrl: "assets/imgs/millionaires/small/carol-and-michael.jpg",
         title: "Isagenix Millionaires #274",
-        isaFyiUrl: null,
+        isaFyiUrl: "",
         details:
-          "Carol Elizabeth and her husband, Michael, reside in beautiful Toronto, Canada, with their three children. " +
-          "As a busy mom of three, Carol was already undergoing a weight loss transformation where she learned 'fit' doesn’t " +
-          "equal 'healthy'. In March of 2013, Carol began her Isagenix journey from a product and nutritional benefit " +
-          "standpoint only. Carol is a nationally ranked figure athlete in Canada, as well as 2013 and 2016 Ms. Figure " +
-          "Universe. Along this health journey, Carol rediscovered herself and is passionate about helping other women find " +
-          "their ME. Carol takes her talents next level as a personal trainer, fitness professional, and motivator of all " +
-          "people. Isagenix has allowed her to help many find their “sparkle” and has financially impacted her family along " +
-          "her way to a becoming a multiple six-figure income-earner. The goal was to feed her body the proper nutrition to " +
-          "get healthy, but what she found was the bonds she has formed with those on this team is unlike anything she has " +
-          "ever been a part of.”",
+          "A former couch potato turned two-time Figure International Pro Champion, Carol joined Isagenix in 2013 after " +
+          "being let down by another company and compensation plan model. She had success, but none of her team could gain any " +
+          "traction. Carol quickly plugged into our Global Executive team and set out on a journey to learn the skills " +
+          "to be a professional network marketer. A true student of the industry, Carol has done a deep dive into " +
+          "personal development and that has set the stage for her success in Isagenix. She holds many achievements within " +
+          "our company including: Rising Star Award (2014), Heart of Isagenix Award Winner (2017), Team Isagenix Ambassador " +
+          "(2017-2018), Member of the Canadian Field Advisory Council (2017/2018 & 2018/2019), Member of the Isagenix Legacy Club " +
+          "(2018), Personal Coach to the IsaBody Grand Champion 2017 - Helen Costa Giles, Top-10 Income Earner in Canada, " +
+          "and Top-100 Income Earner Globally. Carol lives in Burlington, Ontario, Canada. She is a mom to three amazing " +
+          "children and a wife to Michael."
       }
     ];
   }
