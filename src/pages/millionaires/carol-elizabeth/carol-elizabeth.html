@@ -1,0 +1,54 @@
+<ion-header *ngIf="this.auth.loggedIn">
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      <span>IsaFYI: Adam Ciarla</span>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content *ngIf="!this.auth.loggedIn">
+  <login></login> 
+</ion-content>
+<ion-content *ngIf="this.auth.loggedIn">
+  <main role="main">
+    <article>
+      <button id="backBtn" (click)="goBack()">
+        <i class="fa fa-caret-left"></i>&nbsp;Back</button>
+      <h1 class="uppercase centered">Carol Elizabeth</h1>
+      <section>
+        <img id="adam_01" src="assets/imgs/millionaires/small/adam-ciarla.jpg" alt="" />
+        <h3 class="uppercase">Congratulations, Isagenix Millionaire* No. 274, Carol Elizabeth!</h3>
+        <p>
+        </p>
+        <p class="disclaimer">
+          * An Isagenix Millionaire is an Independent Associate to whom Isagenix has paid a gross total of $1 million
+          or more since
+          joining Isagenix. Earnings reflect gross amounts that do not include any business expenses. Earning levels or
+          income
+          statements (including claims such as the ability to quit a job or stay at home or portrayals of luxury
+          lifestyles)
+          for the Isagenix Independent Associates discussed here exceed the average results achieved by all Associates
+          during
+          the same time period, are not necessarily representative of the success or compensation that any particular
+          Associate
+          will receive, and should not be construed as typical or average. The ability to earn income under the
+          Isagenix
+          Team Compensation Plan depends on many factors including an individual Associate’s business, social, and
+          sales
+          skills; personal ambition and activity; availability of time and financial resources; and access to a large
+          network
+          of family, friends, and business contacts. Isagenix cannot and does not guarantee any particular level of
+          earnings.
+          Even Associates who dedicate a significant amount of time, effort, and personal funds may not achieve a
+          meaningful
+          level of success. For average earnings of Independent Associates, please refer to the Isagenix Earnings
+          Disclosure
+          Statement at IsagenixEarnings.com.
+        </p>
+      </section>
+    </article>
+  </main>
+  <get-footer></get-footer>
+</ion-content>

@@ -27,7 +27,12 @@
         <section id="listSection">
           <ul>
             <li>
-              <span class="pdf" (click)="pdfProvider.openPdf('Product Fast Facts', 'https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/pdf%2Fproduct-fast-facts-2018.pdf?alt=media&token=0353b4f5-24c2-44db-a63d-91411997bed5')">Product Fast Facts</span>
+              <span class="pdf" (click)="pdfProvider.openPdf('System Guide', 'https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/pdf%2Fsystem-guide.pdf?alt=media&token=17ce939b-e13d-414a-87e7-9e54b0fca3ff')">30-Day
+                System Guide</span>
+            </li>
+            <li>
+              <span class="pdf" (click)="pdfProvider.openPdf('Product Fast Facts', 'https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/pdf%2Fproduct-fast-facts-2018.pdf?alt=media&token=0353b4f5-24c2-44db-a63d-91411997bed5')">Product
+                Fast Facts</span>
             </li>
             <li>
               <p>
@@ -41,33 +46,23 @@
             </li>
           </ul>
         </section>
-        <!--
-        <section class="video-container">
-          <img src="assets/imgs/misc/shake-day.jpg" alt="How to do a Shake Day" class="video-thumb" (click)="openVideoModal('shake-day')"
-          />
-        </section>
-        <section class="video-container">
-          <img src="assets/imgs/misc/cleanse-day.jpg" alt="How to do a Cleanse Day" class="video-thumb" (click)="openVideoModal('cleanse-day')"
-          />
-        </section>
-      -->
-      <div id="topGrid">
-        <section id="videoSection">
-          <img id="shakeDay" *ngIf="activeVideo == 'shake-day'" src="assets/imgs/misc/shake-day.jpg" (click)="openVideoModal('shake-day')"
-            alt="How to Do a Shake Day" />
-          <img id="cleanseDay" *ngIf="activeVideo == 'cleanse-day'" src="assets/imgs/misc/cleanse-day.jpg" (click)="openVideoModal('cleanse-day')"
-            alt="How to Do a Cleanse Day" />
-        </section>
-        <section id="videoSelectorSection">
-          <div id="shake-day" (click)="toggleVideo('shake-day')">
-            <h3>How to Do a Shake Day</h3>
-          </div>
-          <div class="divider"></div>
-          <div id="cleanse-day" (click)="toggleVideo('cleanse-day')">
-            <h3>How to Do a Cleanse Day</h3>
-          </div>
-        </section>
-      </div>
+        <div id="topGrid">
+          <section id="videoSection">
+            <img id="shakeDay" *ngIf="activeVideo == 'shake-day'" src="assets/imgs/misc/shake-day.jpg" (click)="openVideoModal('shake-day')"
+              alt="How to Do a Shake Day" />
+            <img id="cleanseDay" *ngIf="activeVideo == 'cleanse-day'" src="assets/imgs/misc/cleanse-day.jpg" (click)="openVideoModal('cleanse-day')"
+              alt="How to Do a Cleanse Day" />
+          </section>
+          <section id="videoSelectorSection">
+            <div id="shake-day" (click)="toggleVideo('shake-day')">
+              <h3>How to Do a Shake Day</h3>
+            </div>
+            <div class="divider"></div>
+            <div id="cleanse-day" (click)="toggleVideo('cleanse-day')">
+              <h3>How to Do a Cleanse Day</h3>
+            </div>
+          </section>
+        </div>
       </div>
     </article>
   </main>

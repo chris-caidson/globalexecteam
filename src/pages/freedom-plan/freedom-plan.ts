@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 import { IonicPage, NavController, ModalController } from "ionic-angular";
-import { GoogleAnalyticsProvider } from './../../../providers/google-analytics/google-analytics';
-import { AuthProvider } from './../../../providers/auth/auth';
+import { GoogleAnalyticsProvider } from './../../providers/google-analytics/google-analytics';
+import { AuthProvider } from './../../providers/auth/auth';
 
 @IonicPage()
 @Component({

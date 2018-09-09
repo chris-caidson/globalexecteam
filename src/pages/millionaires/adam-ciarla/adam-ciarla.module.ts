@@ -7,7 +7,8 @@ import { AdamCiarlaPage } from './adam-ciarla';
   declarations: [
     AdamCiarlaPage,
   ],
-  imports: [ComponentsModule,
+  imports: [
+    ComponentsModule,
     IonicPageModule.forChild(AdamCiarlaPage),
   ],
 })

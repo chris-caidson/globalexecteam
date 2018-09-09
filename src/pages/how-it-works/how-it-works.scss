@@ -96,16 +96,22 @@ page-how-it-works {
         grid-template-rows: auto auto;
     }
 
-    @media (min-width: 800px) {
-        #topGrid {
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: auto;
-        }
-
-        #videoSelectorSection {
-            margin-left: -22px;
+    @media (min-width: 1024px) {
+        #listSection {
+          margin-right: 20px;
         }
     }
+
+    @media (min-width: 1024px) {
+      #topGrid {
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: auto;
+      }
+
+      #videoSelectorSection {
+          margin-left: -22px;
+      }
+  }
 
     @media (min-width: 892px) {
         .grid-container {

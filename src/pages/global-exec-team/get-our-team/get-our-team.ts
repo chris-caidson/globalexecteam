@@ -5,8 +5,8 @@ import {
   NavController,
   ModalController
 } from "ionic-angular";
-import { GoogleAnalyticsProvider } from "./../../../../providers/google-analytics/google-analytics";
-import { AuthProvider } from './../../../../providers/auth/auth';
+import { GoogleAnalyticsProvider } from "./../../../providers/google-analytics/google-analytics";
+import { AuthProvider } from './../../../providers/auth/auth';
 
 @IonicPage()
 @Component({
@@ -275,6 +275,23 @@ export class GetOurTeamPage {
           "compensation plan, Delialah was able to free Todd from his corporate position after one year with Isagenix. Together, " +
           "Delialah and Todd were able to take their passion for helping others and grew a multiple six-figure income in just two " +
           "years."
+      },
+      {
+        name: "Carol Elizabeth and Michael Grayer",
+        imageUrl: "assets/imgs/millionaires/small/carol-and-michael.jpg",
+        title: "Isagenix Millionaires #274",
+        isaFyiUrl: null,
+        details:
+          "Carol Elizabeth and her husband, Michael, reside in beautiful Toronto, Canada, with their three children. " +
+          "As a busy mom of three, Carol was already undergoing a weight loss transformation where she learned 'fit' doesn’t " +
+          "equal 'healthy'. In March of 2013, Carol began her Isagenix journey from a product and nutritional benefit " +
+          "standpoint only. Carol is a nationally ranked figure athlete in Canada, as well as 2013 and 2016 Ms. Figure " +
+          "Universe. Along this health journey, Carol rediscovered herself and is passionate about helping other women find " +
+          "their ME. Carol takes her talents next level as a personal trainer, fitness professional, and motivator of all " +
+          "people. Isagenix has allowed her to help many find their “sparkle” and has financially impacted her family along " +
+          "her way to a becoming a multiple six-figure income-earner. The goal was to feed her body the proper nutrition to " +
+          "get healthy, but what she found was the bonds she has formed with those on this team is unlike anything she has " +
+          "ever been a part of.”",
       }
     ];
   }

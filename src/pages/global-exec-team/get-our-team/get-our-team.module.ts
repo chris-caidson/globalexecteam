@@ -1,15 +1,15 @@
 import { ComponentsModule } from './../../../components/components.module';
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import { WhyCleansePage } from './why-cleanse';
+import { GetOurTeamPage } from './get-our-team';
 
 @NgModule({
   declarations: [
-    WhyCleansePage
+    GetOurTeamPage
   ],
   imports: [
     ComponentsModule,
-    IonicPageModule.forChild(WhyCleansePage),
+    IonicPageModule.forChild(GetOurTeamPage),
   ],
 })
-export class WhyCleansePageModule { }
+export class GetOurTeamPageModule {}
