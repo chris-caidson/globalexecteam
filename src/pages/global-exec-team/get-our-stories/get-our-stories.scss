@@ -1,22 +1,48 @@
 page-get-our-stories {
-  #stories {
+  #storyGrid {
     display: grid;
     grid-template-columns: auto;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
-  figcaption {
-    text-align: center;
-    color: $secondary-color;
-    font-weight: bold;
+  .video-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+    span {
+      font-size: 11pt;
+      margin-left: 12px;
+      margin-right: 12px;
+    }
   }
 
-  @media (min-width: 1024px) {
-    #stories {
+  .video-container:hover {
+    background-color: #FFEDE1;
+  }
+
+  .video-container span i {
+    color: #FF6600 !important;
+  }
+
+  .title, .author {
+    display: inline-block;
+    font-style: normal;
+    margin-right: -10px !important;
+    font-size: large !important;
+  }
+
+  @media (min-width: 800px) {
+    #storyGrid {
       grid-template-columns: 1fr 1fr;
-      max-width: inherit;
+
+      #business {
+        margin-right: 20px;
+      }
+
+      #product {
+        margin-left: 20px;
+      }
     }
   }
 }

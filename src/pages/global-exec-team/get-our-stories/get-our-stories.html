@@ -23,26 +23,58 @@
   <main role="main">
     <article>
       <h1 class="uppercase centered">Our Stories</h1>
-      <section id="stories">
-        <figure>
-          <img src="assets/imgs/misc/joe-ames-thumb.jpg" class="video-thumb" alt="Joe Ames" (click)="openVideoModal('joe-ames')" />
-          <figcaption>
-            Joe Ames
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="assets/imgs/misc/laura-thompson-thumb.jpg" class="video-thumb" alt="Laura Thompson" (click)="openVideoModal('laura-thompson')" />
-          <figcaption>
-            Laura Thompson
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="assets/imgs/misc/andrea-thumb.jpg" class="video-thumb" alt="Andrea Labouchere" (click)="openVideoModal('andrea-labouchere')" />
-          <figcaption>
-            Andrea Labouchere
-          </figcaption>
-        </figure>
-      </section>
+      <div id="storyGrid">
+        <section id="business">
+          <h3>Business Testimonials</h3>
+          <div class="video-container" (click)="openVideoModal('joe-ames')">
+            <span class="icon"><i class="fa fa-film"></i></span>
+            <div><span class="title">Joe Ames</span></div>
+          </div>
+          <div class="video-container" (click)="openVideoModal('erin-brauer')">
+            <span class="icon"><i class="fa fa-film"></i></span>
+            <div><span class="title">Erin Brauer</span></div>
+          </div>
+          <div class="video-container" (click)="openVideoModal('adrienne-donovan')">
+            <span class="icon"><i class="fa fa-film"></i></span>
+            <div><span class="title">Adrienne Cross Donovan</span></div>
+          </div>
+          <div class="video-container" (click)="openVideoModal('melissa-henault')">
+              <span class="icon"><i class="fa fa-film"></i></span>
+              <div><span class="title">Melissa Henault</span></div>
+            </div>
+          <div class="video-container" (click)="openVideoModal('andrea-labouchere')">
+            <span class="icon"><i class="fa fa-film"></i></span>
+            <div><span class="title">Andrea Labouchere</span></div>
+          </div>
+          <div class="video-container" (click)="openVideoModal('laura-thompson')">
+            <span class="icon"><i class="fa fa-film"></i></span>
+            <div><span class="title">Laura Thompson</span></div>
+          </div>
+        </section>
+        <section id="product">
+          <h3>Product Testimonials</h3>
+          <div class="video-container" (click)="openVideoModal('nancy-baxter')">
+            <span class="icon"><i class="fa fa-film"></i></span>
+            <div><span class="title">Nancy Baxter</span></div>
+          </div>
+          <div class="video-container" (click)="openVideoModal('helen-costa-giles')">
+            <span class="icon"><i class="fa fa-film"></i></span>
+            <div><span class="title">Helen Costa Giles</span></div>
+          </div>
+          <div class="video-container" (click)="openVideoModal('patty-macnaught')">
+            <span class="icon"><i class="fa fa-film"></i></span>
+            <div><span class="title">Patty MacNaught</span></div>
+          </div>
+          <div class="video-container" (click)="openVideoModal('jen-towkaniuk')">
+            <span class="icon"><i class="fa fa-film"></i></span>
+            <div><span class="title">Jen Towkaniuk</span></div>
+          </div>
+          <div class="video-container" (click)="openVideoModal('joanne-wright')">
+            <span class="icon"><i class="fa fa-film"></i></span>
+            <div><span class="title">Joanne Wright</span></div>
+          </div>
+        </section>
+      </div>
     </article>
   </main>
   <get-footer></get-footer>
