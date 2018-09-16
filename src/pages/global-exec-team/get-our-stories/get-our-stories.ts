@@ -38,38 +38,43 @@ export class GetOurStoriesPage {
         };
         break;
 
-        case "nancy-baxter":
+      case "nancy-baxter":
         data = {
           name: "Nancy Baxter",
-          url: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Fnancy-baxter-product.mp4?alt=media&token=76adcc79-2098-4948-89ac-eb0b26e4ff62"
+          url:
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Fnancy-baxter-product.mp4?alt=media&token=76adcc79-2098-4948-89ac-eb0b26e4ff62"
         };
         break;
 
       case "erin-brauer":
         data = {
           name: "Erin Brauer",
-          url: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Ferin-brauer-biz.mp4?alt=media&token=33afdcc1-48a9-45c3-a9ed-47e74c92411c"
+          url:
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Ferin-brauer-biz.mp4?alt=media&token=33afdcc1-48a9-45c3-a9ed-47e74c92411c"
         };
         break;
 
-        case "helen-costa-giles":
+      case "helen-costa-giles":
         data = {
           name: "Helen Costa-Giles",
-          url: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Fhelen-costa-giles-product.mp4?alt=media&token=88bda308-801e-4685-b109-c1592048ae83"
+          url:
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Fhelen-costa-giles-product.mp4?alt=media&token=88bda308-801e-4685-b109-c1592048ae83"
         };
         break;
 
       case "adrienne-donovan":
         data = {
           name: "Adrienne Cross-Donovan",
-          url: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Fadrienne-cross-donovan-biz.mp4?alt=media&token=c2fc5d56-0f95-4e20-b0d8-41294dec4956"
+          url:
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Fadrienne-cross-donovan-biz.mp4?alt=media&token=c2fc5d56-0f95-4e20-b0d8-41294dec4956"
         };
         break;
 
-        case "melissa-henault":
+      case "melissa-henault":
         data = {
           name: "Melissa Henault",
-          url: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Fmelissa-henault-biz.mov?alt=media&token=c071766d-2a98-461f-956c-4a39eafa4561"
+          url:
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Fmelissa-henault-biz.mov?alt=media&token=c071766d-2a98-461f-956c-4a39eafa4561"
         };
         break;
 
@@ -81,10 +86,25 @@ export class GetOurStoriesPage {
         };
         break;
 
-        case "patty-macnaught":
+      case "liz-lima-biz":
+        data = {
+          name: "Liz Lima",
+          url: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Fliz-lima-biz.mp4?alt=media&token=b85465aa-23b9-423c-889d-c8d555a38705"
+        };
+        break;
+
+      case "liz-lima-product":
+        data = {
+          name: "Liz Lima",
+          url: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Fliz-lima-product.mp4?alt=media&token=3440877c-7791-489a-8003-7db904608916"
+        };
+        break;
+
+      case "patty-macnaught":
         data = {
           name: "Patty MacNaught",
-          url: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Fpatty-mcnaught-product.mp4?alt=media&token=6449f619-85a4-43ed-a6f7-00c594e95315"
+          url:
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Fpatty-mcnaught-product.mp4?alt=media&token=6449f619-85a4-43ed-a6f7-00c594e95315"
         };
         break;
 
@@ -96,24 +116,27 @@ export class GetOurStoriesPage {
         };
         break;
 
-        case "jen-towkaniuk":
+      case "jen-towkaniuk":
         data = {
           name: "Jen Towkaniuk",
-          url: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Fjen-towkaniuk-product.mp4?alt=media&token=49d8d53c-65e8-4d2a-b9db-1f0c44de7718"
+          url:
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Fjen-towkaniuk-product.mp4?alt=media&token=49d8d53c-65e8-4d2a-b9db-1f0c44de7718"
         };
         break;
 
-        case "jen-louie-towkaniuk":
+      case "jen-louie-towkaniuk":
         data = {
           name: "Jen & Louie Towkaniuk",
-          url: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Fjen-louie-towkaniuk-biz.mp4?alt=media&token=f6790156-43c6-4505-bbc3-91c4f95aca3c"
+          url:
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Fjen-louie-towkaniuk-biz.mp4?alt=media&token=f6790156-43c6-4505-bbc3-91c4f95aca3c"
         };
         break;
 
-        case "joanne-wright":
+      case "joanne-wright":
         data = {
           name: "Joanne Wright",
-          url: "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Fjoanne-product.mp4?alt=media&token=93af4e8e-650f-404b-8ec9-b31901e63a29"
+          url:
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftestimonials%2Fjoanne-product.mp4?alt=media&token=93af4e8e-650f-404b-8ec9-b31901e63a29"
         };
         break;
     }
