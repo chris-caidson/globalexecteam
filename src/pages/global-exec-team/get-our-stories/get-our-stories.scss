@@ -19,6 +19,10 @@ page-get-our-stories {
 
   .video-container:hover {
     background-color: #FFEDE1;
+
+    .title {
+      text-decoration: underline;
+    }
   }
 
   .video-container span i {
