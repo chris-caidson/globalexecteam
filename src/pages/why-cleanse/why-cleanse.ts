@@ -34,9 +34,9 @@ export class WhyCleansePage {
 
   openVideoModal() {
     const myModal = this.modalCtrl.create("VideoModalPage", {
-      name: "Transform Your Life",
+      name: "The Isagenix Advantage",
       url:
-        "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Ftransform-your-life.mp4?alt=media&token=c140a7a6-1b68-4689-a461-fd4add1aeb30"
+        "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fthe-isagenix-advantage.mp4?alt=media&token=14ecf33f-29e0-42f0-944d-700e945b8e69"
     });
 
     myModal.present();
