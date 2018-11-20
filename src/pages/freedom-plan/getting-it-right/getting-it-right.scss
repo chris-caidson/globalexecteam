@@ -38,7 +38,6 @@ page-getting-it-right {
 
   #susanSection img {
     display: inline-block;
-    border: 1px solid #999;
   }
 
   #listSection ul li {
@@ -59,6 +58,14 @@ page-getting-it-right {
     #listSection ul {
       display: inline-block;
       margin: auto;
+    }
+
+    #firstCol {
+      margin-right: $large-margin;
+    }
+
+    h4 {
+      margin-top: -$small-margin;
     }
   }
 }
