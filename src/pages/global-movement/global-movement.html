@@ -23,9 +23,12 @@
   </header>
   <main role="main">
     <article>
-      <section>
-        <img src="assets/imgs/misc/revolution-new.png" (click)="openVideoModal('business-future')"
-          sizes="(max-width: 1164px) 100vw" alt="The Wellness Revolution" class="pointer" />
+      <section id="mainVideos">
+        <img src="assets/imgs/misc/biz-future.jpg" (click)="openVideoModal('business-future')"
+          sizes="(max-width: 1164px) 100vw" alt="The Wellness Revolution" class="video-thumb" />
+        <img src="assets/imgs/misc/next-entrepreneur.jpg" (click)="openVideoModal('next-entrepreneur')"
+          sizes="(max-width: 1164px) 100vw" alt="The Wellness Revolution" class="video-thumb" />
+        <img id="revolutionText" src="assets/imgs/misc/revolution-text.png" />
       </section>
       <div class="flex-container">
         <figure>

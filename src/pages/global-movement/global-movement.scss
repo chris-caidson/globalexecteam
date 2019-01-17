@@ -10,6 +10,28 @@ page-global-movement {
     margin-top: $default-margin;
   }
 
+  #mainVideos {
+    img {
+      display: block;
+      width: 75%;
+      max-width: 640px;
+      margin: 40px auto 0 auto;
+    }
+  }
+
+  @media (min-width: 910px) {
+    #mainVideos {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+    }
+
+    #revolutionText {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+  }
+
   @media (min-width: 910px) {
     .flex-container {
       flex-direction: row;

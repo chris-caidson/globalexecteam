@@ -28,6 +28,14 @@ export class GlobalMovementPage {
         };
         break;
 
+      case "next-entrepreneur":
+        data = {
+          name: "The Next Entrepreneur",
+          url:
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2FTheNextEntrepreneur.mp4?alt=media&token=69abdd57-4d88-49bb-9ca1-00b9a4c0273c"
+        };
+        break;
+
       case "start-your-life":
         data = {
           name: "Start Your Life (18 - 35)",
