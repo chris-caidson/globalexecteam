@@ -33,7 +33,7 @@ import { AuthProvider } from '../providers/auth/auth';
     GoogleAnalytics,
     GoogleAnalyticsProvider,
     AuthProvider,
-    { provide: LocationStrategy, useClass: PathLocationStrategy }
+   // { provide: LocationStrategy, useClass: PathLocationStrategy }
   ]
 })
 export class AppModule {}
