@@ -627,11 +627,11 @@ export class GetOurTeamPage {
           "personal philosophy: WORK SMART, KICK GOALS, FULFILL DREAMS!"
       },
       {
-        name: "Elaine Moody",
+        name: "Elaine Kabat",
         imageUrl: "assets/imgs/team/elaine-moody.jpg",
         title: "Former Technology Business Manager",
         details:
-          "Elaine Moody and her husband, Brad, live in Charlotte, NC with their two beautiful daughters. As a former “technology " +
+          "Elaine lives in New Orleans, LA with her two beautiful daughters. As a former “technology " +
           "geek” for Corporate America, Elaine spent many stressful hours doing what she loved but fighting health battles along " +
           "the way. She's forever grateful to a friend for introducing her to this nutritional solution, which has given her a " +
           "chance to live with no symptoms. Elaine saw huge benefits and began to share her knowledge with those also facing " +
