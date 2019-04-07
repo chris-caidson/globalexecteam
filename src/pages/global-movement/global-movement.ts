@@ -24,7 +24,7 @@ export class GlobalMovementPage {
         data = {
           name: "The Business of the Future",
           url:
-            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fbiz-of-the-future.mp4?alt=media&token=9ea20e8d-0f88-436e-bb02-6bd5c6125355"
+            "https://firebasestorage.googleapis.com/v0/b/getfreeglobal.appspot.com/o/videos%2Fbiz-21st-century-joe-ames.mp4?alt=media&token=7736142c-b107-4280-b755-bbbbe9e25275"
         };
         break;
 
